@@ -1,0 +1,45 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.1.2.2 Rechnen mit Zahlen - Betrag [Calculation with Numbers - modulus]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h5>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            The modulus notation (\(| |\))
+        </span>
+        <span class="multilang" lang="de">
+            Die Betragsnotation (\(| |\))
+        </span>
+    </span>
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The
+        <strong>
+            modulus
+        </strong>
+        of a number is the size of that number regardless of its sign. For example \(|4|\) is equal to 4, and \(|-3|\) is equal to 3. The modulus of a number is thus never negative.
+    </span>
+    <span class="multilang" lang="de">
+        Der
+        <strong>
+            Betrag
+        </strong>
+        einer Zahl ist die Größe dieser Zahl, unabhängig von ihrem Vorzeichen. Zum Beispiel ist \(|4|\) gleich 4 und \(|-3|\) ist gleich 3. Der Betrag einer Zahl ist also niemals negativ.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>
