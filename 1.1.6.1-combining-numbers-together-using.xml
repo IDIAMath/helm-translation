@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="description">
+        <name>
+            <text>1.1.6.1 Combining Numbers Together Using +,&#8722;,&#215;,&#247;</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Combining Numbers Together Using \(+,-,\times,\div\)
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Kombinere tall sammen med \ (+,-, \ ganger, \ div \)
+        <br/>
+    </span>
+</h3>
+<h5>
+    <span class="multilang" lang="en">
+        Addition (\(+\))
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Tillegg (\ (+\))
+        <br/>
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        If the letters \(x\) and \(y\) represent two numbers, then their
+        <strong>
+            sum
+        </strong>
+        is written as \(x+y\). Note that \(x+y\) is the same as \(y+x\) just as \(4+7\) is equal to \(7+4\).
+    </span>
+    <span class="multilang" lang="no">
+        Hvis bokstavene \ (x \) og \ (y \) representerer to tall, s&#229; deres
+        <strong>
+            sum
+        </strong>
+        er skrevet som \ (x+y \).Merk at \ (x+y \) er det samme som \ (y+x \) akkurat som \ (4+7 \) er lik \ (7+4 \).
+    </span>
+</p>
+<h5>
+    <span class="multilang" lang="en">
+        Subtraction (\(-\))
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Subtraksjon (\ (-\))
+        <br/>
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        Subtracting \(y\) from \(x\) yields \(x-y\). Note that \(x-y\) is not the same as \(y-x\) just as \(11-7\) is not the same as \(7-11\), however in both cases the difference is said to be 4.
+    </span>
+    <span class="multilang" lang="no">
+        Trekker \ (y \) fra \ (x \) gir \ (x-y \).Merk at \ (x-y \) ikke er det samme som \ (y-x \) akkurat som \ (11-7 \) ikke er den samme som \ (7-11 \), men i begge tilfeller sies forskjellen &#229; v&#230;re 4.
+    </span>
+</p>
+<h5>
+    <span class="multilang" lang="en">
+        Multiplication (\(\times\))
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Multiplikasjon (\ (\ ganger \))
+        <br/>
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The instruction to multiply \(x\) and \(y\) together is written as \(x\times y\). Usually the multiplication sign is omitted and we write simply \(xy\). An alternative notation is to use a dot to represent multiplication and so we could write \(x.y\) The quantity \(xy\) is called the
+        <strong>
+            product
+        </strong>
+        of \(x\) and \(y\). As discussed earlier multiplication is both commutative and associative:
+    </span>
+    <span class="multilang" lang="no">
+        Instruksjonen om &#229; multiplisere \ (x \) og \ (y \) sammen er skrevet som \ (x \ ganger y \).Vanligvis er multiplikasjonstegnet utelatt, og vi skriver ganske enkelt \ (xy \).En alternativ notasjon er &#229; bruke en prikk for &#229; representere multiplikasjon, og derfor kan vi skrive \ (x.y \) mengden \ (xy \) kalles
+        <strong>
+            produkt
+        </strong>
+        av \ (x \) og \ (y \).Som diskutert er tidligere multiplikasjon b&#229;de kommutativ og assosiativ:
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad \text{i.e.}\qquad x\times y=y\times x\qquad \text{and}\qquad (x\times y)\times z = x\times (y\times z)\)
+    </span>
+    <span class="multilang" lang="no">
+        \(\qquad \text{i.e.}\qquad x\times y=y\times x\qquad \text{and}\qquad (x\times y)\times z = x\times (y\times z)\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        This last expression can thus be written \(x\times y\times z\) without ambiguity. When mixing numbers and symbols it is usual to write the numbers first. Thus \(3\times x\times y\times 4 = 3\times 4\times x\times y = 12xy\).
+    </span>
+    <span class="multilang" lang="no">
+        Dette siste uttrykket kan s&#229;ledes skrives \ (x \ ganger y \ ganger z \) uten tvetydighet.N&#229;r du blander tall og symboler, er det vanlig &#229; skrive tallene f&#248;rst.Dermed \ (3 \ ganger x \ ganger y \ ganger 4 = 3 \ ganger 4 \ ganger x \ ganger y = 12xy \).
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify
+    </span>
+    <span class="multilang" lang="no">
+        Forenkle
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        <span class="multilang" lang="en">
+            \(9(2y)\)
+        </span>
+        <span class="multilang" lang="no">
+            \(9(2y)\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(-3(5z)\)
+        </span>
+        <span class="multilang" lang="no">
+            \(-3(5z)\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(4(2a)\)
+        </span>
+        <span class="multilang" lang="no">
+            \(4(2a)\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(2x \times (2y)\)
+        </span>
+        <span class="multilang" lang="no">
+            \(2x \times (2y)\)
+        </span>
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        L&#248;sning
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            Note that \(9(2y)\) means \(9\times(2\times y)\). Because of the associativity of multiplication \(9\times (2\times y)\) means the same as \((9 \times 2) \times y\), that is \(18y\).
+        </span>
+        <span class="multilang" lang="no">
+            Merk at \ (9 (2y) \) betyr \ (9 \ ganger (2 \ ganger y) \).P&#229; grunn av tilknytning til multiplikasjon \ (9 \ ganger (2 \ ganger y) \) betyr det samme som \ ((9 \ ganger 2) \ ganger y \), det vil si \ (18y \).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(&#226;&#710;&#8217;3(5z)\) means \(&#226;&#710;&#8217;3 \times (5 \times z)\). Because of associativity this is the same as \((&#226;&#710;&#8217;3 \times 5) \times z\), that is \(&#226;&#710;&#8217;15z\).
+        </span>
+        <span class="multilang" lang="no">
+            \(&#226;&#710;&#8217;3(5z)\) means \(&#226;&#710;&#8217;3 \times (5 \times z)\). Because of associativity this is the same as \((&#226;&#710;&#8217;3 \times 5) \times z\), that is \(&#226;&#710;&#8217;15z\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(4(2a)\) means \(4 \times (2 \times a)\). We can write this as \((4 \times 2) \times a\), that is \(8a\).
+        </span>
+        <span class="multilang" lang="no">
+            \(4(2a)\) means \(4 \times (2 \times a)\). We can write this as \((4 \times 2) \times a\), that is \(8a\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Because of the associativity of multiplication, the brackets are not needed and we can write \(2x \times (2y) = 2x \times 2y\) which equals
+            <p>
+                <span class="multilang" lang="en">
+                    \(2 \times x \times 2 \times y = 2 \times 2 \times x \times y = 4xy\).
+                </span>
+                <span class="multilang" lang="no">
+                    \(2 \times x \times 2 \times y = 2 \times 2 \times x \times y = 4xy\).
+                </span>
+            </p>
+        </span>
+        <span class="multilang" lang="no">
+            P&#229; grunn av tilknytning til multiplikasjon er ikke parentesene n&#248;dvendig, og vi kan skrive \ (2x \ Times (2y) = 2x \ Times 2y \) som tilsvarer
+            <p>
+                <span class="multilang" lang="en">
+                    \ (2 \ ganger x \ ganger 2 \ ganger y = 2 \ ganger 2 \ ganger x \ ganger y = 4xy \).
+                </span>
+                <span class="multilang" lang="no">
+                    \ (2 \ ganger x \ ganger 2 \ ganger y = 2 \ ganger 2 \ ganger x \ ganger y = 4xy \).
+                </span>
+            </p>
+        </span>
+    </li>
+</ol>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        What is the distinction between \(9(&#226;&#710;&#8217;2y)\) and \(9 &#226;&#710;&#8217; 2y\)?
+    </span>
+    <span class="multilang" lang="no">
+        Hva er skillet mellom \ (9 (&#226;&#710;&#8217;2y) \) og \ (9 &#226;&#710; '2y \)?
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        L&#248;sning
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The expression \(9(&#226;&#710;&#8217;2y)\) means \(9 \times (&#226;&#710;&#8217;2y)\). Because of associativity of multiplication we can write this as \(9 \times (&#226;&#710;&#8217;2) \times y\) which equals \(-18y\).
+    </span>
+    <span class="multilang" lang="no">
+        Uttrykket \ (9 (&#226;&#710;&#8217;2y) \) betyr \ (9 \ ganger (&#226;&#710;&#8217;2y) \).P&#229; grunn av tilknytning til multiplikasjon kan vi skrive dette som \ (9 \ ganger (&#226;&#710;&#8217;2) \ ganger y \) som tilsvarer \ (-18y \).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        On the other hand \(9 &#226;&#710;&#8217; 2y\) means subtract \(2y\) from \(9\). This cannot be simplified.
+    </span>
+    <span class="multilang" lang="no">
+        P&#229; den annen side \ (9 &#194;&#710; '2y \) betyr &#229; trekke fra \ (2y \) fra \ (9 \).Dette kan ikke forenkles.
+    </span>
+</p>
+<hr/>
+<h5>
+    <span class="multilang" lang="en">
+        Division (\(\div\))
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Divisjon (\ (\ div \))
+        <br/>
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The quantity \(x\div y\) means \(x\) divided by \(y\). This is also written as \(x/y\) or \(\dfrac{x}{y}\) and is known as the
+        <strong>
+            quotient
+        </strong>
+        of \(x\) and \(y\). In the expression \(\dfrac{x}{y}\) the symbol \(x\) is called the
+        <strong>
+            numerator
+        </strong>
+        and the symbol \(y\) is called the
+        <strong>
+            denominator
+        </strong>
+        . Note that \(x/y\) is not the same as \(y/x\). Division by 1 leaves a quantity unchanged so that \(\dfrac{x}{1}\) is simply \(x\).
+    </span>
+    <span class="multilang" lang="no">
+        Mengden \ (x \ div y \) betyr \ (x \) delt med \ (y \).Dette er ogs&#229; skrevet som \ (x/y \) eller \ (\ dfrac {x} {y} \) og er kjent som
+        <strong>
+            kvotient
+        </strong>
+        av \ (x \) og \ (y \).I uttrykket \ (\ dfrac {x} {y} \) kalles symbolet \ (x \)
+        <strong>
+            teller
+        </strong>
+        og symbolet \ (y \) kalles
+        <strong>
+            nevner
+        </strong>
+        .Merk at \ (x/y \) ikke er det samme som \ (y/x \).Divisjon med 1 etterlater en mengde uendret slik at \ (\ dfrac {x} {1} \) er ganske enkelt \ (x \).
+    </span>
+</p>
+<h5>
+    <span class="multilang" lang="en">
+        Algebraic Expressions
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Algebraiske uttrykk
+        <br/>
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        A quantity made up of symbols and the operations \(+\), \(-\), \(\times\) and \(/\) is called an
+        <strong>
+            algebraic expression
+        </strong>
+        . One algebraic expression divided by another is called an algebraic fraction. Thus \(\dfrac{x+7}{x-3} \hbox{ and } \dfrac{3x-y}{2x+z}\) are algebraic fractions. The
+        <strong>
+            reciprocal
+        </strong>
+        of an algebraic fraction is found by inverting it. Thus the reciprocal of \(\dfrac{2}{x}\) is \(\dfrac{x}{2}\). The reciprocal of \(\dfrac{x+7}{x-3}\) is \(\dfrac{x-3}{x+7}\).
+    </span>
+    <span class="multilang" lang="no">
+        En mengde som best&#229;r av symboler og operasjonene \ (+\), \ (-\), \ (\ ganger \) og \ (/\) kalles en
+        <strong>
+            algebraisk uttrykk
+        </strong>
+        .Ett algebraisk uttrykk delt p&#229; en annen kalles en algebraisk br&#248;k.Dermed \ (\ dfrac {x+7} {x-3} \ hbox {og} \ dfrac {3x-y} {2x+z} \) er algebraiske fraksjoner.De
+        <strong>
+            gjensidig
+        </strong>
+        av en algebraisk fraksjon finnes ved &#229; snu den.Dermed er gjensidigheten til \ (\ dfrac {2} {x} \) \ (\ dfrac {x} {2} \).Gjensidigheten til \ (\ dfrac {x+7} {x-3} \) er \ (\ dfrac {x-3} {x+7} \).
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        State the reciprocal of each of the following expressions:
+    </span>
+    <span class="multilang" lang="no">
+        Oppgi gjensidig av hvert av f&#248;lgende uttrykk:
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        <span class="multilang" lang="en">
+            \(\dfrac{y}{z}\)
+        </span>
+        <span class="multilang" lang="no">
+            \(\dfrac{y}{z}\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(\dfrac{x+z}{a-b}\)
+        </span>
+        <span class="multilang" lang="no">
+            \(\dfrac{x+z}{a-b}\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(3y\)
+        </span>
+        <span class="multilang" lang="no">
+            \(3y\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(\dfrac{1}{ a+2b}\)
+        </span>
+        <span class="multilang" lang="no">
+            \(\dfrac{1}{ a+2b}\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(-\dfrac{1}{y}\)
+        </span>
+        <span class="multilang" lang="no">
+            \ (-\ dfrac {1} {y} \)
+        </span>
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        L&#248;sning
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            \(\dfrac{z}{y}\)
+        </span>
+        <span class="multilang" lang="no">
+            \(\dfrac{z}{y}\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(\dfrac{a-b}{x+z}\)
+        </span>
+        <span class="multilang" lang="no">
+            \(\dfrac{a-b}{x+z}\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(3y\) is the same as \(\dfrac{3y}{1}\) so the reciprocal of \(3y\) is \(\dfrac{1}{3y}\).
+        </span>
+        <span class="multilang" lang="no">
+            \(3y\) is the same as \(\dfrac{3y}{1}\) so the reciprocal of \(3y\) is \(\dfrac{1}{3y}\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            The reciprocal of \(\dfrac{1}{a + 2b}\) is \(\dfrac{a + 2b}{1}\) or simply \(a + 2b\).
+        </span>
+        <span class="multilang" lang="no">
+            Gjensidigheten til \ (\ dfrac {1} {a + 2b} \) er \ (\ dfrac {a + 2b} {1} \) eller bare \ (a + 2b \).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            The reciprocal of \(-\dfrac{1}{y}\) is \(-\dfrac{y}{1}\) or simply \(&#226;&#710;&#8217;y\).
+        </span>
+        <span class="multilang" lang="no">
+            Gjensidigheten til \ (-\ dfrac {1} {y} \) er \ (-\ dfrac {y} {1} \) eller bare \ (&#226;&#710;&#8217;y \).
+        </span>
+    </li>
+</ol>
+<hr/>
+<p>
+    <span class="multilang" lang="en">
+        Finding the reciprocal of complicated expressions can cause confusion. Study the following Example carefully.
+    </span>
+    <span class="multilang" lang="no">
+        &#197; finne gjensidigheten til kompliserte uttrykk kan for&#229;rsake forvirring.Studer f&#248;lgende eksempel n&#248;ye.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Obtain the reciprocal of:
+    </span>
+    <span class="multilang" lang="no">
+        F&#229; gjensidig av:
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        <span class="multilang" lang="en">
+            \(p+q\)
+        </span>
+        <span class="multilang" lang="no">
+            \(p+q\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(\dfrac{1}{R_1} + \dfrac{1}{R_2}\)
+        </span>
+        <span class="multilang" lang="no">
+            \(\dfrac{1}{R_1} + \dfrac{1}{R_2}\)
+        </span>
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        L&#248;sning
+    </span>
+</h4>
+<ol class="HELM_parts">
+</ol>
+<ul>
+    <li>
+        <span class="multilang" lang="en">
+            Because \(p + q\) can be thought of as \(\dfrac{p + q}{1}\) its reciprocal is \(\dfrac{1}{p + q}\). Note in particular that the reciprocal of \(p + q\) is not \(\dfrac{1}{p} + \dfrac{1}{q}\). This distinction is important and a common cause of error. To avoid an error carefully identify the numerator and denominator in the original expression before inverting.
+        </span>
+        <span class="multilang" lang="no">
+            Fordi \ (p + q \) kan tenkes som \ (\ dfrac {p + q} {1} \) dets gjensidige er \ (\ dfrac {1} {p + q} \).Merk spesielt at gjensidigheten til \ (p + q \) ikke er \ (\ dfrac {1} {p} + \ dfrac {1} {q} \).Denne skillet er viktig og en vanlig &#229;rsak til feil.For &#229; unng&#229; en feil n&#248;ye identifisere telleren og nevneren i det opprinnelige uttrykket f&#248;r du inverterer.
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            The reciprocal of \(\dfrac{1}{R_1} + \dfrac{1}{R_2}\) is \(\dfrac{1}{\dfrac{1}{R_1} + \dfrac{1}{R_2}}\). To simplify this further requires knowledge of the addition of algebraic fractions which is dealt with in later workbooks. It is important to note that the reciprocal of \(\dfrac{1}{R_1} + \dfrac{1}{R_2}\) is not \(R_1 + R_2\).
+        </span>
+        <span class="multilang" lang="no">
+            Gjensidigheten til \ (\ dfrac {1} {r_1} + \ dfrac {1} {r_2} \) er \ (\ dfrac {1} {\ dfrac {1} {r_1} + \ dfrac {1} {2}} \).For &#229; forenkle dette krever dette kunnskap om tilsetning av algebraiske fraksjoner som blir behandlet i senere arbeidsb&#248;ker.Det er viktig &#229; merke seg at gjensidigheten til \ (\ dfrac {1} {r_1} + \ dfrac {1} {r_2} \) ikke er \ (r_1 + r_2 \).
+        </span>
+    </li>
+</ul>
+<hr/>
+<h5>
+    <span class="multilang" lang="en">
+        The equals sign (\(=\))
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Likestegnet (\ (= \))
+        <br/>
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The equals sign, \(=\), is used in several different ways. Firstly, an equals sign is used in
+        <strong>
+            equations
+        </strong>
+        . The left-hand side and right-hand side of an equation are equal only when the variable involved takes specific values known as
+        <strong>
+            solutions
+        </strong>
+        of the equation. For example, in the equation \(x-8=0\), the variable is \(x\). The left-hand side and right-hand side are only equal when \(x\) has the value \(8\). If \(x\) has any other value the two sides are not equal.
+    </span>
+    <span class="multilang" lang="no">
+        Equals -tegnet, \ (= \), brukes p&#229; flere forskjellige m&#229;ter.For det f&#248;rste brukes et lik tegn i
+        <strong>
+            ligninger
+        </strong>
+        .Venstre side og h&#248;yre side av en ligning er lik bare n&#229;r variabelen involvert tar spesifikke verdier kjent som
+        <strong>
+            l&#248;sninger
+        </strong>
+        av ligningen.For eksempel, i ligningen \ (x-8 = 0 \), er variabelen \ (x \).Venstre side og h&#248;yre side er bare lik n&#229;r \ (x \) har verdien \ (8 \).Hvis \ (x \) har noen annen verdi, er de to sidene ikke like.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Secondly, the equals sign is used in
+        <strong>
+            formulae
+        </strong>
+        . Physical quantities are often related through a formula. For example, the formula for the length, \(C\), of the circumference of a circle expresses the relationship between the circumference of the circle and its radius, \(r\). This formula states \(C=2\pi r\). When used in this way the equals sign expresses the fact that the quantity on the left is found by evaluating the expression on the right.
+    </span>
+    <span class="multilang" lang="no">
+        For det andre brukes likesteget i
+        <strong>
+            formler
+        </strong>
+        .Fysiske mengder er ofte relatert gjennom en formel.For eksempel uttrykker formelen for lengden, \ (c \), av omkretsen av en sirkel forholdet mellom sirkelen til sirkelen og dens radius, \ (r \).Denne formelen sier \ (c = 2 \ pi r \).N&#229;r det brukes p&#229; denne m&#229;ten, uttrykker tegnene det faktum at mengden til venstre finnes ved &#229; evaluere uttrykket til h&#248;yre.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Thirdly, an equals sign is used in
+        <strong>
+            identities
+        </strong>
+        . An identity looks just like an equation, but it is true for
+        <em>
+            all
+        </em>
+        values of the variable. We shall see shortly that \((x-1)(x+1)=x^2-1\) for any value of \(x\) whatsoever. This mean that the quantity on the left means exactly the same as that on the right whatever the value of \(x\). To distinguish this usage from other uses of the equals symbol it is more correct to write \((x-1)(x+1)\equiv x^2-1\), where \(\equiv\) means &#226;&#8364;&#732;is identically equal to&#226;&#8364;&#8482;. However, in practice, the equals sign is often used. We will only use \(\equiv\) where it is particularly important to do so.
+    </span>
+    <span class="multilang" lang="no">
+        For det tredje brukes et lik tegn i
+        <strong>
+            identiteter
+        </strong>
+        .En identitet ser ut som en ligning, men det er sant for
+        <em>
+            alle
+        </em>
+        verdier av variabelen.Vi skal kort tid se at \ ((x-1) (x+1) = x^2-1 \) for enhver verdi av \ (x \) overhodet.Dette betyr at mengden til venstre betyr n&#248;yaktig den samme som til h&#248;yre for verdien av \ (x \).For &#229; skille denne bruken fra andre bruksomr&#229;der av likesymbolet er det riktigere &#229; skrive \ ((x-1) (x+1) \ ekv. X^2-1 \), der \ (\ ekv. \) Betyr &#226; &#8364; &#732;er identisk lik ".I praksis brukes imidlertid likesteget ofte.Vi vil bare bruke \ (\ equiv \) der det er spesielt viktig &#229; gj&#248;re det.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        <br/>
+    </span>
+</p>
+<h5>
+    <span class="multilang" lang="en">
+        The &#226;&#8364;&#732;not equals&#226;&#8364;&#8482; sign (\(\ne\))
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Det &#226; &#8364; &#732;E ikke tilsvarer "tegnet (\ (\ ne \))
+        <br/>
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The sign \(\ne\) means &#226;&#8364;&#732;is not equal to&#226;&#8364;&#8482;. For example, \(5\ne 6\), \(7\ne -7\).
+    </span>
+    <span class="multilang" lang="no">
+        Tegnet \ (\ ne \) betyr "er ikke lik".For eksempel \ (5 \ ne 6 \), \ (7 \ ne -7 \).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        <br/>
+    </span>
+</p>
+<h5>
+    <span class="multilang" lang="en">
+        The notation for the change in a variable (\(\delta\))
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Notasjonen for endringen i en variabel (\ (\ Delta \))
+        <br/>
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The
+        <strong>
+            change
+        </strong>
+        in the value of a quantity is found by subtracting its initial value from its final value. For example, if the temperature of a mixture is initially \(13^\circ\)C and at a later time is found to be \(17^\circ\)C, the change in temperature is \(17-13=4^\circ\)C. The Greek letter \(\delta\) is often used to indicate such a change. If \(x\) is a variable we write \(\delta x\) to stand for a change in the value of \(x\). We sometimes refer to \(\delta x\) as an
+        <strong>
+            increment
+        </strong>
+        in \(x\). For example if the value of \(x\) changes from 3 to 3.01 we could write \(\delta x= 3.01-3 = 0.01\). It is important to note that this is
+        <strong>
+            not
+        </strong>
+        the product of \(\delta\) and \(x\), rather the whole symbol &#226;&#8364;&#732;\(\delta x\)&#226;&#8364;&#8482; means &#226;&#8364;&#732;the increment in \(x\)&#226;&#8364;&#8482;.
+    </span>
+    <span class="multilang" lang="no">
+        De
+        <strong>
+            Endring
+        </strong>
+        I verdien av en mengde finnes ved &#229; trekke fra dens opprinnelige verdi fra den endelige verdien.For eksempel, hvis temperaturen p&#229; en blanding opprinnelig er \ (13^\ circ \) c og p&#229; et senere tidspunkt er funnet &#229; v&#230;re \ (17^\ circ \) c, er temperaturendringen \ (17-13 =4^\ circ \) c.Den greske bokstaven \ (\ Delta \) brukes ofte til &#229; indikere en slik endring.Hvis \ (x \) er en variabel vi skriver \ (\ delta x \) for &#229; st&#229; for en endring i verdien av \ (x \).Noen ganger omtaler vi \ (\ delta x \) som en
+        <strong>
+            &#248;kning
+        </strong>
+        i \ (x \).For eksempel hvis verdien av \ (x \) endres fra 3 til 3.01, kunne vi skrive \ (\ delta x = 3.01-3 = 0.01 \).Det er viktig &#229; merke seg at dette er
+        <strong>
+            ikke
+        </strong>
+        Produktet av \ (\ delta \) og \ (x \), snarere hele symbolet &#226; &#8364; &#732; \ (\ delta x \) &#226; &#8364; &#8482; betyr &#226; &#8364; &#732; &#248;kningen i \ (x \) &#226; &#8364; &#8482;.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        <br/>
+    </span>
+</p>
+<h5>
+    <span class="multilang" lang="en">
+        Sigma (or summation) notation (\(\sum\))
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Sigma (eller summering) notasjon (\ (\ sum \))
+        <br/>
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        This provides a concise and convenient way of writing long sums.
+    </span>
+    <span class="multilang" lang="no">
+        Dette gir en kortfattet og praktisk m&#229;te &#229; skrive lange summer p&#229;.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The sum
+    </span>
+    <span class="multilang" lang="no">
+        Summen
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad x_1+x_2+x_3+x_4 +\ldots +x_{11}+x_{12}\)
+    </span>
+    <span class="multilang" lang="no">
+        \(\qquad x_1+x_2+x_3+x_4 +\ldots +x_{11}+x_{12}\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        is written using the capital Greek letter sigma, \(\sum\), as
+    </span>
+    <span class="multilang" lang="no">
+        er skrevet med hovedstadgresk brev Sigma, \ (\ sum \), som
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad \sum_{k=1}^{12} x_k\)
+    </span>
+    <span class="multilang" lang="no">
+        \(\qquad \sum_{k=1}^{12} x_k\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The symbol \(\sum\) stands for the sum of all the values of \(x_k\) as \(k\) ranges from 1 to 12. Note that the lower-most and upper-most values of \(k\) are written at the bottom and top of the sigma sign respectively.
+    </span>
+    <span class="multilang" lang="no">
+        Symbolet \ (\ sum \) st&#229;r for summen av alle verdiene til \ (x_k \) som \ (k \) varierer fra 1 til 12. Merk at de lavere og &#248;verste verdier av \ (k \) er skrevet nederst og toppen av henholdsvis Sigma -tegnet.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Write out explicitly what is meant by \(\sum_{k=1}^{5}k^3\)
+    </span>
+    <span class="multilang" lang="no">
+        Skriv ut eksplisitt hva som menes med \ (\ sum_ {k = 1}^{5} k^3 \)
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        L&#248;sning
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        We must let k range from 1 to 5:
+    </span>
+    <span class="multilang" lang="no">
+        Vi m&#229; la K variere fra 1 til 5:
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad \sum_{k=1}^{5}k^3 = 1^3+2^3+3^3+4^3+5^3\)
+    </span>
+    <span class="multilang" lang="no">
+        \(\qquad \sum_{k=1}^{5}k^3 = 1^3+2^3+3^3+4^3+5^3\)
+    </span>
+</p>
+]]></text>
+            <file name="1-1-fig-3.svg" path="/" encoding="base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjI1NS4xNjAxNnB0IgogICBoZWlnaHQ9IjE0MC4zNTc3OXB0IgogICB2aWV3Qm94PSIwIDAgMjU1LjE2MDE2IDE0MC4zNTc3OSIKICAgdmVyc2lvbj0iMS4yIgogICBpZD0ic3ZnNzUxIgogICBzb2RpcG9kaTpkb2NuYW1lPSIxLTEtZmlnLTMuc3ZnIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjEgKGM2OGUyMmMzODcsIDIwMjEtMDUtMjMpIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgaWQ9Im5hbWVkdmlldzc1MyIKICAgICBwYWdlY29sb3I9IiNmZmZmZmYiCiAgICAgYm9yZGVyY29sb3I9IiM2NjY2NjYiCiAgICAgYm9yZGVyb3BhY2l0eT0iMS4wIgogICAgIGlua3NjYXBlOnBhZ2VzaGFkb3c9IjIiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAuMCIKICAgICBpbmtzY2FwZTpwYWdlY2hlY2tlcmJvYXJkPSIwIgogICAgIGlua3NjYXBlOmRvY3VtZW50LXVuaXRzPSJwdCIKICAgICBzaG93Z3JpZD0iZmFsc2UiCiAgICAgaW5rc2NhcGU6em9vbT0iNC4xNjQ4OTM2IgogICAgIGlua3NjYXBlOmN4PSIxNzAuMTEyMzkiCiAgICAgaW5rc2NhcGU6Y3k9IjE0OS40NjM2IgogICAgIGlua3NjYXBlOndpbmRvdy13aWR0aD0iMTkyMCIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSIxMDAxIgogICAgIGlua3NjYXBlOndpbmRvdy14PSItOSIKICAgICBpbmtzY2FwZTp3aW5kb3cteT0iLTkiCiAgICAgaW5rc2NhcGU6d2luZG93LW1heGltaXplZD0iMSIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJzdmc3NTEiIC8+CiAgPGRlZnMKICAgICBpZD0iZGVmczY4NiI+CiAgICA8ZwogICAgICAgaWQ9Imc2ODQiPgogICAgICA8c3ltYm9sCiAgICAgICAgIG92ZXJmbG93PSJ2aXNpYmxlIgogICAgICAgICBpZD0iZ2x5cGgwLTAiPgogICAgICAgIDxwYXRoCiAgICAgICAgICAgc3R5bGU9InN0cm9rZTpub25lIgogICAgICAgICAgIGQ9Im0gMS41MzEyNSwwIHYgLTYuODc1IGggNS41IFYgMCBaIG0gMC4xNzE4NzUsLTAuMTcxODc1IGggNS4xNTYyNSB2IC02LjUzMTI1IGggLTUuMTU2MjUgeiBtIDAsMCIKICAgICAgICAgICBpZD0icGF0aDY2NiIgLz4KICAgICAgPC9zeW1ib2w+CiAgICAgIDxzeW1ib2wKICAgICAgICAgb3ZlcmZsb3c9InZpc2libGUiCiAgICAgICAgIGlkPSJnbHlwaDAtMSI+CiAgICAgICAgPHBhdGgKICAgICAgICAgICBzdHlsZT0ic3Ryb2tlOm5vbmUiCiAgICAgICAgICAgZD0ibSA2LjM1OTM3NSwtNy4yODEyNSAwLjA5Mzc1LDEuNzAzMTI1IEggNi4yMzQzNzUgQyA2LjIwMzEyNSwtNS44Nzg5MDYgNi4xNDg0MzgsLTYuMDkzNzUgNi4wNzgxMjUsLTYuMjE4NzUgNS45NjA5MzgsLTYuNDI1NzgxIDUuODEyNSwtNi41NzgxMjUgNS42MjUsLTYuNjcxODc1IDUuNDQ1MzEyLC02Ljc3MzQzOCA1LjIwNzAzMSwtNi44MjgxMjUgNC45MDYyNSwtNi44MjgxMjUgSCAzLjg5MDYyNSB2IDUuNTYyNSBjIDAsMC40NDkyMTkgMC4wNDY4NzUsMC43MzA0NjkgMC4xNDA2MjUsMC44NDM3NSAwLjEzMjgxMiwwLjE0ODQzNyAwLjM0Mzc1LDAuMjE4NzUgMC42MjUsMC4yMTg3NSBoIDAuMjUgViAwIEggMS44MjgxMjUgdiAtMC4yMDMxMjUgaCAwLjI1IGMgMC4zMTI1LDAgMC41MzEyNSwtMC4wOTM3NSAwLjY1NjI1LC0wLjI4MTI1IDAuMDgyMDMxLC0wLjExMzI4MSAwLjEyNSwtMC4zNzUgMC4xMjUsLTAuNzgxMjUgdiAtNS41NjI1IGggLTAuODc1IGMgLTAuMzQzNzUsMCAtMC41ODk4NDQsMC4wMjczNDQgLTAuNzM0Mzc1LDAuMDc4MTI1IC0wLjE4NzUsMC4wNjI1IC0wLjM1MTU2MiwwLjE5NTMxMiAtMC40ODQzNzUsMC4zOTA2MjUgLTAuMTI1LDAuMTk5MjE5IC0wLjIwMzEyNSwwLjQ2MDkzNyAtMC4yMzQzNzUsMC43ODEyNSBIIDAuMzI4MTI1IGwgMC4wOTM3NSwtMS43MDMxMjUgeiBtIDAsMCIKICAgICAgICAgICBpZD0icGF0aDY2OSIgLz4KICAgICAgPC9zeW1ib2w+CiAgICAgIDxzeW1ib2wKICAgICAgICAgb3ZlcmZsb3c9InZpc2libGUiCiAgICAgICAgIGlkPSJnbHlwaDAtMiI+CiAgICAgICAgPHBhdGgKICAgICAgICAgICBzdHlsZT0ic3Ryb2tlOm5vbmUiCiAgICAgICAgICAgZD0iTSAxLjI5Njg3NSwtNi41NjI1IDMuMDYyNSwtNy40Mzc1IGggMC4xNzE4NzUgdiA2LjE1NjI1IGMgMCwwLjQwNjI1IDAuMDE1NjI1LDAuNjY0MDYyIDAuMDQ2ODc1LDAuNzY1NjI1IDAuMDM5MDYyLDAuMDkzNzUgMC4xMTMyODEsMC4xNzE4NzUgMC4yMTg3NSwwLjIzNDM3NSAwLjEwMTU2MiwwLjA1NDY4OCAwLjMyMDMxMiwwLjA3ODEyNSAwLjY1NjI1LDAuMDc4MTI1IFYgMCBIIDEuNDIxODc1IHYgLTAuMjAzMTI1IGMgMC4zNDM3NSwwIDAuNTYyNSwtMC4wMjM0MzcgMC42NTYyNSwtMC4wNzgxMjUgMC4xMDE1NjMsLTAuMDUwNzgxIDAuMTc1NzgxLC0wLjExNzE4OCAwLjIxODc1LC0wLjIwMzEyNSAwLjAzOTA2MywtMC4wOTM3NSAwLjA2MjUsLTAuMzU5Mzc1IDAuMDYyNSwtMC43OTY4NzUgdiAtMy45Mzc1IGMgMCwtMC41MzEyNSAtMC4wMjM0MzcsLTAuODY3MTg4IC0wLjA2MjUsLTEuMDE1NjI1IEMgMi4yNzM0MzgsLTYuMzQ3NjU2IDIuMjI2NTYyLC02LjQyOTY4OCAyLjE1NjI1LC02LjQ4NDM3NSAyLjA5Mzc1LC02LjUzNTE1NiAyLjAxNTYyNSwtNi41NjI1IDEuOTIxODc1LC02LjU2MjUgYyAtMC4xMzY3MTksMCAtMC4zMjAzMTMsMC4wNTQ2ODggLTAuNTQ2ODc1LDAuMTU2MjUgeiBtIDAsMCIKICAgICAgICAgICBpZD0icGF0aDY3MiIgLz4KICAgICAgPC9zeW1ib2w+CiAgICAgIDxzeW1ib2wKICAgICAgICAgb3ZlcmZsb3c9InZpc2libGUiCiAgICAgICAgIGlkPSJnbHlwaDAtMyI+CiAgICAgICAgPHBhdGgKICAgICAgICAgICBzdHlsZT0ic3Ryb2tlOm5vbmUiCiAgICAgICAgICAgZD0ibSAwLjU2MjUsLTUuODkwNjI1IGMgMC4yMDcwMzEsLTAuNSAwLjQ2ODc1LC0wLjg3ODkwNiAwLjc4MTI1LC0xLjE0MDYyNSAwLjMyMDMxMiwtMC4yNjk1MzEgMC43MTg3NSwtMC40MDYyNSAxLjE4NzUsLTAuNDA2MjUgMC41ODIwMzEsMCAxLjAzMTI1LDAuMTk1MzEyIDEuMzQzNzUsMC41NzgxMjUgMC4yMzgyODEsMC4yODEyNSAwLjM1OTM3NSwwLjU4NTkzNyAwLjM1OTM3NSwwLjkwNjI1IDAsMC41MzEyNSAtMC4zMzU5MzcsMS4wNzgxMjUgLTEsMS42NDA2MjUgMC40NDUzMTMsMC4xNzk2ODggMC43ODUxNTYsMC40Mjk2ODggMS4wMTU2MjUsMC43NSAwLjIyNjU2MiwwLjMyNDIxOSAwLjM0Mzc1LDAuNzEwOTM4IDAuMzQzNzUsMS4xNTYyNSAwLDAuNjI1IC0wLjIwMzEyNSwxLjE2Nzk2OSAtMC42MDkzNzUsMS42MjUgQyAzLjQ2MDkzOCwtMC4xNzU3ODEgMi43MDcwMzEsMC4xMjUgMS43MTg3NSwwLjEyNSBjIC0wLjQ5MjE4OCwwIC0wLjgyNDIxOSwtMC4wNTg1OTM4IC0xLC0wLjE3MTg3NSAtMC4xNzk2ODgsLTAuMTI1IC0wLjI2NTYyNSwtMC4yNTc4MTMgLTAuMjY1NjI1LC0wLjQwNjI1IDAsLTAuMTAxNTYzIDAuMDM5MDYzLC0wLjE5MTQwNiAwLjEyNSwtMC4yNjU2MjUgMC4wODIwMzEsLTAuMDgyMDMxIDAuMTc5Njg3LC0wLjEyNSAwLjI5Njg3NSwtMC4xMjUgMC4wOTM3NSwwIDAuMTg3NSwwLjAxNTYyNSAwLjI4MTI1LDAuMDQ2ODc1IDAuMDUwNzgxLDAuMDIzNDM3IDAuMTg3NSwwLjA4OTg0NCAwLjQwNjI1LDAuMjAzMTI1IDAuMjE4NzUsMC4xMDU0NjkgMC4zNjcxODgsMC4xNzE4NzUgMC40NTMxMjUsMC4yMDMxMjUgMC4xMjUsMC4wMzEyNSAwLjI2NTYyNSwwLjA0Njg3NSAwLjQyMTg3NSwwLjA0Njg3NSAwLjM2MzI4MSwwIDAuNjc5Njg4LC0wLjE0MDYyNSAwLjk1MzEyNSwtMC40MjE4NzUgMC4yNjk1MzEsLTAuMjgxMjUgMC40MDYyNSwtMC42MTMyODEgMC40MDYyNSwtMSAwLC0wLjI4MTI1IC0wLjA2MjUsLTAuNTU0Njg3IC0wLjE4NzUsLTAuODI4MTI1IEMgMy41MTU2MjUsLTIuNzg5MDYyIDMuNDEwMTU2LC0yLjk0MTQwNiAzLjI5Njg3NSwtMy4wNDY4NzUgMy4xNDA2MjUsLTMuMTkxNDA2IDIuOTI1NzgxLC0zLjMyMDMxMiAyLjY1NjI1LC0zLjQzNzUgMi4zOTQ1MzEsLTMuNTUwNzgxIDIuMTI1LC0zLjYwOTM3NSAxLjg0Mzc1LC0zLjYwOTM3NSBIIDEuNjcxODc1IFYgLTMuNzgxMjUgYyAwLjI4MTI1LC0wLjAzMTI1IDAuNTYyNSwtMC4xMjg5MDYgMC44NDM3NSwtMC4yOTY4NzUgMC4yODkwNjMsLTAuMTY0MDYzIDAuNSwtMC4zNjcxODcgMC42MjUsLTAuNjA5Mzc1IDAuMTI1LC0wLjIzODI4MSAwLjE4NzUsLTAuNSAwLjE4NzUsLTAuNzgxMjUgMCwtMC4zNjMyODEgLTAuMTE3MTg3LC0wLjY2MDE1NiAtMC4zNDM3NSwtMC44OTA2MjUgQyAyLjc1MzkwNiwtNi41ODU5MzggMi40Njg3NSwtNi43MDMxMjUgMi4xMjUsLTYuNzAzMTI1IGMgLTAuNTU0Njg4LDAgLTEuMDE1NjI1LDAuMjk2ODc1IC0xLjM5MDYyNSwwLjg5MDYyNSB6IG0gMCwwIgogICAgICAgICAgIGlkPSJwYXRoNjc1IiAvPgogICAgICA8L3N5bWJvbD4KICAgICAgPHN5bWJvbAogICAgICAgICBvdmVyZmxvdz0idmlzaWJsZSIKICAgICAgICAgaWQ9ImdseXBoMC00Ij4KICAgICAgICA8cGF0aAogICAgICAgICAgIHN0eWxlPSJzdHJva2U6bm9uZSIKICAgICAgICAgICBkPSJtIDUuMTI1LC0yLjY4NzUgdiAwLjc2NTYyNSBIIDQuMTQwNjI1IFYgMCBIIDMuMjUgViAtMS45MjE4NzUgSCAwLjE3MTg3NSB2IC0wLjY4NzUgbCAzLjM3NSwtNC44MjgxMjUgaCAwLjU5Mzc1IHYgNC43NSB6IG0gLTEuODc1LDAgViAtNi4yOTY4NzUgTCAwLjcwMzEyNSwtMi42ODc1IFogbSAwLDAiCiAgICAgICAgICAgaWQ9InBhdGg2NzgiIC8+CiAgICAgIDwvc3ltYm9sPgogICAgICA8c3ltYm9sCiAgICAgICAgIG92ZXJmbG93PSJ2aXNpYmxlIgogICAgICAgICBpZD0iZ2x5cGgwLTUiPgogICAgICAgIDxwYXRoCiAgICAgICAgICAgc3R5bGU9InN0cm9rZTpub25lIgogICAgICAgICAgIGQ9Ik0gNS4wNDY4NzUsLTEuNDA2MjUgNC41MzEyNSwwIEggMC4yMzQzNzUgdiAtMC4yMDMxMjUgYyAxLjI1NzgxMywtMS4xNDQ1MzEgMi4xNDQ1MzEsLTIuMDgyMDMxIDIuNjU2MjUsLTIuODEyNSAwLjUxOTUzMSwtMC43MzgyODEgMC43ODEyNSwtMS40MTAxNTYgMC43ODEyNSwtMi4wMTU2MjUgMCwtMC40NTcwMzEgLTAuMTQwNjI1LC0wLjgzMjAzMSAtMC40MjE4NzUsLTEuMTI1IC0wLjI4MTI1LC0wLjMwMDc4MSAtMC42MjEwOTQsLTAuNDUzMTI1IC0xLjAxNTYyNSwtMC40NTMxMjUgLTAuMzU1NDY5LDAgLTAuNjc5Njg3LDAuMTA1NDY5IC0wLjk2ODc1LDAuMzEyNSAtMC4yODEyNSwwLjIxMDkzNyAtMC40OTIxODcsMC41MTU2MjUgLTAuNjI1LDAuOTIxODc1IGggLTAuMTg3NSBDIDAuNTM1MTU2LC02LjAzOTA2MiAwLjc1NzgxMiwtNi41NTA3ODEgMS4xMjUsLTYuOTA2MjUgMS41LC03LjI1NzgxMiAxLjk2ODc1LC03LjQzNzUgMi41MzEyNSwtNy40Mzc1IGMgMC41ODIwMzEsMCAxLjA3MDMxMiwwLjE5NTMxMiAxLjQ2ODc1LDAuNTc4MTI1IDAuMzk0NTMxLDAuMzc1IDAuNTkzNzUsMC44MjQyMTkgMC41OTM3NSwxLjM0Mzc1IDAsMC4zNjcxODcgLTAuMDg1OTM4LDAuNzMwNDY5IC0wLjI1LDEuMDkzNzUgLTAuMjczNDM4LDAuNTg1OTM3IC0wLjcwMzEyNSwxLjE5OTIxOSAtMS4yOTY4NzUsMS44NDM3NSBDIDIuMTYwMTU2LC0xLjU5NzY1NiAxLjYwMTU2MiwtMS4wMDc4MTIgMS4zNzUsLTAuODEyNSBoIDEuOTA2MjUgYyAwLjM4MjgxMiwwIDAuNjU2MjUsLTAuMDA3ODEyIDAuODEyNSwtMC4wMzEyNSBDIDQuMjUsLTAuODc1IDQuMzkwNjI1LC0wLjkyOTY4OCA0LjUxNTYyNSwtMS4wMTU2MjUgNC42NDA2MjUsLTEuMTA5Mzc1IDQuNzUsLTEuMjM4MjgxIDQuODQzNzUsLTEuNDA2MjUgWiBtIDAsMCIKICAgICAgICAgICBpZD0icGF0aDY4MSIgLz4KICAgICAgPC9zeW1ib2w+CiAgICA8L2c+CiAgPC9kZWZzPgogIDxnCiAgICAgaWQ9InN1cmZhY2UxNDI5ODIiCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMzM5ODQzOCwtMC42MDcwNjI4NCkiPgogICAgPHBhdGgKICAgICAgIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEwO3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLW9wYWNpdHk6MSIKICAgICAgIGQ9Ik0gMTgwMCwxMTU1IEggMzAgViA3NjUiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgwLjEsMCwwLC0wLjEsMCwxNDEpIgogICAgICAgaWQ9InBhdGg2ODgiIC8+CiAgICA8cGF0aAogICAgICAgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MTA7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2Utb3BhY2l0eToxIgogICAgICAgZD0iTSA4LjM5ODQzOCw3NjUgViA0MjAiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgwLjEsMCwwLC0wLjEsMCwxNDEpIgogICAgICAgaWQ9InBhdGg2OTAiIC8+CiAgICA8cGF0aAogICAgICAgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MTA7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2Utb3BhY2l0eToxIgogICAgICAgZD0iTSAzMCw0MjAgViA0NSBoIDUyNSIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuMSwwLDAsLTAuMSwwLDE0MSkiCiAgICAgICBpZD0icGF0aDY5MiIgLz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxMDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1vcGFjaXR5OjEiCiAgICAgICBkPSJNIDU1NSw1LjM1MTU2MiBIIDIwMTAiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgwLjEsMCwwLC0wLjEsMCwxNDEpIgogICAgICAgaWQ9InBhdGg2OTQiIC8+CiAgICA8cGF0aAogICAgICAgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MTA7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2Utb3BhY2l0eToxIgogICAgICAgZD0ibSAyMDEwLDQ1IGggNTQwIHYgMTExMCBoIC0zNDUiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgwLjEsMCwwLC0wLjEsMCwxNDEpIgogICAgICAgaWQ9InBhdGg2OTYiIC8+CiAgICA8cGF0aAogICAgICAgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MjA7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2Utb3BhY2l0eToxIgogICAgICAgZD0ibSAyMjA0LjQ1MzEsMTE0Ni40NDUzIC0zMTguOTA2MiwyNDkuNjA5NCIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuMSwwLDAsLTAuMSwwLDE0MSkiCiAgICAgICBpZD0icGF0aDY5OCIgLz4KICAgIDxnCiAgICAgICBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxIgogICAgICAgaWQ9Imc3MDIiPgogICAgICA8dXNlCiAgICAgICAgIHhsaW5rOmhyZWY9IiNnbHlwaDAtMSIKICAgICAgICAgeD0iMTkxIgogICAgICAgICB5PSIzNSIKICAgICAgICAgaWQ9InVzZTcwMCIKICAgICAgICAgd2lkdGg9IjEwMCUiCiAgICAgICAgIGhlaWdodD0iMTAwJSIgLz4KICAgIDwvZz4KICAgIDxnCiAgICAgICBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxIgogICAgICAgaWQ9Imc3MDYiPgogICAgICA8dXNlCiAgICAgICAgIHhsaW5rOmhyZWY9IiNnbHlwaDAtMiIKICAgICAgICAgeD0iMTk3LjcyMTA4IgogICAgICAgICB5PSIzOSIKICAgICAgICAgaWQ9InVzZTcwNCIKICAgICAgICAgd2lkdGg9IjEwMCUiCiAgICAgICAgIGhlaWdodD0iMTAwJSIgLz4KICAgIDwvZz4KICAgIDxnCiAgICAgICBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxIgogICAgICAgaWQ9Imc3MTAiPgogICAgICA8dXNlCiAgICAgICAgIHhsaW5rOmhyZWY9IiNnbHlwaDAtMSIKICAgICAgICAgeD0iMTIwLjk5OTk5IgogICAgICAgICB5PSI4OCIKICAgICAgICAgaWQ9InVzZTcwOCIKICAgICAgICAgd2lkdGg9IjEwMCUiCiAgICAgICAgIGhlaWdodD0iMTAwJSIgLz4KICAgIDwvZz4KICAgIDxnCiAgICAgICBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxIgogICAgICAgaWQ9Imc3MTQiPgogICAgICA8dXNlCiAgICAgICAgIHhsaW5rOmhyZWY9IiNnbHlwaDAtMyIKICAgICAgICAgeD0iMTI3LjcyMTA4IgogICAgICAgICB5PSI5MiIKICAgICAgICAgaWQ9InVzZTcxMiIKICAgICAgICAgd2lkdGg9IjEwMCUiCiAgICAgICAgIGhlaWdodD0iMTAwJSIgLz4KICAgIDwvZz4KICAgIDxnCiAgICAgICBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxIgogICAgICAgaWQ9Imc3MTgiPgogICAgICA8dXNlCiAgICAgICAgIHhsaW5rOmhyZWY9IiNnbHlwaDAtMSIKICAgICAgICAgeD0iOTQuNjY2MzgyIgogICAgICAgICB5PSIxMjUiCiAgICAgICAgIGlkPSJ1c2U3MTYiCiAgICAgICAgIHdpZHRoPSIxMDAlIgogICAgICAgICBoZWlnaHQ9IjEwMCUiIC8+CiAgICA8L2c+CiAgICA8ZwogICAgICAgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MSIKICAgICAgIGlkPSJnNzIyIj4KICAgICAgPHVzZQogICAgICAgICB4bGluazpocmVmPSIjZ2x5cGgwLTQiCiAgICAgICAgIHg9IjEwMS4zODc0NyIKICAgICAgICAgeT0iMTI5IgogICAgICAgICBpZD0idXNlNzIwIgogICAgICAgICB3aWR0aD0iMTAwJSIKICAgICAgICAgaGVpZ2h0PSIxMDAlIiAvPgogICAgPC9nPgogICAgPGcKICAgICAgIHN0eWxlPSJmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjEiCiAgICAgICBpZD0iZzcyNiI+CiAgICAgIDx1c2UKICAgICAgICAgeGxpbms6aHJlZj0iI2dseXBoMC0xIgogICAgICAgICB4PSIxMy45OTk5NyIKICAgICAgICAgeT0iODYiCiAgICAgICAgIGlkPSJ1c2U3MjQiCiAgICAgICAgIHdpZHRoPSIxMDAlIgogICAgICAgICBoZWlnaHQ9IjEwMCUiIC8+CiAgICA8L2c+CiAgICA8ZwogICAgICAgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MSIKICAgICAgIGlkPSJnNzMwIj4KICAgICAgPHVzZQogICAgICAgICB4bGluazpocmVmPSIjZ2x5cGgwLTUiCiAgICAgICAgIHg9IjIwLjcyMTA2IgogICAgICAgICB5PSI5MCIKICAgICAgICAgaWQ9InVzZTcyOCIKICAgICAgICAgd2lkdGg9IjEwMCUiCiAgICAgICAgIGhlaWdodD0iMTAwJSIgLz4KICAgIDwvZz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDojM2YzZjNmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxMDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1vcGFjaXR5OjEiCiAgICAgICBkPSJtIDMwLDExMjIuMzgyOCBoIDE3NzUgdiAzNi4yODkxIEggMzAgWiBtIDAsMCIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuMSwwLDAsLTAuMSwwLDE0MSkiCiAgICAgICBpZD0icGF0aDczMiIgLz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDojM2YzZjNmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxMDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1vcGFjaXR5OjEiCiAgICAgICBkPSJtIDMyLjY5NTMxMiw3NzAgaCA0Mi4zNDM3NSB2IDM2NSBoIC00Mi4zNDM3NSB6IG0gMCwwIgogICAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMC4xLDAsMCwtMC4xLDAsMTQxKSIKICAgICAgIGlkPSJwYXRoNzM0IiAvPgogICAgPHBhdGgKICAgICAgIHN0eWxlPSJmaWxsOiMzZjNmM2Y7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEwO3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLW9wYWNpdHk6MSIKICAgICAgIGQ9Ik0gMjUuODIwMzEyLDUwIEggNzQuMTc5Njg4IFYgNDIwIEggMjUuODIwMzEyIFogbSAwLDAiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgwLjEsMCwwLC0wLjEsMCwxNDEpIgogICAgICAgaWQ9InBhdGg3MzYiIC8+CiAgICA8cGF0aAogICAgICAgc3R5bGU9ImZpbGw6IzNmM2YzZjtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MTA7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2Utb3BhY2l0eToxIgogICAgICAgZD0iTSA2NSw0NSBIIDU1NSBWIDkwIEggNjUgWiBtIDAsMCIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuMSwwLDAsLTAuMSwwLDE0MSkiCiAgICAgICBpZD0icGF0aDczOCIgLz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDojM2YzZjNmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxMDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1vcGFjaXR5OjEiCiAgICAgICBkPSJtIDIwMTUsNTAgaCA1MzUgdiA0MCBoIC01MzUgeiBtIDAsMCIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuMSwwLDAsLTAuMSwwLDE0MSkiCiAgICAgICBpZD0icGF0aDc0MCIgLz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDojM2YzZjNmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxMDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1vcGFjaXR5OjEiCiAgICAgICBkPSJtIDIyMDUsMTExNi4zMjgxIGggMzQwIHYgNDIuMzQzOCBoIC0zNDAgeiBtIDAsMCIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuMSwwLDAsLTAuMSwwLDE0MSkiCiAgICAgICBpZD0icGF0aDc0MiIgLz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDojM2YzZjNmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxMDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1vcGFjaXR5OjEiCiAgICAgICBkPSJtIDI1MDUsOTUgaCA0MCB2IDEwMjUgaCAtNDAgeiBtIDAsMCIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuMSwwLDAsLTAuMSwwLDE0MSkiCiAgICAgICBpZD0icGF0aDc0NCIgLz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxMDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1vcGFjaXR5OjEiCiAgICAgICBkPSJtIDguMzk4NDM4LDQyNSBoIDc4LjI4MTI1IFYgNzY1IEggOC4zOTg0MzggWiBtIDAsMCIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuMSwwLDAsLTAuMSwwLDE0MSkiCiAgICAgICBpZD0icGF0aDc0NiIgLz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxMDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1vcGFjaXR5OjEiCiAgICAgICBkPSJNIDU1My4zMjAzMSw1LjM1MTU2MiBIIDIwMTAgViAxMTAgSCA1NTMuMzIwMzEgWiBtIDAsMCIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuMSwwLDAsLTAuMSwwLDE0MSkiCiAgICAgICBpZD0icGF0aDc0OCIgLz4KICA8L2c+Cjwvc3ZnPgo=</file>
+        </questiontext>
+        <generalfeedback format="html">
+            <text/>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber/>
+    </question>
+    
+
+</quiz>

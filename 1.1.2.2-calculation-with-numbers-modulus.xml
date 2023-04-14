@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="description">
+        <name>
+            <text>1.1.2.2 Calculation with Numbers - modulus</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h5>
+    The modulus notation (\(| |\))
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The
+        <strong>
+            modulus
+        </strong>
+        of a number is the size of that number regardless of its sign. For example \(|4|\) is equal to 4, and \(|-3|\) is equal to 3. The modulus of a number is thus never negative.
+    </span>
+    <span class="multilang" lang="no">
+        De
+        <strong>
+            modul
+        </strong>
+        av et tall er st&#248;rrelsen p&#229; dette tallet uavhengig av tegnet.For eksempel \(| 4 | \) er lik 4, og \(| -3 | \) er lik 3. Modulen til et tall er dermed aldri negativ.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text/>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber/>
+    </question>
+    
+
+</quiz>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="description">
+        <name>
+            <text>1.1.2.1 Calculation with Numbers</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Calculation with Numbers
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Beregning med tall
+        <br/>
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        To perform calculations with numbers we use the
+        <strong>
+            operations
+        </strong>
+        , \(+\), \(-\), \(\times\) and \(\div\).
+    </span>
+    <span class="multilang" lang="no">
+        For &#229; utf&#248;re beregninger med tall bruker vi
+        <strong>
+            operasjoner
+        </strong>
+        , \(+\), \(-\), \(\times \) og \(\div \).
+    </span>
+</p>
+<h5>
+    Addition (\(+\))
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        We say that \(4+5\) is the
+        <strong>
+            sum
+        </strong>
+        of 4 and 5. Note that \(4+5\) is equal to \(5+4\) so that the order in which we write down the numbers does not matter when we are adding them. Because the order does not matter, addition is said to be
+        <strong>
+            commutative
+        </strong>
+        . This first property is called
+        <strong>
+            commutativity
+        </strong>
+        . When more than two numbers are to be added, as in \(4+8+9\), it makes no difference whether we add the 4 and 8 first to get \(12+9\), or whether we add the 8 and 9 first to get \(4+17\). Whichever way we work we will obtain the same result, 21. Addition is said to be
+        <strong>
+            associative
+        </strong>
+        . This second property is called
+        <strong>
+            associativity
+        </strong>
+        .
+    </span>
+    <span class="multilang" lang="no">
+        Vi sier at \(4+5\) er
+        <strong>
+            sum
+        </strong>
+        av 4 og 5. Merk at \(4+5\) er lik \(5+4\) slik at rekkef&#248;lgen vi skriver ned tallene ikke spiller noen rolle n&#229;r vi legger til dem.Fordi ordren ikke betyr noe, sies tillegg
+        <strong>
+            kommutativ
+        </strong>
+        .Denne f&#248;rste eiendommen kalles
+        <strong>
+            kommutativitet
+        </strong>
+        .N&#229;r mer enn to tall skal legges til, som i \(4+8+9\), gj&#248;r det ingen forskjell om vi legger til 4 og 8 f&#248;rst for &#229; f&#229; \(12+9\), eller om vi legger til 8 og 9 f&#248;rst for &#229; f&#229; \(4+17 \).Uansett hvilken m&#229;te vi jobber, vil vi oppn&#229; samme resultat, 21. Tillegg sies &#229; v&#230;re
+        <strong>
+            assosiativ
+        </strong>
+        .Denne andre egenskapen kalles
+        <strong>
+            assosiativitet
+        </strong>
+        .
+    </span>
+</p>
+<h5>
+    Subtraction (\(-\))
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        We say that \(8-3\) is the
+        <strong>
+            difference
+        </strong>
+        of \(8\) and \(3\). Note that \(8-3\) is
+        <em>
+            not
+        </em>
+        the same as \(3-8\) and so the order in which we write down the numbers is important when we are subtracting them i.e. subtraction is not commutative. Subtracting a negative number is equivalent to adding a positive number, thus \(7-(-3)=7+3=10\).
+    </span>
+    <span class="multilang" lang="no">
+        Vi sier at \(8-3 \) er
+        <strong>
+            forskjell
+        </strong>
+        av \(8 \) og \(3 \).Merk at \(8-3 \) er
+        <em>
+            ikke
+        </em>
+        Det samme som \(3-8 \) og s&#229; rekkef&#248;lgen vi skriver ned tallene er viktig n&#229;r vi trekker dem til &#229; trekke dem, dvs. subtraksjon er ikke kommutativ.&#197; trekke fra et negativt tall tilsvarer &#229; legge til et positivt tall, og dermed \(7-(-3) = 7+3 = 10 \).
+    </span>
+</p>
+<h5>
+    The plus or minus sign (\(\pm\))
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        In engineering calculations we often use the notation
+        <strong>
+            plus or minus
+        </strong>
+        , \(\pm\). For example, we write \(12\pm 8\) as shorthand for the two numbers \(12+8\) and \(12-8\), that is 20 and 4. If we say a number lies in the range \(12\pm 8\) we mean that the number can lie between 4 and 20 inclusive.
+    </span>
+    <span class="multilang" lang="no">
+        I ingeni&#248;rberegninger bruker vi ofte notasjonen
+        <strong>
+            pluss eller minus
+        </strong>
+        , \(\pm \).For eksempel skriver vi \(12\pm 8 \) som kortfattet for de to tallene \(12+8 \) og \(12-8 \), er det 20 og 4. Hvis vi sier at et tall ligger i omr&#229;det\(12 \pm 8 \) Vi mener at antallet kan ligge mellom 4 og 20 inkludert.
+    </span>
+</p>
+<h5>
+    Multiplication (\(\times\))
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The instruction to multiply, or obtain the product of, the numbers 6 and 7 is written \(6\times 7\). Sometimes the multiplication sign is missed out altogether and we write \((6)(7)\). Note that \((6)(7)\) is the same as \((7)(6)\) so multiplication of numbers is commutative. If we are multiplying three numbers, as in \(2\times 3\times 4\), we obtain the same result whether we multiply the 2 and 3 first to obtain \(6\times 4\), or whether we multiply the 3 and 4 first to obtain \(2\times 12\). Either way the result is 24. Multiplication of numbers is associative. Recall that when multiplying positive and negative numbers the sign of the result is given by the rules given in the Key Point below.
+    </span>
+    <span class="multilang" lang="no">
+        Instruksjonen om &#229; multiplisere, eller f&#229; produktet av, tallene 6 og 7 er skrevet \(6 \times 7\).Noen ganger g&#229;r multiplikasjonstegnet glipp av helt, og vi skriver \((6) (7) \).Merk at \((6) (7) \) er det samme som \((7) (6) \) slik at multiplikasjon av tall er kommutativ.Hvis vi multipliserer tre tall, som i \(2 \times 3 \times 4 \), oppn&#229;r vi det samme resultatet enten vi multipliserer 2 og 3 f&#248;rst for &#229; oppn&#229; \(6 \times 4 \), eller om vi multipliserer den 3 og 4 f&#248;rst for &#229; f&#229; \(2 \times 12 \).Uansett er resultatet 24. Multiplikasjon av tall er assosiativ. Husk at n&#229;r du multipliserer positive og negative tall, blir tegnet p&#229; resultatet gitt av reglene gitt i n&#248;kkelpunktet nedenfor.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Sentralt punkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            <strong>
+                Multiplication
+            </strong>
+        </span>
+        <span class="multilang" lang="no">
+            <strong>
+                Multiplikasjon
+            </strong>
+        </span>
+    </p>
+    <ul>
+        <li>
+            positive \(\times\) positive = positive
+        </li>
+        <li>
+            positive \(\times\) negative = negative
+        </li>
+        <li>
+            negative \(\times\) positive = negative
+        </li>
+    </ul>
+    negative \(\times\) negative = positive
+</div>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        For example, \((-4)\times 5 = -20\), and \((-3)\times (-6)=18\).
+    </span>
+    <span class="multilang" lang="no">
+        For eksempel \((-4) \times 5 = -20 \), og \ ((-3) \times (-6) = 18 \).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        When dealing with fractions we sometimes use the word "of" as in"find \(\dfrac{1}{2}\) of 36". In this context "of" is equivalent to multiply, that is
+    </span>
+    <span class="multilang" lang="no">
+        N&#229;r vi arbeider med br&#248;k bruker vi noen ganger ordet "av" som i"find \(\dfrac{1}{2} \) p&#229; 36".I denne sammenhengen er det &#229; multiplisere, det vil si
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad \dfrac{1}{2}\) of 36 is equivalent to \(\dfrac{1}{2}\times 36 = 18\)
+    </span>
+    <span class="multilang" lang="no">
+        \(\qquad \dfrac{1}{2}\) av 36 er ekvivalent til \(\dfrac{1}{2}\times 36 = 18\)
+    </span>
+</p>
+<h5>
+    Division (\(\div\)) or (\(/\))
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The quantity \(8\div 4\) means \(8\) divided by \(4\). This is also written as \(8/4\) or \(\dfrac{8}{4}\) and is known as the
+        <strong>
+            quotient
+        </strong>
+        of \(8\) and \(4\). In the fraction \(\dfrac{8}{4}\) the top line is called the
+        <strong>
+            numerator
+        </strong>
+        and the bottom line is called the
+        <strong>
+            denominator
+        </strong>
+        . Note that \(8/4\) is not the same as \(4/8\) and so the order in which we write down the numbers is important. Division is not commutative.
+    </span>
+    <span class="multilang" lang="no">
+        Mengden \(8 \div 4 \) betyr \(8 \) delt med \(4 \).Dette er ogs&#229; skrevet som \(8/4 \) eller \(\dfrac{8}{4} \) og er kjent som
+        <strong>
+            kvotient
+        </strong>
+        av \(8 \) og \(4 \).I br&#248;kdelen \(\dfrac{8}{4} \) kalles topplinjen
+        <strong>
+            teller
+        </strong>
+        og bunnlinjen kalles
+        <strong>
+            nevner
+        </strong>
+        . Merk at \(8/4 \) ikke er det samme som \(4/8 \), og at rekkef&#248;lgen vi skriver ned tallene er viktig. Divisjon er ikke kommutativ.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        When dividing positive and negative numbers, recall the rules in the Key Point below for determining the sign of the result:
+    </span>
+    <span class="multilang" lang="no">
+        N&#229;r du deler positive og negative tall, m&#229; du huske reglene i n&#248;kkelpunktet nedenfor for &#229; bestemme tegnet p&#229; resultatet:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Sentralt punkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            <strong>
+                Division
+            </strong>
+        </span>
+        <span class="multilang" lang="no">
+            <strong>
+                divisjon
+            </strong>
+        </span>
+    </p>
+    <ul>
+        <li>
+            \(\dfrac{\text{positive}}{\text{positive}} = \text{positive}\)
+            <br/>
+        </li>
+        <li>
+            \(\dfrac{\text{positive}}{\text{negative}} = \text{negative}\)
+            <br/>
+        </li>
+        <li>
+            \(\dfrac{\text{negative}}{\text{positive}} = \text{negative}\)
+            <br/>
+        </li>
+    </ul>
+    \(\dfrac{\text{negative}}{\text{negative}} = \text{positive}\)
+</div>
+<br/>
+<h5>
+    The reciprocal of a number
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The
+        <strong>
+            reciprocal
+        </strong>
+        of a number is found by inverting it. If the number \(\dfrac{2}{3}\) is
+        <strong>
+            inverted
+        </strong>
+        we get \(\dfrac{3}{2}\). So the reciprocal of \(\dfrac{2}{3}\) is \(\dfrac{3}{2}\). Because we can write 4 as \(\dfrac{4}{1}\), the reciprocal of 4 is \(\dfrac{1}{4}\).
+    </span>
+    <span class="multilang" lang="no">
+        De
+        <strong>
+            gjensidig
+        </strong>
+        av et tall blir funnet ved &#229; invertere det.Hvis tallet \(\dfrac{2}{3} \) er
+        <strong>
+            omvendt
+        </strong>
+        Vi f&#229;r \(\dfrac{3}{2} \).S&#229; gjensidigheten til \(\dfrac{2}{3} \) er \(\dfrac{3}{2} \).Fordi vi kan skrive 4 som \(\dfrac{4}{1} \), er gjensidigheten til 4 \(\dfrac{1}{4} \).
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text/>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber/>
+    </question>
+    
+
+</quiz>

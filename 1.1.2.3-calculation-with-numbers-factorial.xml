@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="description">
+        <name>
+            <text>1.1.2.3 Calculation with Numbers - factorial</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h5>
+    The factorial symbol (\(!\))
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        Another commonly used notation is the
+        <strong>
+            factorial
+        </strong>
+        , denoted by the exclamation mark &#226;&#8364;&#732;!&#226;&#8364;&#8482;. The number \(5!\), read &#226;&#8364;&#732;five factorial&#226;&#8364;&#8482;, or &#226;&#8364;&#732;factorial five&#226;&#8364;&#8482;, is a shorthand notation for the expression \(5\times 4 \times 3 \times 2 \times 1\), and the number \(7!\) is shorthand for \(7\times 6\times 5\times 4 \times 3 \times 2 \times 1\). Note that \(1!\) equals 1, and by convention \(0!\) is defined as 1 also. Your scientific calculator is probably able to evaluate factorials of small integers. It is important to note that factorials only apply to positive integers.
+    </span>
+    <span class="multilang" lang="no">
+        En annen ofte brukt notasjon er
+        <strong>
+            factorial
+        </strong>
+        , betegnet med utropstegn "!"Antallet \(5! \), Les "Five Factorial", eller "Factorial Five", er en kortvarig notasjon for uttrykket \(5 \times 4 \times 3 \times 2 \times 1 \), og tallet \(7! \) er kortfattet for \(7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 \).Legg merke til at \(1! \) Tilsvarer 1, og med konvensjon \(0! \) Er ogs&#229; definert som 1.Din vitenskapelige kalkulator er sannsynligvis i stand til &#229; evaluere faktorier av sm&#229; heltall.Det er viktig &#229; merke seg at factorials bare gjelder positive heltall.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Sentralt punkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            <strong>
+                Factorial notation
+            </strong>
+        </span>
+        <span class="multilang" lang="no">
+            <strong>
+                factorial notation
+            </strong>
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            If n is a positve integer then \(\qquad n! = n\times (n-1)\times (n-2)\times ... \times 4 \times 3 \times 2 \times 1\)
+        </span>
+        <span class="multilang" lang="no">
+            Hvis n er et positivt heltall, s&#229; \(\qquad n! = N \times (n-1) \times (n-2) \times ... \times 4 \times 3 \times 2 \times 1 \)
+        </span>
+    </p>
+</div>
+<br/>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+    </span>
+    <span class="multilang" lang="no">
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        Evaluate 4! and 5! without using a calculator.
+    </li>
+    <li>
+        Use your calculator to find \(10\)!.
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        L&#248;sning
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+    </span>
+    <span class="multilang" lang="no">
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        \(4! = 4 \times 3 \times 2 \times 1 = 24\) Similarly, \(5! = 5 \times 4 \times 3 \times 2 \times 1 = 120\) Note that \(5! = 5 \times 4! = 5 \times 24 = 120\)
+    </li>
+    <li>
+        \(10! = 3, 628, 800\)
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text/>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber/>
+    </question>
+    
+
+</quiz>

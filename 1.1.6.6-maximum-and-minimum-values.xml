@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="stack">
+        <name>
+            <text>1.1.6.6 Maximum and Minimum Values</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+Trening
+    </span>
+    <span class="multilang" lang="no">
+        Trening 
+    Trening
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The value of \(x\) is \({@a1@} \pm {@b1@}\). The value of \(y\) is \({@a2@} \pm 5\). Find the maximum and minimum values of the given equations
+Verdien av \ (x \) er \ ({@a1@} \ pm {@b1@} \).Verdien av \ (y \) er \ ({@a2@} \ pm 5 \).Finn maksimale og minimumsverdier for de gitte ligningene
+    </span>
+    <span class="multilang" lang="no">
+        Verdien av \ (x \) er \ ({@a1@} \ pm {@b1@} \).Verdien av \ (y \) er \ ({@a2@} \ pm 5 \).Finn maksimale og minimumsverdier for de gitte ligningene 
+    Verdien av \ (x \) er \ ({@a1@} \ pm {@b1@} \). Verdien av \ (y \) er \ ({@a2@} \ pm 5 \). Finn Maksimale og minimumsverdierfor de gitte ligningene
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <br/>
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        <br/>
+        <br/>
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(\text{max}(x+y) =\) [[input:ans1]] [[validation:ans1]] [[feedback:prt1]]
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                \(\text{min}(x+y) =\) [[input:ans2]] [[validation:ans2]] [[feedback:prt2]]
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(\text{max}(xy) =\) [[input:ans3]] [[validation:ans3]] [[feedback:prt3]]
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                \(\text{min}(xy) =\) [[input:ans4]] [[validation:ans4]] [[feedback:prt4]]
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(\text{max}\left(\dfrac{x}{y}\right) =\) [[input:ans5]] [[validation:ans5]] [[feedback:prt5]]
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                \(\text{min}\left(\dfrac{x}{y}\right) =\) [[input:ans6]] [[validation:ans6]] [[feedback:prt6]]
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(\text{max}\left(\dfrac{y}{x}\right) =\) [[input:ans7]] [[validation:ans7]] [[feedback:prt7]]
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                \(\text{min}\left(\dfrac{y}{x}\right) =\) [[input:ans8]] [[validation:ans8]] [[feedback:prt8]]
+            </span>
+        </p>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        We have that \(x\) is given by \({@a1@} \pm {@b1@}\) and hence it can take the values \({@a1@} + {@b1@} = {@a1+b1@}\) or \({@a1@} - {@b1@} = {@a1-b1@}\)
+    </span>
+    <span class="multilang" lang="no">
+        Vi har at \ (x \) er gitt av \ ({@a1@} \ pm {@b1@} \), og derfor kan det ta verdiene \ ({@a1@} + {@b1@} = {@a1+b1@} \) eller \ ({@a1@} - {@b1@} = {@a1 -b1@} \)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Similarly \(y\) is given by \({@a2@} \pm 5\) and hence it can take the values \({@a2@} + 5 = {@a2+5@}\) or \({@a2@} - 5 = {@a2-5@}\)
+    </span>
+    <span class="multilang" lang="no">
+        Tilsvarende \ (y \) er gitt av \ ({@a2@} \ pm 5 \), og derfor kan det ta verdiene \ ({@a2@} + 5 = {@a2 + 5@} \) eller \ ({@a2@} - 5 = {@a2-5@} \)
+    </span>
+</p>
+<br/>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            <p>
+                <span class="multilang" lang="en">
+                    A sum of two elements is maximised when the two elements themselves are maximised hence:
+                </span>
+                <span class="multilang" lang="no">
+                    En sum av to elementer maksimeres n&#229;r de to elementene i seg selv maksimeres derav:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \(\begin{align} \text{max}(x+y) &amp; = \text{max}(x) + \text{max}(y) \\ &amp;= \text{max}({@a1-b1@},{@a1+b1@}) + \text{max}({@a2-5@},{@a2+5@}) \\ &amp;= {@a1+b1@} + {@a2+5@} = {@ta1a@} \end{align}\)
+                </span>
+                <span class="multilang" lang="no">
+                    \(\begin{align} \text{max}(x+y) &amp; = \text{max}(x) + \text{max}(y) \\ &amp;= \text{max}({@a1-b1@},{@a1+b1@}) + \text{max}({@a2-5@},{@a2+5@}) \\ &amp;= {@a1+b1@} + {@a2+5@} = {@ta1a@} \end{align}\)
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    Similarly the sum of two elements is minimised when the two elements themselves are minimised hence:
+                </span>
+                <span class="multilang" lang="no">
+                    Tilsvarende minimeres summen av to elementer n&#229;r de to elementene i seg selv minimeres derav:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \(\begin{align} \text{min}(x+y) &amp; = \text{min}(x) + \text{min}(y) \\ &amp;= \text{min}({@a1-b1@},{@a1+b1@}) + \text{min}({@a2-5@},{@a2+5@}) \\ &amp;= {@a1-b1@} + {@a2-5@} = {@ta1b@} \end{align}\)
+                </span>
+                <span class="multilang" lang="no">
+                    \(\begin{align} \text{min}(x+y) &amp; = \text{min}(x) + \text{min}(y) \\ &amp;= \text{min}({@a1-b1@},{@a1+b1@}) + \text{min}({@a2-5@},{@a2+5@}) \\ &amp;= {@a1-b1@} + {@a2-5@} = {@ta1b@} \end{align}\)
+                </span>
+            </p>
+        </span>
+        <span class="multilang" lang="no">
+            <p>
+                <span class="multilang" lang="en">
+                    en sum av to elementer maksimeres n&#229;r de to elementene i seg selv maksimeres derav:
+                </span>
+                <span class="multilang" lang="no">
+                    en sum av til element&#248;r maksimeres n&#229;r de til elementene i seg selv selv Maksimeres derav:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \ (\ begynn {align} \ text {max} (x + y) &amp; amp; = \ tekst {max} (x) + \ tekst {max}(y) \\ &amp; amp; = \ tekst {max} ({@a1-b1@}, {@a1+b1@})+\ tekst {max} ({@a2-5@}, {@a2+5@}) \\ &amp; amp; = {@a1+b1@}+{@a2+5@} = {@ta1a@} \ end {align} \)
+                </span>
+                <span class="multilang" lang="nei">
+                    \ (\ begynn {align} \ text {max} (x + y) &amp; amp; = \ tekst {max} (x) + \ tekst {max} (y)\\ &amp; amp; = \ tekst {max} ({@a1-b1@}, {@a1+b1@})+\ tekst {max} ({@a2-5@}, {@a2+5@})\\ &amp; amp; = {@a1+b1@}+{@a2+5@} = {@ta1a@} \ end {align} \)
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    Tilsvarende er summen av to elementer minimert n&#229;r de to elementene i seg selv minimeres derav:
+                </span>
+                <span class="multilang" lang="no">
+                    tilsvarende minimeres summ aV til elementer n&#229;r de to elementene i seg selv minimeres derav:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \ (\ begynn {align} \ text {min} (x + y) &amp; amp; = \ tekst {min} (x) + \ tekst {min}(y) \\ &amp; amp; = \ tekst {min} ({@a1-b1@}, {@a1+b1@})+\ tekst {min} ({@a2-5@}, {@a2+5@}) \\ &amp; amp; = {@a1-b1@} + {@a2-5@} = {@ta1b@} \ end {align} \)
+                </span>
+                <span class="multilang" lang="nei">
+                    \ (\ begynn {align} \ text {min} (x + y) &amp; amp; = \ tekst {min} (x) + \ tekst {min} (y)\\ &amp; amp; = \ tekst {min} ({@a1-b1@}, {@a1+b1@})+\ tekst {min} ({@a2-5@}, {@a2+5@})\\ &amp; amp; = {@a1-b1@} + {@a2-5@} = {@ta1b@} \ end {align} \)
+                </span>
+            </p>
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            <p>
+                <span class="multilang" lang="en">
+                    A procuct of two elements is also maximised when the two elements themselves are maximised hence:
+                </span>
+                <span class="multilang" lang="no">
+                    Et produkt av to elementer maksimeres ogs&#229; n&#229;r de to elementene i seg selv maksimeres derav:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \(\begin{align} \text{max}(xy) &amp;= \text{max}(x \times y) = \text{max}(x) \times \text{max}(y) \\ &amp;= \text{max}({@a1-b1@},{@a1+b1@}) \times \text{max}({@a2-5@},{@a2+5@}) \\ &amp;= {@a1+b1@} \times {@a2+5@} = {@ta2a@} \end{align}\)
+                </span>
+                <span class="multilang" lang="no">
+                    \(\begin{align} \text{max}(xy) &amp;= \text{max}(x \times y) = \text{max}(x) \times \text{max}(y) \\ &amp;= \text{max}({@a1-b1@},{@a1+b1@}) \times \text{max}({@a2-5@},{@a2+5@}) \\ &amp;= {@a1+b1@} \times {@a2+5@} = {@ta2a@} \end{align}\)
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    Similarly the product of two elements is minimised when the two elements themselves are minimised hence:
+                </span>
+                <span class="multilang" lang="no">
+                    Tilsvarende er produktet av to elementer minimert n&#229;r de to elementene i seg selv minimeres derav:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \(\begin{align} \text{min}(xy) &amp;= \text{min}(x \times y) = \text{min}(x) \times \text{min}(y) \\ &amp;= \text{min}({@a1-b1@},{@a1+b1@}) \times \text{min}({@a2-5@},{@a2+5@}) \\ &amp;= {@a1-b1@} \times {@a2-5@} = {@ta2b@} \end{align}\)
+                </span>
+                <span class="multilang" lang="no">
+                    \(\begin{align} \text{min}(xy) &amp;= \text{min}(x \times y) = \text{min}(x) \times \text{min}(y) \\ &amp;= \text{min}({@a1-b1@},{@a1+b1@}) \times \text{min}({@a2-5@},{@a2+5@}) \\ &amp;= {@a1-b1@} \times {@a2-5@} = {@ta2b@} \end{align}\)
+                </span>
+            </p>
+        </span>
+        <span class="multilang" lang="no">
+            <p>
+                <span class="multilang" lang="en">
+                    En prosess av to elementer er ogs&#229; maksimert n&#229;r de to elementene i seg selv maksimeres derav:
+                </span>
+                <span class="multilang" lang="no">
+                    et produkt av til element&#248;r maksimeres ogs&#229; n&#229;r de til elementene i seg selv maksimeres derav:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \ (\ begynn {align} \ text {max} (xy) &amp; amp; = \ tekst {max} (x \ ganger y) = \ tekst {max} (x) \ ganger \ tekst {max} (y) \\ &amp; amp; = \ tekst {max} ({@a1-b1@}, {@a1+b1@}) \ ganger \ tekst {max} ({@a2-5@}, {@a2+5@}) \\ &amp; amp; = {@a1+b1@} \ ganger {@a2+5@} = {@ta2a@} \ end {align} \)
+                </span>
+                <span class="multilang" lang="no">
+                    \ (\ begynn {align} \ text {max} (xy) &amp; amp; = \ tekst {max} (x \ ganger y) = \ tekst {max} (x) \ ganger \ tekst {max} (y) \\ &amp; amp; = \ tekst {max} ({@a1-b1@}, {@a1+b1@}) \ ganger \ tekst {max} ({@a2-5@}, {@a2+5@}) \\ &amp; amp; = {@a1+b1@} \ ganger {@a2+5@} = {@ta2a@} \ end {align} \)
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    Tilsvarende er produktet av to elementer minimert n&#229;r de to elementene i seg selv minimeres derav:
+                </span>
+                <span class="multilang" lang="no">
+                    tilsvarende er produktet av til element&#248;r minimert n&#229;r de til elementene i seg selv minimeres derav:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \ (\ begynn {align} \ text {min} (xy) &amp; amp; = \ tekst {min} (x \ ganger y) = \ tekst {min} (x) \ ganger \ tekst {min} (y) \\ &amp; amp; = \ tekst {min} ({@a1-b1@}, {@a1+b1@}) \ ganger \ tekst {min} ({@a2-5@}, {@a2+5@}) \\ &amp; amp; = {@a1-b1@} \ ganger {@a2-5@} = {@ta2b@} \ end {align} \)
+                </span>
+                <span class="multilang" lang="nei">
+                    \ (\ begynn {align} \ text {min} (xy) &amp; amp; = \ tekst {min} (x \ ganger y) = \ tekst {min} (x) \ ganger \ tekst {min} (y) \\ &amp; amp; = \ tekst {min} ({@a1-b1@}, {@a1+b1@}) \ ganger \ tekst {min} ({@a2-5@}, {@a2+5@}) \\ &amp; amp; = {@a1-b1@} \ ganger {@a2-5@} = {@ta2b@} \ end {align} \)
+                </span>
+            </p>
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            <p>
+                <span class="multilang" lang="en">
+                    A fraction of two elements is maximised when the numerator is maximised and the denominator is minimised:
+                </span>
+                <span class="multilang" lang="no">
+                    En br&#248;kdel av to elementer maksimeres n&#229;r telleren maksimeres og nevneren minimeres:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \( \text{max}\left(\dfrac{x}{y}\right) = \dfrac{\text{max}(x)}{\text{min}(y)} = \dfrac{\text{max}({@a1-b1@},{@a1+b1@})}{\text{min}({@a2-5@},{@a2+5@})} = \dfrac{{@a1+b1@}}{{@a2-5@}}\)
+                </span>
+                <span class="multilang" lang="no">
+                    \( \text{max}\left(\dfrac{x}{y}\right) = \dfrac{\text{max}(x)}{\text{min}(y)} = \dfrac{\text{max}({@a1-b1@},{@a1+b1@})}{\text{min}({@a2-5@},{@a2+5@})} = \dfrac{{@a1+b1@}}{{@a2-5@}}\)
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    Similarly a fraction of two elements is minimised when the numerator is minimised and the denominator is maximised:
+                </span>
+                <span class="multilang" lang="no">
+                    Tilsvarende minimeres en br&#248;kdel av to elementer n&#229;r telleren minimeres og nevneren maksimeres:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                </span>
+                <span class="multilang" lang="no">
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \( \text{min}\left(\dfrac{x}{y}\right) = \dfrac{\text{min}(x)}{\text{max}(y)} = \dfrac{\text{min}({@a1-b1@},{@a1+b1@})}{\text{max}({@a2-5@},{@a2+5@})} = \dfrac{{@a1-b1@}}{{@a2+5@}}\)
+                </span>
+                <span class="multilang" lang="no">
+                    \( \text{min}\left(\dfrac{x}{y}\right) = \dfrac{\text{min}(x)}{\text{max}(y)} = \dfrac{\text{min}({@a1-b1@},{@a1+b1@})}{\text{max}({@a2-5@},{@a2+5@})} = \dfrac{{@a1-b1@}}{{@a2+5@}}\)
+                </span>
+            </p>
+        </span>
+        <span class="multilang" lang="no">
+            <p>
+                <span class="multilang" lang="en">
+                    En br&#248;kdel av to elementer maksimeres n&#229;r telleren maksimeres og nevneren minimeres:
+                </span>
+                <span class="multilang" lang="no">
+                    en br&#248;kdel av til element&#248;r maksimeres n&#229;r telleren maksimeres og nevneren minimeres:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \ (\ tekst {max} \ venstre (\ dfrac {x} {y} \ h&#248;yre) = \ dfrac {\ text {max} (x)}{\ text {min} (y)} = \ dfrac {\ text {max} ({@a1-b1@}, {@a1+b1@})} {\ text {min} (@a2-5@}, {@a2+5@})} = \ dfrac {{@a1+b1@}} {{@a2-5@}} \)
+                </span>
+                <span class="multilang" lang="no">
+                    \ (\ tekst {max} \ venstre (\ dfrac {x} {y} \ h&#248;yre) = \ dfrac {\ text {max} (x)} {\ tekst{min} (y)} = \ dfrac {\ text {max} ({@a1-b1@}, {@a1+b1@})} {\ text {min} ({@a2-5@}, {@a2+5@})} = \ dfrac {{@a1+b1@}} {{@a2-5@}} \)
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    Tilsvarende er en br&#248;kdel av to elementer minimert n&#229;r telleren minimeres og nevneren maksimeres:
+                </span>
+                <span class="multilang" lang="no">
+                    tilsvarende minimeres en br&#248;kdel av til element&#248;r n&#229;r telleren minimeres og nevneren maksimeres:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                </span>
+                <span class="multilang" lang="no">
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \ (\ tekst {min} \ venstre (\ dfrac {x} {y} \ h&#248;yre) = \ dfrac {\ tekst {min} (x)}{\ text {max} (y)} = \ dfrac {\ text {min} ({@a1-b1@}, {@a1+b1@})} {\ text {max} ({@a2-5@}, {@a2+5@})} = \ dfrac {{@a1-b1@}} {{@a2+5@}} \)
+                </span>
+                <span class="multilang" lang="no">
+                    \ (\ tekst {min} \ venstre (\ dfrac {x} {y} \ h&#248;yre) = \ dfrac {\ text {min} (x)} {\ tekst{max} (y)} = \ dfrac {\ text {min} ({@a1-b1@}, {@a1+b1@})} {\ text {max} ({@a2-5@}, {@a2+5@})} = \ dfrac {{@a1-b1@}} {{@a2+5@}} \)
+                </span>
+            </p>
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            <p>
+                <span class="multilang" lang="en">
+                    Just as above the fraction is maximised when the numerator is maximised and the denominator is minimised:
+                </span>
+                <span class="multilang" lang="no">
+                    Akkurat som over er br&#248;kdelen maksimert n&#229;r telleren maksimeres og nevneren minimeres:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \( \text{max}\left(\dfrac{y}{x}\right) = \dfrac{\text{max}(y)}{\text{min}(x)} = \dfrac{\text{max}({@a2-5@},{@a2+5@})}{\text{min}({@a1-b1@},{@a1+b1@})} = \dfrac{{@a2+5@}}{{@a1-b1@}}\)
+                </span>
+                <span class="multilang" lang="no">
+                    \( \text{max}\left(\dfrac{y}{x}\right) = \dfrac{\text{max}(y)}{\text{min}(x)} = \dfrac{\text{max}({@a2-5@},{@a2+5@})}{\text{min}({@a1-b1@},{@a1+b1@})} = \dfrac{{@a2+5@}}{{@a1-b1@}}\)
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    And again the fraction is minimised when the numerator is minimised and the denominator is maximised:
+                </span>
+                <span class="multilang" lang="no">
+                    Og igjen minimeres br&#248;kdelen n&#229;r telleren minimeres og nevneren maksimeres:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \( \text{min}\left(\dfrac{y}{x}\right) = \dfrac{\text{min}(y)}{\text{max}(x)} = \dfrac{\text{min}({@a2-5@},{@a2+5@})}{\text{max}({@a1-b1@},{@a1+b1@})} = \dfrac{{@a2-5@}}{{@a1+b1@}}\)
+                </span>
+                <span class="multilang" lang="no">
+                    \( \text{min}\left(\dfrac{y}{x}\right) = \dfrac{\text{min}(y)}{\text{max}(x)} = \dfrac{\text{min}({@a2-5@},{@a2+5@})}{\text{max}({@a1-b1@},{@a1+b1@})} = \dfrac{{@a2-5@}}{{@a1+b1@}}\)
+                </span>
+            </p>
+        </span>
+        <span class="multilang" lang="no">
+            <p>
+                <span class="multilang" lang="en">
+                    akkurat som over br&#248;kdelen maksimeres n&#229;r telleren maksimeres og nevneren minimeres:
+                </span>
+                <span class="multilang" lang="no">
+                    Akkurat som over er br&#216;Kdelen Maksimert N&#229;r telleren Maksimeres OG Nevneren Minimeres:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \ (\ tekst {max} \ venstre (\ dfrac {y} {x} \ h&#248;yre) = \ dfrac {\ text {max} (y)}{\ text {min} (x)} = \ dfrac {\ text {max} ({@a2-5@}, {@a2+5@})} {\ text {min} ({@a1-b1@}, {@a1+b1@})} = \ dfrac {{@a2+5@}} {{@a1-b1@}} \)
+                </span>
+                <span class="multilang" lang="no">
+                    \ (\ tekst {max} \ venstre (\ dfrac {y} {x} \ h&#248;yre) = \ dfrac {\ text {max} (y)} {\ tekst{min} (x)} = \ dfrac {\ text {max} ({@a2-5@}, {@a2+5@})} {\ text {min} ({@a1-b1@}, {@a1+b1@})} = \ dfrac {{@a2+5@}} {{@a1-b1@}} \)
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    og igjen minimeres br&#248;kdelen n&#229;r telleren minimeres og nevneren maksimeres:
+                </span>
+                <span class="multilang" lang="no">
+                    og igjen minimeres br&#248;kdelen N&#229;r Telleren Minimeres OG Nevneren Maksimeres:
+                </span>
+            </p>
+            <p>
+                <span class="multilang" lang="en">
+                    \ (\ tekst {min} \ venstre (\ dfrac {y} {x} \ h&#248;yre) = \ dfrac {\ text {min} (y)}{\ text {max} (x)} = \ dfrac {\ text {min} ({@a2-5@}, {@a2+5@})} {\ text {max} ({@a1-b1@}, {@a1+b1@})} = \ dfrac {{@a2-5@}} {{@a1+b1@}} \)
+                </span>
+                <span class="multilang" lang="no">
+                    \ (\ tekst {min} \ venstre (\ dfrac {y} {x} \ h&#248;yre) = \ dfrac {\ text {min} (y)} {\ tekst{max} (x)} = \ dfrac {\ text {min} ({@a2-5@}, {@a2+5@})} {\ text {max} ({@a1-b1@}, {@a1+b1@})} = \ dfrac {{@a2-5@}} {{@a1+b1@} \ \)
+                </span>
+            </p>
+        </span>
+    </li>
+</ol>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber/>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>a1: rand([80,90,100]);
+b1: rand([2,3])
+a2: rand([110,120,130]);
+
+ta1a: (a1+b1)+(a2+5);
+ta1b: (a1-b1)+(a2-5);
+ta2a: (a1+b1)*(a2+5);
+ta2b: (a1-b1)*(a2-5);
+ta3a: (a1+b1)/(a2-5);
+ta3b: (a1-b1)/(a2+5);
+ta4a: (a2+5)/(a1-b1);
+ta4b: (a2-5)/(a1+b1);</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text/>
+        </specificfeedback>
+        <questionnote>
+            <text>\(x = {@a1@} \pm {@b1@}, y = {@a2@} \pm 5\)</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+Correct answer, well done.
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+Your answer is partially correct.
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+Incorrect answer.
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>dot</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed/>
+        <input>
+            <name>ans1</name>
+            <type>numerical</type>
+            <tans>ta1a</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint/>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>max,min,+,*</forbidwords>
+            <allowwords/>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options/>
+        </input>
+        <input>
+            <name>ans2</name>
+            <type>numerical</type>
+            <tans>ta1b</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint/>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>max,min,+,*</forbidwords>
+            <allowwords/>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options/>
+        </input>
+        <input>
+            <name>ans3</name>
+            <type>numerical</type>
+            <tans>ta2a</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint/>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>max,min,+,*</forbidwords>
+            <allowwords/>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options/>
+        </input>
+        <input>
+            <name>ans4</name>
+            <type>numerical</type>
+            <tans>ta2b</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint/>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>max,min,+,*</forbidwords>
+            <allowwords/>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options/>
+        </input>
+        <input>
+            <name>ans5</name>
+            <type>numerical</type>
+            <tans>ta3a</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint/>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>max,min,+,*</forbidwords>
+            <allowwords/>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options/>
+        </input>
+        <input>
+            <name>ans6</name>
+            <type>numerical</type>
+            <tans>ta3b</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint/>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>max,min,+,*</forbidwords>
+            <allowwords/>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options/>
+        </input>
+        <input>
+            <name>ans7</name>
+            <type>numerical</type>
+            <tans>ta4a</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint/>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>max,min,+,*</forbidwords>
+            <allowwords/>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options/>
+        </input>
+        <input>
+            <name>ans8</name>
+            <type>numerical</type>
+            <tans>ta4b</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint/>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>max,min,+,*</forbidwords>
+            <allowwords/>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options/>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text/>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>NumRelative</answertest>
+                <sans>ans1</sans>
+                <tans>ta1a</tans>
+                <testoptions>0</testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1.0000000</truescore>
+                <truepenalty/>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text/>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0.0000000</falsescore>
+                <falsepenalty/>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text/>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt2</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text/>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>NumRelative</answertest>
+                <sans>ans2</sans>
+                <tans>ta1b</tans>
+                <testoptions>0</testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1.0000000</truescore>
+                <truepenalty/>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt2-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text/>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0.0000000</falsescore>
+                <falsepenalty/>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt2-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text/>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt3</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text/>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>NumRelative</answertest>
+                <sans>ans3</sans>
+                <tans>ta2a</tans>
+                <testoptions>0</testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1.0000000</truescore>
+                <truepenalty/>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt3-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text/>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0.0000000</falsescore>
+                <falsepenalty/>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt3-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text/>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt4</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text/>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>NumRelative</answertest>
+                <sans>ans4</sans>
+                <tans>ta2b</tans>
+                <testoptions>0</testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1.0000000</truescore>
+                <truepenalty/>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt4-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text/>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0.0000000</falsescore>
+                <falsepenalty/>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt4-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text/>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt5</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text/>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>NumRelative</answertest>
+                <sans>ans5</sans>
+                <tans>ta3a</tans>
+                <testoptions>0</testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1.0000000</truescore>
+                <truepenalty/>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt5-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text/>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0.0000000</falsescore>
+                <falsepenalty/>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt5-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text/>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt6</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text/>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>NumRelative</answertest>
+                <sans>ans6</sans>
+                <tans>ta3b</tans>
+                <testoptions>0</testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1.0000000</truescore>
+                <truepenalty/>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt6-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text/>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0.0000000</falsescore>
+                <falsepenalty/>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt6-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text/>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt7</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text/>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>NumRelative</answertest>
+                <sans>ans7</sans>
+                <tans>ta4a</tans>
+                <testoptions>0</testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1.0000000</truescore>
+                <truepenalty/>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt7-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text/>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0.0000000</falsescore>
+                <falsepenalty/>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt7-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text/>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt8</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text/>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>NumRelative</answertest>
+                <sans>ans8</sans>
+                <tans>ta4b</tans>
+                <testoptions>0</testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1.0000000</truescore>
+                <truepenalty/>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt8-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text/>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0.0000000</falsescore>
+                <falsepenalty/>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt8-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text/>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>1764436633</deployedseed>
+        <deployedseed>1962673009</deployedseed>
+        <deployedseed>515129062</deployedseed>
+        <deployedseed>1606444801</deployedseed>
+        <deployedseed>941824693</deployedseed>
+        <deployedseed>851098399</deployedseed>
+        <deployedseed>264995121</deployedseed>
+        <deployedseed>256216365</deployedseed>
+        <deployedseed>659542646</deployedseed>
+        <deployedseed>198188064</deployedseed>
+        <deployedseed>860907817</deployedseed>
+        <deployedseed>676755923</deployedseed>
+        <deployedseed>1845734879</deployedseed>
+        <deployedseed>1432590085</deployedseed>
+        <deployedseed>1018522069</deployedseed>
+        <deployedseed>1562243830</deployedseed>
+        <deployedseed>404420165</deployedseed>
+        <deployedseed>996860359</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ta1a</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>ta1b</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>ta2a</value>
+            </testinput>
+            <testinput>
+                <name>ans4</name>
+                <value>ta2b</value>
+            </testinput>
+            <testinput>
+                <name>ans5</name>
+                <value>ta3a</value>
+            </testinput>
+            <testinput>
+                <name>ans6</name>
+                <value>ta3b</value>
+            </testinput>
+            <testinput>
+                <name>ans7</name>
+                <value>ta4a</value>
+            </testinput>
+            <testinput>
+                <name>ans8</name>
+                <value>ta4b</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt2</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt2-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt3</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt3-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt4</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt4-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt5</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt5-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt6</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt6-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt7</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt7-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt8</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt8-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+    
+
+</quiz>

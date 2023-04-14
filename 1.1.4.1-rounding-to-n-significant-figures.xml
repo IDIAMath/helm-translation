@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="description">
+        <name>
+            <text>1.1.4.1 Rounding to n Significant Figures</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Rounding to n Significant Figures
+        <br/>
+    </span>
+    <span class="multilang" lang="no">
+        Avrunding til N viktige figurer
+        <br/>
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        This process is similar to rounding to decimal places but there are some subtle differences.
+    </span>
+    <span class="multilang" lang="no">
+        Denne prosessen ligner avrunding til desimaler, men det er noen subtile forskjeller.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        To round a number to \(n\) significant figures we look at the \((n+1)^{th}\) digit in the decimal expansion of the number.
+    </span>
+    <span class="multilang" lang="no">
+        For &#229; runde et tall til \ (n \) Viktige tall ser vi p&#229; \ ((n+1)^{th} \) sifferet i desimalutvidelsen av tallet.
+    </span>
+</p>
+<ul>
+    <li>
+        If the \((n+1)^{th}\) digit is 0, 1, 2, 3 or 4 then we : that is, we simply chop to \(n\) places, inserting zeros if necessary before the decimal point. (In other words we neglect the \((n+1)^{th}\) digit and any digits to its right.)
+    </li>
+    <li>
+        If the \((n+1)^{th}\) digit is 5, 6, 7, 8 or 9 then we : we add \(1\) to the \(n^{th}\) decimal place and then chop to \(n\) places, inserting zeros if necessary before the decimal point.
+    </li>
+</ul>
+<p>
+    <span class="multilang" lang="en">
+        For example
+    </span>
+    <span class="multilang" lang="no">
+        For eksempel
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad\qquad\qquad\begin{aligned} \dfrac{1}{3} &amp;= 0.3333 &amp; \qquad &amp; \mbox{rounded to 4 significant figures} \\ \pi &amp;= 3.14159 &amp; \qquad &amp; \mbox{rounded to 6 significant figures}\\ \dfrac{8}{3} &amp;= 2.667 &amp; \qquad &amp; \mbox{rounded
+                to 4 significant figures}\\ 2136 &amp;= 2000 &amp; \qquad &amp; \mbox{rounded to 1 significant figure}\\ 36.78 &amp;= 37 &amp; \qquad &amp; \mbox{rounded to 2 significant figures}\\ 6.2399 &amp;= 6.240 &amp; \qquad &amp; \mbox{rounded to 4 significant
+                figures} \end{aligned}\)
+    </span>
+    <span class="multilang" lang="no">
+        \(\qquad\qquad\qquad\begin{aligned} \dfrac{1}{3} &amp;= 0.3333 &amp; \qquad &amp; \mbox{rounded to 4 significant figures} \\ \pi &amp;= 3.14159 &amp; \qquad &amp; \mbox{rounded to 6 significant figures}\\ \dfrac{8}{3} &amp;= 2.667 &amp; \qquad &amp; \mbox{rounded
+                to 4 significant figures}\\ 2136 &amp;= 2000 &amp; \qquad &amp; \mbox{rounded to 1 significant figure}\\ 36.78 &amp;= 37 &amp; \qquad &amp; \mbox{rounded to 2 significant figures}\\ 6.2399 &amp;= 6.240 &amp; \qquad &amp; \mbox{rounded to 4 significant
+                figures} \end{aligned}\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Sometimes the phrase &#226;&#8364;&#339;significant figures" is abbreviated as &#226;&#8364;&#339;s.f." or &#226;&#8364;&#339;sig.fig."
+    </span>
+    <span class="multilang" lang="no">
+        Noen ganger blir uttrykket "viktige figurer" forkortet som &#226; &#8364; &#339;S.f. "eller &#226; &#8364; &#339;Sig.fig. "
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+    </span>
+    <span class="multilang" lang="no">
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Write down each of these numbers rounded to 4 significant figures:
+    </span>
+    <span class="multilang" lang="no">
+        Skriv ned hvert av disse tallene avrundet til 4 viktige tall:
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(0.12345\)
+    </li>
+    <li>
+        \(-0.44444\)
+    </li>
+    <li>
+        \(0.5555555\)
+    </li>
+    <li>
+        \(0.000127351\)
+    </li>
+    <li>
+        \(25679\)
+    </li>
+    <li>
+        \(123.456789\)
+    </li>
+    <li>
+        \(3456543\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        L&#248;sning
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        \(0.12345\) rounded to 4 significant figures becomes \(0.1235.\)
+    </li>
+    <li>
+        \(-0.44444\) rounded to 4 significant figures becomes \(-0.4444.\)
+    </li>
+    <li>
+        \(0.5555555\) rounded to 4 significant figures becomes \(0.5556.\)
+    </li>
+    <li>
+        \(0.000127351\) rounded to 4 significant figures becomes \(0.0001274.\)
+    </li>
+    <li>
+        \(25679\) rounded to 4 significant figures becomes \(25680.\)
+    </li>
+    <li>
+        \(123.456789\) rounded to 4 significant figures becomes \(123.5.\)
+    </li>
+    <li>
+        \(3456543\) rounded to 4 significant figures becomes \(3457000.\)
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text/>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber/>
+    </question>
+    
+
+</quiz>

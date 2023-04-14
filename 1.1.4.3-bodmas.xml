@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<question type="description">
+        <name>
+            <text>1.1.4.3 BODMAS</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Evaluate \(8 \div 2 - (4 - 5)\)
+    </span>
+    <span class="multilang" lang="no">
+        Evaluere \ (8 \ div 2 -(4 - 5) \)
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        L&#248;sning
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The bracketed expression is evaluated first:
+    </span>
+    <span class="multilang" lang="no">
+        Det brakete uttrykket blir evaluert f&#248;rst:
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad 8 \div 2 - (4 - 5) = 8 \div 2 - (-1)\)
+    </span>
+    <span class="multilang" lang="no">
+        \(\qquad 8 \div 2 - (4 - 5) = 8 \div 2 - (-1)\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Division has higher priority than subtraction and so this is carried out next giving
+    </span>
+    <span class="multilang" lang="no">
+        Divisjon har h&#248;yere prioritet enn subtraksjon, og dette blir utf&#248;rt neste gir
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad 8 \div 2 - (-1) = 4 - (-1)\)
+    </span>
+    <span class="multilang" lang="no">
+        \(\qquad 8 \div 2 - (-1) = 4 - (-1)\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Subtracting a negative number is equivalent to adding a positive number. Thus
+    </span>
+    <span class="multilang" lang="no">
+        &#197; trekke fra et negativt tall tilsvarer &#229; legge til et positivt tall.Dermed
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad 4 - (-1) = 4 + 1 = 5\)
+    </span>
+    <span class="multilang" lang="no">
+        \(\qquad 4 - (-1) = 4 + 1 = 5\)
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text/>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber/>
+    </question>
+    
+
+</quiz>
