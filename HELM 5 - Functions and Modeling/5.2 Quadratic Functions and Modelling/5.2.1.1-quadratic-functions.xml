@@ -1,0 +1,182 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>5.2.1.1 Quadratische Funktionen [Quadratic functions]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p>
+</p>
+<h4>
+    <span class="multilang" lang="en">
+        Quadratic functions and parabolas
+    </span>
+    <span class="multilang" lang="de">
+        Quadratische Funktionen und Parabeln
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Graphs of \(y\) against \(x\) resulting from quadratic functions are called
+        <b>
+            parabolas
+        </b>
+        . These take the general form: \(y=ax^2+bx+c\). The coefficients \(a, b\) and \(c\) influence the shape, form and position of the graph of the associated parabola.
+                They are the
+        <b>
+            parameters
+        </b>
+        of the parabola. In particular the magnitude of \(a\) determines how wide the parabola opens (large \(a\) implies a narrow parabola, small \(a\) implies a wide parabola) and the sign of \(a\) determines whether the parabola
+                has a lowest point (minimum) or a highest point (maximum). Negative \(a\) implies a parabola with a highest point. The most useful form of the equation for determining the graphical appearance of a parabola is \(y - C = A(x - B)^2\). To see the relation
+        between this form and the general form simply expand:
+    </span>
+    <span class="multilang" lang="de">
+        Graphen von \(y\) gegen \(x\), die aus quadratischen Funktionen resultieren, werden
+        <b>
+            Parabeln
+        </b>
+        genannt. Diese haben die allgemeine Form: \(y=ax^2+bx+c\). Die Koeffizienten \(a, b\) und \(c\) beeinflussen Form, Gestalt und Lage des Graphen der zugehörigen Parabel.
+                Sie sind die
+        <b>
+            Parameter
+        </b>
+        der Parabel. Insbesondere die Größe von \(a\) bestimmt, wie weit sich die Parabel öffnet (großes \(a\) impliziert eine schmale Parabel, kleines \(a\) impliziert eine breite Parabel) und das Vorzeichen von \(a\) bestimmt, ob die Parabel
+                einen niedrigsten Punkt (Minimum) oder einen höchsten Punkt (Maximum) hat. Ein negatives \(a\) impliziert eine Parabel mit einem höchsten Punkt. Die nützlichste Form der Gleichung zur Bestimmung der grafischen Darstellung einer Parabel ist \(y - C = A(x - B)^2\). Um den Zusammenhang 
+        zwischen dieser Form und der allgemeinen Form zu sehen, erweitern Sie einfach:
+    </span>
+</p>
+<p>
+    \(\qquad y=Ax^2-2ABx+AB^2+C\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        so, comparing with \(y=ax^2+bx+c\) we have:
+    </span>
+    <span class="multilang" lang="de">
+        also, verglichen mit \(y=ax^2+bx+c\) erhalten wir:
+    </span>
+</p>
+<p>
+    \(\qquad a\equiv A,\quad b\equiv -2AB\quad c\equiv AB^2+C\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We deduce that the relation between the two sets of constants \(A,B,C\) and \(a, b, c\) is:
+    </span>
+    <span class="multilang" lang="de">
+        Wir folgern daraus, dass die Beziehung zwischen den beiden Mengen von Konstanten \(A,B,C\) und \(a, b, c\) ist:
+    </span>
+</p>
+<p>
+    \(\qquad A=a\qquad B=-\frac{b}{2a}\quad \text{
+    <span class="multilang" lang="en">
+        and
+    </span>
+    <span class="multilang" lang="de">
+        und
+    </span>
+    }\quad C=c-\frac{b^2}{4a}\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        This new form for the parabola enables the coordinates of the highest or lowest point, known as the
+        <b>
+            vertex
+        </b>
+        to be written down immediately. The coordinates of the vertex are given by \((B,C)\). Changing the value of \(B\) shifts the vertex, and
+                hence the whole parabola, up or down. Changing the value of \(C\) shifts the vertex, and hence the whole parabola, to left or right.
+    </span>
+    <span class="multilang" lang="de">
+        Diese neue Form der Parabel ermöglicht das sofortige Aufschreiben der Koordinaten des höchsten oder tiefsten Punktes, des sogenannten
+        <b>
+            Scheitelpunkts
+        </b>
+        . Die Koordinaten des Scheitelpunkts sind gegeben durch \((B,C)\). Das Ändern des Werts von \(B\) verschiebt den Scheitelpunkt, und
+                daher die ganze Parabel, nach oben oder unten. Das Ändern des Werts von \(C\) verschiebt den Scheitelpunkt und damit die gesamte Parabel nach links oder rechts.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Assume the variation of an object’s location with time is represented by a quadratic function:
+    </span>
+    <span class="multilang" lang="de">
+        Nehmen Sie an, dass die Veränderung des Standorts eines Objekts mit der Zeit durch eine quadratische Funktion dargestellt wird:
+    </span>
+</p>
+<p>
+    \[\qquad s = \dfrac {t^2} {9}\qquad (0\le t \le 30)\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Compare this function with the general form \(y - C = A(x - B)^2\).
+    </span>
+    <span class="multilang" lang="de">
+        Vergleichen Sie diese Funktion mit der allgemeinen Form \(y - C = A(x - B)^2\).
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            What variables correspond to \(y\) and \(x\) in this case?
+        </span>
+        <span class="multilang" lang="de">
+            Welche Variablen entsprechen in diesem Fall \(y\) und \(x\)?
+        </span>
+    </li>
+    <p>
+    </p>
+    <li>
+        <span class="multilang" lang="en">
+            What are the values of \(C, A\) and \(B\)?
+        </span>
+        <span class="multilang" lang="de">
+            Was sind die Werte von \(C, A\) und \(B\)?
+        </span>
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            \(s\) corresponds to \(y\), and \(t\) corresponds to \(x\)
+        </span>
+        <span class="multilang" lang="de">
+            \(s\) entspricht \(y\) und \(t\) entspricht \(x\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(C=0\), \(A=\dfrac{1}{9}\) and \(B=0\)
+        </span>
+        <span class="multilang" lang="de">
+            \(C=0\), \(A=\dfrac{1}{9}\) und \(B=0\)
+        </span>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,301 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.4.3.1 Addition und Subtraktion algebraischer Brüche [Addition and subtraction of algebraic fractions]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            Addition and subtraction of algebraic fractions
+        </span>
+        <span class="multilang" lang="de">
+            Addition und Subtraktion von algebraischen Brüchen
+        </span>
+    </span>
+    <br/>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        To add two algebraic fractions the lowest common denominator must be found first. This is the simplest algebraic expression that has the given denominators as its factors. All fractions must be written with this lowest common denominator. Their sum is
+        found by adding the numerators and dividing the result by the lowest common denominator.
+    </span>
+    <span class="multilang" lang="de">
+        Um zwei algebraische Brüche zu addieren, muss zuerst der kleinste gemeinsame Nenner gefunden werden. Dies ist der einfachste algebraische Ausdruck, der die gegebenen Nenner als Faktoren hat. Alle Brüche müssen mit diesem kleinsten gemeinsamen Nenner geschrieben werden. Ihre Summe wird durch Addition der Zähler und Division des Ergebnisses durch den kleinsten gemeinsamen Nenner gefunden.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        To subtract two fractions the process is similar. The fractions are written with the lowest common denominator. The difference is found by subtracting the numerators and dividing the result by the lowest common denominator.
+    </span>
+    <span class="multilang" lang="de">
+        Um zwei Brüche zu subtrahieren, ist der Prozess ähnlich. Die Brüche werden mit dem kleinsten gemeinsamen Nenner geschrieben. Die Differenz wird ermittelt, indem man die Zähler subtrahiert und das Ergebnis durch den kleinsten gemeinsamen Nenner dividiert.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        State the simplest expression which has \( x+1\) and \( x+4\) as its factors.
+    </span>
+    <span class="multilang" lang="de">
+        Geben Sie den einfachsten Ausdruck an, der \( x+1\) und \( x+4\) als Faktoren beinhaltet.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The simplest expression is \((x+1)(x+4).\) Note that both \(x+1\) and \(x+4\) are factors.
+    </span>
+    <span class="multilang" lang="de">
+        Der einfachste Ausdruck ist \((x+1)(x+4).\) Beachten Sie, dass sowohl \(x+1\) als auch \(x+4\) Faktoren sind.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        State the simplest expression which has \( x-1\) and \( (x-1)^2\) as its factors.
+    </span>
+    <span class="multilang" lang="de">
+        Geben Sie den einfachsten Ausdruck an, der \( x-1\) und \( (x-1)^2\) als Faktoren beinhaltet.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The simplest expression is \( (x-1)^2.\) Clearly \( (x-1)^2 \) must be a factor of this expression. Also, because we can write \( (x-1)^2=(x-1)(x-1)\) it follows that \( x-1)\) is a factor too.
+    </span>
+    <span class="multilang" lang="de">
+        Der einfachste Ausdruck ist \( (x-1)^2.\) Offensichtlich muss \( (x-1)^2 \) ein Faktor dieses Ausdrucks sein. Da wir auch \( (x-1)^2=(x-1)(x-1)\) schreiben können, folgt daraus, dass \( x-1)\) auch ein Faktor ist.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Express as a single fraction \( \dfrac{3}{x+1}+\dfrac{2}{x+4} \)
+    </span>
+    <span class="multilang" lang="de">
+        Schreiben Sie als einzelnen Bruch \( \dfrac{3}{x+1}+\dfrac{2}{x+4} \)
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The simplest expression which has both denominators as its factors is \( (x+1)(x+4).\)
+    </span>
+    <span class="multilang" lang="de">
+        Der einfachste Ausdruck, der beide Nenner als Faktoren hat, ist \( (x+1)(x+4).\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        This is the lowest common denominator. Both fractions must be written using this denominator.
+    </span>
+    <span class="multilang" lang="de">
+        Das ist der kleinste gemeinsame Nenner. Beide Brüche müssen mit diesem Nenner geschrieben werden.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Note that \( \dfrac{3}{x+1} \) is equivalent to \(\dfrac{3(x+4)}{(x+1)(x+4)}\) and \(\dfrac{2}{x+4}\) is equivalent to \(\dfrac{2(x+1)}{(x+1)(x+4)}. \)
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie, dass \( \dfrac{3}{x+1} \) äquivalent zu \(\dfrac{3(x+4)}{(x+1)(x+4)}\) ist und \(\dfrac{2}{x+4}\) äquivalent zu \(\dfrac{2(x+1)}{(x+1)(x+4)}\) ist.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Thus writing both fractions with the same denominator we have \[ \dfrac{3}{x+1}+\dfrac{2}{x+4} = \dfrac{3(x+4)}{(x+1)(x+4)} + \dfrac{2(x+1)}{(x+1)(x+4)}\]
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir also beide Brüche mit demselben Nenner schreiben, erhalten wir \[ \dfrac{3}{x+1}+\dfrac{2}{x+4} = \dfrac{ 3(x+4)}{(x+1)(x+4)} + \dfrac{2(x+1)}{(x+1)(x+4)}\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The sum is found by adding the numerators and dividing the result by the lowest common denominator \[ \dfrac{3(x+4)}{(x+1)(x+4)} + \dfrac{2(x+1)}{(x+1)(x+4)} = \dfrac{3(x+4)+2(x+1)}{(x+1)(x+4)} = \dfrac{5x+14}{(x+1)(x+4)}\]
+    </span>
+    <span class="multilang" lang="de">
+        Die Summe wird gebildet, indem man die Zähler addiert und das Ergebnis durch den kleinsten gemeinsamen Nenner dividiert wird \[ \dfrac{3(x+4)}{(x+1)(x +4)} + \dfrac{2(x+1)}{(x+1)(x+4)} = \dfrac{3(x+4)+2(x+1)}{(x+1 )(x+4)} = \dfrac{5x+14}{(x+1)(x+4)}\]
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p style="text-align:center">
+        <span class="multilang" lang="en">
+            <strong>
+                Addition of two algebraic fractions
+            </strong>
+        </span>
+        <span class="multilang" lang="de">
+            <strong>
+                Addition zweier algebraischer Brüche
+            </strong>
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            Step 1: Find the lowest common denominator
+        </span>
+        <span class="multilang" lang="de">
+            Schritt 1: Finden Sie den kleinsten gemeinsamen Nenner
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            Step 2: Express each fraction with this denominator
+        </span>
+        <span class="multilang" lang="de">
+            Schritt 2: Drücken Sie jeden Bruch mit diesem Nenner aus
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            Step 3: Add the numerators and divide the result by the lowest common denominator
+        </span>
+        <span class="multilang" lang="de">
+            Schritt 3: Addieren Sie die Zähler und teile das Ergebnis durch den kleinsten gemeinsamen Nenner
+        </span>
+    </p>
+</div>
+<p>
+    <br/>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Express \( \dfrac{1}{x-1}+\dfrac{5}{(x-1)^2} \) as a single fraction.
+    </span>
+    <span class="multilang" lang="de">
+        Drücken Sie \( \dfrac{1}{x-1}+\dfrac{5}{(x-1)^2} \) als einzelnen Bruch aus.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The simplest expression which has both denominators as its factors is \( (x-1)^2.\) We write both fractions with this denominator.
+    </span>
+    <span class="multilang" lang="de">
+        Der einfachste Ausdruck, der beide Nenner als Faktoren hat, ist \( (x-1)^2.\) Wir schreiben beide Brüche mit diesem Nenner.
+    </span>
+</p>
+<p>
+    \[ \dfrac{1}{x-1}+\dfrac{5}{(x-1)^2} = \dfrac{x-1}{(x-1)^2} + \dfrac{5}{(x-1)^2} = \dfrac{x-1+5}{(x-1)^2} = \dfrac{x+4}{(x-1)^2}\]
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Express \( \dfrac{5x}{7} - \dfrac{3x-4}{2} \) as a single fraction.
+    </span>
+    <span class="multilang" lang="de">
+        Drücken Sie \( \dfrac{5x}{7} - \dfrac{3x-4}{2} \) als einzelnen Bruch aus.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        In this example both denominators are simply numbers. The lowest common denominator is \(14\), and both fractions are re-written with this denominator. Thus
+    </span>
+    <span class="multilang" lang="de">
+        In diesem Beispiel sind beide Nenner einfach Zahlen. Der kleinste gemeinsame Nenner ist \(14\), und beide Brüche werden mit diesem Nenner umgeschrieben. Also
+    </span>
+</p>
+<p>
+    \[ \dfrac{5x}{7} - \dfrac{3x-4}{2} = \dfrac{10x}{14} - \dfrac{7(3x-4)}{14} = \dfrac{10x-7(3x-4)}{14} = \dfrac{28-11x}{14}\]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

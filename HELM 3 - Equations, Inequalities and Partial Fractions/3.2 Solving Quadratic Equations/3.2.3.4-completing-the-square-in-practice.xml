@@ -1,0 +1,710 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>3.2.3.4 Das Quadrat in der Praxis vervollständigen [Completing the square in practice]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        A chemical manufacturer found that the sales figures for a certain chemical X\(_2\)O depended on its selling price. At present, the company can sell all of its weekly production of \(300\text{kg}\) at a price of
+        <b>
+            £
+        </b>
+        \(600\) per \(\text{kg}\). The company's market research department advised that the amount sold would decrease by only \(1\) \(\text{kg}\) per week for every
+        <b>
+            £
+        </b>
+        \(2\) per \(\text{kg}\) increase in the price of X\(_2\)O. If the total production costs are made up of a fixed cost of
+        <b>
+            £
+        </b>
+        \(30000\) per week, plus
+        <b>
+            £
+        </b>
+        \(400\) per \(\text{kg}\) of product.
+    </span>
+    <span class="multilang" lang="no">
+        En kjemikalieprodusent fant at salgstallene for et bestemt kjemikalie X\(_2\)O var avhengig av salgsprisen. For tiden kan selskapet selge hele sin ukentlige produksjon av \(300\text{kg}\) til en pris på \(600\) kr per \(\text{kg}\). Selskapets markedsundersøkelsesavdeling informerte om at det solgte beløpet ville reduseres med bare \(1\) \(\text{kg}\) per uke for hver \(2\) kr per \( \text{kg}\) økning i prisen på X\(_2\)O. Hvis de totale produksjonskostnadene består av en fast kostnad på \(30000\) kr per uke, pluss
+        <b>
+        </b>
+        \(400\) kr per \(\text{ kg}\) av produktet.
+    </span>
+    <span class="multilang" lang="de">
+        Ein Chemikalienhersteller stellte fest, dass die Verkaufszahlen für eine bestimmte Chemikalie X\(_2\)O von ihrem Verkaufspreis abhängen. Derzeit kann das Unternehmen seine gesamte Wochenproduktion von \(300\text{kg}\) zu einem Preis von \(600\)
+        <b>
+            €
+        </b>
+        pro \(\text{kg}\) verkaufen. Die Marktforschungsabteilung des Unternehmens wies darauf hin, dass die verkaufte Menge nur um \(1\) \(\text{kg}\) pro Woche für jede Preiserhöhung von X\(_2\)O um \(2\)
+        <b>
+            €
+        </b>
+        pro \( \text{kg}\) sinken würde. Wenn die gesamten Produktionskosten aus Fixkosten von \(30000\)
+        <b>
+            €
+        </b>
+        pro Woche plus \(400\)
+        <b>
+            €
+        </b>
+        pro\(\text{ kg}\) Produkt bestehen.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Let
+        <b>
+            £
+        </b>
+        \(x\) be the new price per \(\text{kg}\) of X\(_2\)O. Find a quadratic polynomial \(P\) in \(x\) which gives the weekly profit.
+    </span>
+    <span class="multilang" lang="no">
+        La
+        <b>
+        </b>
+        \(x\) kr være den nye prisen per \(\text{kg}\) av X\(_2\)O. Finn et kvadratisk polynom \(P\) i \(x\) som gir den ukentlige fortjenesten.
+    </span>
+    <span class="multilang" lang="de">
+        \(x\)
+        <b>
+            €
+        </b>
+        sei der neue Preis pro \(\text{kg}\) von X\(_2\)O. Finden Sie ein quadratisches Polynom \(P\) in \(x\), das den wöchentlichen Gewinn angibt.
+    </span>
+</p>
+<p style="text-align: center;">
+    \(P =\) [[input:ans4]] [[validation:ans4]][[feedback:prt4]]
+</p>
+<p style="text-align: left;">
+    <span class="multilang" lang="en">
+        Complete the square for the above expression and hence find
+    </span>
+    <span class="multilang" lang="no">
+        Fullfør kvadratet over  uttrykk og finn dermed
+    </span>
+    <span class="multilang" lang="de">
+        Ergänzen Sie das Quadrat für den obigen Ausdruck und finden Sie damit
+    </span>
+</p>
+<p>
+</p>
+<ol>
+    <li>
+        <span class="multilang" lang="en">
+            the price in £ which maximises the weekly profit on sales of X\(_2\)O;
+            <b>
+                £
+            </b>
+        </span>
+        <span class="multilang" lang="no">
+            prisen som maksimerer den ukentlige fortjenesten ved salg av X\(_2\)O:
+        </span>
+        <span class="multilang" lang="de">
+            den Preis in €, der den wöchentlichen Gewinn bei Verkäufen von X\(_2\)O maximiert:
+        </span>
+        [[input:ans1]] [[validation:ans1]][[feedback:prt1]]
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            the maximum weekly profit in £:
+        </span>
+        <span class="multilang" lang="no">
+            maksimal ukentlig fortjeneste i kr:
+        </span>
+        <span class="multilang" lang="de">
+            der maximale wöchentliche Gewinn in €:
+        </span>
+        [[input:ans2]] [[validation:ans2]][[feedback:prt2]]
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            the weekly production rate:
+        </span>
+        <span class="multilang" lang="no">
+            den ukentlige produksjonsraten:
+        </span>
+        <span class="multilang" lang="de">
+            die wöchentliche Produktionsrate:
+        </span>
+        [[input:ans3]] [[validation:ans3]][[feedback:prt3]]
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Firstly, we must derive the equation for weekly profit. If \(x\) is the new price per kg of the chemical, then the new amount produced is
+    </span>
+    <span class="multilang" lang="no">
+        For det første må vi utlede ligningen for ukentlig fortjeneste. Hvis \(x\) er den nye prisen per kg av kjemikaliet, så er den nye produserte mengden
+    </span>
+    <span class="multilang" lang="de">
+        Zunächst müssen wir die Gleichung für den wöchentlichen Gewinn herleiten. Wenn \(x\) der neue Preis pro kg der Chemikalie ist, dann ist die neu produzierte Menge
+    </span>
+</p>
+<p>
+    \[300-\frac{(x-600)}{2} = 600-\frac{x}{2}.\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now we must work out the profit. This will be what we make from selling the product minus any costs.
+    </span>
+    <span class="multilang" lang="no">
+        Nå må vi regne ut overskuddet. Dette vil være hva vi tjener på å selge produktet minus eventuelle kostnader.
+    </span>
+    <span class="multilang" lang="de">
+        Jetzt müssen wir den Gewinn errechnen. Das ist, was wir aus dem Verkauf des Produkts abzüglich jeglicher Kosten verdienen.
+    </span>
+</p>
+<p>
+    \[P = x\left(600-\frac{x}{2}\right)-30000-400\left(600-\frac{x}{2}\right) =\]
+</p>
+<p>
+    \[-\dfrac{x^2}{2}+800x-270000.\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Completing the square we obtain
+    </span>
+    <span class="multilang" lang="no">
+        Ved å fullføre kvadratet får vi
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir das Quadrat vervollständigen, erhalten wir
+    </span>
+</p>
+<p>
+    \[P = -\frac{1}{2}(x^2-1600x+540000) = -\frac{1}{2}((x-800)^2-100000).\]
+</p>
+<p>
+</p>
+<ol>
+    <li>
+        <span class="multilang" lang="en">
+            We want to maximise \(P\). This will occur when \((x-800)^2=0\), so \(x=800\).
+        </span>
+        <span class="multilang" lang="no">
+            Vi ønsker å maksimere \(P\). Dette vil skje når \((x-800)^2=0\), så \(x=800\).
+        </span>
+        <span class="multilang" lang="de">
+            Wir wollen \(P\) maximieren. Das geschieht, wenn \((x-800)^2=0\), also \(x=800\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            At \(x=800\), \(P = 50000\).
+        </span>
+        <span class="multilang" lang="de">
+            Bei \(x=800\), \(P = 50000\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            The production rate is \(600-\frac{x}{2}\). Subbing in our answer from part 1 we obtain
+        </span>
+        <span class="multilang" lang="no">
+            Produksjonsraten er \(600-\frac{x}{2}\). Ved å sende inn vårt svar fra del 1 får vi
+        </span>
+        <span class="multilang" lang="de">
+            Die Produktionsrate beträgt \(600-\frac{x}{2}\). Wenn wir unsere Antwort aus Teil 1 eintragen, erhalten wir
+        </span>
+        \[600-\frac{800}{2} = 200.\]
+    </li>
+</ol>
+<p>
+</p>
+<p>
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>ta1:800;
+ta2:50000;
+ta3:200;
+tpoly:-x^2/2+800*x-270000;</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text></text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>dot</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>ta1</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans2</name>
+            <type>algebraic</type>
+            <tans>ta2</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans3</name>
+            <type>algebraic</type>
+            <tans>ta3</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans4</name>
+            <type>algebraic</type>
+            <tans>tpoly</tans>
+            <boxsize>15</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>ta1</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>1</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>diff(diff(diff(ans4,x),x),x)</sans>
+                <tans>0</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>2</truenextnode>
+                <trueanswernote>prt1-2-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-2-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>2</name>
+                <answertest>AlgEquiv</answertest>
+                <sans><![CDATA[is(coeff(ans4,x,2)<0)]]></sans>
+                <tans>true</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>3</truenextnode>
+                <trueanswernote>prt1-3-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-3-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>3</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>-coeff(ans4,x)/(2*coeff(ans4,x,2))</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-4-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-4-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt2</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans2</sans>
+                <tans>ta2</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt2-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt2-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt3</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans3</sans>
+                <tans>ta3</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt3-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt3-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt4</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans4</sans>
+                <tans>tpoly</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt4-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt4-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ta1</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>ta2</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>ta3</value>
+            </testinput>
+            <testinput>
+                <name>ans4</name>
+                <value>tpoly</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt2</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt2-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt3</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt3-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt4</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt4-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ev(ta1+1,simp)</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>ev(ta2+1,simp)</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>ev(ta3+1,simp)</value>
+            </testinput>
+            <testinput>
+                <name>ans4</name>
+                <value>ev(tpoly+1,simp)</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-4-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt2</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt2-1-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt3</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt3-1-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt4</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt4-1-F</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>3</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ta1+1</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>ta2+2</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>ta3+3</value>
+            </testinput>
+            <testinput>
+                <name>ans4</name>
+                <value>ta1</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-3-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt2</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt2-1-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt3</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt3-1-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt4</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt4-1-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

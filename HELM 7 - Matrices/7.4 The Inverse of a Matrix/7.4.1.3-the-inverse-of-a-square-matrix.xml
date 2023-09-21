@@ -1,0 +1,249 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.4.1.3 The inverse of a square matrix</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<ul>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                A matrix that has no inverse is said to be a
+                <b>
+                    singular matrix
+                </b>
+                . A matrix which has an inverse is said to be
+                <b>
+                    non-singular
+                </b>
+                .
+            </span>
+            <span class="multilang" lang="de">
+                Eine Matrix, die keine Inverse hat, wird als
+                <b>
+                    singuläre Matrix
+                </b>
+                bezeichnet. Eine Matrix, die eine Inverse hat, heißt
+                <b>
+                    nicht singulär
+                </b>
+                .
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                a matrix has an inverse then that inverse is unique
+            </span>
+            <span class="multilang" lang="de">
+                Wenn eine Matrix eine Inverse hat, dann ist diese Inverse eindeutig
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                Suppose \(B\) and \(C\) are both inverses of \(A\). Then, by definition of the inverse,
+            </span>
+            <span class="multilang" lang="de">
+                Angenommen, \(B\) und \(C\) sind beides Inverse von \(A\). Dann, per Definition der Inverse,
+            </span>
+        </p>
+        <p style="text-align: center;">
+            <span class="multilang" lang="en">
+                \(AB = BA = I\)
+                <b>
+                    and
+                </b>
+                \(AC = CA = I\).
+            </span>
+            <span class="multilang" lang="de">
+                \(AB = BA = I\)
+                <b>
+                    und
+                </b>
+                \(AC = CA = I\).
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                Consider the two ways of forming the product \(CAB\).
+            </span>
+            <span class="multilang" lang="de">
+                Betrachten Sie die beiden Möglichkeiten, das Produkt \(CAB\) zu bilden.
+            </span>
+        </p>
+        <ol type="1">
+            <li>
+                \(CAB = C(AB) = CI = C\).
+            </li>
+            <li>
+                \(CAB = (CA)B = IB = B\).
+            </li>
+        </ol>
+        <p>
+            <span class="multilang" lang="en">
+                Hence, \(B = C\) and the
+                <b>
+                    inverse is unique
+                </b>
+                .
+            </span>
+            <span class="multilang" lang="de">
+                Daher ist \(B = C\) und die
+                <b>
+                    Inverse ist eindeutig
+                </b>
+                .
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                There is no such operation as division in matrix algebra.
+            </span>
+            <span class="multilang" lang="de">
+                In der Matrixalgebra gibt es keine Operation wie Division.
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                We do not write \(\dfrac{B}{A}\) but rather \(A^{-1}B\) or \(BA^{-1}\), depending on the order required.
+            </span>
+            <span class="multilang" lang="de">
+                Wir schreiben nicht \(\dfrac{B}{A}\), sondern \(A^{-1}B\) oder \(BA^{-1 }\), je nach gewünschter Reihenfolge.
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                Assuming that the square matrix \(A\) has an inverse \(A^{-1}\) then the solution of the systems of equations \(AX = B\) is found by pre-multiplying both sides by \(A^{-1}\).
+            </span>
+            <span class="multilang" lang="de">
+                Angenommen, die quadratische Matrix \(A\) hat eine Inverse \(A^{-1}\), dann wird die Lösung der Gleichungssysteme \(AX = B\) durch Vormultiplikation beider Seiten mit \(A^{-1}\) ermittelt.
+            </span>
+        </p>
+        <table style="margin: auto;">
+            <tbody>
+                <tr>
+                    <td>
+                    </td>
+                    <td style="text-align: right;">
+                        \(AX\)
+                    </td>
+                    <td style="text-align: center;">
+                        \(=\)
+                    </td>
+                    <td style="text-align: left;">
+                        \(B\),
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="multilang" lang="en">
+                            pre-multiplying by \(A^{-1}\):
+                        </span>
+                        <span class="multilang" lang="de">
+                            Vormultiplizieren mit \(A^{-1}\):
+                        </span>
+                    </td>
+                    <td style="text-align: right;">
+                        \(A^{-1}(AX)\)
+                    </td>
+                    <td style="text-align: center;">
+                        \(=\)
+                    </td>
+                    <td style="text-align: left;">
+                        \(A^{-1}B\),
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="multilang" lang="en">
+                            using associativity:
+                        </span>
+                        <span class="multilang" lang="de">
+                            Nutzen der Assoziativität:
+                        </span>
+                    </td>
+                    <td style="text-align: right;">
+                        \((A^{-1}A)X\)
+                    </td>
+                    <td style="text-align: center;">
+                        \(=\)
+                    </td>
+                    <td style="text-align: left;">
+                        \(B\),
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="multilang" lang="en">
+                            using \(A^{-1}A = \):
+                        </span>
+                        <span class="multilang" lang="de">
+                            Nutzen von \(A^{-1}A = \):
+                        </span>
+                    </td>
+                    <td style="text-align: right;">
+                        \(IX\)
+                    </td>
+                    <td style="text-align: center;">
+                        \(=\)
+                    </td>
+                    <td style="text-align: left;">
+                        \(A^{-1}B\),
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="multilang" lang="en">
+                            using property of \(I\):
+                        </span>
+                        <span class="multilang" lang="de">
+                            Nutzen der Eigenschaft von \(I\):
+                        </span>
+                    </td>
+                    <td style="text-align: right;">
+                        \(X\)
+                    </td>
+                    <td style="text-align: center;">
+                        \(=\)
+                    </td>
+                    <td style="text-align: left;">
+                        \(A^{-1}B\)
+                    </td>
+                    <td>
+                        <span class="multilang" lang="en">
+                            which is the solution we seek.
+                        </span>
+                        <span class="multilang" lang="de">
+                            was die Lösung ist, die wir suchen.
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </li>
+</ul>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

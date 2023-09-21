@@ -1,0 +1,232 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.2.3.1 Polynomausdrücke [Polynomial expressions]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Polynomial expressions
+    </span>
+    <span class="multilang" lang="de">
+        Polynomausdrücke
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        An important group of mathematical expressions which use indices are known as
+        <b>
+            polynomials
+        </b>
+        .
+    </span>
+    <span class="multilang" lang="de">
+        Eine wichtige Gruppe mathematischer Ausdrücke, die Potenzen verwenden, sind als
+        <b>
+            Polynome
+        </b>
+        bekannt.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Examples of polynomials are
+    </span>
+    <span class="multilang" lang="de">
+        Beispiele für Polynome sind
+    </span>
+</p>
+<ul>
+    <li>
+        \(4x^3+2x^2+3x-7\),
+    </li>
+    <li>
+        \( x^2+x \),
+    </li>
+    <li>
+        \( 17-2t+7t^4 \),
+    </li>
+    <li>
+        \( z-z^3 \).
+    </li>
+</ul>
+<p>
+    <span class="multilang" lang="en">
+        Notice that they are all constructed using non-negative whole number powers of the variable. Recall that \(x^0=1\) and so the number \(-7\) appearing in the first expression can be thought of as \(-7x^0\). Similarly the \(17\) appearing in the third expression can be read as \(17t^0\).
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie, dass sie alle unter Verwendung nicht-negativer ganzzahliger Potenzen der Variablen konstruiert werden. Denken Sie daran, dass \(x^0=1\) und daher die Zahl \(-7\), die im ersten Ausdruck erscheint, als \(-7x^0\) betrachtet werden kann. Ebenso die \(17\), die im dritten Ausdruck erscheint, kann als \(17t^0\) gelesen werden.
+    </span>
+    <br/>
+    <br/>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            A polynomial expression takes the form
+        </span>
+        <span class="multilang" lang="de">
+            Ein Polynomausdruck hat die Form
+        </span>
+    </p>
+    <p>
+        \( a_0 + a_1x + a_2x^2 + a_3x^3 +\ldots + a_nx^n\)
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            where \( a_0 ,a_1, a_2, a_3, \ldots a_n\) are all constants called the
+            <b>
+                coefficients
+            </b>
+            of the polynomial. The number \(a_0\) is also called the
+            <b>
+                constant term
+            </b>
+            . The highest power in a polynomial is called the
+            <b>
+                degree
+            </b>
+            of the polynomial.
+        </span>
+        <span class="multilang" lang="de">
+            wobei \( a_0 ,a_1, a_2, a_3, \ldots a_n\) alles Konstanten sind, die
+            <b>
+                Koeffizienten
+            </b>
+            des Polynoms genannt werden. Die Zahl \(a_0\) wird auch als
+            <b>
+                konstanter Term
+            </b>
+            bezeichnet. Die höchste Potenz in einem Polynom wird als
+            <b>
+                Grad
+            </b>
+            des Polynoms bezeichnet.
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            Polynomials with low degrees have special names and subscript notation is often not needed:
+        </span>
+        <span class="multilang" lang="de">
+            Polynome mit niedrigem Grad haben spezielle Namen und eine tiefgestellte Notation ist oft nicht erforderlich:
+        </span>
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th style="min-width:12em">
+                    <span class="multilang" lang="en">
+                        Polynomial
+                    </span>
+                    <span class="multilang" lang="de">
+                        Polynom
+                    </span>
+                </th>
+                <th style="min-width:5em">
+                    <span class="multilang" lang="en">
+                        Degree
+                    </span>
+                    <span class="multilang" lang="de">
+                        Grad
+                    </span>
+                </th>
+                <th style="min-width:7em">
+                    <span class="multilang" lang="en">
+                        Name
+                    </span>
+                    <span class="multilang" lang="de">
+                        Name
+                    </span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:center">
+                    \[ ax^3+bx^2+cx+d \]
+                </td>
+                <td style="text-align:center">
+                    3
+                </td>
+                <td style="text-align:center">
+                    <span class="multilang" lang="en">
+                        cubic
+                    </span>
+                    <span class="multilang" lang="de">
+                        kubisch
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center">
+                    \[ ax^2+bx+c \]
+                </td>
+                <td style="text-align:center">
+                    2
+                </td>
+                <td style="text-align:center">
+                    <span class="multilang" lang="en">
+                        quadratic
+                    </span>
+                    <span class="multilang" lang="de">
+                        quadratisch
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center">
+                    \[ ax+b \]
+                </td>
+                <td style="text-align:center">
+                    1
+                </td>
+                <td style="text-align:center">
+                    <span class="multilang" lang="en">
+                        linear
+                    </span>
+                    <span class="multilang" lang="de">
+                        linear
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center">
+                    \[ a\]
+                </td>
+                <td style="text-align:center">
+                    0
+                </td>
+                <td style="text-align:center">
+                    <span class="multilang" lang="en">
+                        constant
+                    </span>
+                    <span class="multilang" lang="de">
+                        konstant
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,183 @@
+<quiz>
+    <question type="gapselect">
+        <name>
+            <text>2.4.6.1 Ungerade, gerade oder keines von beiden klassifizieren [Classify odd, even, or neither]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Classify the following functions as odd, even or neither. If necessary sketch a graph to help you decide.
+    </span>
+    <span class="multilang" lang="no">
+        Klassifiser følgende funksjoner som odde, jevn eller ingen av dem. Skisser om nødvendig en graf for å hjelpe deg med å bestemme.
+    </span>
+    <span class="multilang" lang="de">
+        Klassifizieren Sie die folgenden Funktionen als ungerade, gerade oder weder noch. Falls nötig, skizzieren Sie eine Grafik, um Ihnen bei der Entscheidung zu helfen.
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(f(x)=6\) is
+            </span>
+            <span class="multilang" lang="no">
+                \(f(x)=6\) er
+            </span>
+            <span class="multilang" lang="de">
+                \(f(x)=6\) ist
+            </span>
+            [[1]]
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(f(x)=x^2\) is
+            </span>
+            <span class="multilang" lang="no">
+                \(f(x)=x^2\) er
+            </span>
+            <span class="multilang" lang="de">
+                \(f(x)=x^2\) ist
+            </span>
+            [[1]]
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(f(x)=2x+1\) is
+            </span>
+            <span class="multilang" lang="no">
+                \(f(x)=2x+1\) er
+            </span>
+            <span class="multilang" lang="de">
+                \(f(x)=2x+1\) ist
+            </span>
+            [[3]]
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(f(x)=x\) is
+            </span>
+            <span class="multilang" lang="no">
+                \(f(x)=x\) er
+            </span>
+            <span class="multilang" lang="de">
+                \(f(x)=x\) ist
+            </span>
+            [[2]]
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(f(x)=2x\) is
+            </span>
+            <span class="multilang" lang="no">
+                \(f(x)=2x\) er
+            </span>
+            <span class="multilang" lang="de">
+                \(f(x)=2x\) ist
+            </span>
+            [[2]]
+        </p>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <shuffleanswers>1</shuffleanswers>
+        <correctfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </incorrectfeedback>
+        <shownumcorrect></shownumcorrect>
+        <selectoption>
+            <text>even</text>
+            <group>1</group>
+        </selectoption>
+        <selectoption>
+            <text>odd</text>
+            <group>2</group>
+        </selectoption>
+        <selectoption>
+            <text>neither odd nor even</text>
+            <group>3</group>
+        </selectoption>
+        <selectoption>
+            <text>even</text>
+            <group>2</group>
+        </selectoption>
+        <selectoption>
+            <text>even</text>
+            <group>3</group>
+        </selectoption>
+        <selectoption>
+            <text>odd</text>
+            <group>1</group>
+        </selectoption>
+        <selectoption>
+            <text>odd</text>
+            <group>3</group>
+        </selectoption>
+        <selectoption>
+            <text>neither odd nor even</text>
+            <group>1</group>
+        </selectoption>
+        <selectoption>
+            <text>neither odd nor even</text>
+            <group>2</group>
+        </selectoption>
+    </question>
+</quiz>

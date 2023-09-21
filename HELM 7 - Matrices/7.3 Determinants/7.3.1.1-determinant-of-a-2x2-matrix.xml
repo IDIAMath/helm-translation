@@ -1,0 +1,52 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.3.1.1 Determinant of a 2x2 matrix</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Determinant of a \(2\times2\) matrix
+    </span>
+    <span class="multilang" lang="de">
+        Determinante einer \(2\times2\)-Matrix
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The
+        <b>
+            determinant
+        </b>
+        of the matrix \(A=\begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix}\) is denoted by \(\begin{vmatrix} a &amp; b \\ c &amp; d \end{vmatrix}\) (note the change from square brackets to vertical lines) and is defined to be the number
+        \(ad-bc\). That is: \[\begin{vmatrix} a &amp; b \\ c &amp; d \end{vmatrix} = ad-bc.\]
+    </span>
+    <span class="multilang" lang="de">
+        Die
+        <b>
+            Determinante
+        </b>
+        der Matrix \(A=\begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix}\) wird mit \(\begin{vmatrix} a &amp; b \\ c &amp; d \end{vmatrix}\) bezeichnet (beachten Sie den Wechsel von eckigen Klammern zu vertikalen Linien) und ist als die Zahl
+        \(ad-bc\) definiert. Das heißt: \[\begin{vmatrix} a &amp; b \\ c &amp; d \end{vmatrix} = ad-bc.\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We can use the notation \(\det(A)\) or \(\lvert A \rvert\) to denote the determinant of \(A\). A common symbol used to represent the determinant of a given matrix is \(\Delta.\)
+    </span>
+    <span class="multilang" lang="de">
+        Wir können die Notation \(\det(A)\) oder \(\lvert A \rvert\) verwenden, um die Determinante von \(A\) zu bezeichnen. Ein gebräuchliches Symbol zur Darstellung der Determinante einer bestimmten Matrix ist \(\Delta.\)
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

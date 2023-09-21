@@ -1,0 +1,767 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>3.3.6.2B Löse kubische Gleichung bei gegebener Nullstelle [Solve cubic given a root]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In this exercise we will solve the cubic {@eqn=0@} given that \(x={@root@}\) is a root.
+    </span>
+    <span class="multilang" lang="no">
+        I denne oppgaven skal vi løse det kubiske uttrykket {@eqn=0@} gitt at \(x={@root@}\) er en rot.
+    </span>
+    <span class="multilang" lang="de">
+        In dieser Übung lösen wir die kubische Gleichung {@eqn=0@} unter der Voraussetzung, dass \(x={@root@}\) eine Nullstelle ist.
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The cubic can therefore be expressed as
+    </span>
+    <span class="multilang" lang="no">
+        Polynomet kan derfor uttrykkes som
+    </span>
+    <span class="multilang" lang="de">
+        Die kubische Gleichung kann daher ausgedrückt werden als
+    </span>
+    <br/>
+</p>
+<p>
+</p>
+<p>
+    \( \qquad {@eqn = (x - root)*(a*x^2 + b*x + c)@} \)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        where \(a\), \(b\), and \(c\) are constants. These can be found by expanding the right-hand side.
+    </span>
+    <span class="multilang" lang="no">
+        hvor \(a\), \(b\) og \(c\) er konstanter. Disse finner du ved å utvide høyre side.
+    </span>
+    <span class="multilang" lang="de">
+        wobei \(a\), \(b\) und \(c\) Konstanten sind. Diese erhalten Sie, indem Sie die rechte Seite erweitern.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Expand the right-hand side:
+    </span>
+    <span class="multilang" lang="no">
+        Utvid høyre side:
+    </span>
+    <span class="multilang" lang="de">
+        Erweitern Sie die rechte Seite:
+    </span>
+</p>
+<p>
+    \( \qquad {@eqn@} = (\) [[input:ans1]] [[validation:ans1]] \() x^3 + (\) [[input:ans2]] [[validation:ans2]] \()x^2 + (\) [[input:ans3]] [[validation:ans3]] \()x + \) [[input:ans4]] [[validation:ans4]]. [[feedback:prt1]]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We identify the unknown coefficients by focusing on the greatest and least powers first.
+    </span>
+    <span class="multilang" lang="no">
+        Vi identifiserer de ukjente koeffisientene ved å fokusere på de største og minste potensene først.
+    </span>
+    <span class="multilang" lang="de">
+        Wir identifizieren die unbekannten Koeffizienten, indem wir uns zuerst auf die größten und kleinsten Potenzen konzentrieren.
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Equate coefficients of \(x^3\) to find \(a\):
+    </span>
+    <span class="multilang" lang="no">
+        Likestill koeffisientene til \(x^3\) for å finne \(a\):
+    </span>
+    <span class="multilang" lang="de">
+        Setzen Sie die Koeffizienten von \(x^3\) gleich, um \(a\) zu erhalten:
+    </span>
+    [[input:ans5]] [[validation:ans5]].
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Equate constant terms to find \(c\):
+    </span>
+    <span class="multilang" lang="no">
+        Likestill konstante ledd for å finne \(c\):
+    </span>
+    <span class="multilang" lang="de">
+        Konstante Terme gleichsetzen, um \(c\) zu erhalten:
+    </span>
+    [[input:ans6]] [[validation:ans6]].
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        With this we can now solve for \(b\).
+    </span>
+    <span class="multilang" lang="no">
+        Med dette kan vi nå løse for \(b\).
+    </span>
+    <span class="multilang" lang="de">
+        Damit können wir jetzt nach \(b\) auflösen.
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Equate coefficients of \(x^2\) to find \(b\):
+    </span>
+    <span class="multilang" lang="no">
+        Likestill koeffisientene til \(x^2\) for å finne \(b\):
+    </span>
+    <span class="multilang" lang="de">
+        Setzen Sie die Koeffizienten von \(x^2\) gleich, um \(b\) zu erhalten:
+    </span>
+    [[input:ans7]] [[validation:ans7]].
+    <br/>
+</p>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        This enables us to write the equation as \({@(x-root)*quad=0@}\) so \({@x-root=0@}\) or \({@quad@}=0\).
+    </span>
+    <span class="multilang" lang="no">
+        Dette gjør oss i stand til å skrive ligningen som \({@(x-root)*quad=0@}\) så \({@x-root=0@}\) eller \({@quad@}=0\).
+    </span>
+    <span class="multilang" lang="de">
+        Dies ermöglicht es uns, die Gleichung als \({@(x-root)*quad=0@}\) zu schreiben, also gilt \({@x-root=0@} \) oder \({@quad@}=0\).
+    </span>
+    <br/>
+</p>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now solve the quadratic and state all three roots:
+    </span>
+    <span class="multilang" lang="no">
+        Løs nå andregradsuttrykket og oppgi alle tre røtter:
+    </span>
+    <span class="multilang" lang="de">
+        Lösen Sie nun die quasdratische Gleichung auf und geben Sie alle drei Nullstellen an:
+    </span>
+    [[input:ans8]] [[validation:ans8]]
+</p>
+<p>
+    <b>
+        <span class="multilang" lang="en">
+            Give your answer as a set of precise expressions.
+        </span>
+        <span class="multilang" lang="no">
+            Gi svaret ditt som et set av presise uttrykk.
+        </span>
+        <span class="multilang" lang="de">
+            Geben Sie Ihre Antwort als eine Menge konkreter Werte an.
+        </span>
+    </b>
+</p>
+<br/>
+<p>
+</p>
+<p>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        We are given the cubic \[{@eqn@} = {@(x - root)*(a*x^2 + b*x + c)@}.\] If we expand the RHS we obtain \[{@eqn@} = {@expand((x - root)*(a*x^2 + b*x + c))@}.\] Collecting like-terms we get
+    </span>
+    <span class="multilang" lang="no">
+        Vi har fått det kubiske uttrykket \[{@eqn@} = {@(x - root)*(a*x^2 + b*x + c)@}.\] Hvis vi utvider høyre side får vi \[{@ eqn@} = {@expand((x - root)*(a*x^2 + b*x + c))@}.\] Ved å samle like-termer får vi
+    </span>
+    <span class="multilang" lang="de">
+        Wir erhalten die qubische Gleichung \[{@eqn@} = {@(x - root)*(a*x^2 + b*x + c)@} .\] Wenn wir die rechte Seite erweitern, erhalten wir \[{@eqn@} = {@expand((x - root)*(a*x^2 + b*x + c))@}.\] Durch das Zusammenfassen gleichartiger Terme erhalten wir
+    </span>
+    \[{@eqn@}
+                = {@ta1*x^3 + ta2*x^2 + ta3*x + ta4@}.\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        If we equate the coefficients of the LHS and RHS of the above equation, we obtain \(a = 1\), \(b = {@-2*aa@}\) and \(c={@aa^2-bb@}\).
+    </span>
+    <span class="multilang" lang="no">
+        Hvis vi setter likhetstegn mellom koeffisientene på høyre og venstre side i ligningen ovenfor, får vi \(a = 1\), \(b = {@-2*aa@}\) og \(c={@aa^2- bb@}\).
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir die Koeffizienten der linken und rechten Seite der obigen Gleichung gleichsetzen, erhalten wir \(a = 1\), \(b = {@-2*aa@} \) und \(c={@aa^2-bb@}\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        This enables us to write the equation as \({@(x-root)*quad=0@}\) so \({@x-root=0@}\) or \({@quad@}=0\).
+    </span>
+    <span class="multilang" lang="no">
+        Dette gjør oss i stand til å skrive ligningen som \({@(x-root)*quad=0@}\) så \({@x-root=0@}\) eller \({@quad@}=0\).
+    </span>
+    <span class="multilang" lang="de">
+        Dies ermöglicht es uns, die Gleichung als \({@(x-root)*quad=0@}\) zu schreiben, also gilt \({@x-root=0@} \) oder \({@quad@}=0\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The quadratic equation can be solved using the quadratic formula to obtain \(x={@x2@}\) and \(x={@x3@}\).
+    </span>
+    <span class="multilang" lang="no">
+        Andregradsuttrykket kan løses ved å bruke abc-formelen og få \(x={@x2@}\) og \(x={@x3@}\).
+    </span>
+    <span class="multilang" lang="de">
+        Die quadratische Gleichung kann mit der quadratischen Formel gelöst werden, um \(x={@x2@}\) und \(x={@x3@}\) zu erhalten.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Thus the three roots of \({@eqn=0@}\) are \(x={@x1@}\), \(x={@x2@}\), and \(x={@x3@}.\)
+    </span>
+    <span class="multilang" lang="no">
+        Dermed er de tre røttene til \({@eqn=0@}\): \(x={@x1@}\), \(x={@x2@}\), og \(x={@x3@}.\)
+    </span>
+    <span class="multilang" lang="de">
+        Die drei Nullstellen von \({@eqn=0@}\) sind also \(x={@x1@}\), \(x={@x2@}\) und \(x={@x3@}.\)
+    </span>
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>root: -(rand(2)+3);
+aa: -(rand(3)+4);
+bb: rand(4)+21;
+x1: root;
+x2: aa+sqrt(bb);
+x3: aa-sqrt(bb);
+
+eqn: x^3 - (2*aa + root)*x^2 + (aa^2 - bb + 2*aa*root)*x - aa^2*root + bb*root;
+quad: x^2 - 2*aa*x + aa^2 - bb;
+
+ta1: a;
+ta2: b-root*a;
+ta3: c-root*b;
+ta4: -root*c;
+ta: setify([x1,x2,x3]);</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text>\({@eqn=0@}, \quad x={@ta@}\)</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>none</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>ta1</tans>
+            <boxsize>3</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans2</name>
+            <type>algebraic</type>
+            <tans>ta2</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans3</name>
+            <type>algebraic</type>
+            <tans>ta3</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans4</name>
+            <type>algebraic</type>
+            <tans>ta4</tans>
+            <boxsize>3</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans5</name>
+            <type>numerical</type>
+            <tans>1</tans>
+            <boxsize>3</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans6</name>
+            <type>numerical</type>
+            <tans>aa^2 - bb</tans>
+            <boxsize>3</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans7</name>
+            <type>numerical</type>
+            <tans>-2*aa</tans>
+            <boxsize>3</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans8</name>
+            <type>algebraic</type>
+            <tans>ta</tans>
+            <boxsize>15</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint>{x1,x2,x3}</syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>1</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>a</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.125</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>2</truenextnode>
+                <trueanswernote>prt1-2-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>2</falsenextnode>
+                <falseanswernote>prt1-2-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>2</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans2</sans>
+                <tans>b-root*a</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.125</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>3</truenextnode>
+                <trueanswernote>prt1-3-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>3</falsenextnode>
+                <falseanswernote>prt1-3-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>3</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans3</sans>
+                <tans>c-root*b</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.125</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>4</truenextnode>
+                <trueanswernote>prt1-4-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>4</falsenextnode>
+                <falseanswernote>prt1-4-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>4</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans4</sans>
+                <tans>-root*c</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.125</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>5</truenextnode>
+                <trueanswernote>prt1-5-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>5</falsenextnode>
+                <falseanswernote>prt1-5-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>5</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans5</sans>
+                <tans>1</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.125</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>6</truenextnode>
+                <trueanswernote>prt1-6-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>6</falsenextnode>
+                <falseanswernote>prt1-6-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>6</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans6</sans>
+                <tans>aa^2 - bb</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.125</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>7</truenextnode>
+                <trueanswernote>prt1-7-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>7</falsenextnode>
+                <falseanswernote>prt1-7-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>7</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans7</sans>
+                <tans>-2*aa</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.125</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>8</truenextnode>
+                <trueanswernote>prt1-8-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>8</falsenextnode>
+                <falseanswernote>prt1-8-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>8</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans8</sans>
+                <tans>ta</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.125</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-9-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-9-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>1900202949</deployedseed>
+        <deployedseed>890837031</deployedseed>
+        <deployedseed>411054737</deployedseed>
+        <deployedseed>868330198</deployedseed>
+        <deployedseed>73246058</deployedseed>
+        <deployedseed>1281595206</deployedseed>
+        <deployedseed>1221616515</deployedseed>
+        <deployedseed>373093062</deployedseed>
+        <deployedseed>1479049162</deployedseed>
+        <deployedseed>1008408641</deployedseed>
+        <deployedseed>435527133</deployedseed>
+        <deployedseed>1353930417</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ta1</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>ta2</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>ta3</value>
+            </testinput>
+            <testinput>
+                <name>ans4</name>
+                <value>ta4</value>
+            </testinput>
+            <testinput>
+                <name>ans5</name>
+                <value>1</value>
+            </testinput>
+            <testinput>
+                <name>ans6</name>
+                <value>aa^2 - bb</value>
+            </testinput>
+            <testinput>
+                <name>ans7</name>
+                <value>-2*aa</value>
+            </testinput>
+            <testinput>
+                <name>ans8</name>
+                <value>ta</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-9-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ev(ta1+1,simp)</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>ev(ta2+1,simp)</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>ev(ta3+1,simp)</value>
+            </testinput>
+            <testinput>
+                <name>ans4</name>
+                <value>ev(ta4+1,simp)</value>
+            </testinput>
+            <testinput>
+                <name>ans5</name>
+                <value>0</value>
+            </testinput>
+            <testinput>
+                <name>ans6</name>
+                <value>0</value>
+            </testinput>
+            <testinput>
+                <name>ans7</name>
+                <value>0</value>
+            </testinput>
+            <testinput>
+                <name>ans8</name>
+                <value>{0,0,0}</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-9-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

@@ -1,0 +1,66 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.2.1.4 Example 2 inverse matrix method</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Use the inverse matrix method to solve \[\begin{matrix}
+2x_1 &amp; + &amp; 3x_2 &amp; = &amp; 3 \\
+5x_1 &amp; + &amp; 4x_2 &amp; = &amp; 11 \\
+\end{matrix} \]
+    </span>
+    <span class="multilang" lang="de">
+        Verwenden Sie die Methode der inversen Matrix, um \[\begin{matrix} 
+2x_1 &amp; + &amp; 3x_2 &amp; = &amp; 3 \\
+5x_1 &amp; + &amp; 4x_2 &amp; = &amp; 11 \\
+\end{matrix} \] zu lösen.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The system in \(AX=B\) form is \[\left[\begin{matrix}2&amp;3\\5&amp;4\end{matrix}\right]
+\left[\begin{matrix}x_1\\x_2\end{matrix}\right]=\left[\begin{matrix}3\\11\end{matrix}\right] . \] We have \(|A|=2\times 4-3\times 5=-7 \neq 0\) and therefore \(A^{-1}\) exists. We
+                can now compute \[A^{-1}=-\dfrac{1}{7}\left[\begin{matrix}4&amp;-3\\-5&amp;2\end{matrix}\right] . \] Using \(X=A^{-1}B\), we have \[X=\left[\begin{matrix}x_1\\x_2\end{matrix}\right]=-\dfrac{1}{7}\left[\begin{matrix}4&amp;-3\\-5&amp;2\end{matrix}\right]
+\left[\begin{matrix}3\\11\end{matrix}\right]=-\dfrac{1}{7}\left[\begin{matrix}4\times 3-3\times 11\\-5\times
+3+2\times 11\end{matrix}\right]=-\dfrac{1}{7}\left[\begin{matrix}-21\\7\end{matrix}\right]=
+\left[\begin{matrix}3\\-1\end{matrix}\right] .\] Therefore, \(x_1=3,\ x_2=-1\).
+    </span>
+    <span class="multilang" lang="de">
+        Das System in der Form \(AX=B\) ist \[\left[\begin{matrix}2&amp;3\\5&amp;4\end{matrix}\right ]
+\left[\begin{matrix}x_1\\x_2\end{matrix}\right]=\left[\begin{matrix}3\\11\end{matrix}\right] .\] Es gilt \(|A|=2\times 4-3\times 5=-7 \neq 0\) und daher existiert \(A^{-1}\). Wir
+                können nun \[A^{-1}=-\dfrac{1}{7}\left[\begin{matrix}4&amp;-3\\-5&amp;2\end{matrix}\right] \] berechnen. Mit \(X=A^{-1}B\) gilt \[X=\left[\begin{matrix}x_1\\x_2\end{matrix}\right]=-\dfrac{1} {7}\left[\begin{matrix}4&amp;-3\\-5&amp;2\end{matrix}\right]
+\left[\begin{matrix}3\\11\end{matrix}\right]=-\dfrac{1}{7}\left[\begin{matrix}4\times 3-3\times 11\\- 5 \times
+3+2\times 11\end{matrix}\right]=-\dfrac{1}{7}\left[\begin{matrix}-21\\7\end{matrix}\right]=
+\left[\begin{matrix}3\\-1\end{matrix}\right] .\] Daher ist \(x_1=3,\ x_2=-1\).
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

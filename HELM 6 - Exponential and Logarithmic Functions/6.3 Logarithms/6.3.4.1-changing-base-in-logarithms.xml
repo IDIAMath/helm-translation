@@ -1,0 +1,126 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>6.3.4.1 Changing base in logarithms</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Changing base in logarithms
+    </span>
+    <span class="multilang" lang="de">
+        Änderung der Basis in Logarithmen
+    </span>
+</h3>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        It is sometimes required to express the logarithm with respect to one base in terms of a logarithm with respect to another base.
+    </span>
+    <span class="multilang" lang="de">
+        Manchmal ist es erforderlich, den Logarithmus bezüglich einer Basis als Logarithmus bezüglich einer anderen Basis auszudrücken.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now \(b=a^n\) implies \(\log_ab=n\) where we have used logs to base \(a\). If for some reason we want to use another base, \(p\) say, then we do as follows.
+    </span>
+    <span class="multilang" lang="de">
+        Nun impliziert \(b=a^n\) \(\log_ab=n\), wobei wir Logarithmen zur Basis \(a\) verwendet haben. Wenn wir aus irgendeinem Grund eine andere Basis verwenden wollen, sagen wir \(p\), dann gehen wir wie folgt vor.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We take logs to base \(p\) of both sides of \(b=a^n\), which gives \(\log_p(b)= \log_p(a^n)=n\log_pa\) (using one of the logarithm laws), so \(n=\dfrac{\log_p(b)}{\log_p(a)}\). But we also have \(\log_ab=n\).
+    </span>
+    <span class="multilang" lang="de">
+        Wir nehmen Logarithmen zur Basis \(p\) von beiden Seiten von \(b=a^n\), was \(\log_p(b)= \log_p( a^n)=n\log_pa\) (nach einem der Logarithmusgesetze) ist, also \(n=\dfrac{\log_p(b)}{\log_p(a)}\). Aber wir erhalten auch \(\log_ab=n\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Therefore, we conclude \(\log_ab=\dfrac{\log_p(b)}{\log_p(a)}.\)
+    </span>
+    <span class="multilang" lang="de">
+        Daraus schließen wir \(\log_ab=\dfrac{\log_p(b)}{\log_p(a)}\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        is the rule to be used when converting logarithms from one base to another.
+    </span>
+    <span class="multilang" lang="de">
+        ist die zu verwendende Regel, wenn Logarithmen von einer Basis in eine andere umgewandelt werden.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        \[\log_ab=\dfrac{\log_p(b)}{\log_p(a)}.\]
+    </p>
+</div>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        For base 10 logs: \[\log_ab=\dfrac{\log (b)}{\log (a)}.\]
+    </span>
+    <span class="multilang" lang="de">
+        Für Basis-10-Logarithmen: \[\log_ab=\dfrac{\log (b)}{\log (a)}.\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        For natural logs: \[\log_ab=\dfrac{\ln (b)}{\ln (a)}.\]
+    </span>
+    <span class="multilang" lang="de">
+        Für natürliche Logarithmen: \[\log_ab=\dfrac{\ln (b)}{\ln (a)}.\]
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        For example, \(\log_37\) cannot be determined directly on your calculator since logs to base 3 are not available but it can be found using the above formulas (changing to base \(10\) or base \(e\)). \[\log_37=\dfrac{\log 7}{\log 3}=\dfrac{0.8450980}{0.4771212}=1.7712437\]
+        (Check, on your calculator, that \(3^{1.7712437}=7\)).
+    </span>
+    <span class="multilang" lang="de">
+        Zum Beispiel kann \(\log_37\) nicht direkt auf Ihrem Taschenrechner bestimmt werden, da Logarithmen zur Basis 3 nicht verfügbar sind, aber es kann mit den obigen Formeln gefunden werden (Wechsel zu Basis \(10\) oder Basis \(e\)). \[\log_37=\dfrac{\log 7}{\log 3}=\dfrac{0.8450980}{0.4771212}=1.7712437\]
+        (Überprüfen Sie auf Ihrem Taschenrechner, dass \(3^{1.7712437}=7\)).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Alternatively, \[\log_37=\dfrac{\ln 7}{\ln 3}=\dfrac{1.9459101}{1.0986123}=1.7712437\]
+    </span>
+    <span class="multilang" lang="de">
+        Alternativ \[\log_37=\dfrac{\ln 7}{\ln 3}=\dfrac{1.9459101}{1.0986123}=1.7712437\]
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

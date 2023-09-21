@@ -1,0 +1,438 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>2.5.3.3 Die Gleichung einer Geraden durch zwei Punkte und zweite Aufgabe [The equation of a straight line through two points and second task]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<br/>
+<ol class="HELM_parts">
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                Find the equation of the line joining \(({@x3@}, {@y3@})\) and \(({@x4@}, {@y4@})\). Write it in the form \(y=ax+b\) in the box below:
+            </span>
+            <span class="multilang" lang="no">
+                Finn ligningen for linjen som forbinder \(({@x3@}, {@y3@}) \) og \(({@x4@}, {@y4@}) \). Skriv det på formen \(y=ax+b\) i boksen nedenfor:
+            </span>
+            <span class="multilang" lang="de">
+                Finden Sie die Gleichung der Gerade, die \(({@x3@}, {@y3@})\) und \(({@x4@}, {@y4 @})\) verbindet. Schreiben Sie sie in der Form \(y=ax+b\) in das Feld unten:
+            </span>
+        </p>
+        <p>
+            [[input:ans1]] [[validation:ans1]][[feedback:prt1]]
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                Find the gradient and the vertical intercept of the line joining the points \(({@x5@}, {@y5@})\) and \(({@x6@}, {@y6@})\).
+            </span>
+            <span class="multilang" lang="no">
+                Finn stigningstallet og skjæringspunktet med y-aksen til linjen gjennom punktene \(({@x5@}, {@y5@})\) og \(({@x6@}, {@y6@})\).
+            </span>
+            <span class="multilang" lang="de">
+                Finden Sie die Steigung und den vertikalen Schnittpunkt der Gerade, die die Punkte \(({@x5@}, {@y5@})\) und \(({@x6 @}, {@y6@})\) verbindet.
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                The gradient is
+            </span>
+            <span class="multilang" lang="no">
+                Stigningstallet er
+            </span>
+            <span class="multilang" lang="de">
+                Die Steigung ist
+            </span>
+            [[input:ans2]] [[validation:ans2]] [[feedback:prt2]]
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                The vertical intercept is
+            </span>
+            <span class="multilang" lang="no">
+                Skjæringspuktet med y-aksen er
+            </span>
+            <span class="multilang" lang="de">
+                Der vertikale Schnittpunkt ist
+            </span>
+            [[input:ans3]] [[validation:ans3]] [[feedback:prt3]]
+        </p>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<ol class="HELM_parts">
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                Using the formula you already know, the equation of the line through the points \(({@x3@}, {@y3@})\) and \(({@x4@}, {@y4@})\) is: \[{@var2-y3@}= \dfrac{{@y4@}-({@y3@})}{{@x4@}-({@x3@})} \cdot ({@x-x3@}) \Rightarrow {@solution2@}\]
+            </span>
+            <span class="multilang" lang="no">
+                Ved å bruke formlen allerede kjent er ligningen til linjen gjennom punktene \(({@x3@}, {@y3@})\) og \(({@x4@}, {@y4@})\): \[{@var2-y3@}= \dfrac{{@y4@}-({@y3@})}{{@x4@}-({@x3@})} \cdot ({@x-x3@}) \Rightarrow {@solution2@}\]
+            </span>
+            <span class="multilang" lang="de">
+                Mit der bereits bekannten Formel ist die Geradengleichung durch die Punkte \(({@x3@}, {@y3@})\) und \(({@x4@}, {@y4@})\): \[{@var2-y3@}= \dfrac{{@y4@}-({@y3@})}{{@x4@}-({@x3@})} \cdot ({@x-x3@}) \Rightarrow {@solution2@}\]
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                Using the known formula of the gradient through the points \(({@x5@}, {@y5@})\) and \(({@x6@}, {@y6@})\), we have: \[ \text{gradient}= \dfrac{{@y6@}-({@y5@})}{{@x6@}-({@x5@})} = \displaystyle {@grad@}.\]
+            </span>
+            <span class="multilang" lang="no">
+                Ved å bruke formelen for stigningstall gir \(({@x5@}, {@y5@})\) og \(({@x6@}, {@y6@})\): \[ \text{gradient}= \dfrac{{@y6@}-({@y5@})}{{@x6@}-({@x5@})} = \displaystyle {@grad@}.\]
+            </span>
+            <span class="multilang" lang="de">
+                Mit der bekannten Formel des Gradienten durch die Punkte \(({@x5@}, {@y5@})\) und \(({@x6@}, {@y6@})\), erhalten wir: \[ \text{Steigung}= \dfrac{{@y6@}-({@y5@})}{{@x6@}-({@x5@})} = \displaystyle {@grad@}.\]
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                The vertical intercept is the coefficient \[ ({@y6-y5@}) \cdot {@-x5/(x6-x5) + y5@} = {@vert@}\] that we can find in the expression of the line through two points.
+            </span>
+            <span class="multilang" lang="no">
+                Skjæringspunktet med y-aksen er lik konstantleddet \[ ({@y6-y5@}) \cdot {@-x5/(x6-x5) + y5@} = {@vert@}\] som vi kan finne i uttrykket for linjen gjennom to punkter.
+            </span>
+            <span class="multilang" lang="de">
+                Der vertikale Schnittpunkt ist der Koeffizient \[ ({@y6-y5@}) \cdot {@-x5/(x6-x5) + y5@} = {@vert@}\] den wir im Ausdruck der Gerade durch zwei Punkte finden können.
+            </span>
+        </p>
+    </li>
+</ol>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>var1:x;
+var2:y;
+
+x3: rand_with_prohib(-9,9,[0]);
+x4: rand_with_prohib(-9,9,[x3]);
+y3: rand_with_step(-9,9,1);
+y4: rand_with_prohib(-9,9,[y3]);
+solution2: var2=(y4-y3)*(var1)/(x4-x3)+((y4-y3)*(-x3)/(x4-x3)+y3);
+
+x5: rand_with_prohib(-9,9,[0]);
+x6: rand_with_prohib(-9,9,[x5]);
+y5: rand_with_step(-9,9,1);
+y6: rand_with_prohib(-9,9,[y5]);
+lineq: var2=(y6-y5)*(var1)/(x6-x5)+((y6-y5)*(-x5)/(x6-x5)+y6);
+
+simp:false;   /* turn simp off so that display nice signs in worked solution */
+grad1: (y4-y3)/(x4-x3);
+grad2: (y6-y5)/(x6-x5);  
+grad: ev(grad2,simp);
+vert1: ((y6-y5)*(-x5)/(x6-x5)+y5);
+vert: ev(vert1,simp);</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text>Points \(({@x3@}, {@y3@}), \, ({@x4@}, {@y4@}),\)  {@solution2@}</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>dot</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>solution2</tans>
+            <boxsize>8</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>0</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans2</name>
+            <type>numerical</type>
+            <tans>grad</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>0</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans3</name>
+            <type>numerical</type>
+            <tans>vert</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>0</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>solution2</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt2</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>EqualComAss</answertest>
+                <sans>ans2</sans>
+                <tans>grad</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt2-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt2-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt3</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>EqualComAss</answertest>
+                <sans>ans3</sans>
+                <tans>vert</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt3-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt3-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>1002811827</deployedseed>
+        <deployedseed>716930293</deployedseed>
+        <deployedseed>95947040</deployedseed>
+        <deployedseed>267066736</deployedseed>
+        <deployedseed>1834848419</deployedseed>
+        <deployedseed>1838878292</deployedseed>
+        <deployedseed>147258786</deployedseed>
+        <deployedseed>157349562</deployedseed>
+        <deployedseed>1963676209</deployedseed>
+        <deployedseed>1130890260</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>solution2</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>grad</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>vert</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt2</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt2-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt3</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt3-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ev(var2=(y4-y3)*(var1)/(x4-x3)+((y4-y3)*(-x3)/(x4-x3)+y3)+1,simp)</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>grad+1</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>vert+1</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-1-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt2</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt2-1-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt3</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt3-1-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

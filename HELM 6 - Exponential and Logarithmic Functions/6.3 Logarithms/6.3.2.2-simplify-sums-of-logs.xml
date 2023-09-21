@@ -1,0 +1,227 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>6.3.2.2 Simplify sums of logs</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+        <br/>
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+        <br/>
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Simplify the following expression.
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie den folgenden Ausdruck.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Syntax hint: Enter lg for logs base 10, e.g. if the answer is \(\log_{10}2\), then enter lg(2).
+    </span>
+    <span class="multilang" lang="de">
+        Syntaxhinweis: Geben Sie lg für Logarithmen zur Basis 10 ein, z. B. wenn die Antwort \(\log_{10}2\) lautet, dann geben Sie lg(2) ein.
+    </span>
+    ein
+</p>
+<p>
+    \(\displaystyle{{@lg1@} - {@lg2@} + {@lg3@} =}\) [[input:ans1]] [[validation:ans1]]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    We have:
+</span>
+<span class="multilang" lang="de">
+    Wir haben:
+</span>
+<p>
+    \({@lg1@} = \log_{10}10^{{@aa@}} = {@aa@}\),
+</p>
+<p>
+    \({@lg2@} = \log_{10}(\frac{10}{{@bb@}}) = \log_{10}10 - \log_{10}{@bb@} = 1 - \log_{10}{@bb@}\),
+</p>
+<p>
+    \({@lg3@} = \log_{10}10^{{@cc@}} = {@cc@}\).
+</p>
+<span class="multilang" lang="en">
+    Therefore, the expression is equal to \( {@aa@} - (1 - \log_{10}{@bb@}) + {@cc@} = {@ta@}\).
+</span>
+<span class="multilang" lang="de">
+    Daher ist der Ausdruck gleich \( {@aa@} - (1 - \log_{10}{@bb@}) + {@cc@} = {@ta@}\).
+</span>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>aa: rand([-1,-2,-3]);
+bb: rand([19,21,23,27,29]);
+cc: rand([2,3,4]);
+lg1: lg(10^(aa));
+lg2: lg(10/(bb));
+lg3: lg(10^(cc));
+ta: aa+cc-1+lg(bb);</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text>[[feedback:prt1]]</text>
+        </specificfeedback>
+        <questionnote>
+            <text>\({@lg1@} - {@lg2@} + {@lg3@} = {@ta@}\)</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>none</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>ta</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>/,^,[[BASIC-ALGEBRA]]</forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>1</requirelowestterms>
+            <checkanswertype>1</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>ta</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>743727448</deployedseed>
+        <deployedseed>1041751693</deployedseed>
+        <deployedseed>73037035</deployedseed>
+        <deployedseed>2125850265</deployedseed>
+        <deployedseed>1080283687</deployedseed>
+        <deployedseed>922031417</deployedseed>
+        <deployedseed>141803869</deployedseed>
+        <deployedseed>638343859</deployedseed>
+        <deployedseed>1727727871</deployedseed>
+        <deployedseed>1706478866</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ta</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ev(ta+1,simp)</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

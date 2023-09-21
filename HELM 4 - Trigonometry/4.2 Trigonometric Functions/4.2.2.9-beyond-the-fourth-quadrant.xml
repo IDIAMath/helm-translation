@@ -1,0 +1,134 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>4.2.2.9 Jenseits des vierten Quadranten [Beyond the fourth quadrant]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Rotation beyond the fourth quadrant
+    </span>
+    <span class="multilang" lang="no">
+        Rotasjon utover fjerde kvadrant
+    </span>
+    <span class="multilang" lang="de">
+        Rotation über den vierten Quadranten hinaus
+    </span>
+    \((360^\circ&lt;\theta)\)
+</h4>
+<span class="multilang" lang="en">
+    If the vector \(OP\) continues to rotate around the circle of unit radius then in the next complete rotation \(\theta\) increases from \(360^\circ\) to \(720^\circ\). However, a \(\theta\) value of, say, \(405^\circ\) is indistinguishable from one of \(45^\circ\) (just one extra complete revolution is involved).
+</span>
+<span class="multilang" lang="no">
+    Hvis vektoren \(OP\) fortsetter å rotere rundt sirkelen med enhetsradius, øker \(\theta\) i neste komplette rotasjon fra \(360^\circ\) til \(720^\circ\). Imidlertid kan en \(\theta\)-verdi på for eksempel \(405^\circ\) ikke skilles fra en av \(45^\circ\) (bare én ekstra fullstendig revolusjon er involvert).
+</span>
+<span class="multilang" lang="de">
+    Dreht sich der Vektor \(OP\) weiter um den Kreis mit Einheitsradius, so steigt bei der nächsten vollständigen Drehung \(\theta\) von \(360^\circ \) bis \(720^\circ\). Ein \(\theta\)-Wert von beispielsweise \(405^\circ\) ist jedoch nicht von einem von \(45^\circ\) zu unterscheiden (nur eine zusätzliche vollständige Umdrehung ist erforderlich).
+</span>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        So
+    </span>
+    <span class="multilang" lang="no">
+        Så
+    </span>
+    <span class="multilang" lang="de">
+        Also
+    </span>
+    \(\sin(405^\circ)=\sin(45^\circ)=\dfrac{1}{\sqrt{2}} \text{
+    <span class="multilang" lang="en">
+        and
+    </span>
+    <span class="multilang" lang="no">
+        og
+    </span>
+    <span class="multilang" lang="de">
+        und
+    </span>
+    } \cos(405^\circ)=\cos(45^\circ)=\dfrac{1}{\sqrt{2}}\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In general
+    </span>
+    <span class="multilang" lang="no">
+        Generelt
+    </span>
+    <span class="multilang" lang="de">
+        Allgemein
+    </span>
+    \(\sin(360^\circ+x^\circ)=\sin(x^\circ), \cos(360^\circ+x^\circ)=\cos(x^\circ)\)
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Nøkkelpunkt
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            If \(n\) is any integer, then
+        </span>
+        <span class="multilang" lang="no">
+            Hvis \(n\) er et heltall, da gjelder:
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(n\) eine ganze Zahl ist, dann
+        </span>
+    </p>
+    \[\begin{aligned} \sin (x^\circ+360 n^\circ) &amp;\equiv \sin(x^\circ) \\ \cos (x^\circ+360 n^\circ) &amp;\equiv \cos(x^\circ) \end{aligned}\]
+    <p>
+        <span class="multilang" lang="en">
+            or, since \(360^\circ\equiv2\pi \text{ radians}\), \[\begin{aligned} \sin (x + 2\pi n) &amp;\equiv \sin(x) \\ \cos (x + 2\pi n) &amp;\equiv \cos(x) \end{aligned}\]
+        </span>
+        <span class="multilang" lang="no">
+            eller siden \(360^\circ\equiv2\pi \text{ radianer}\), \[\begin{aligned} \sin (x + 2\pi n) &amp;\equiv \sin(x) \\ \ cos (x + 2\pi n) &amp;\equiv \cos(x) \end{aligned}\]
+        </span>
+        <span class="multilang" lang="de">
+            oder, seit \(360^\circ\equiv2\pi \text{ Radiant}\), \[\begin{aligned} \sin (x + 2\pi n ) &amp;\equiv \sin(x) \\ \cos (x + 2\pi n) &amp;\equiv \cos(x) \end{aligned}\]
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            We say that the functions \(\sin(x)\) and \(\cos(x)\) are
+            <strong>
+                periodic
+            </strong>
+            with period (in radian measure) of \(2\pi\).
+        </span>
+        <span class="multilang" lang="no">
+            Vi sier at funksjonene \(\sin(x)\) og \(\cos(x)\) er
+            <strong>
+                periodiske
+            </strong>
+            med periode (i radianmål) på \(2\pi\).
+        </span>
+        <span class="multilang" lang="de">
+            Wir sagen, dass die Funktionen \(\sin(x)\) und \(\cos(x)\)
+            <strong>
+                periodisch
+            </strong>
+            mit Punkt (in Bogenmaß) von \(2\pi\) sind.
+        </span>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

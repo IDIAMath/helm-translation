@@ -1,0 +1,426 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.1.2.1 Rechnen mit Zahlen [Calculation with Numbers]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            Calculation with Numbers
+        </span>
+        <span class="multilang" lang="de">
+            Rechnen mit Zahlen
+        </span>
+    </span>
+    <br/>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        To perform calculations with numbers we use the
+        <strong>
+            operations
+        </strong>
+        , \(+\), \(-\), \(\times\) and \(\div\).
+    </span>
+    <span class="multilang" lang="de">
+        Um Berechnungen mit Zahlen durchzuführen, verwenden wir die
+        <strong>
+            Operationen
+        </strong>
+        , \(+\), \(-\), \(\times\) und \(\div\).
+    </span>
+</p>
+<h5>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            Addition (\(+\))
+        </span>
+    </span>
+    <span class="multilang" lang="de">
+        Addition (\(+\))
+    </span>
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        We say that \(4+5\) is the
+        <strong>
+            sum
+        </strong>
+        of 4 and 5. Note that \(4+5\) is equal to \(5+4\) so that the order in which we write down the numbers does not matter when we are adding them. Because the order does not matter, addition is said to be
+        <strong>
+            commutative
+        </strong>
+        .
+                This first property is called
+        <strong>
+            commutativity
+        </strong>
+        . When more than two numbers are to be added, as in \(4+8+9\), it makes no difference whether we add the 4 and 8 first to get \(12+9\), or whether we add the 8 and 9 first to get \(4+17\).
+                Whichever way we work we will obtain the same result, 21. Addition is said to be
+        <strong>
+            associative
+        </strong>
+        . This second property is called
+        <strong>
+            associativity
+        </strong>
+        .
+    </span>
+    <span class="multilang" lang="de">
+        Wir sagen, dass \(4+5\) die
+        <strong>
+            Summe
+        </strong>
+        von 4 und 5 ist. Beachten Sie, dass \(4+5\) gleich \(5+4\) ist, sodass die Reihenfolge, in der wir die Zahlen aufschreiben, beim Addieren keine Rolle spielt. Da die Reihenfolge keine Rolle spielt, nennt man die Addition
+        <strong>
+            kommutativ
+        </strong>
+        .
+                Diese erste Eigenschaft wird
+        <strong>
+            Kommutativität
+        </strong>
+        genannt. Wenn mehr als zwei Zahlen zu addieren sind, wie in \(4+8+9\), macht es keinen Unterschied, ob wir zuerst die 4 und 8 addieren, um \(12+9\) zu erhalten, oder ob wir zuerst die 8 und 9 addieren, um \(4+17\) zu erhalten.
+                Wie auch immer wir arbeiten, wir werden das gleiche Ergebnis erhalten, 21. Die Addition wird als
+        <strong>
+            assoziativ
+        </strong>
+        bezeichnet. Diese zweite Eigenschaft wird
+        <strong>
+            Assoziativität
+        </strong>
+        genannt.
+    </span>
+</p>
+<h5>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            Subtraction (\(-\))
+        </span>
+        <span class="multilang" lang="de">
+            Subtraktion (\(-\))
+        </span>
+    </span>
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        We say that \(8-3\) is the
+        <strong>
+            difference
+        </strong>
+        of \(8\) and \(3\). Note that \(8-3\) is
+        <em>
+            not
+        </em>
+        the same as \(3-8\) and so the order in which we write down the numbers is important when we are subtracting them i.e. subtraction is not commutative.
+                Subtracting a negative number is equivalent to adding a positive number, thus \(7-(-3)=7+3=10\).
+    </span>
+    <span class="multilang" lang="de">
+        Wir sagen, dass \(8-3\) die
+        <strong>
+            Differenz
+        </strong>
+        von \(8\) und \(3\) ist. Beachten Sie, dass \(8-3\)
+        <em>
+            nicht
+        </em>
+        dasselbe ist wie \(3-8\) und daher ist die Reihenfolge, in der wir die Zahlen aufschreiben, wichtig, wenn wir sie subtrahieren, d.h. die Subtraktion ist nicht kommutativ.
+                Das Subtrahieren einer negativen Zahl entspricht dem Addieren einer positiven Zahl, also \(7-(-3)=7+3=10\).
+    </span>
+</p>
+<h5>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            The plus or minus sign (\(\pm\))
+        </span>
+        <span class="multilang" lang="de">
+            Das Plus- oder Minuszeichen (\(\pm\))
+        </span>
+    </span>
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        In engineering calculations we often use the notation
+        <strong>
+            plus or minus
+        </strong>
+        , \(\pm\). For example, we write \(12\pm 8\) as shorthand for the two numbers \(12+8\) and \(12-8\), that is 20 and 4. If we say a number lies in the range \(12\pm 8\)
+        we mean that the number can lie between 4 and 20 inclusive.
+    </span>
+    <span class="multilang" lang="de">
+        Bei technischen Berechnungen verwenden wir oft die Notation
+        <strong>
+            Plus oder Minus
+        </strong>
+        , \(\pm\). Zum Beispiel schreiben wir \(12\pm 8\) als Abkürzung für die beiden Zahlen \(12+8\) und \(12-8\), also 20 und 4. Wenn wir sagen, dass eine Zahl im Bereich \(12\pm 8\) liegt,
+        meinen wir, dass die Zahl zwischen 4 und einschließlich 20 liegen kann.
+    </span>
+</p>
+<h5>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            Multiplication (\(\times\))
+        </span>
+        <span class="multilang" lang="de">
+            Multiplikation (\(\times\))
+        </span>
+    </span>
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The instruction to multiply, or obtain the product of, the numbers 6 and 7 is written \(6\times 7\). Sometimes the multiplication sign is missed out altogether and we write \((6)(7)\). Note that \((6)(7)\) is the same as \((7)(6)\) so multiplication of
+                numbers is commutative. If we are multiplying three numbers, as in \(2\times 3\times 4\), we obtain the same result whether we multiply the 2 and 3 first to obtain \(6\times 4\), or whether we multiply the 3 and 4 first to obtain \(2\times 12\). Either
+                way the result is 24. Multiplication of numbers is associative. Recall that when multiplying positive and negative numbers the sign of the result is given by the rules given in the Key Point below.
+    </span>
+    <span class="multilang" lang="de">
+        Die Anweisung, die Zahlen 6 und 7 zu multiplizieren oder das Produkt daraus zu erhalten, wird \(6\times 7\) geschrieben. Manchmal fehlt das Multiplikationszeichen ganz und wir schreiben \((6)(7)\). Beachten Sie, dass \((6)(7)\) dasselbe ist wie \((7)(6)\), also ist die Multiplikation von
+                Zahlen kommutativ. Wenn wir drei Zahlen multiplizieren, wie in \(2\times 3\times 4\), erhalten wir das gleiche Ergebnis, egal ob wir zuerst die 2 und 3 multiplizieren, um \(6\times 4\) zu erhalten, oder ob wir zuerst die 3 und 4  multiplizieren, um \(2\times 12\) zu erhalten. So oder so
+                ist das Ergebnis 24. Die Multiplikation von Zahlen ist assoziativ. Denken Sie daran, dass bei der Multiplikation positiver und negativer Zahlen das Vorzeichen des Ergebnisses durch die im folgenden Schlüsselpunkt angegebenen Regeln gegeben ist.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            <strong>
+                Multiplication
+            </strong>
+        </span>
+        <span class="multilang" lang="de">
+            <strong>
+                Multiplikation
+            </strong>
+        </span>
+    </p>
+    <ul>
+        <li>
+            <span class="multilang" lang="en">
+                positive \(\times\) positive = positive
+            </span>
+            <span class="multilang" lang="de">
+                positiv \(\times\) positiv = positiv
+            </span>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                positive \(\times\) negative = negative
+            </span>
+            <span class="multilang" lang="de">
+                positiv \(\times\) negativ = negativ
+            </span>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                negative \(\times\) positive = negative
+            </span>
+            <span class="multilang" lang="de">
+                negativ \(\times\) positiv = negativ
+            </span>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                negative \(\times\) negative = positive
+            </span>
+            <span class="multilang" lang="de">
+                negativ \(\times\) negativ = positiv
+            </span>
+        </li>
+    </ul>
+</div>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        For example, \((-4)\times 5 = -20\), and \((-3)\times (-6)=18\).
+    </span>
+    <span class="multilang" lang="de">
+        Zum Beispiel, \((-4)\times 5 = -20\) und \((-3)\times (-6)=18\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        When dealing with fractions we sometimes use the word ‘of’ as in ‘find \(\dfrac{1}{2}\) of 36’. In this context ‘of’ is equivalent to multiply, that is
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir mit Brüchen arbeiten, verwenden wir manchmal das Wort „von“, wie in „Finde \(\dfrac{1}{2}\) von 36“. In diesem Zusammenhang ist „von“ gleichbedeutend mit multiplizieren, also
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad \dfrac{1}{2}\) of 36 is equivalent to \(\dfrac{1}{2}\times 36 = 18\)
+    </span>
+    <span class="multilang" lang="de">
+        \(\qquad \dfrac{1}{2}\) von 36 entspricht \(\dfrac{1}{2}\times 36 = 18\)
+    </span>
+</p>
+<h5>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            Division (\(\div\)) or (\(/\))
+        </span>
+        <span class="multilang" lang="de">
+            Division (\(\div\)) oder (\(/\))
+        </span>
+    </span>
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The quantity \(8\div 4\) means \(8\) divided by \(4\). This is also written as \(8/4\) or \(\dfrac{8}{4}\) and is known as the
+        <strong>
+            quotient
+        </strong>
+        of \(8\) and \(4\). In the fraction \(\dfrac{8}{4}\) the top line is called the
+        <strong>
+            numerator
+        </strong>
+        and the bottom line is called the
+        <strong>
+            denominator
+        </strong>
+        . Note that \(8/4\) is not the same as \(4/8\) and so the order in which we write down the numbers is important. Division is not commutative.
+    </span>
+    <span class="multilang" lang="de">
+        Die Größe \(8\div 4\) bedeutet \(8\) dividiert durch \(4\). Dies wird auch als \(8/4\) oder \(\dfrac{8}{4}\) geschrieben und ist als
+        <strong>
+            Quotient
+        </strong>
+        von \(8\) und \(4\) bekannt. Beim Bruch \(\dfrac{8}{4}\) wird die obere Zeile als
+        <strong>
+            Zähler
+        </strong>
+        und die untere Zeile als
+        <strong>
+            Nenner
+        </strong>
+        bezeichnet. Beachten Sie, dass \(8/4\) nicht dasselbe ist wie \(4/8\), und daher ist die Reihenfolge, in der wir die Zahlen aufschreiben, wichtig. Division ist nicht kommutativ.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        When dividing positive and negative numbers, recall the rules in the Key Point below for determining the sign of the result:
+    </span>
+    <span class="multilang" lang="de">
+        Erinnern Sie sich bei der Division positiver und negativer Zahlen an die Regeln im folgenden Schlüsselpunkt zur Bestimmung des Vorzeichens des Ergebnisses:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            <strong>
+                Division
+            </strong>
+        </span>
+        <span class="multilang" lang="de">
+            <strong>
+                Division
+            </strong>
+        </span>
+    </p>
+    <ul>
+        <li>
+            <span class="multilang" lang="en">
+                \(\dfrac{\text{positive}}{\text{positive}} = \text{positive}\)
+            </span>
+            <span class="multilang" lang="de">
+                \(\dfrac{\text{positiv}}{\text{positiv}} = \text{positiv}\)
+            </span>
+            <br/>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                \(\dfrac{\text{positive}}{\text{negative}} = \text{negative}\)
+            </span>
+            <span class="multilang" lang="de">
+                \(\dfrac{\text{positiv}}{\text{negativ}} = \text{negativ}\)
+            </span>
+            <br/>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                \(\dfrac{\text{negative}}{\text{positive}} = \text{negative}\)
+            </span>
+            <span class="multilang" lang="de">
+                \(\dfrac{\text{negativ}}{\text{positiv}} = \text{negativ}\)
+            </span>
+            <br/>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                \(\dfrac{\text{negative}}{\text{negative}} = \text{positive}\)
+            </span>
+            <span class="multilang" lang="de">
+                \(\dfrac{\text{negativ}}{\text{negativ}} = \text{positiv}\)
+            </span>
+        </li>
+    </ul>
+</div>
+<br/>
+<h5>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            The reciprocal of a number
+        </span>
+        <span class="multilang" lang="de">
+            Der Kehrwert einer Zahl
+        </span>
+    </span>
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The
+        <strong>
+            reciprocal
+        </strong>
+        of a number is found by inverting it. If the number \(\dfrac{2}{3}\) is
+        <strong>
+            inverted
+        </strong>
+        we get \(\dfrac{3}{2}\). So the reciprocal of \(\dfrac{2}{3}\) is \(\dfrac{3}{2}\). Because we can write 4 as \(\dfrac{4}{1}\),
+                the reciprocal of 4 is \(\dfrac{1}{4}\).
+    </span>
+    <span class="multilang" lang="de">
+        Der
+        <strong>
+            Kehrwert
+        </strong>
+        einer Zahl wird durch Invertieren ermittelt. Wenn die Zahl \(\dfrac{2}{3}\)
+        <strong>
+            invertiert
+        </strong>
+        wird, erhalten wir \(\dfrac{3}{2}\). Der Kehrwert von \(\dfrac{2}{3}\) ist also \(\dfrac{3}{2}\). Da wir 4 als \(\dfrac{4}{1}\) schreiben können,
+                ist der Kehrwert von 4 \(\dfrac{1}{4}\).
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

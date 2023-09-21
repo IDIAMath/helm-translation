@@ -1,0 +1,111 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.4.4.1 The inverse of a 3x3 matrix ─ determinant method</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        The inverse of a \(3\times 3\) matrix – determinant method
+    </span>
+    <span class="multilang" lang="de">
+        Die Inverse einer \(3\times 3\)-Matrix – Determinantenmethode
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        This method which employs determinants, is of importance from a theoretical perspective. The numerical computations involved are too heavy for matrices of higher order than \(3\times 3\) and in such cases the Gauss elimination approach is preferred.
+    </span>
+    <span class="multilang" lang="de">
+        Diese Methode, die Determinanten verwendet, ist aus theoretischer Sicht von Bedeutung. Die damit verbundenen numerischen Berechnungen sind für Matrizen höherer Ordnung als \(3\times 3\) zu aufwändig und in solchen Fällen wird der Gauß-Eliminierungsansatz bevorzugt.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        To obtain \(A^{-1}\) using the determinant approach the steps in the following keypoint are followed:
+    </span>
+    <span class="multilang" lang="de">
+        Um \(A^{-1}\) mithilfe des Determinantenansatzes zu erhalten, werden die Schritte im folgenden Schlüsselpunkt befolgt:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="en">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <h5 style="text-align: center;">
+        <span class="multilang" lang="en">
+            Matrix Inverse – the Determinant Method
+        </span>
+        <span class="multilang" lang="de">
+            Matrix Inverse – die Determinantenmethode
+        </span>
+    </h5>
+    <p>
+        <span class="multilang" lang="en">
+            Given a square matrix \(A\), we first calculate \(|A|\). If \(|A|=0\) then \(A^{-1}\) does not exist.
+        </span>
+        <span class="multilang" lang="de">
+            Gegeben sei eine quadratische Matrix \(A\), berechnen wir zunächst \(|A|\). Wenn \(|A|=0\), dann existiert   \(A^{-1}\) nicht.
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            If \(|A|\neq 0\) we can proceed to find the inverse matrix, as follows:
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(|A|\neq 0\) können wir wie folgt damit fortfahren, die inverse Matrix zu finden:
+        </span>
+    </p>
+    <ul>
+        <li>
+            <span class="multilang" lang="en">
+                Replace each element of \(A\) by its cofactor
+            </span>
+            <span class="multilang" lang="de">
+                Ersetzen Sie jedes Element von \(A\) durch seinen Kofaktor
+            </span>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                Transpose the result to form the
+                <b>
+                    adjoint matrix
+                </b>
+                , denoted by \(\mathrm{adj}(A)\)
+            </span>
+            <span class="multilang" lang="de">
+                Stellen Sie das Ergebnis um, um die
+                <b>
+                    adjungierte Matrix
+                </b>
+                zu bilden, gekennzeichnet durch \(\mathrm{adj}(A)\)
+            </span>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                Then calculate \(A^{-1}=\frac{1}{|A|}\mathrm{adj}(A)\).
+            </span>
+            <span class="multilang" lang="de">
+                Dann berechnen Sie \(A^{-1}=\frac{1}{|A|}\mathrm{adj}(A)\).
+            </span>
+        </li>
+    </ul>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

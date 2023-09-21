@@ -1,0 +1,102 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>6.4.4.1 Solving equations involving hyperbolic functions</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Solving equations involving hyperbolic functions
+    </span>
+    <span class="multilang" lang="de">
+        Gleichungen mit hyperbolischen Funktionen lösen
+    </span>
+</h3>
+<span class="multilang" lang="en">
+    As a final example we consider equations involving the hyperbolic functions.
+</span>
+<span class="multilang" lang="de">
+    Als letztes Beispiel betrachten wir Gleichungen mit hyperbolischen Funktionen.
+</span>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Solve the equations :
+    </span>
+    <span class="multilang" lang="de">
+        Lösen Sie die Gleichungen:
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(\sinh 3x=0\)
+    </li>
+    <li>
+        \(\cosh 3x=2\)
+    </li>
+    <li>
+        \(2\cosh^2x=3\cosh 2x-3\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            From its graph we know that \(\sinh x=0\) only when \(x=0\), so we need \(3x=0\) which implies \(x=0\).
+        </span>
+        <span class="multilang" lang="de">
+            Aus dem Graphen wissen wir, dass \(\sinh x=0\) nur dann gilt, wenn \(x=0\), also brauchen wir \(3x=0\), was \(x=0\) impliziert.
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \[\cosh 3x=2 \qquad \text{ implies } \qquad \dfrac{e^{3x}+e^{-3x}}{2}=2 \qquad \text{ or } \qquad e^{3x}+e^{-3x}-4=0.\] Now multiply through by \(e^{3x}\) (to eliminate the term \(e^{-3x}\)) to give \[e^{3x}e^{3x}+e^{3x}e^{-3x}-4e^{3x}=0 \qquad \text{
+                                or } \qquad (e^{3x})^2-4e^{3x}+1=0.\] This is a quadratic equation in the variable \(e^{3x}\) so substituting \(y=e^{3x}\) gives \[y^2-4y+1=0\qquad \text{implying}\qquad y=2\pm\sqrt{3}\quad \text{so}\quad y=3.7321\quad\text{or}\quad 0.26795\]
+                                \[ \qquad e^{3x}=3.7321\qquad \text{implies}\qquad x=\dfrac{1}{3}\ln 3.7321=0.439\quad\text{to 3 d.p.}\] \[ \qquad e^{3x}=0.26795\qquad \text{implies}\qquad x=\dfrac{1}{3}\ln 0.26795=-0.439\quad\text{to 3 d.p.}\]
+        </span>
+        <span class="multilang" lang="de">
+            \[\cosh 3x=2 \qquad \text{ impliziert } \qquad \dfrac{e^{3x}+e^{-3x}}{2}=2 \qquad \text{ oder } \qquad e^{3x}+e^{-3x}-4=0.\] Multiplizieren Sie nun mit \(e^{3x}\) (um den Term \(e^ {-3x}\)) zu eliminieren, was \[e^{3x}e^{3x}+e^{3x}e^{-3x}-4e^{3x}=0 \qquad \text{
+                                    oder } \qquad (e^{3x})^2-4e^{3x}+1=0\] ergibt. Dies ist eine quadratische Gleichung mit der Variablen \(e^{3x}\), also ersetzen wir \(y=e ^{3x}\), wobei \[y^2-4y+1=0\qquad \text{impliziert}\qquad y=2\pm\sqrt{3}\quad \text{also}\quad y=3.7321\quad\text{oder}\quad 0.26795\]
+                                    \[ \qquad e^{3x}=3.7321\qquad \text{impliziert}\qquad x=\dfrac{1}{3}\ln 3.7321=0.439\quad\text{auf 3 Dezimalstellen gerundet}\] \[ \qquad e^{3x}=0.26795\qquad \text{impliziert}\qquad x=\dfrac{1}{3}\ln 0.26795=-0.439\quad\text{auf 3 Dezimalstellen gerundet}\]
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            We first simplify this expression by using the identity: \(\cosh 2x=2\cosh^2-1\). Thus the original equation \(2\cosh^2x=3\cosh 2x-3\) becomes \(\cosh 2x+1=3\cosh 2x-3\) or, when written in terms of exponentials: \[\dfrac{e^{2x}+e^{-2x}}{2}=3\left(\dfrac{e^{2x}+e^{-2x}}{2}\right)-4.\]
+                                Multiplying through by \(2e^{2x}\) gives \(e^{4x}+1=3(e^{4x}+1)-8e^{2x}\) or, after simplifying: \[e^{4x}-4e^{2x}+1=0.\] Writing \(y=e^{2x}\) we easily obtain \(y^2-4y+1=0\) with solution (using the quadratic formula): \[y=\dfrac{4\pm \sqrt{16-4}}{2}=2\pm\sqrt{3}\]
+                                If \(y=2+\sqrt{3}\) then \(2+\sqrt{3}=e^{2x}\) implying \(x=0.65848\) to \(5\) d.p. If \(y=2-\sqrt{3}\) then \(2-\sqrt{3}=e^{2x}\) implying \(x=-0.65848\) to \(5\) d.p.
+        </span>
+        <span class="multilang" lang="de">
+            Wir vereinfachen diesen Ausdruck zunächst, indem wir die Identität verwenden: \(\cosh 2x=2\cosh^2-1\). Somit wird die ursprüngliche Gleichung \(2\cosh^2x=3\cosh 2x-3\) zu \(\cosh 2x+1=3\cosh 2x-3\) oder in Exponentialform geschrieben: \[\dfrac {e^{2x}+e^{-2x}}{2}=3\left(\dfrac{e^{2x}+e^{-2x}}{2}\right)-4.\]
+                                    Multiplizieren mit \(2e^{2x}\) ergibt \(e^{4x}+1=3(e^{4x}+1)-8e^{2x}\) oder vereinfacht: \[e^ {4x}-4e^{2x}+1=0.\] Wenn wir \(y=e^{2x}\) schreiben, erhalten wir leicht \(y^2-4y+1=0\) mit Lösung (unter Verwendung der quadratischen Formel): \[y=\dfrac{4\pm \sqrt{16-4}}{2}=2\pm\sqrt{3}\]
+                                    Wenn \(y=2+\sqrt{3}\) dann \(2+\sqrt{3}=e^{2x}\) , was \(x=0.65848\) bis \(5\) Dezimalstellen impliziert. Wenn \(y=2-\sqrt{3}\) dann \(2-\sqrt{3}=e^{2x}\), was \(x=-0.65848\) auf \(5\) Dezimalstellen gerundet.
+        </span>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

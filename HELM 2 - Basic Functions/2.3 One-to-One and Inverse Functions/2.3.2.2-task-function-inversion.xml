@@ -1,0 +1,229 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>2.3.2.2 Aufgabe: Funktionsumkehrung [Task: Function inversion]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Find the inverse of the function \(f(x) = {@yy@}\), using the fact that the inverse function must take an input \({@yy@}\) and produce an output \(x\). So \(f^{-1}({@yy@})=x\).
+    </span>
+    <span class="multilang" lang="de">
+        Bestimmen Sie die Inverse der Funktion \(f(x) = {@yy@}\), indem Sie die Tatsache nutzen, dass die Umkehrfunktion eine Eingabe \({@yy @}\) annimmt und eine Ausgabe \(x\) erzeugt. Also \(f^{-1}({@yy@})=x\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Introduce a new variable \(z\) so that \(z={@yy@}\) and transpose this to find \(x\). Hence write down the inverse function:
+    </span>
+    <span class="multilang" lang="de">
+        Führen Sie eine neue Variable \(z\) ein, sodass \(z={@yy@}\) und stellen Sie diese um, um \(x\) zu erhalten. Schreiben Sie also die Umkehrfunktion auf:
+    </span>
+</p>
+<p>
+</p>
+<p>
+    \( f^{-1}(x) = \) [[input:ans1]] [[validation:ans1]] [[feedback:prt1]]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        We are given the function \(f(x) ={@yy@}.\)
+    </span>
+    <span class="multilang" lang="de">
+        Wir erhalten die Funktion \(f(x) ={@yy@}\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We introduce the new variable \(z\) so that \(z={@yy@}\) and transpose this to find \(x.\) So \( x = \frac{{@bb@}-z}{@aa@}.\)
+    </span>
+    <span class="multilang" lang="de">
+        Wir führen die neue Variable \(z\) ein, sodass \(z={@yy@}\) und stellen diese um, um \(x\) zu erhalten. Also \( x = \frac{{@bb@}-z}{@aa@}.\)
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(f^{-1}(z) = \frac{{@bb@}-z}{{@aa@}}\). With \(x\) as its argument the inverse function is \( f^{-1}(x) = {@Ans@} \). Take care the expression is in terms of the stated independent variable.
+    </span>
+    <span class="multilang" lang="de">
+        \(f^{-1}(z) = \frac{{@bb@}-z}{{@aa@}}\). Mit \(x\) als Argument ist die Umkehrfunktion \( f^{-1}(x) = {@Ans@} \). Achten Sie darauf, dass sich der Ausdruck auf die angegebene unabhängige Variable bezieht.
+    </span>
+    <br/>
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>aa: 2+rand(8);
+bb: rand_with_prohib(2,9,[aa]);
+yy: bb - aa*x;
+
+Ans: (bb-x)/aa;</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text>\(f(x) = {@yy@}, \quad f^{-1} (x) = {@Ans@}\)</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>none</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>Ans</tans>
+            <boxsize>15</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>Ans</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>669949519</deployedseed>
+        <deployedseed>194305415</deployedseed>
+        <deployedseed>1676178409</deployedseed>
+        <deployedseed>63745332</deployedseed>
+        <deployedseed>947757272</deployedseed>
+        <deployedseed>1851093003</deployedseed>
+        <deployedseed>240810052</deployedseed>
+        <deployedseed>1448683431</deployedseed>
+        <deployedseed>1005778321</deployedseed>
+        <deployedseed>957938964</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>Ans</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ev(Ans+1,simp)</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-1-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

@@ -1,0 +1,95 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.1.1.6 Notation</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        <strong style="font-size: 14px;">
+            Notation
+        </strong>
+    </span>
+    <span class="multilang" lang="de">
+        <strong style="font-size: 14px;">
+            Notation
+        </strong>
+    </span>
+    <br/>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        For ease of generalisation to larger systems we write the two-equation system in a different notation:
+    </span>
+    <span class="multilang" lang="de">
+        Um die Verallgemeinerung auf größere Systeme zu erleichtern, schreiben wir das Zwei-Gleichungssystem in einer anderen Notation:
+    </span>
+    <span class="math display">
+        \[\begin{aligned}
+a_{11}x_1+a_{12}x_2&amp;=&amp;b_1 \\
+a_{21}x_1+a_{22}x_2&amp;=&amp;b_2\end{aligned}\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Here the unknowns are \(x_1\) and \(x_2\), the right-hand sides are \(b_1\) and \(b_2\) and the coefficients are
+                \(a_{ij}\) where, for example, \(a_{21}\) is the coefficient of \(x_1\) in equation two. In general, \(a_{ij}\) is
+                the coefficient of \(x_j\) in equation \(i\).
+    </span>
+    <span class="multilang" lang="de">
+        Hier sind die Unbekannten \(x_1\) und \(x_2\), die rechten Seiten sind \(b_1\) und \(b_2\) und die Koeffizienten sind
+                \(a_{ij}\) wobei beispielsweise \(a_{21}\) der Koeffizient von \(x_1\) in Gleichung zwei ist. Im Allgemeinen ist \(a_{ij}\)
+                der Koeffizient von \(x_j\) in Gleichung \(i\).
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Cramer’s rule can then be stated as follows:
+    </span>
+    <span class="multilang" lang="de">
+        Cramers Regel lässt sich dann wie folgt formulieren:
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        If \(\left|\begin{array}{cc}a_{11}&amp;a_{12}\\ a_{21}&amp;a_{22}\end{array}\right|\neq 0\), then the equations
+    </span>
+    <span class="multilang" lang="de">
+        Wenn \(\left|\begin{array}{cc}a_{11}&amp;a_{12}\\ a_{21}&amp;a_{22}\end{array}\right|\neq 0\), dann haben die Gleichungen
+    </span>
+    <span class="math display">
+        \[\begin{aligned}
+a_{11}x_1+a_{12}x_2&amp;=&amp;b_1\\
+        a_{21}x_1+a_{22}x_2&amp;=&amp;b_2\end{aligned}\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        have solution
+    </span>
+    <span class="multilang" lang="de">
+        die Lösung
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        \(\qquad x_1=\dfrac{\left|\begin{array}{cc}b_1&amp;a_{12}\\
+b_2&amp;a_{22}\end{array}\right|}{\left|\begin{array}{cc}a_{11}&amp;a_{12}\\
+a_{21}&amp;a_{22}\end{array}\right|}\ ,\ \ \ x_2=\dfrac{\left|\begin{array}{cc}a_{11}&amp;b_1\\
+a_{21}&amp;b_2\end{array}\right|}{\left|\begin{array}{cc}a_{11}&amp;a_{12}\\
+a_{21}&amp;a_{22}\end{array}\right|}.\)
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

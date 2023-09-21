@@ -1,0 +1,70 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>3.6.4.1 Echte Brüche mit quadratischen Faktoren [Proper fractions with quadratic factors]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Proper fractions with quadratic factors
+    </span>
+    <span class="multilang" lang="no">
+        Ekte brøker med kvadratiske faktorer
+    </span>
+    <span class="multilang" lang="de">
+        Echte Brüche mit quadratischen Faktoren
+    </span>
+</h4>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        Sometimes when a denominator is factorised it produces a quadratic term which cannot be factorised into linear factors. One such quadratic factor is \(x^2+x+1\). This factor produces a
+                partial fraction of the form \(\dfrac{Ax+B}{x^2+x+1}\). In general a quadratic factor of the form \(ax^2+bx+c\) produces a single partial fraction of the form \(\dfrac{Ax+B}{ax^2+bx+c}\).
+    </span>
+    <span class="multilang" lang="no">
+        Noen ganger når en nevner er faktorisert, produserer den en kvadratisk faktor som ikke kan faktoriseres til lineære faktorer. En slik kvadratisk faktor er for eksempel \(x^2+x+1\).
+                Denne faktoren produserer en delbrøk på formen \(\dfrac{Ax+B}{x^2+x+1}\). Generelt gir en kvadratisk faktor på formen \(ax^2+bx+c\) en enkel delbrøk på formen \(\dfrac{Ax+B}{ax^2+bx+c}\).
+    </span>
+    <span class="multilang" lang="de">
+        Wenn ein Nenner faktorisiert wird, entsteht manchmal ein quadratischer Term, der nicht in lineare Faktoren faktorisiert werden kann. Ein solcher quadratischer Faktor ist \(x^2+x+1\).
+                Dieser Faktor erzeugt einen Partialbruch der Form \(\dfrac{Ax+B}{x^2+x+1}\). Im Allgemeinen erzeugt ein quadratischer Faktor der Form \(ax^2+bx+c\) einen einzelnen Partialbruch der
+                Form \(\dfrac{Ax+B}{ax^2+bx+c}\).
+    </span>
+</p>
+<br/>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Nøkkelpunkt
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            A quadratic factor \(ax^2+bx+c\) in the denominator produces a partial fraction of the form \[\dfrac{Ax+B}{ax^2+bx+c}\]
+        </span>
+        <span class="multilang" lang="no">
+            En kvadratisk faktor \(ax^2+bx+c\) i nevneren produserer en delbrøk på formen \[\dfrac {Ax+B}{ax^2+bx+c}\]
+        </span>
+        <span class="multilang" lang="de">
+            Ein quadratischer Faktor \(ax^2+bx+c\) im Nenner ergibt einen Partialbruch der Form \[\dfrac{Ax+B}{ax^2+bx+c}\]
+        </span>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,123 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.2.2.1 Multiplying two 2x2 matrices</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Multiplying two \(2\times2\) matrices
+    </span>
+    <span class="multilang" lang="de">
+        Multiplikation zweier \(2\times2\) Matrizen
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        If \(A\) and \(B\) are two matrices then the product \(AB\) is obtained by multiplying the rows of \(A\) with the columns of \(B\) in the manner described above. This will only be possible if the number of elements in the rows of \(A\) is the same as
+                the number of elements in the columns of \(B\). In particular, we define the product of two \(2\times 2\) matrices \(A\) and \(B\) to be another \(2\times 2\) matrix \(C\) whose elements are calculated according to the following pattern: \[ \begin{array}{ccccc}
+                \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} &amp;\cdot &amp; \begin{bmatrix} w &amp; x \\ y &amp; z \end{bmatrix} &amp; = &amp; \begin{bmatrix} aw + by &amp; ax + bz \\ cw + dy &amp; cx + dz \end{bmatrix} \\ A &amp; \cdot &amp; B &amp; =
+        &amp; C \end{array}\]
+    </span>
+    <span class="multilang" lang="de">
+        Wenn \(A\) und \(B\) zwei Matrizen sind, erhält man das Produkt \(AB\) durch Multiplikation der Zeilen von \(A\) mit den Spalten von \(B\) in der oben beschriebenen Weise. Dies ist nur möglich, wenn die Anzahl der Elemente in den Zeilen von \(A\) gleich ist wie
+                die Anzahl der Elemente in den Spalten von \(B\). Insbesondere definieren wir das Produkt zweier \(2\times 2\)-Matrizen \(A\) und \(B\) als eine weitere \(2\times 2\)-Matrix \(C\), deren Elemente berechnet werden nach folgendem Muster: \[ \begin{array}{ccccc}
+                \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} &amp;\cdot &amp; \begin{bmatrix} w &amp; x \\ y &amp; z \end{bmatrix} &amp; = &amp; \begin{bmatrix} aw + by &amp; ax + bz \\ cw + dy &amp; cx + dz \end{bmatrix} \\ A &amp; \cdot &amp; B &amp; =
+        &amp; C \end{array}\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Henceforth, rather than writing \(A \cdot B\), we omit the \(\cdot\). Thus we write \(AB\) for the matrix product. The rule for calculating the elements of the product \(C\) is described in the following Key Point.
+    </span>
+    <span class="multilang" lang="de">
+        Anstatt \(A \cdot B\) zu schreiben, lassen wir fortan das \(\cdot\) weg. Also schreiben wir \(AB\) für das Matrixprodukt. Die Regel zur Berechnung der Elemente des Produkts \(C\) ist im folgenden Schlüsselpunkt beschrieben.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <center>
+        <span class="multilang" lang="en">
+            <b>
+                Matrix Product
+            </b>
+        </span>
+        <span class="multilang" lang="de">
+            <b>
+                Matrixprodukt
+            </b>
+        </span>
+    </center>
+    <center>
+        <p>
+            \(AB=C\)
+        </p>
+    </center>
+    <p>
+    </p>
+    <center>
+        <span class="multilang" lang="en">
+            The element in the \(i^{\text{th}}\) row and \(j^{\text{th}}\) column of \(C\) is obtained
+        </span>
+        <span class="multilang" lang="de">
+            Das Element in der \(i{\text{-ten}}\) Zeile und der \(j{\text{-ten}}\) Spalte von \(C\) erhalten wir
+        </span>
+    </center>
+    <p>
+    </p>
+    <p>
+    </p>
+    <center>
+        <span class="multilang" lang="en">
+            by multiplying the \(i^{\text{th}}\) row of \(A\) with the \(j^{\text{th}}\) column of \(B\).
+        </span>
+        <span class="multilang" lang="de">
+            durch Multiplikation der \(i{\text{-ten}}\) Zeile von \(A\) mit der \(j{\text{-ten}}\) Spalte von \(B\).
+        </span>
+    </center>
+    <p>
+    </p>
+</div>
+<span class="multilang" lang="en">
+    We illustrate this construction for the abstract matrices \(A\) and \(B\) given above:
+</span>
+<span class="multilang" lang="de">
+    Wir veranschaulichen diese Konstruktion für die oben angegebenen abstrakten Matrizen \(A\) und \(B\):
+</span>
+\[ \begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix} \begin{bmatrix} w &amp; x \\ y &amp; z\end{bmatrix} =
+\begin{bmatrix} \begin{bmatrix} a &amp; b\end{bmatrix} \begin{bmatrix} w \\ y \end{bmatrix} &amp; \begin{bmatrix} a &amp; b \end{bmatrix} \begin{bmatrix} x \\ z \end{bmatrix}\\ \\ \begin{bmatrix} c &amp; d \end{bmatrix} \begin{bmatrix} w \\ y\end{bmatrix}
+&amp; \begin{bmatrix} c &amp; d \end{bmatrix} \begin{bmatrix} x \\ z \end{bmatrix}\end{bmatrix} = \begin{bmatrix} aw+by &amp; ax+bz \\ cw+dy &amp; cx+d \end{bmatrix} \]
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        For example,
+    </span>
+    <span class="multilang" lang="de">
+        Zum Beispiel
+    </span>
+</p>
+<p>
+    \[ \begin{bmatrix} 2 &amp; -1 \\ 3 &amp; -2 \end{bmatrix} \begin{bmatrix} 2 &amp; 4 \\ 6 &amp; 1 \end{bmatrix} = \begin{bmatrix} \begin{bmatrix} 2 &amp; -1 \end{bmatrix} \begin{bmatrix}2 \\ 6 \end{bmatrix} &amp; \begin{bmatrix} 2 &amp; -1\end{bmatrix}
+                \begin{bmatrix} 4 \\ 1 \end{bmatrix} \\ \\ \begin{bmatrix} 3 &amp; -2\end{bmatrix} \begin{bmatrix}2 \\ 6\end{bmatrix} &amp; \begin{bmatrix} 3 &amp; -2 \end{bmatrix} \begin{bmatrix} 4 \\ 1 \end{bmatrix} \end{bmatrix} = \begin{bmatrix}-2 &amp; 7 \\
+                -6 &amp; 10 \end{bmatrix} \]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

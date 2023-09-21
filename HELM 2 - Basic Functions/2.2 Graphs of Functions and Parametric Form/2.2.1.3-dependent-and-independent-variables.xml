@@ -1,0 +1,70 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>2.2.1.3 Abhängige und unabhängige Variablen [Dependent and Independent Variables]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        <strong>
+            Dependent and Independent Variables
+        </strong>
+    </span>
+    <span class="multilang" lang="no">
+        <strong>
+            Avhengige og uavhengige variabler
+        </strong>
+    </span>
+    <span class="multilang" lang="de">
+        <strong>
+            Abhängige und unabhängige Variablen
+        </strong>
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Since \(x\) and \(y\) can have a number of different values they are variables. Here \(x\) is called the
+        <strong>
+            independent variable
+        </strong>
+        and \(y\) is called the
+        <strong>
+            dependent variable
+        </strong>
+        . Knowing or choosing a value of the independent variable \(x\), the function rule enables us to calculate the corresponding value of the dependent variable \(y\). To show this dependence we often write \(y(x)\). This is read as ‘\(y\) is a function of \(x\)’ or ‘\(y\) depends upon \(x\)’, or simply ‘\(y\) of \(x\)’. Note that it is the independent variable which is the input to the function and the dependent variable which is the output.
+    </span>
+    <span class="multilang" lang="no">
+        Siden \(x\) og \(y\) kan ha en rekke forskjellige verdier, defineres de som variabler. Her kalles \(x\) den
+        <strong>
+            uavhengige variabelen
+        </strong>
+        og \(y\) kalles den
+        <strong>
+            avhengige variabelen
+        </strong>
+        . Ved å velge en verdi for den uavhengige variabelen \(x\), gjør funksjonsregelen oss i stand til å beregne den tilsvarende verdien til den avhengige variabelen \(y\). For å vise denne avhengigheten skriver vi ofte \(y(x)\). Dette leses som '\(y\) er en funksjon av \(x\)' eller '\(y\) avhenger av \(x \)', eller bare '\(y\) av \(x\)'. Vær oppmerksom på at det er den uavhengige variabelen som er inngangen til funksjonen og den avhengige variabelen som er utgangen.
+    </span>
+    <span class="multilang" lang="de">
+        Da \(x\) und \(y\) verschiedene Werte haben können, sind sie Variablen. Hier wird \(x\) als
+        <strong>
+            unabhängige Variable
+        </strong>
+        und \(y\) als
+        <strong>
+            abhängige Variable
+        </strong>
+        bezeichnet. Wenn wir einen Wert der unabhängigen Variablen \(x\) kennen oder auswählen, ermöglicht uns die Funktionsvorschrift, den entsprechenden Wert der abhängigen Variablen \(y\) zu berechnen. Um diese Abhängigkeit zu zeigen, schreiben wir oft \(y(x)\). Dies wird gelesen als "\(y\) ist eine Funktion von \(x\)" oder "\(y\) hängt von \(x\) ab", oder einfach "\(y\) von \(x\)". Beachten Sie, dass die unabhängige Variable die Eingabe der Funktion und die abhängige Variable die Ausgabe ist.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

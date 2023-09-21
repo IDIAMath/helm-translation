@@ -1,0 +1,292 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>3.6.5.1 Unechte Brüche [Improper fractions]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Improper fractions
+    </span>
+    <span class="multilang" lang="no">
+        Uekte brøker
+    </span>
+    <span class="multilang" lang="de">
+        Unechte Brüche
+    </span>
+</h4>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        When calculating the partial fractions of improper fractions an extra polynomial is added to any partial fractions that would normally arise. The added polynomial has degree \(n-d\) where
+                \(n\) is the degree of the numerator and \(d\) is the degree of the denominator. Recall that
+    </span>
+    <span class="multilang" lang="no">
+        Ved beregning av delbrøker av uekte brøker legges et ekstra polynom til eventuelle delbrøker som normalt ville oppstå. Det tilføyde polynomet har graden \(n-d\) der \(n\) er graden til telleren og \(d\) er graden til nevneren. Husk at
+    </span>
+    <span class="multilang" lang="de">
+        Bei der Berechnung der Partialbrüche von unechten Brüchen wird ein zusätzliches Polynom zu allen Partialbrüchen hinzugefügt, die normalerweise entstehen würden. Das hinzugefügte Polynom hat den Grad \(n-d\) wobei
+                \(n\) der Grad des Zählers ist und \(d\) der Grad des Nenners ist. Denken Sie daran
+    </span>
+</p>
+<ul>
+    <li>
+        <span class="multilang" lang="en">
+            a polynomial of degree 0 is a constant,
+        </span>
+        <span class="multilang" lang="no">
+            et polynom av grad 0 er en konstant,
+        </span>
+        <span class="multilang" lang="de">
+            ein Polynom vom Grad 0 ist eine Konstante,
+        </span>
+        <span class="math inline">
+            \(A\)
+        </span>
+        <span class="multilang" lang="en">
+            say,
+        </span>
+        <span class="multilang" lang="no">
+            for eksempel,
+        </span>
+        <span class="multilang" lang="de">
+            sagen wir,
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            a polynomial of degree 1 has the form
+        </span>
+        <span class="multilang" lang="no">
+            et polynom av grad 1 har formen
+        </span>
+        <span class="multilang" lang="de">
+            ein Polynom 1. Grades hat die Form
+        </span>
+        <span class="math inline">
+            \(Ax+B\)
+        </span>
+        ,
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            a polynomial of degree 2 has the form
+        </span>
+        <span class="multilang" lang="no">
+            et polynom av grad 2 har formen
+        </span>
+        <span class="multilang" lang="de">
+            ein Polynom 2. Grades hat die Form
+        </span>
+        <span class="math inline">
+            \(Ax^2+Bx+C\)
+        </span>
+    </li>
+</ul>
+<p>
+    <span class="multilang" lang="en">
+        and so on. If, for example, the improper fraction is such that the numerator has degree 5 and the denominator has degree 3, then \(n-d=2\), and we need to add a polynomial of the form
+    </span>
+    <span class="multilang" lang="no">
+        og så videre. Hvis for eksempel den uekte brøken er slik at telleren har grad 5 og nevneren har grad 3, så er \(n-d=2\), og vi må dermed legge til et polynom av formen
+    </span>
+    <span class="multilang" lang="de">
+        und so weiter. Wenn zum Beispiel der unechte Bruch so ist, dass der Zähler den Grad 5 und der Nenner den Grad 3 hat, dann \(n-d=2\), und wir müssen ein Polynom der folgenden Form addieren
+    </span>
+    <span class="math inline">
+        \(Ax^2+Bx+C\)
+    </span>
+    .
+</p>
+<br/>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Nøkkelpunkt
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            If a fraction is improper an additional term is included taking the form of a polynomial of degree \(n-d\), where \(n\) is the degree of the numerator and \(d\) is the degree of the denominator.
+        </span>
+        <span class="multilang" lang="no">
+            Hvis en brøk er uekte, inkluderes et tilleggsledd i form av et polynom av grad \(n-d\), der \(n\) er graden til telleren og \(d\) er graden til nevneren.
+        </span>
+        <span class="multilang" lang="de">
+            Wenn ein Bruch uneigentlich ist, wird ein zusätzlicher Term in Form eines Polynoms vom Grad \(n-d\) eingefügt, wobei \(n\) der Grad des Zählers ist und \(d\) der Grad des Nenners ist.
+        </span>
+    </p>
+</div>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Express as partial fractions
+    </span>
+    <span class="multilang" lang="no">
+        Delbrøksoppspalt
+    </span>
+    <span class="multilang" lang="de">
+        Drücken Sie als Partialbruch aus
+    </span>
+</p>
+<p>
+    \[\dfrac{2x^2-x-2}{x+1}\]
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        Løsning
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The fraction is improper because \(n=2\), \(d=1\) and so \(d\le n\). Here \(n-d=1\),
+                so we need to include as an extra term a polynomial of the form \(Bx+C\), in addition to the usual partial fractions. The linear term in the denominator gives rise to a partial fraction \(\dfrac{A}{x+1}\).
+                So altogether we have
+    </span>
+    <span class="multilang" lang="no">
+        Brøken er uekte fordi \(n=2\), \(d=1\) så \(d\le n\). Her er \(n-d=1\), så vi må
+                inkludere som et ekstraledd et polynom på formen \(Bx+C \), i tillegg til de vanlige delbrøkene. Det lineære leddet i nevneren gir opphav til en delbrøk \(\dfrac{A}{x+1}\). Så alt i
+                alt har vi
+    </span>
+    <span class="multilang" lang="de">
+        Der Bruch ist unecht, weil \(n=2\), \( d=1\) und somit \(d\le n\). Hier \(n-d=1\),
+                also müssen wir zusätzlich zu den üblichen Partialbrüchen als zusätzlichen Term ein Polynom der Form \(Bx+C\) einfügen. Der lineare Term im Nenner ergibt einen Partialbruch \(\dfrac{A}{x+1}\).
+                Insgesamt haben wir also
+    </span>
+</p>
+<p>
+    \[\dfrac{2x^2-x-2}{x+1}= \dfrac{A}{x+1}+ (Bx+C).\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Multiplying both sides by \(x+1\) we find
+    </span>
+    <span class="multilang" lang="no">
+        Ved å multiplisere begge sider med \(x+1\) finner vi
+    </span>
+    <span class="multilang" lang="de">
+        Durch Multiplizieren beider Seiten mit \(x+1\) erhalten wir
+    </span>
+</p>
+<p>
+    \[2x^2-x-2 = A+(Bx+C)(x+1) = Bx^2 + (C+B)x + (C+A).\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Equating coefficients of \(x^2\) gives
+    </span>
+    <span class="multilang" lang="no">
+        Å likestille koeffisientene til \(x^2\) gir
+    </span>
+    <span class="multilang" lang="de">
+        Koeffizienten gleichsetzen von \(x^2\) ergibt
+    </span>
+</p>
+<p>
+    \[B=2.\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Equating coefficients of \(x\) gives
+    </span>
+    <span class="multilang" lang="no">
+        Å likestille koeffisientene til \(x\) gir
+    </span>
+    <span class="multilang" lang="de">
+        Das Gleichsetzen von Koeffizienten von \(x\) ergibt
+    </span>
+</p>
+<p>
+    \[-1=C+B\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        and so
+    </span>
+    <span class="multilang" lang="no">
+        så
+    </span>
+    <span class="multilang" lang="de">
+        und so
+    </span>
+</p>
+<p>
+    \[C=-1-B=-3.\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Equating the constant terms gives
+    </span>
+    <span class="multilang" lang="no">
+        Likestille konstantleddet gir
+    </span>
+    <span class="multilang" lang="de">
+        Gleichsetzen der konstanten Terme ergibt
+    </span>
+</p>
+<p>
+    \[-2=C+A\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        and so
+    </span>
+    <span class="multilang" lang="no">
+        så
+    </span>
+    <span class="multilang" lang="de">
+        und so
+    </span>
+</p>
+<p>
+    \[A=-2-C=-2-(-3)=1.\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Finally, we have
+    </span>
+    <span class="multilang" lang="no">
+        Endelig har vi
+    </span>
+    <span class="multilang" lang="de">
+        Schließlich erhalten wir
+    </span>
+</p>
+<p>
+    \[\dfrac{2x^2-x-2}{x+1}= \dfrac{1}{x+1}+2x-3.\]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

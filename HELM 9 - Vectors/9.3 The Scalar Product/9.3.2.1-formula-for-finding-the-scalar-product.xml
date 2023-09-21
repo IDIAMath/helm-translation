@@ -1,0 +1,242 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>9.3.2.1 formula for finding the scalar product</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <b>
+        <span class="multilang" lang="en">
+            A formula for finding the scalar product
+        </span>
+        <span class="multilang" lang="de">
+            Eine Formel zum Finden des Skalarprodukts
+        </span>
+    </b>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        We can use the results summarized previously to obtain a formula for finding a scalar product when the vectors are given in Cartesian form. We consider vectors in the \(xy\)-plane. Suppose
+                \(\underline{a}=a_1\underline{i} + a_2\underline{j}\) and \(\underline{b}=b_1\underline{i}+b_2\underline{j}\). Then
+    </span>
+    <span class="multilang" lang="de">
+        Wir können die zuvor zusammengefassten Ergebnisse verwenden, um eine Formel zum Finden eines Skalarprodukts zu erhalten, wenn die Vektoren in kartesischer Form vorliegen. Wir betrachten Vektoren in der \(xy\)-Ebene.
+                Angenommen \(\underline{a}=a_1\underline{i} + a_2\underline{j}\) und \(\underline{b}=b_1\underline{i}+b_2\underline{j}\). Dann
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="math display">
+        \[\begin{aligned}
+\underline{a}\cdot\underline{b}&amp;=(a_1\underline{i}+a_2\underline{j})\cdot(b_1\underline{i}+b_2\underline{j})\\
+&amp;= a_1\underline{i}\cdot(b_1\underline{i}+b_2\underline{j}) + a_2\underline{j}\cdot(b_1\underline{i}+b_2\underline{j})\\
+&amp;= a_1b_1\underline{i}\cdot\underline{i} + a_1b_2\underline{i}\cdot\underline{j} + a_2b_1\underline{j}\cdot\underline{i}+a_2b_2\underline{j}\cdot\underline{j}\end{aligned}\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Thus to find the scalar product of two vectors their \(\underline{ i}\) components are multiplied together, their \(\underline{ j}\) components are multiplied
+                together and the results are added.
+    </span>
+    <span class="multilang" lang="de">
+        Um also das Skalarprodukt zweier Vektoren zu finden, werden ihre \(\underline{ i}\) Komponenten miteinander multipliziert, ihre \(\underline{ j}\)    Komponenten werden miteinander multipliziert und die Ergebnisse werden addiert.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Using the results explained in a previous Key Point, we can simplify this to give the following formula:
+    </span>
+    <span class="multilang" lang="de">
+        Anhand der Ergebnisse, die in einem früheren Schlüsselpunkt erläutert wurden, können wir dies vereinfachen, um die folgende Formel zu erhalten:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            \[\hbox{If}  \quad \underline{ a}=a_1\underline{ i} + a_2\underline{ j}\quad\hbox{ and }\quad
+\underline{ b}=b_1\underline{ i}+b_2\underline{ j}\quad 
+\hbox{  then }\]\[\underline{ a}\cdot\underline{b}= a_1b_1+a_2b_2\]
+        </span>
+        <span class="multilang" lang="de">
+            \[\hbox{Wenn}  \quad \underline{ a}=a_1\underline{ i} + a_2\underline{ j}\quad\hbox{ und }\quad
+\underline{ b}=b_1\underline{ i}+b_2\underline{ j}\quad 
+\hbox{  dann }\]\[\underline{ a}\cdot\underline{b}= a_1b_1+a_2b_2\]
+        </span>
+    </p>
+</div>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Thus to find the scalar product of two vectors their \(\underline{ i}\) components are multiplied together, their \(\underline{ j}\) components are multiplied
+                together and the results are added.
+    </span>
+    <span class="multilang" lang="de">
+        Um also das Skalarprodukt zweier Vektoren zu finden, werden ihre \(\underline{ i}\) Komponenten miteinander multipliziert, ihre \(\underline{ j}\)    Komponenten werden miteinander multipliziert und die Ergebnisse werden addiert.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        If \(\underline{ a}=7\underline{ i}+8\underline{ j}\) and \(\underline{ b}=5\underline{ i}-2\underline{ j}\), find the scalar product \(\underline{a}\cdot\underline{b}\).
+    </span>
+    <span class="multilang" lang="de">
+        Wenn \(\underline{ a}=7\underline{ i}+8\underline{ j}\) und \(\underline{ b}=5\underline{ i}-2\underline{ j}\), finden Sie das Skalarprodukt
+                \(\underline{a}\cdot\underline{b}\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        We use the previous Key Point: \(\qquad\underline{ a}\cdot\underline{ b} = (7\underline{ i}+8\underline{ j})\cdot(5\underline{i}-2\underline{ j})= (7)(5) + (8)(-2)= 35-16= 19\)
+    </span>
+    <span class="multilang" lang="de">
+        Wir verwenden den vorherigen Schlüsselpunkt: \(\qquad\underline{ a}\cdot\underline{ b} = (7\underline{ i}+8\underline{ j})\cdot(5\underline{i}-2\underline{ j})= (7)(5) + (8)(-2)= 35-16= 19\)
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The formula readily generalises to vectors in three dimensions as follows:
+    </span>
+    <span class="multilang" lang="de">
+        Die Formel lässt sich leicht wie folgt auf Vektoren in drei Dimensionen verallgemeinern:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            \[\hbox{If}  \quad \underline{ a}=a_1\underline{ i} + a_2\underline{ j} + a_3\underline{ k}\quad \hbox{ and }\quad\underline{ b}=b_1\underline{ i}+b_2\underline{ j} + b_3\underline{ k} \hbox{  then }\]
+                                \[\underline{ a}\cdot\underline{b} = a_1b_1 + a_2b_2 + a_3b_3\]
+        </span>
+        <span class="multilang" lang="de">
+            \[\hbox{Wenn} \quad \underline{ a}=a_1\underline{ i} + a_2\underline{ j} + a_3\underline{ k}\quad \hbox{ und }\quad\underline{ b}=b_1\underline{ i}+b_2\underline{ j} + b_3\underline{ k} \hbox{  dann }\]
+                                \[\underline{ a}\cdot\underline{b} = a_1b_1 + a_2b_2 + a_3b_3\]
+        </span>
+    </p>
+</div>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        If \(\underline{ a}=5\underline{ i}+3\underline{ j}-2\underline{ k}\) and \(\underline{ b}=8\underline{i}-9\underline{ j}+11\underline{ k}\), find
+                \(\underline{a}\cdot\underline{b}\).
+    </span>
+    <span class="multilang" lang="de">
+        Wenn \(\underline{ a}=5\underline{ i}+3\underline{ j}-2\underline{ k }\) und \(\underline{ b}=8\underline{i}-9\underline{ j}+11\underline{ k}\) finden
+                Sie \(\underline{a}\cdot\underline{b}\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        We use the formula in the previous Key Point:
+    </span>
+    <span class="multilang" lang="de">
+        Wir verwenden die Formel im vorherigen Schlüsselpunkt:
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        \(\qquad \underline{ a}\cdot\underline{b}=(5)(8) + (3)(-9) + (-2)(11) = 40-27-22=-9\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Note again that the result is a scalar: there are no \(\underline{ i}\)’s, \(\underline{ j}\)’s, or \(\underline{k}\)’s
+                in the answer.
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie noch einmal, dass das Ergebnis ein Skalar ist: es gibt keine \(\underline{ i}\)'s, \(\underline{ j}\)'s oder \(\underline{k}\)'s
+                in der Antwort.
+    </span>
+</p>
+<hr/>
+<p>
+    <span class="multilang" lang="en">
+        The above result is generally true:
+    </span>
+    <span class="multilang" lang="de">
+        Das obige Ergebnis ist im Allgemeinen wahr:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p style="text-align: center;">
+        <span class="multilang" lang="en">
+            For any vector \(\underline{ r}\),     \(|\underline{r}|^2=\underline{ r}\cdot\underline{ r}\)
+        </span>
+        <span class="multilang" lang="de">
+            Für jeden Vektor \(\underline{ r}\)  gilt    \(|\underline{r}|^2=\underline{ r}\cdot\underline{ r}\)
+        </span>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

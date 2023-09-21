@@ -1,0 +1,61 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.4.1.7 Streichen gemeinsamer Faktoren [Cancelling Common Factors]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Show that the algebraic fraction \(\dfrac{3}{x+1}\) and \(\dfrac{3(x+4)}{x^2+5x+4}\) are equivalent.
+    </span>
+    <span class="multilang" lang="de">
+        Zeigen Sie, dass die algebraische Brüche \(\dfrac{3}{x+1}\) und \(\dfrac{3(x+4)}{x^2+ 5x+4}\) äquivalent sind.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The denominator \(x^2+5x+4\) can be factorised as \((x+4)(x+1)\) so that
+    </span>
+    <span class="multilang" lang="de">
+        Der Nenner \(x^2+5x+4\) kann als \((x+4)(x+1)\) faktorisiert werden, sodass
+    </span>
+</p>
+<p>
+    \(\qquad \dfrac{3(x+4)}{x^2+5x+4} = \dfrac{3(x+4)}{(x+4)(x+1)}\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Note that \((x + 4)\) is a factor common to both the numerator and the denominator and can be cancelled to leave \(\dfrac{3}{x+1}\). Thus \(\dfrac{3}{x+1}\) and \(\dfrac{3(x+4)}{x^2+5x+4}\) are equivalent fractions
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie, dass \((x + 4)\) ein gemeinsamer Faktor für Zähler und Nenner ist und gekürzt werden kann, sodass \(\dfrac{3}{x +1}\) übrig bleibt. Somit sind \(\dfrac{3}{x+1}\) und \(\dfrac{3(x+4)}{x^2+5x+4}\) äquivalente Brüche
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

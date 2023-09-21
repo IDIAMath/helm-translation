@@ -1,0 +1,130 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>4.3.3.6 Halbwinkelformel [Half angle formula]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Half-angle formulae
+    </span>
+    <span class="multilang" lang="no">
+        Halvvinkel formelen
+    </span>
+    <span class="multilang" lang="de">
+        Halbwinkelformeln
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        If we replace \(A\) by \(\dfrac{A}{2}\) and, consequently \(2A\) by \(A\), in the double angle formula, we obtain
+    </span>
+    <span class="multilang" lang="no">
+        Hvis vi erstatter \(A\) med \(\dfrac{A}{2}\) og følgelig \(2A\) med \(A\), i dobbeltvinkelformelen, får vi
+    </span>
+    <span class="multilang" lang="de">
+        Ersetzen wir \(A\) durch \(\dfrac{A}{2}\) und folglich \(2A\) durch \(A\) in der Doppelwinkelformel, erhalten wir
+    </span>
+    <br/>
+</p>
+<p>
+    \(\sin A\equiv 2\sin\left(\dfrac{A}{2}\right)\cos\left(\dfrac{A}{2}\right) \)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Similarly for the cosine:
+    </span>
+    <span class="multilang" lang="no">
+        Tilsvarende for cosinus:
+    </span>
+    <span class="multilang" lang="de">
+        Ähnlich für den Kosinus:
+    </span>
+    <br/>
+</p>
+<p>
+    \(\cos A\equiv 2\cos^2\left(\dfrac{A}{2}\right)-1\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        These are examples of
+        <strong>
+            half-angle formulae
+        </strong>
+        . We can obtain a half-angle formula for \(\tan A\) as well. Replacing \(A\) by \(\dfrac{A}{2}\) and \(2A\) by \(A\) in the double angle formula for \(\tan\) we obtain:
+    </span>
+    <span class="multilang" lang="no">
+        Dette er eksempler på
+        <strong>
+            halvvinkelformler
+        </strong>
+        . Vi kan også få en halvvinkelformel for \(\tan A\). Ved å erstatte \(A\) med \(\dfrac{A}{2}\) og \(2A\) med \(A\) i dobbeltvinkelformelen for \(\tan\):
+    </span>
+    <span class="multilang" lang="de">
+        Dies sind Beispiele für
+        <strong>
+            Halbwinkelformeln
+        </strong>
+        . Auch für \(\tan A\) können wir eine Halbwinkelformel erhalten. Ersetzen wir \(A\) durch \(\dfrac{A}{2}\) und \(2A\) durch \(A\) in der Doppelwinkelformel für \(\tan\), erhalten wir:
+    </span>
+</p>
+<p>
+    \(\tan A\equiv \dfrac{2\tan\left(\dfrac{A}{2}\right)}{1-\tan^2\left(\dfrac{A}{2}\right)} \)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Other formulae, which can be obtained using the half-angle formulae and are useful for integration when trigonometric functions are present:
+    </span>
+    <span class="multilang" lang="no">
+        Andre formler, som kan finnes ved å bruke halvvinkelformlene er nyttige for integrasjon av trigonometriske funksjoner:
+    </span>
+    <span class="multilang" lang="de">
+        Weitere Formeln, die man mit den Halbwinkelformeln erhält und die bei trigonometrischen Funktionen zur Integration nützlich sind:
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Nøkkelpunkt
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            If \(t= \tan\left(\dfrac{A}{2}\right)\) then
+        </span>
+        <span class="multilang" lang="no">
+            Hvis \(t= \tan\left(\dfrac{A}{2}\right)\) så er
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(t= \tan\left(\dfrac{A}{2}\right)\) dann
+        </span>
+        <br/>
+        \(\sin A= \dfrac{2t}{1+t^2}\)
+        <br/>
+        \(\cos A= \dfrac{1-t^2}{1+t^2}\)
+        <br/>
+        \(\tan A= \dfrac{2t}{1-t^2}\)
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

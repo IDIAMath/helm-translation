@@ -1,0 +1,133 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.5.1.1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            Using formulae and substitution
+        </span>
+        <span class="multilang" lang="de">
+            Formeln und Substitution verwenden
+        </span>
+    </span>
+    <br/>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        In the study of engineering, physical quantities can be related to each other using a formula. The formula will contain variables and constants which represent the physical quantities. To evaluate a formula we must
+        <strong>
+            substitute
+        </strong>
+        numbers in place of the variables.
+    </span>
+    <span class="multilang" lang="de">
+        Im Studium der Ingenieurwissenschaften können physikalische Größen über eine Formel zueinander in Beziehung gesetzt werden. Die Formel enthält Variablen und Konstanten, die die physikalischen Größen darstellen. Um eine Formel auszuwerten, müssen wir die Variablen durch Zahlen
+        <strong>
+            ersetzen
+        </strong>
+        .
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        For example, Ohm’s law provides a formula for relating the voltage, \(v\), across a resistor with resistance value, \(R\), to the current through it, \(i\). The formula states \[\begin{aligned} v &amp;= iR\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\end{aligned}\] We
+                can use this formula to calculate \(v\) if we know values for \(i\) and \(R\). For example, if \(i=13\) \(\textrm{A}\), and \(R=5\,\Omega\), then \[\begin{aligned} v &amp;= iR\\ &amp;= (13)(5)\\ &amp;= 65\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\end{aligned}\]The
+        voltage is 65 \(\textrm{V}\).
+    </span>
+    <span class="multilang" lang="de">
+        Zum Beispiel liefert das Ohmsche Gesetz eine Formel, um die Spannung \(v\) über einem Widerstand mit dem Widerstandswert \(R\) mit dem Strom durch ihn, \(i\), in Beziehung zu setzen. Die Formel lautet \[\begin{aligned} v &amp;= iR\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\end{aligned}\] Wir
+                können diese Formel verwenden, um \(v\) zu berechnen, wenn wir Werte für \(i\) und \(R\) kennen. Zum Beispiel, wenn \(i=13\) \(\textrm{A}\), und \(R=5\,\Omega\), dann \[\begin{aligned} v &amp;= iR\\ &amp;= (13)(5)\\ &amp;= 65\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\end{aligned}\] Die
+        Spannung ist 65 \(\textrm{V}\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Note that it is important to pay attention to the units of any physical quantities involved. Unless a consistent set of units is used a formula is not valid.
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie, dass es wichtig ist, auf die Einheiten aller beteiligten physikalischen Größen zu achten. Wenn keine einheitlichen Einheiten verwendet werden, ist eine Formel nicht gültig.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The kinetic energy, \(K\), of an object of mass \(M\) moving with speed \(v\) can be calculated from the formula, \(K=\dfrac{1}{2}Mv^2\). Calculate the kinetic energy of an object of mass 5 \(\textrm{kg}\) moving with a speed of 2 \(\textrm{ms}^{-1}\).
+    </span>
+    <span class="multilang" lang="de">
+        Die kinetische Energie, \(K\), eines Objekts der Masse \(M\), das sich mit der Geschwindigkeit \(v\) bewegt, kann aus der Formel \( K=\dfrac{1}{2}Mv^2\) berechnet werden. Berechnen Sie die kinetische Energie eines Körpers der Masse 5 \(\textrm{kg}\), der sich mit einer Geschwindigkeit von 2 \(\textrm{ms}^{-1}\) bewegt.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        In this example M = 5 and v = 2. Substituting these values into the formula we find\[\begin{aligned} v &amp;={1\over 2}Mv^2\\ &amp;= {1\over 2}(5)(2^2)\\ &amp;= 10 \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\end{aligned}\]
+    </span>
+    <span class="multilang" lang="de">
+        In diesem Beispiel ist M = 5 und v = 2. Wenn wir diese Werte in die Formel einsetzen, erhalten wir \[\begin{aligned} v &amp;={1\over 2}Mv^2\\ &amp;= {1\over 2}(5)(2^2)\\ &amp;= 10 \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\end{aligned}\]
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The volume, \(V\), of a circular cylinder is equal to its cross-sectional area, \(A\), times its length, \(h\). Find the volume of a cylinder having diameter 0.1 \(\textrm{m}\) and length 0.3 \(\textrm{m}\).
+    </span>
+    <span class="multilang" lang="de">
+        Das Volumen \(V\) eines Kreiszylinders ist gleich seiner Querschnittsfläche \(A\) mal seiner Länge \(h\). Finden Sie das Volumen eines Zylinders mit Durchmesser 0,1 \(\textrm{m}\) und Länge 0,3 \(\textrm{m}\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        We can use the result of the previous Task to obtain the cross-sectional area \(A=\dfrac{\pi d^2}{4}\). Then\[\begin{aligned} V &amp;= Ah\\ &amp;= \dfrac{\pi d^2}{4}\times0.3\\ &amp;= 0.0024 \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\end{aligned}\]
+    </span>
+    <span class="multilang" lang="de">
+        Wir können das Ergebnis der vorherigen Aufgabe verwenden, um die Querschnittsfläche \(A=\dfrac{\pi d^2}{4}\) zu erhalten. Dann\[\begin{aligned} V &amp;= Ah\\ &amp;= \dfrac{\pi d^2}{4}\times0.3\\ &amp;= 0.0024 \qquad\qquad\qquad\qquad\qquad \qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad\end{aligned}\]
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

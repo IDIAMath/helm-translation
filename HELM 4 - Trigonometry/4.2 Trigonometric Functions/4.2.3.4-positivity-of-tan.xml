@@ -1,0 +1,110 @@
+<quiz>
+    <question type="multichoice">
+        <name>
+            <text>4.2.3.4 Positivität von Tangens [Positivity of tan]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+    <br/>
+</p>
+<span class="multilang" lang="en">
+    In which quadrants is \( \tan \theta \) positive?
+</span>
+<span class="multilang" lang="no">
+    I hvilke kvadranter er \( \tan \theta \) positiv?
+</span>
+<span class="multilang" lang="de">
+    In welchen Quadranten ist \( \tan \theta \) positiv?
+</span>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <single>false</single>
+        <shuffleanswers>false</shuffleanswers>
+        <answernumbering>none</answernumbering>
+        <showstandardinstruction>1</showstandardinstruction>
+        <correctfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is correct.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is incorrect.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </incorrectfeedback>
+        <shownumcorrect></shownumcorrect>
+        <answer fraction="50" format="html">
+            <text><![CDATA[
+Quadrant 1: \(0 \leq \theta &lt; \dfrac{\pi}{2} \)
+]]></text>
+            <feedback format="html">
+                <text>\( \quad\tan\theta=\dfrac{\sin\theta}{\cos\theta}=\dfrac{+\text{ve}}{+\text{ve}}
+=+\text{ve} \)</text>
+            </feedback>
+        </answer>
+        <answer fraction="-50" format="html">
+            <text><![CDATA[
+Quadrant 2: \(\dfrac{\pi}{2} &lt; \theta \leq \pi \)
+]]></text>
+            <feedback format="html">
+                <text>\( \tan \theta=\dfrac{\sin\theta}{\cos\theta}=
+\dfrac{+\text{ve}}{-\text{ve}}=-\text{ve} \)</text>
+            </feedback>
+        </answer>
+        <answer fraction="50" format="html">
+            <text><![CDATA[
+Quadrant 3: \( \pi \leq \theta &lt; \dfrac{3\pi}{2} \)
+]]></text>
+            <feedback format="html">
+                <text>\( \tan\theta=\dfrac{\sin\theta}{\cos\theta}=\dfrac{-\text{ve}}{-\text{ve}}
+=+\text{ve}\)</text>
+            </feedback>
+        </answer>
+        <answer fraction="-50" format="html">
+            <text><![CDATA[
+Quadrant 4: \( \dfrac{3\pi}{2} &lt; \theta \leq 2\pi \)
+]]></text>
+            <feedback format="html">
+                <text>\(\tan\theta=\dfrac{\sin\theta}{\cos\theta}
+=\dfrac{-\text{ve}}{+\text{ve}}=-\text{ve} \)</text>
+            </feedback>
+        </answer>
+    </question>
+</quiz>

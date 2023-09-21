@@ -1,0 +1,173 @@
+<quiz>
+    <question type="multichoice">
+        <name>
+            <text>9.2.1.7 Definitions of free/position vectors</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Which of the below describes a
+        <b>
+            free
+        </b>
+        vector?
+    </span>
+    <span class="multilang" lang="de">
+        Welche der folgenden Aussagen beschreibt einen
+        <b>
+            freien
+        </b>
+        Vektor?
+    </span>
+    <br/>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <single>true</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <showstandardinstruction>1</showstandardinstruction>
+        <correctfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist richtig.
+</span>
+]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is incorrect.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist falsch.
+</span>
+]]></text>
+        </incorrectfeedback>
+        <shownumcorrect></shownumcorrect>
+        <answer fraction="100" format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        A vector which may be translated to any point in space provided their direction and length remain unchanged.
+    </span>
+    <span class="multilang" lang="de">
+        Ein Vektor, der an jeden beliebigen Punkt im Raum verschoben werden kann, sofern seine Richtung und Länge unverändert bleiben.
+    </span>
+    <br/>
+</p>
+]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        A vector which always starts at the origin of the coordinate system.
+    </span>
+    <span class="multilang" lang="de">
+        Ein Vektor, der immer im Ursprung des Koordinatensystems beginnt.
+    </span>
+    <br/>
+</p>
+]]></text>
+            <feedback format="html">
+                <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        A free vector is not tied to any specific point in space.
+    </span>
+    <span class="multilang" lang="de">
+        Ein freier Vektor ist an keinen bestimmten Punkt im Raum gebunden.
+    </span>
+    <br/>
+</p>
+]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        A vector whose length may change as long as its direction remains the same.
+    </span>
+    <span class="multilang" lang="de">
+        Ein Vektor, dessen Länge sich ändern kann, solange seine Richtung gleich bleibt.
+    </span>
+    <br/>
+</p>
+]]></text>
+            <feedback format="html">
+                <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        A vector is defined by both its magnitude and direction therefore by changing either of these we change the vector we are defining.
+    </span>
+    <span class="multilang" lang="de">
+        Ein Vektor wird sowohl durch seine Größe als auch durch seine Richtung definiert, daher ändern wir den Vektor, den wir definieren, indem wir einen dieser beiden Werte ändern.
+    </span>
+    <br/>
+</p>
+]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        A vector whose direction may change as long as its length stays the same.
+    </span>
+    <span class="multilang" lang="de">
+        Ein Vektor, dessen Richtung sich ändern kann, solange seine Länge gleich bleibt.
+    </span>
+    <br/>
+</p>
+]]></text>
+            <feedback format="html">
+                <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        A vector is defined by both its magnitude and direction therefore by changing either of these we change the vector we are defining.
+    </span>
+    <span class="multilang" lang="de">
+        Ein Vektor wird sowohl durch seine Größe als auch durch seine Richtung definiert, daher ändern wir den Vektor, den wir definieren, indem wir einen dieser beiden Werte ändern.
+    </span>
+    <br/>
+</p>
+]]></text>
+            </feedback>
+        </answer>
+    </question>
+</quiz>

@@ -1,0 +1,70 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>6.3.2.1 Simplifying expressions involving logarithms</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Simplifying expressions involving logarithms
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachung von Ausdrücken mit Logarithmen
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        To simplify an expression involving logarithms their laws, given in the previous Key Point, need to be used.
+    </span>
+    <span class="multilang" lang="de">
+        Um einen Ausdruck mit Logarithmen zu vereinfachen, müssen die Gesetze, die im vorherigen Schlüsselpunkt angegeben wurden, verwendet werden.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify: \(\log_{10}2-\log_{10}4+\log_{10}(4^2)+\log_{10}(\frac{10}{4})\)
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie: \(\log_{10}2-\log_{10}4+\log_{10}(4^2)+\log_{10}(\frac {10}{4})\)
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The third term \(\log_{10}(4^2)\) simplifies to \(2\log_{10}4\) and the last term \(\log_{10}\left(\dfrac{10}{4}\right)=\log_{10}10-\log_{10}4=1-\log_{10}4\). So the given expression equals
+    </span>
+    <span class="multilang" lang="de">
+        Der dritte Term \(\log_{10}(4^2)\) vereinfacht sich zu \(2\log_{10}4\) und der letzte Term zu \(\ log_{10}\left(\dfrac{10}{4}\right)=\log_{10}10-\log_{10}4=1-\log_{10}4\). Der angegebene Ausdruck ist also gleich
+    </span>
+</p>
+<p>
+    \[\log_{10}2-\log_{10}4+2\log_{10}4+1-\log_{10}4 = \log_{10}2+1.\]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

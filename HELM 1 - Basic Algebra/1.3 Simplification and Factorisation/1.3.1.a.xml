@@ -1,0 +1,249 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.3.1.a</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        1. Addition and subtraction of like terms
+    </span>
+    <span class="multilang" lang="de">
+        1. Addition und Subtraktion gleichartiger Terme
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        <strong>
+            Like terms
+        </strong>
+        are multiples of the same quantity. For example \(5y\), \(17y\) and \({1\over 2} y\) are all multiples of \(y\) and so are like terms. Similarly, \(3x^2\), \(-5x^2\) and \({1\over 4}x^2\) are all multiples of \(x^2\) and so
+                are like terms.
+        <br/>
+        <br/>
+        Further examples of like terms are:
+        <br/>
+        <br/>
+        \(kx\) and \(\ell x\) which are both multiples of \(x\),
+        <br/>
+        <br/>
+        \(x^2y\), \(6x^2y\), \(-13x^2y\), \(-2yx^2\), which are all multiples of \(x^2y,\)
+        <br/>
+        <br/>
+        \(abc^2\), \(-7abc^2\), \(kabc^2\),
+                are all multiples of \(abc^2\)
+        <br/>
+        <br/>
+        Like terms can be added or subtracted in order to simplify expressions.
+    </span>
+    <span class="multilang" lang="de">
+        <strong>
+            Gleichartige Terme
+        </strong>
+        sind Vielfache derselben Größe. Zum Beispiel sind \(5y\), \(17y\) und \({1\over 2} y\) allesamt Vielfache von \(y\) und somit gleichartige Terme. Ebenso sind \(3x^2\), \(-5x^2\) und \({1\over 4}x^2\) alle Vielfache von \(x^2\) und somit gleichartige Terme.
+        <br/>
+        <br/>
+        Weitere Beispiele für gleichartige Terme sind:
+        <br/>
+        <br/>
+        \(kx\) und \(\ell x\), die beide Vielfache von \(x\) sind,
+        <br/>
+        <br/>
+        \(x^2y\), \(6x^2y\), \(-13x^2y\), \(-2yx^2\), die alle Vielfache von \(x^2y,\) sind
+        <br/>
+        <br/>
+        \(abc^2\), \(-7abc^2\), \(kabc^2\),
+                sind alles Vielfache von \(abc^2\)
+        <br/>
+        <br/>
+        Gleichartige Terme können addiert oder subtrahiert werden, um Ausdrücke zu vereinfachen.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify \(5x-13x+22x\).
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie \(5x-13x+22x\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <strong>
+            Solution
+            <br/>
+        </strong>
+    </span>
+    <span class="multilang" lang="de">
+        <strong>
+            Lösung
+            <br/>
+        </strong>
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        All three terms are multiples of \(x\) and so are like terms. The expression can be simplified to \(14x\).
+    </span>
+    <span class="multilang" lang="de">
+        Alle drei Terme sind Vielfache von \(x\) und somit gleichartige Terme. Der Ausdruck kann zu \(14x\) vereinfacht werden.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify \(5z+2x\).
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie \(5z+2x\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <strong>
+            Solution
+            <br/>
+        </strong>
+    </span>
+    <span class="multilang" lang="de">
+        <strong>
+            Lösung
+            <br/>
+        </strong>
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(5z\) and \(2x\) are not like terms. They are not multiples of the same quantity. This expression cannot be simplified.
+    </span>
+    <span class="multilang" lang="de">
+        \(5z\) und \(2x\) sind keine gleichartigen Terme. Sie sind nicht Vielfache derselben Größe. Dieser Ausdruck kann nicht vereinfacht werden.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify \(2x^2-7x+11x^2+x\).
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie \(2x^2-7x+11x^2+x\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <strong>
+            Solution
+            <br/>
+        </strong>
+    </span>
+    <span class="multilang" lang="de">
+        <strong>
+            Lösung
+            <br/>
+        </strong>
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(2x^2\) and \(11x^2\), both being multiples of \(x^2\), can be collected together and added to give \(13x^2\).
+    </span>
+    <span class="multilang" lang="de">
+        \(2x^2\) und \(11x^2\), beides Vielfache von \(x^2\), können zusammengefasst und addiert werden zu \(13x^2\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Similarly, \(-7x\) and \(x\) can be added to give \(-6x\).
+    </span>
+    <span class="multilang" lang="de">
+        In ähnlicher Weise können \(-7x\) und \(x\) addiert werden, um \(-6x\) zu ergeben.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We get \(2x^2-7x+11x^2+x= 13x^2-6x \) which cannot be simplified further.
+    </span>
+    <span class="multilang" lang="de">
+        Wir erhalten \(2x^2-7x+11x^2+x= 13x^2-6x \), was nicht weiter vereinfacht werden kann.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify \(3a^2b-7a^2b-2b^2+a^2\).
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie \(3a^2b-7a^2b-2b^2+a^2\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <strong>
+            Solution
+            <br/>
+        </strong>
+    </span>
+    <span class="multilang" lang="de">
+        <strong>
+            Lösung
+            <br/>
+        </strong>
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Note that \(3a^2b\) and \(7a^2b\) are both multiples of \(a^2b\) and so are like terms. There are no other like terms. Therefore
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie, dass \(3a^2b\) und \(7a^2b\) beide Vielfache von \(a^2b\) sind und daher gleichartige Terme sind. Es gibt keine anderen gleichartigen Terme. Deswegen
+    </span>
+</p>
+<p>
+    \(3a^2b-7a^2b-2b^2+a^2 = -4a^2b-2b^2+a^2\)
+</p>
+<hr/>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

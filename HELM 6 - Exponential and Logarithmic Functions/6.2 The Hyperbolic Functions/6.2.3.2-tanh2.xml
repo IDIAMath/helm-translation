@@ -1,0 +1,164 @@
+<quiz>
+    <question type="multichoice">
+        <name>
+            <text>6.2.3.2 tanh^2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Which of the following identities are correct?
+    </span>
+    <span class="multilang" lang="de">
+        Welche der folgenden Identitäten sind richtig?
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        Note the following
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie Folgendes
+    </span>
+</p>
+<p>
+    \( 1 - \tanh^2 x = 1 - \dfrac{\sinh^2 x}{\cosh^2 x} = \dfrac{\cosh^2 x - \sinh^2 x}{\cosh^2 x} = \dfrac{1}{\cosh^2 x} = \) \( \rm{sech}^2 \) \(x\).
+</p>
+<p>
+    <span class="multilang" lang="en">
+        To see that each of the other identities is incorrect, specify a particular value for \(x\) for which the identity is wrong. Also note that they are inconsistent with the above correct identities.
+    </span>
+    <span class="multilang" lang="de">
+        Um zu sehen, dass jede der anderen Identitäten falsch ist, geben Sie einen bestimmten Wert für \(x\) an, für den die Identität falsch ist. Beachten Sie auch, dass sie nicht mit den oben genannten korrekten Identitäten übereinstimmen.
+    </span>
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <single>false</single>
+        <shuffleanswers>true</shuffleanswers>
+        <answernumbering>abc</answernumbering>
+        <showstandardinstruction>1</showstandardinstruction>
+        <correctfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist richtig.
+</span>
+]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is incorrect.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist falsch.
+</span>
+]]></text>
+        </incorrectfeedback>
+        <shownumcorrect></shownumcorrect>
+        <answer fraction="33.33333" format="html">
+            <text><![CDATA[
+<p>
+    \( 1 - \tanh^2x \equiv \sec{\rm h}^2x \)
+</p>
+]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[
+<p>
+    \( 1 - \tanh^2x \equiv \sinh^2x \)
+    <br/>
+</p>
+]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[
+<p>
+    \( 1 - \tanh^2x \equiv \cosh^2x \)
+    <br/>
+</p>
+]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[
+<p>
+    \( 1 - \tanh^2x \equiv \dfrac{1}{\sinh^2x} \)
+    <br/>
+</p>
+]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="33.33333" format="html">
+            <text><![CDATA[
+<p>
+    \( 1 - \tanh^2x \equiv \dfrac{1}{\cosh^2x} \)
+    <br/>
+</p>
+]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="33.33333" format="html">
+            <text><![CDATA[
+<p>
+    \( 1 - \tanh^2x \equiv \dfrac{\cosh^2x - \sinh^2x}{\cosh^2x}\)
+</p>
+]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+        <answer fraction="0" format="html">
+            <text><![CDATA[
+<p>
+    \(1 - \tanh^2x \equiv \dfrac{\sinh^2x - \cosh^2x}{\sinh^2x}\)
+    <br/>
+</p>
+]]></text>
+            <feedback format="html">
+                <text></text>
+            </feedback>
+        </answer>
+    </question>
+</quiz>

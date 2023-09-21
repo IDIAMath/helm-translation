@@ -1,0 +1,117 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>2.7.2.5 Rationale Funktionen skizzieren [Sketching rational functions]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        The previous exercises are intended to give you some guidance so that you will be able to sketch rational functions yourself. Each function must be looked at individually but some general guidelines are given in the following KeyPoint.
+    </span>
+    <span class="multilang" lang="no">
+        De foregående øvingene er ment å gi deg litt veiledning slik at du selv skal kunne skissere rasjonelle funksjoner. Hver funksjon må ses på individuelt, men noen generelle retningslinjer er gitt i følgende nøkkelpunkt.
+    </span>
+    <span class="multilang" lang="de">
+        Die bisherigen Übungen sollen Ihnen eine Orientierung geben, damit Sie selbst rationale Funktionen skizzieren können. Jede Funktion muss einzeln betrachtet werden, aber einige allgemeine Richtlinien werden im folgenden Schlüsselpunkt gegeben.
+    </span>
+</p>
+<br/>
+<br/>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Nøkkelpunkt
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <b>
+            <span class="multilang" lang="en">
+                Sketching rational functions
+            </span>
+            <span class="multilang" lang="no">
+                Skissere rasjonelle funksjoner
+            </span>
+            <span class="multilang" lang="de">
+                Rationale Funktionen skizzieren
+            </span>
+        </b>
+        <br/>
+    </p>
+    <ul>
+        <li>
+            <span class="multilang" lang="en">
+                Find the value of the function when the independent variable is zero. This is generally easy to evaluate and gives you a point on the graph.
+            </span>
+            <span class="multilang" lang="no">
+                Finn verdien til funksjonen når den uavhengige variabelen er null. Dette er generelt enkelt å vurdere og gir deg et punkt på grafen.
+            </span>
+            <span class="multilang" lang="de">
+                Ermitteln Sie den Wert der Funktion, wenn die unabhängige Variable Null ist. Dies ist im Allgemeinen einfach auszuwerten und gibt Ihnen einen Punkt im Graphen.
+            </span>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                Find values of the independent variable which make the denominator zero. These values must be excluded from the domain of the function and give rise to vertical asymptotes.
+            </span>
+            <span class="multilang" lang="no">
+                Finn verdier av den uavhengige variabelen der nevneren er null. Disse verdiene må ekskluderes fra funksjonens definisjonsmengde og gir opphav til vertikale asymptoter.
+            </span>
+            <span class="multilang" lang="de">
+                Finden Sie Werte der unabhängigen Variablen, die den Nenner Null werden lassen. Diese Werte müssen aus der Definitionsmenge der Funktion ausgeschlossen werden und führen zu vertikalen Asymptoten.
+            </span>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                Find the values of the independent variable which make the dependent variable zero. This gives you points where the graph cuts the horizontal axis (if at all).
+            </span>
+            <span class="multilang" lang="no">
+                Finn verdiene til den uavhengige variabelen som setter den avhengige variabelen til null. Dette gir deg punkter der grafen skjærer den horisontale aksen (hvis i det hele tatt).
+            </span>
+            <span class="multilang" lang="de">
+                Finden Sie die Werte der unabhängigen Variablen, die die abhängige Variable Null werden lassen. Dadurch erhalten Sie Punkte, an denen der Graph die horizontale Achse schneidet (falls überhaupt).
+            </span>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                Study the behaviour of the function when the independent variable is large and positive and when it is large and negative.
+            </span>
+            <span class="multilang" lang="no">
+                Studer funksjonens oppførsel når den uavhengige variabelen er stor og positiv og når den er stor og negativ.
+            </span>
+            <span class="multilang" lang="de">
+                Untersuchen Sie das Verhalten der Funktion, wenn die unabhängige Variable groß und positiv und wenn sie groß und negativ ist.
+            </span>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                Are there any vertical or horizontal asymptotes? (Oblique asymptotes may also occur but these are beyond the scope of this section).
+            </span>
+            <span class="multilang" lang="no">
+                Er det noen vertikale eller horisontale asymptoter? (Skrå asymptoter kan også forekomme, men disse er utenfor rammen av denne delen).
+            </span>
+            <span class="multilang" lang="de">
+                Gibt es vertikale oder horizontale Asymptoten? (Schräge Asymptoten können ebenfalls auftreten, aber diese gehen über den Rahmen dieses Abschnitts hinaus).
+            </span>
+            <br/>
+        </li>
+    </ul>
+</div>
+<br/>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

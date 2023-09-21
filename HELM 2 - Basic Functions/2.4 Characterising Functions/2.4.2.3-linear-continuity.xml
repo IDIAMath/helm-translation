@@ -1,0 +1,126 @@
+<quiz>
+    <question type="ddwtos">
+        <name>
+            <text>2.4.2.3 Lineare Stetigkeit [Linear continuity]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Study the graphs of the following functions defined for all \(x \in \mathbb{R}\) and fill in the blanks:
+    </span>
+    <span class="multilang" lang="no">
+        Studer grafene for følgende funksjoner definert for alle \(x \in \mathbb{R} \) og fyll ut feltene:
+    </span>
+    <span class="multilang" lang="de">
+        Untersuchen Sie die Graphen der folgenden Funktionen, die für alle \(x \in \mathbb{R}\) definiert sind, und füllen Sie die Lücken aus:
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(y=3x-2\) is
+    </span>
+    <span class="multilang" lang="no">
+        \(y=3x-2\) er
+    </span>
+    <span class="multilang" lang="de">
+        \(y=3x-2\) ist
+    </span>
+    [[1]]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(y=-7x+1\) is
+    </span>
+    <span class="multilang" lang="no">
+        \(y=-7x+1\) er
+    </span>
+    <span class="multilang" lang="de">
+        \(y=-7x+1\) ist
+    </span>
+    [[1]]
+    <br/>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <shuffleanswers>1</shuffleanswers>
+        <correctfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is correct.
+</span>
+<span class="multilang" lang="no">
+    Svaret ditt er korrekt
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="no">
+    Svartet ditt er delvis korrekt
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is incorrect.
+</span>
+<span class="multilang" lang="no">
+    Svaret ditt er ukorrekt
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </incorrectfeedback>
+        <shownumcorrect></shownumcorrect>
+        <dragbox>
+            <text>continuous</text>
+            <group>1</group>
+            <infinite></infinite>
+        </dragbox>
+        <dragbox>
+            <text>discontinuous</text>
+            <group>1</group>
+            <infinite></infinite>
+        </dragbox>
+        <dragbox>
+            <text>neither continuous nor discontinuous</text>
+            <group>1</group>
+            <infinite></infinite>
+        </dragbox>
+        <dragbox>
+            <text>continuous at all but two points</text>
+            <group>1</group>
+            <infinite></infinite>
+        </dragbox>
+    </question>
+</quiz>

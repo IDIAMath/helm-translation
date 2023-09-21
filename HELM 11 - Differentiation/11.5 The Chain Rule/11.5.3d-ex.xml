@@ -1,0 +1,229 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>11.5.3d ex</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<span class="multilang" lang="en">
+    Differentiate \( y = \displaystyle{{@f1(g1)@}} \).
+</span>
+<span class="multilang" lang="de">
+    Differenzieren Sie \( y = \displaystyle{{@f1(g1)@}} \).
+</span>
+<p>
+</p>
+\( \dfrac{dy}{dx} = \) [[input:ans1]] [[validation:ans1]][[feedback:prt1]]
+<p>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        We are given the function \( y = {@f1(g1)@}.\)
+    </span>
+    <span class="multilang" lang="de">
+        Wir erhalten die Funktion \( y = {@f1(g1)@}.\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We have \( f = {@ta1@} \) and \( g = {@ta2@} \).
+    </span>
+    <span class="multilang" lang="de">
+        Wir haben \( f = {@ta1@} \) und \( g = {@ta2@} \).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        So \( \dfrac{df}{dg} = {@diff(f1(g),g)@} \) and \( \dfrac{dg}{dx} = {@diff(g1,x)@}.\)
+    </span>
+    <span class="multilang" lang="de">
+        Also \( \dfrac{df}{dg} = {@diff(f1(g),g)@} \) und \( \dfrac{dg}{dx } = {@diff(g1,x)@}.\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Hence \( \dfrac{dy}{dx} = {@ta3@} \)
+    </span>
+    <span class="multilang" lang="de">
+        Daher \( \dfrac{dy}{dx} = {@ta3@} \)
+    </span>
+</p>
+<p>
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>a1:rand([4,5,6]);
+a2:rand([2,3,4]);
+
+
+g1:a1*x^3 - a2*x
+f1(x):=(cos(x))^2;
+
+ta1:f1(g);
+ta2:g1
+ta3:diff(f1(g1),x)</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text>\( y = {@f1(g1)@}, \quad y'= {@ta3@}\)</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>none</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>ta3</tans>
+            <boxsize>30</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>diff</forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>ta3</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>1927686609</deployedseed>
+        <deployedseed>1766640897</deployedseed>
+        <deployedseed>1468653985</deployedseed>
+        <deployedseed>399302379</deployedseed>
+        <deployedseed>1839935699</deployedseed>
+        <deployedseed>1565859023</deployedseed>
+        <deployedseed>1886774526</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ta3</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ta3+1</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-1-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

@@ -1,0 +1,148 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>9.5.3.5 Cartesian form</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p>
+</p>
+<h3>
+    <p>
+        <span class="multilang" lang="en">
+            Cartesian form
+        </span>
+        <span class="multilang" lang="de">
+            Kartesische Form
+        </span>
+        <br/>
+    </p>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        On occasions it is useful to convert the vector form of the equation of a straight line into Cartesian form.
+    </span>
+    <span class="multilang" lang="de">
+        Gelegentlich ist es nützlich, die Vektorform der Geradengleichung in die kartesische Form umzuwandeln.
+    </span>
+</p>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Suppose we write \(\underline{ a}=\begin{bmatrix}a_1 \\ a_2 \\ a_3
+\end{bmatrix},\;
+\underline{ b}=\begin{bmatrix}b_1 \\ b_2 \\ b_3 \end{bmatrix},\;
+\underline{ r} = \begin{bmatrix}x \\ y \\ z \end{bmatrix}\) then \(\underline{ r} = \underline{ a} + t(\underline{ b}-\underline{ a})\) implies \(\;
+\begin{bmatrix}x \\ y \\ z \end{bmatrix} = \begin{bmatrix}a_1 \\ a_2 \\ a_3 \end{bmatrix}
++t\begin{bmatrix} b_1-a_1 \\ b_2-a_2 \\ b_3-a_3\end{bmatrix} 
+= \begin{bmatrix}a_1 + t(b_1-a_1) \\
+a_2 + t(b_2-a_2) \\
+a_3 + t(b_3-a_3) 
+        \end{bmatrix}\)
+    </span>
+    <span class="multilang" lang="de">
+        Angenommen, wir schreiben \(\underline{ a}=\begin{bmatrix}a_1 \\ a_2 \\ a_3
+\end{bmatrix},\;
+\underline{ b}=\begin{bmatrix}b_1 \\ b_2 \\ b_3 \end{bmatrix},\;
+\underline{ r} = \begin{bmatrix}x \\ y \\ z \end{bmatrix}\) dann impliziert \(\underline{ r} = \underline{ a} + t(\underline{ b}-\underline{ a})\)\(\;
+\begin{bmatrix}x \\ y \\ z \end{bmatrix} = \begin{bmatrix}a_1 \\ a_2 \\ a_3 \end{bmatrix}
++t\begin{bmatrix} b_1-a_1 \\ b_2-a_2 \\ b_3-a_3\end{bmatrix}
+= \begin{bmatrix}a_1 + t(b_1-a_1) \\
+a_2 + t(b_2-a_2) \\
+a_3 + t(b_3-a_3)
+        \end{bmatrix}\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Equating the individual components we find
+    </span>
+    <span class="multilang" lang="de">
+        Durch Gleichsetzen der einzelnen Komponenten erhalten wir
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(x = a_1 + t(b_1-a_1), \;\hbox{ or equivalently }
+        t=\dfrac{x-a_1}{b_1-a_1}\)
+    </span>
+    <span class="multilang" lang="de">
+        \(x = a_1 + t(b_1-a_1), \;\hbox{ oder äquivalent }
+        t=\dfrac{x-a_1}{b_1-a_1}\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(y = a_2 + t(b_2-a_2), \;\hbox{ or equivalently }
+        t=\dfrac{y-a_2}{b_2-a_2}\)
+    </span>
+    <span class="multilang" lang="de">
+        \(y = a_2 + t(b_2-a_2), \;\hbox{ oder äquivalent }
+        t=\dfrac{y-a_2}{b_2-a_2}\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(z = a_3 + t(b_3-a_3), \;\hbox{ or equivalently }
+        t=\dfrac{z-a_3}{b_3-a_3}\)
+    </span>
+    <span class="multilang" lang="de">
+        \(z = a_3 + t(b_3-a_3), \;\hbox{ oder äquivalent }
+        t=\dfrac{z-a_3}{b_3-a_3}\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Each expression on the right is equal to \(t\) and so we can write \(\dfrac{x-a_1}{b_1-a_1} = \dfrac{y-a_2}{b_2-a_2}=\dfrac{z-a_3}{b_3-a_3}.\) This gives
+                the
+        <strong>
+            Cartesian form
+        </strong>
+        of the equations of the straight line which passes through the points with coordinates \((a_1,a_2,a_3)\) and \((b_1,b_2,b_3)\).
+    </span>
+    <span class="multilang" lang="de">
+        Jeder Ausdruck auf der rechten Seite ist gleich \(t\) und so können wir \(\dfrac{x-a_1}{b_1-a_1} = \dfrac{y-a_2}{b_2-a_2}=\dfrac{z-a_3}{b_3-a_3}\) schreiben. Dies ergibt die
+        <strong>
+            kartesische Form
+        </strong>
+        der Gleichungen der Geraden, die durch die Punkte mit den Koordinaten \((a_1,a_2,a_3)\) und \((b_1,b_2,b_3)\) verläuft.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            The
+            <strong>
+                Cartesian form
+            </strong>
+            of the equation of the straight line which passes through the points with coordinates \((a_1,a_2,a_3)\) and \((b_1,b_2,b_3)\)        is \[\frac{x-a_1}{b_1-a_1} = \frac{y-a_2}{b_2-a_2}=\frac{z-a_3}{b_3-a_3}.\]
+        </span>
+        <span class="multilang" lang="de">
+            Die
+            <strong>
+                kartesische Form
+            </strong>
+            der Gleichung der Geraden, die durch die Punkte mit den Koordinaten \((a_1 ,a_2,a_3)\) und \((b_1,b_2,b_3)\)       verläuft, ist \[\frac {x-a_1}{b_1-a_1} = \frac{y-a_2}{b_2-a_2}=\frac{z-a_3}{b_3-a_3}.\]
+        </span>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

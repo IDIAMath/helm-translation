@@ -1,0 +1,582 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>2.4.6.4 Ursprünglich 5.3.3 ungerade und gerade CAP W1 Q10 (verwendet) bearbeitet [Originally 5.3.3 Odd and even CAP W1 Q10 (used) edited]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                Give an example of an odd function. \(f_1(x)=\)
+            </span>
+            <span class="multilang" lang="no">
+                Gi et eksempel av en odde funksjon. \(f_1(x)=\)
+            </span>
+            <span class="multilang" lang="de">
+                Geben Sie ein Beispiel für eine ungerade Funktion. \(f_1(x)=\)
+            </span>
+            [[input:ans1]]. [[validation:ans1]] [[feedback:odd]]
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                Give an example of an even function. \(f_2(x)=\)
+            </span>
+            <span class="multilang" lang="no">
+                Gi et eksempel på en jevn funksjon. \(f_2(x)=\)
+            </span>
+            <span class="multilang" lang="de">
+                Geben Sie ein Beispiel für eine gerade Funktion. \(f_2(x)=\)
+            </span>
+            [[input:ans2]]. [[validation:ans2]] [[feedback:even]]
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                Give an example of a function which is odd and even. \(f_3(x)=\)
+            </span>
+            <span class="multilang" lang="no">
+                Gi et eksempel på en funksjon som er både jevn og odde. \(f_3(x)=\)
+            </span>
+            <span class="multilang" lang="de">
+                Geben Sie ein Beispiel für eine Funktion, die ungerade und gerade ist. \(f_3(x)=\)
+            </span>
+            [[input:ans3]]. [[validation:ans3]] [[feedback:oddeven]]
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                True or false: the answer to 3. is unique.
+            </span>
+            <span class="multilang" lang="no">
+                Sant eller usant: svaret til 3. er unik.
+            </span>
+            <span class="multilang" lang="de">
+                Richtig oder falsch: Die Antwort auf 3. ist eindeutig.
+            </span>
+            [[input:ans4]] [[validation:ans4]] [[feedback:unique]]
+        </p>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        A function \(y=f(x)\) is odd if \(f(-x) = -f(x)\).  A function \(y = f(x)\) is even if \(f(-x) = f(x)\).
+    </span>
+    <span class="multilang" lang="no">
+        En funksjon \(y = f(x) \) er odde hvis \(f(-x) = -f(x) \). &amp;Nbsp; En funksjon \(y = f(x)\) er jevn om \(f(-x) = f(x)\).
+    </span>
+    <span class="multilang" lang="de">
+        Eine Funktion \(y=f(x)\) ist ungerade, wenn \(f(-x)= -f(x)\).  Eine Funktion \(y=f(x)\) ist gerade, wenn \(f(-x)=f(x)\).
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                For example, \(f_1(x) = x^3\) is an odd function, since
+            </span>
+            <span class="multilang" lang="no">
+                For eksempel er \(f_1(x) = x^3\) en oddefunksjon, siden
+            </span>
+            <span class="multilang" lang="de">
+                Beispielsweise ist \(f_1(x)=x^3\) eine ungerade Funktion, da
+            </span>
+        </p>
+        \[f_1(-x) = (-x)^3 = -x^3 = -f_1(x).\]
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                For example, \(f_2(x) = x^4\) is an even function, since
+            </span>
+            <span class="multilang" lang="no">
+                For eksempel, \(f_2(x) = x^4\) er en jevn funksjon, since
+            </span>
+            <span class="multilang" lang="de">
+                Beispielsweise ist \(f_2(x)=x^4\) eine gerade Funktion, da
+            </span>
+        </p>
+        \[f_2(-x) = (-x)^4 = x^4 = f_2(x).\]
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                A function that is both even and odd is \(f_3(x) = 0\), since
+            </span>
+            <span class="multilang" lang="no">
+                En funksjon som er både jevn og odde er \(f_3(x) = 0\), since
+            </span>
+            <span class="multilang" lang="de">
+                Eine Funktion, die sowohl gerade als auch ungerade ist, ist \(f_3(x)=0\), da
+            </span>
+        </p>
+        \[f_3(-x) = 0 = f_3(x) = -f_3(x).\]
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                The function \(f_3(x) = 0\) is indeed the unique function that is both even and odd.
+            </span>
+            <span class="multilang" lang="no">
+                Funksjonen \(f_3 (x) = 0 \) er den unike funksjonen som er både jevn og oddetall.
+            </span>
+            <span class="multilang" lang="de">
+                Die Funktion \(f_3(x) = 0\) ist tatsächlich die einzige Funktion, die sowohl gerade als auch ungerade ist.
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                To see this, let \(f\) be a function that is even and odd and \(x\) be any point on the real line. Then since \(f\) is even we have \(f(-x) = f(x)\), and since \(f\) is odd, \(f(-x) = -f(x)\). Therefore, we must have \(f(x) = -f(x)\), which forces \(f(x) = 0\).
+            </span>
+            <span class="multilang" lang="no">
+                For å se dette, la \(f \) være en funksjon som er jevn og odde og \(x \) være hvilket som helst punkt på den reelle linjen. Siden \(f\) er jevn, har vi \(f(-x) = f(x)\), og siden \(f\) er odde, \(f(-x) = -f(x)\). Derfor må vi ha \(f (x) = -f (x) \), som tvinger \(f (x) = 0 \).
+            </span>
+            <span class="multilang" lang="de">
+                Um dies zu sehen, sei \(f\) eine gerade und ungerade Funktion und \(x\) ein beliebiger Punkt auf der reellen Achse. Da \(f\) gerade ist, haben wir \(f(-x) = f(x)\), und da \(f\) ungerade ist, \(f(-x) = -f(x)\). Daher müssen wir \(f(x) = -f(x)\) haben, was \(f(x) = 0\) erzwingt.
+            </span>
+        </p>
+    </li>
+</ol>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>5.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text></text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text></text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>dot</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>x^3</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>1</requirelowestterms>
+            <checkanswertype>1</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans2</name>
+            <type>algebraic</type>
+            <tans>x^4</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>1</requirelowestterms>
+            <checkanswertype>1</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans3</name>
+            <type>algebraic</type>
+            <tans>0</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>1</requirelowestterms>
+            <checkanswertype>1</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans4</name>
+            <type>boolean</type>
+            <tans>true</tans>
+            <boxsize>15</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>1</requirelowestterms>
+            <checkanswertype>1</checkanswertype>
+            <mustverify>0</mustverify>
+            <showvalidation>0</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>even</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text>sa:ans2-subst(x=-x,ans2);</text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>sa</sans>
+                <tans>0</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>even-0-T </trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>even-0-F </falseanswernote>
+                <falsefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        Your answer is not an even function:\[ f(x)-f(-x)={@sa@} \neq 0.\]
+    </span>
+    <span class="multilang" lang="de">
+        Ihre Antwort ist keine gerade Funktion:\[ f(x)-f(-x)={@sa@} \neq 0.\]
+    </span>
+</p>
+]]></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>odd</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text>sa:subst(x=-x,ans1)+ans1;</text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>sa</sans>
+                <tans>0</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>odd-0-T </trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>odd-0-F </falseanswernote>
+                <falsefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        Your answer is not an odd function: \[ f(x)+f(-x)={@sa@} \neq 0.\]
+    </span>
+    <span class="multilang" lang="de">
+        Ihre Antwort ist keine ungerade Funktion: \[ f(x)+f(-x)={@sa@} \neq 0.\]
+    </span>
+</p>
+]]></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>oddeven</name>
+            <value>2.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text>sa1:subst(x=-x,ans3)+ans3;
+ sa2:ans3-subst(x=-x,ans3);</text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>sa1</sans>
+                <tans>0</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>0.5</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>1</truenextnode>
+                <trueanswernote>ODD</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>1</falsenextnode>
+                <falseanswernote>oddeven-0-F </falseanswernote>
+                <falsefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        Your answer is not an odd function:\[ f(x)+f(-x)={@sa1@} \neq 0.\]
+    </span>
+    <span class="multilang" lang="de">
+        Ihre Antwort ist keine ungerade Funktion:\[ f(x)+f(-x)={@sa1@} \neq 0.\]
+    </span>
+</p>
+]]></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>1</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>sa2</sans>
+                <tans>0</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.5</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>EVEN</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>+</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>oddeven-1-F </falseanswernote>
+                <falsefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        Your answer is not an even function:\[ f(x)-f(-x)={@sa2@} \neq 0.\]
+    </span>
+    <span class="multilang" lang="de">
+        Ihre Antwort ist keine gerade Funktion:\[ f(x)-f(-x)={@sa2@} \neq 0.\]
+    </span>
+</p>
+]]></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>unique</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans4</sans>
+                <tans>true</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>unique-0-T </trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>unique-0-F </falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>x^3</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>cos(x)</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>0</value>
+            </testinput>
+            <testinput>
+                <name>ans4</name>
+                <value>true</value>
+            </testinput>
+            <expected>
+                <name>even</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>even-0-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>odd</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>odd-0-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>oddeven</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>EVEN</expectedanswernote>
+            </expected>
+            <expected>
+                <name>unique</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>unique-0-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>x^2</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>x^3</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>x^3</value>
+            </testinput>
+            <testinput>
+                <name>ans4</name>
+                <value>false</value>
+            </testinput>
+            <expected>
+                <name>even</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.3333333</expectedpenalty>
+                <expectedanswernote>even-0-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>odd</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.3333333</expectedpenalty>
+                <expectedanswernote>odd-0-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>oddeven</name>
+                <expectedscore>0.5000000</expectedscore>
+                <expectedpenalty>0.3333333</expectedpenalty>
+                <expectedanswernote>oddeven-1-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>unique</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.3333333</expectedpenalty>
+                <expectedanswernote>unique-0-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

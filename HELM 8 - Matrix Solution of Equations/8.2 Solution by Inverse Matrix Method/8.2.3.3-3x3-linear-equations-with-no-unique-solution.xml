@@ -1,0 +1,113 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.2.3.3 3x3 linear equations with no unique solution</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h5>
+    <span class="multilang" lang="en">
+        Equations with no unique solution
+    </span>
+    <span class="multilang" lang="de">
+        Gleichungen ohne eindeutige Lösung
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        If \(|A|=0\), \(A^{-1}\) does not exist and therefore it is easy to see that the system of equations has no unique solution. But it is not obvious whether this is because the equations
+                are inconsistent and have no solution or whether they are consistent and have infinitely many solutions.
+    </span>
+    <span class="multilang" lang="de">
+        Wenn \(|A|=0\), existiert \(A^{-1}\) nicht und daher ist es leicht zu erkennen, dass das Gleichungssystem keine eindeutige Lösung hat. Es ist jedoch nicht klar, ob dies daran liegt, dass die Gleichungen 
+                inkonsistent sind und keine Lösung haben oder ob sie konsistent sind und unendlich viele Lösungen haben.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Consider the systems
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie die Systeme
+    </span>
+    <span class="math display">
+        \[\text{(a)}\ \ \ \ \begin{array}{rrrrr}x_1-x_2+x_3&amp;=&amp;4\\
+2x_1+3x_2-2x_3&amp;=&amp;3\\
+3x_1+2x_2-x_3&amp;=&amp;7\end{array}
+\qquad\ \ \ \text{(b)}\ \ \ \ \begin{array}{rrrrr}x_1-x_2+x_3&amp;=&amp;4\\
+2x_1+3x_2-2x_3&amp;=&amp;3\\ x_1-11x_2+9x_3&amp;=&amp;13\end{array}\]
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            In system (a) add the first equation to the second. What does this tell you about the system?
+        </span>
+        <span class="multilang" lang="de">
+            Addieren Sie in System (a) die erste Gleichung zur zweiten. Was sagt Ihnen das über das System?
+        </span>
+    </li>
+    <p>
+        <span class="multilang" lang="en">
+            The sum is \(3x_1+2x_2-x_3=7\), which is identical to the third equation. Thus, essentially, there are only two equations \[\begin{matrix}
+                x_1 &amp; - &amp; x_2 &amp; + &amp; x_3 &amp; = &amp; 4 \\
+                3x_1 &amp; + &amp; 2x_2 &amp; - &amp; x_3 &amp; = &amp; 7 \\
+\end{matrix}\] Now adding these two gives \(4x_1+x_2=11\) or, equivalently, \(x_2=11-4x_1\). Therefore, \[x_3=4-x_1+x_2=4-x_1+11-4x_1=15-5x_1\] Hence if we give \(x_1\) a value, \(t\) say, then \(x_2=11-4t\) and \(x_3=15-5t\). Thus there is an infinite number
+                        of solutions (one for each value of \(t\)).
+        </span>
+        <span class="multilang" lang="de">
+            Die Summe ist \(3x_1+2x_2-x_3=7\), was mit der dritten Gleichung identisch ist. Somit gibt es im Wesentlichen nur zwei Gleichungen \[\begin{matrix}
+                x_1 &amp; - &amp; x_2 &amp; + &amp; x_3 &amp; = &amp; 4 \\
+                3x_1 &amp; + &amp; 2x_2 &amp; - &amp; x_3 &amp; = &amp; 7 \\
+\end{matrix}\] Die Addition dieser beiden ergibt nun \(4x_1+x_2=11\) oder äquivalent \(x_2=11-4x_1\). Deshalb, \[x_3=4-x_1+x_2=4-x_1+11-4x_1=15-5x_1\] Wenn wir also \(x_1\) einen Wert geben, sagen wir \(t\), dann gilt \(x_2=11-4t\) und \(x_3=15-5t\). Es gibt also eine unendliche Anzahl
+                        von Lösungen (eine für jeden Wert von \(t\)).
+        </span>
+    </p>
+    <li>
+        <span class="multilang" lang="en">
+            In system (b) take the combination \( 5 \) times the first equation minus \(2\) times the second equation. What does this tell you about the system?
+        </span>
+        <span class="multilang" lang="de">
+            In System (b) nehmen Sie die Kombination \( 5 \) mal die erste Gleichung minus \(2\) mal die zweite Gleichung. Was sagt Ihnen das über das System?
+        </span>
+    </li>
+    <p>
+        <span class="multilang" lang="en">
+            The combination is \(x_1-11x_2+9x_3=14\), which conflicts with the third equation. There is thus no solution.
+        </span>
+        <span class="multilang" lang="de">
+            Die Kombination ist \(x_1-11x_2+9x_3=14\), was im Widerspruch zur dritten Gleichung steht. Es gibt also keine Lösung.
+        </span>
+    </p>
+</ol>
+<p>
+</p>
+<hr/>
+<p>
+    <span class="multilang" lang="en">
+        In practice, systems containing three or more linear equations are best solved by Gauss Elimination.
+    </span>
+    <span class="multilang" lang="de">
+        In der Praxis werden Systeme mit drei oder mehr linearen Gleichungen am besten durch Gauß-Eliminierung gelöst.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,293 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.2.5.1 Bruchpotenzen [Fractional indices]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Fractional indices
+    </span>
+    <span class="multilang" lang="de">
+        Bruchpotenzen
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        So far we have used indices that are whole numbers. We now consider fractional powers. Consider the expression \((16^{1\over 2})^2\). Using the third law of indices, \((a^m)^n=a^{mn}\), we can write
+    </span>
+    <span class="multilang" lang="de">
+        Bisher haben wir Potenzen verwendet, die ganze Zahlen sind. Wir betrachten nun gebrochene Exponenten. Betrachten Sie den Ausdruck \((16^{1\over 2})^2\). Unter Verwendung des dritten Potenzgesetzes, \((a^m)^n=a^{mn}\), können wir schreiben
+    </span>
+</p>
+<p>
+    \( (16^{1\over 2})^2 = 16^{{1\over 2}\times 2} = 16^1 =16\).
+</p>
+<p>
+    <span class="multilang" lang="en">
+        So \(16^{1\over 2}\) is a number which when squared equals 16, that is 4 or \(-4\). In other words \(16^{1\over 2}\) is a square root of 16. There are always two square roots of a non-zero positive number, and we write \(\ 16^{1\over 2} = \pm 4\).
+    </span>
+    <span class="multilang" lang="de">
+        Also ist \(16^{1\over 2}\) eine Zahl, die quadriert gleich 16 ist, also 4 oder \(-4\). Mit anderen Worten: \(16^{1\over 2}\) ist eine Quadratwurzel aus 16. Es gibt immer zwei Quadratwurzeln einer positiven Zahl ungleich Null, und wir schreiben \(\ 16^{1\over 2} = \pm 4\).
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            In general, \(a^{\frac{1}{2}}\) is a square root of \(a\) where \(a&gt;0\)
+        </span>
+        <span class="multilang" lang="de">
+            Im Allgemeinen ist \(a^{\frac{1}{2}}\) eine Quadratwurzel von \(a\), wobei \(a&gt;0\)
+        </span>
+    </p>
+</div>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        Similarly
+    </span>
+    <span class="multilang" lang="de">
+        Genauso
+    </span>
+</p>
+<p>
+    \( (8^{1\over 3})^3 = 8^{{1\over 3}\times 3} = 8^1 = 8\),
+</p>
+<p>
+    <span class="multilang" lang="en">
+        so that \(8^{1\over 3}\) is a number which when cubed equals \(8\). Thus \(8^{1\over 3}\) is the cube root of \(8\), that is \(\sqrt[3]{8}\), namely \(2\). Each number has only one cube root, and so
+    </span>
+    <span class="multilang" lang="de">
+        so dass \(8^{1\over 3}\) eine Zahl ist, die, wenn sie kubiert wird, gleich \(8\) ist. Somit ist \(8^{1\over 3}\) die Kubikwurzel von \(8\), also \(\sqrt[3]{8}\), nämlich \(2\). Jede Zahl hat nur eine Kubikwurzel, und so
+    </span>
+</p>
+<p>
+    \( 8^{1\over 3} = 2\).
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            In general, \(a^{\frac{1}{3}}\) is the cube root of \(a\)
+        </span>
+        <span class="multilang" lang="de">
+            Im Allgemeinen ist \(a^{\frac{1}{3}}\) die Kubikwurzel von \(a\)
+        </span>
+    </p>
+</div>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        More generally we have
+    </span>
+    <span class="multilang" lang="de">
+        Allgemein haben wir
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            The \(n\)th root of \(a\) is denoted by \(a^{\frac{1}{n}}\).
+        </span>
+        <span class="multilang" lang="de">
+            Die \(n\)-te Wurzel von \(a\) wird mit \(a^{\frac{1}{n}}\) bezeichnet.
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            When \(a&lt;0\) the \(n\)th root only exists if \(n\) is odd.
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(a&lt;0\) existiert die \(n\)-te Wurzel nur, wenn \(n\) ungerade ist.
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            If \(a&gt;0\) the positive \(n\)th root is denoted by \(\sqrt[n]{a}\)
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(a&gt;0\) wird die positive \(n\)-te Wurzel mit \(\sqrt[n]{a}\) bezeichnet
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            If \(a&lt;0\) the negative \(n\)th root is \(-\sqrt[n]{|a|}\)
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(a&lt;0\) ist die negative \(n\)-te Wurzel \(-\sqrt[n]{|a|}\)
+        </span>
+    </p>
+</div>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        Your calculator will be able to evaluate fractional powers, and roots of numbers. Check that you can obtain the results of the following Examples on your calculator, but be aware that calculators normally give only one root when there may be others.
+    </span>
+    <span class="multilang" lang="de">
+        Ihr Taschenrechner ist in der Lage, Bruchpotenzen und Wurzeln von Zahlen zu berechnen. Vergewissern Sie sich, dass Sie die Ergebnisse der folgenden Beispiele auf Ihrem Tschenrechner erhalten können, aber beachten Sie, dass die Taschenrechner normalerweise nur eine Wurzel angeben, obwohl es auch andere geben kann.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Evaluate.
+    </span>
+    <span class="multilang" lang="de">
+        Werten Sie aus.
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(144^{1/2}\)
+    </li>
+    <li>
+        \(125^{1/3}\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            \(144^{1/2}\) is a square root of 144, that is \(\pm 12.\)
+        </span>
+        <span class="multilang" lang="de">
+            \(144^{1/2}\) ist eine Quadratwurzel von 144, also \(\pm 12.\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Noting that \(5^3=125\), we see that \(125^{1/3}=\sqrt[3]{125}=5.\)
+        </span>
+        <span class="multilang" lang="de">
+            In Anbetracht dessen, dass \(5^3=125\), sehen wir, dass \(125^{1/3}=\sqrt[3]{125}=5.\)
+        </span>
+    </li>
+</ol>
+<p>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Evaluate.
+    </span>
+    <span class="multilang" lang="de">
+        Werten Sie aus.
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(32^{1/5}\)
+    </li>
+    <li>
+        \(32^{2/5}\)
+    </li>
+    <li>
+        \(8^{2/3}\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            \(32^{1\over 5}\) is the 5th root of 32, that is \(\sqrt[5]{32}\). Now \(2^5=32\) and so \(\sqrt[5]{32}=2\).
+        </span>
+        <span class="multilang" lang="de">
+            \(32^{1\over 5}\) ist die 5. Wurzel von 32, also \(\sqrt[5]{32}\). Jetzt \(2^5=32\) und somit \(\sqrt[5]{32}=2\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Using the third law of indices we can write \(32^{2/5}=32^{2\times {1\over 5}} = (32^{1\over 5})^2\). Thus \( 32^{2/5}=((32)^{1/5})^2=2^2=4\).
+        </span>
+        <span class="multilang" lang="de">
+            Mithilfe des dritten Potenzgesetzes können wir \(32^{2/5}=32^{2\times {1\over 5}} = (32^{ 1\over 5})^2\). Also \( 32^{2/5}=((32)^{1/5})^2=2^2=4\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Note that \(8^{1/3}=2\). Then \( 8^{2\over 3} = 8^{2\times {1\over 3}} = (8^{1/3})^2 = 2^2=4\).
+        </span>
+        <span class="multilang" lang="de">
+            Beachten Sie, dass \(8^{1/3}=2\). Dann \( 8^{2\over 3} = 8^{2\times {1\over 3}} = (8^{1/3})^2 = 2^2=4\).
+        </span>
+    </li>
+    <p>
+        <span class="multilang" lang="en">
+            Note the following alternatives: \( 8^{2/3} = (8^{1/3})^2 = (8^2)^{1/3}\).
+        </span>
+        <span class="multilang" lang="de">
+            Beachten Sie die folgenden Alternativen: \( 8^{2/3} = (8^{1/3})^2 = (8^2)^{1/3 }\).
+        </span>
+    </p>
+</ol>
+<p>
+</p>
+<hr/>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

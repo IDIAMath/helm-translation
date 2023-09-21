@@ -1,0 +1,232 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.2.3.1 Example 3x3 linear system inverse matrix method</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h5>
+    <span class="multilang" lang="en">
+        Solving three equations in three unknowns
+    </span>
+    <span class="multilang" lang="de">
+        Drei Gleichungen in drei Unbekannten lösen
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        It is much more tedious to use the inverse matrix to solve a system of three equations although in principle, the method is the same as for two equations.
+    </span>
+    <span class="multilang" lang="de">
+        Es ist viel aufwändiger, die Inverse zur Lösung eines Systems aus drei Gleichungen zu verwenden, obwohl die Methode im Prinzip dieselbe ist wie für zwei Gleichungen.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Consider the system
+    </span>
+    <span class="multilang" lang="de">
+        Betrachten Sie das System
+    </span>
+    <span class="math display">
+        \[\begin{matrix} 
+x_1 &amp;- &amp; 2x_2 &amp; + &amp; x_3 &amp; = &amp; 3\\ 
+2x_1 &amp; + &amp; x_2 &amp; - &amp; x_3 &amp; = &amp; 5\\
+3x_1 &amp; - &amp; x_2 &amp; + &amp; 2x_3 &amp; = &amp; 12 \\
+\end{matrix}\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        and its matrix form \(AX = B\). One can find that \(|A|=10\) (check it!). Hence \(A^{-1}\) exists.
+    </span>
+    <span class="multilang" lang="de">
+        und seine Matrixform \(AX = B\). Man kann herausfinden, dass \(|A|=10\) (überprüfen Sie es!). Daher existiert \(A^{-1}\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Solve it using the inverse matrix method.
+    </span>
+    <span class="multilang" lang="de">
+        Lösen Sie es mit der Methode der inversen Matrix.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts_inline">
+    <li>
+        <span class="multilang" lang="en">
+            Find \(A^{-1}\) by the method of determinants.
+        </span>
+        <span class="multilang" lang="de">
+            Finden Sie \(A^{-1}\) mit der Methode der Determinanten.
+        </span>
+    </li>
+    <p>
+        <span class="multilang" lang="en">
+            Form the matrix where each element of \(A\) is replaced by its minor:
+        </span>
+        <span class="multilang" lang="de">
+            Bilden Sie die Matrix, in der jedes Element von \(A\) durch sein Minorelement ersetzt wird:
+        </span>
+    </p>
+    <p>
+        <span class="math inline">
+            \(\left[\begin{array}{ccc}\left|\begin{array}{rr}1&amp;-1\\
+-1&amp;2\end{array}\right|&amp;\left|\begin{array}{rr}2&amp;-1\\
+3&amp;2\end{array}\right|&amp;\left|\begin{array}{rr}2&amp;1\\ 3&amp;-1\end{array}\right|\\
+\\
+\left|\begin{array}{rr}-2&amp;1\\ -1&amp;2\end{array}\right|&amp;\left|\begin{array}{cc}1&amp;1\\
+3&amp;2\end{array}\right|&amp;\left|\begin{array}{rr}1&amp;-2\\ 3&amp;-1\end{array}\right|\\
+\\
+\left|\begin{array}{rr}-2&amp;1\\ 1&amp;-1\end{array}\right|&amp;\left|\begin{array}{rr}1&amp;1\\
+2&amp;-1\end{array}\right|&amp;\left|\begin{array}{rr}1&amp;-2\\
+2&amp;1\end{array}\right|\end{array}\right]=\left[\begin{array}{rrr}1&amp;7&amp;-5\\ -3&amp;-1&amp;5\\
+1&amp;-3&amp;5\end{array}\right].\)
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            Now use the \(3\times 3\) array of signs to obtain the matrix of cofactors:
+        </span>
+        <span class="multilang" lang="de">
+            Verwenden Sie nun die Zeichenmatrix \(3\times 3\), um die Matrix der Kofaktoren zu erhalten:
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            The array of signs is \[\left[\begin{matrix}
+                +&amp;-&amp;+\\
+                -&amp;+&amp;-\\
+                +&amp;-&amp;+ \\
+\end{matrix}\right]\] so that we obtain \[\left[\begin{matrix}
+                1&amp;-7&amp;-5\\
+                3&amp;-1&amp;-5\\
+                1&amp;3&amp;5 \\
+\end{matrix}\right].\]
+        </span>
+        <span class="multilang" lang="de">
+            Die Zeichenmatrix ist \[\left[\begin{matrix}
+                +&amp;-&amp;+\\
+                -&amp;+&amp;-\\
+                +&amp;-&amp;+ \\
+\end{matrix}\right]\] also erhalten wir \[\left[\begin{matrix}
+                1&amp;-7&amp;-5\\
+                3&amp;-1&amp;-5\\
+                1&amp;3&amp;5 \\
+\end{matrix}\right].\]
+        </span>
+    </p>
+    <li>
+        <span class="multilang" lang="en">
+            Transpose this matrix and divide by \(|A|\) to obtain \(A^{-1}\).
+        </span>
+        <span class="multilang" lang="de">
+            Transponieren Sie diese Matrix und dividieren Sie durch \(|A|\), um \(A^{-1}\) zu erhalten.
+        </span>
+    </li>
+    <p>
+        <span class="multilang" lang="en">
+            Transposing gives \[\left[\begin{matrix} 
+                1&amp;3&amp;1\\ 
+                -7&amp;-1&amp;3\\
+                -5&amp;-5&amp;5 \\
+\end{matrix}\right].\] Finally, \[A^{-1} = \frac{1}{10}
+\left[\begin{matrix}
+                1&amp;3&amp;1 \\
+                -7&amp;-1&amp;3 \\
+                -5&amp;-5&amp;5 \\
+\end{matrix}\right].\]
+        </span>
+        <span class="multilang" lang="de">
+            Transponieren ergibt \[\left[\begin{matrix} 
+                1&amp;3&amp;1\\ 
+                -7&amp;-1&amp;3\\
+                -5&amp;-5&amp;5 \\
+\end{matrix}\right].\] Schließlich, \[A^{-1} = \frac{1}{10}
+\left[\begin{matrix}
+                1&amp;3&amp;1 \\
+                -7&amp;-1&amp;3 \\
+                -5&amp;-5&amp;5 \\
+\end{matrix}\right].\]
+        </span>
+    </p>
+    <li>
+        <span class="multilang" lang="en">
+            Now use \(X=A^{-1} B\) to solve the system of linear equations.
+        </span>
+        <span class="multilang" lang="de">
+            Verwenden Sie nun \(X=A^{-1} B\), um das lineare Gleichungssystem zu lösen.
+        </span>
+    </li>
+    <p>
+        <span class="math display">
+            \[X=\frac{1}{10}\left[\begin{matrix}1&amp;3&amp;1\\ -7&amp;-1&amp;3\\
+-5&amp;-5&amp;5\end{matrix}\right]\left[\begin{matrix} 3\\ 5\\
+12\end{matrix}\right]=\frac{1}{10}\left[\begin{matrix}30\\ 10\\
+20\end{matrix}\right]=\left[\begin{matrix} 3\\ 1\\ 2\end{matrix}\right]\]
+        </span>
+        <span class="multilang" lang="en">
+            Then \(x_1=3,\ x_2=1,\ x_3=2\).
+        </span>
+        <span class="multilang" lang="de">
+            Dann \(x_1=3,\ x_2=1,\ x_3=2\).
+        </span>
+    </p>
+</ol>
+<p>
+</p>
+<hr/>
+<p>
+    <span class="multilang" lang="en">
+        This approach, and another known as Cramer's rule (which is not covered here) are both rather tedious! The advantage of the inverse matrix method is that we can determine when there is a unique solution and we can operate on matrix equations abstractly,
+                i.e. if we have \(AX+B=C\) and we know that \(A\) has an inverse then we can rewrite \(X=A^{-1}(C-B)\). By this we can simplify a problem algebraically before attempting any calculations.
+    </span>
+    <span class="multilang" lang="de">
+        Dieser Ansatz und ein anderer als Cramer-Regel bekannter Ansatz (der hier nicht behandelt wird) sind beide ziemlich mühsam! Der Vorteil der inversen Matrixmethode besteht darin, dass wir bestimmen können, wann es eine eindeutige Lösung gibt, und dass wir Matrixgleichungen abstrakt bearbeiten können.
+                D. h. wenn wir \(AX+B=C\) haben und wissen, dass \(A\) eine Umkehrung hat, dann können wir \(X=A^{-1}(C-B)\) umschreiben. Auf diese Weise können wir ein Problem algebraisch vereinfachen, bevor wir Berechnungen durchführen.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        There are cases where the matrix is more simple than a general \(3 \times 3\) matrix due to the presence of zeros. In these cases the calculation will take less time and become more feasible.
+    </span>
+    <span class="multilang" lang="de">
+        Es gibt Fälle, in denen die Matrix aufgrund des Vorhandenseins von Nullen einfacher ist als eine allgemeine \(3 \times 3\)-Matrix. In diesen Fällen nimmt die Berechnung weniger Zeit in Anspruch und ist praktikabler.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We will soon see Gaussian elimination which is superior method for general matrices.
+    </span>
+    <span class="multilang" lang="de">
+        Wir werden bald die Gaußsche Elimination sehen, die bessere Methode für allgemeine Matrizen.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

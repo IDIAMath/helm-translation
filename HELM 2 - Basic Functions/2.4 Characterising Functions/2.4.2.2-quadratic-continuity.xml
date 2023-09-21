@@ -1,0 +1,140 @@
+<quiz>
+    <question type="ddwtos">
+        <name>
+            <text>2.4.2.2 Quadratische Stetigkeit [Quadratic continuity]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Study the graphs of the functions \(y=x^2\) and \(y=-x^2\), \(x \in \mathbb{R}\) and fill in the blanks:
+    </span>
+    <span class="multilang" lang="no">
+        Studer grafene til funksjonene \(y = x^2 \) og \(y = -x^2 \), \(x \in \mathbb{R} \) og fyll ut feltene:
+    </span>
+    <span class="multilang" lang="de">
+        Untersuchen Sie die Graphen der Funktionen \(y=x^2\) und \(y=-x^2\), \(x \in \mathbb{R}\) und füllen Sie die Lücken aus:
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(y=x^2\) is
+    </span>
+    <span class="multilang" lang="no">
+        \(y=x^2\) er
+    </span>
+    <span class="multilang" lang="de">
+        \(y=x^2\) ist
+    </span>
+    [[1]]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(y=-x^2\) is
+    </span>
+    <span class="multilang" lang="no">
+        \(y=-x^2\) er
+    </span>
+    <span class="multilang" lang="de">
+        \(y=-x^2\) ist
+    </span>
+    [[1]]
+    <br/>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Note: after checking the answer you will need to drag the items out of the boxes before allowing you to drag back in for the next attempt.
+    </span>
+    <span class="multilang" lang="no">
+        Merk: Etter å ha sjekket svaret må du dra elementene ut av boksene før du kan dra dem tilbake for neste forsøk.
+    </span>
+    <span class="multilang" lang="de">
+        Hinweis: Nachdem Sie die Antwort überprüft haben, müssen Sie die Elemente aus den Feldern ziehen, bevor Sie sie für den nächsten Versuch wieder hineinziehen können.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <shuffleanswers>1</shuffleanswers>
+        <correctfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is correct.
+</span>
+<span class="multilang" lang="no">
+    Svaret ditt er korrekt
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="no">
+    Svaret ditt er delvis korrekt
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is incorrect.
+</span>
+<span class="multilang" lang="no">
+    Svaret ditt er ukorrekt
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </incorrectfeedback>
+        <shownumcorrect></shownumcorrect>
+        <dragbox>
+            <text>continuous</text>
+            <group>1</group>
+            <infinite></infinite>
+        </dragbox>
+        <dragbox>
+            <text>discontinuous</text>
+            <group>1</group>
+            <infinite></infinite>
+        </dragbox>
+        <dragbox>
+            <text>neither continuous nor discontinuous</text>
+            <group>1</group>
+            <infinite></infinite>
+        </dragbox>
+        <dragbox>
+            <text>continuous at all but two points</text>
+            <group>1</group>
+            <infinite></infinite>
+        </dragbox>
+    </question>
+</quiz>

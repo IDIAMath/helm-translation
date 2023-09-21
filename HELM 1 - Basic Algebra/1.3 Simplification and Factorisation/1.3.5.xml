@@ -1,0 +1,299 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.3.5</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        5. Factorising quadratic expressions
+    </span>
+    <span class="multilang" lang="de">
+        5. Faktorisieren quadratischer Ausdrücke
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        Quadratic expressions commonly occur in many areas of mathematics, physics and engineering. Many quadratic expressions can be written as the product of two linear factors and, in this Section, we examine how these factors can be easily found:
+    </span>
+    <span class="multilang" lang="de">
+        Quadratische Ausdrücke kommen häufig in vielen Bereichen der Mathematik, Physik und Technik vor. Viele quadratische Ausdrücke können als Produkt zweier linearer Faktoren geschrieben werden, und in diesem Abschnitt untersuchen wir, wie diese Faktoren leicht gefunden werden können:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <span class="multilang" lang="en">
+        An expression of the form \[ ax^2 + bx + c, \hspace{1cm} a \neq 0, \] where \(a\), \(b\) and \(c\) are numbers is called a
+        <b>
+            quadratic expression
+        </b>
+        (in the variable x).
+    </span>
+    <span class="multilang" lang="de">
+        Ein Ausdruck der Form \[ ax^2 + bx + c, \hspace{1cm} a \neq 0, \] wobei \(a\), \(b \) und \(c\) Zahlen sind, nennt man einen
+        <b>
+            quadratischen Ausdruck
+        </b>
+        (in der Variablen x).
+    </span>
+    <p>
+    </p>
+</div>
+<p>
+    <strong>
+    </strong>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The numbers \(b\) and \(c\) may be zero but a must not be zero (for, then, the quadratic reduces to a linear expression or constant). The number a is called the
+        <b>
+            coefficient
+        </b>
+        of \(x^2\), \(b\) is the coefficient of \(x\) and \(c\) is called the
+        <b>
+            constant term
+        </b>
+        .
+    </span>
+    <span class="multilang" lang="de">
+        Die Zahlen \(b\) und \(c\) können Null sein, aber a darf nicht Null sein (denn dann reduziert sich das Quadrat auf einen linearen Ausdruck oder eine Konstante). Die Zahl a heißt
+        <b>
+            Koeffizient
+        </b>
+        von \(x^2\), \(b\) ist der Koeffizient von \(x\) und \(c\) heißt der
+        <b>
+            konstante Term
+        </b>
+        .
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<b>
+    <span class="multilang" lang="en">
+        Case 1
+    </span>
+    <span class="multilang" lang="de">
+        Fall 1
+    </span>
+</b>
+<p>
+    <span class="multilang" lang="en">
+        Consider the product \( (x+1)(x+2)\). Removing brackets yields \( x^2 +3x+2 \). Conversely, we see that the factors of \( x^2+3x+2\) are \( (x+1)\) and \( (x+2)\). However, if we were given the quadratic expression first, how would we factorise it? The
+                following examples show how to do this but note that not all quadratic expressions can be easily factorised. To enable us to factorise a quadratic expression in which the coefficient of \(x^2\) equals 1, we note the following expansion: \[ (x + m)(x
+                + n) = x^2 + mx + nx + mn = x^2 + (m + n)x + mn \] So, given a quadratic expression we can think of the coefficient of \(x\) as \(m+n\) and the constant term as \(mn\). Once the values of \(m\) and \(n\) have been found the factors can be easily obtained.
+    </span>
+    <span class="multilang" lang="de">
+        Betrachten Sie das Produkt \( (x+1)(x+2)\). Das Entfernen der Klammern ergibt \( x^2 +3x+2 \). Umgekehrt sehen wir, dass die Faktoren von \(x^2+3x+2\) \((x+1)\) und \((x+2)\) sind. Wenn wir jedoch zuerst den quadratischen Ausdruck erhalten würden, wie würden wir ihn faktorisieren?
+                Die folgenden Beispiele zeigen, wie das geht, aber beachten Sie, dass nicht alle quadratischen Ausdrücke einfach faktorisiert werden können. Damit wir einen quadratischen Ausdruck faktorisieren können, in dem der Koeffizient von \(x^2\) gleich 1 ist, notieren wir die folgende Entwicklung: \[ (x + m)(x
+                + n) = x^2 + mx + nx + mn = x^2 + (m + n)x + mn \] Bei einem gegebenen quadratischen Ausdruck können wir uns also den Koeffizienten von \(x\) als \(m+n\) vorstellen und den konstanten Term als \(mn\). Sobald die Werte von \(m\) und \(n\) gefunden wurden, können die Faktoren leicht ermittelt werden.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Factorise \(x^2 + 4x - 5\).
+    </span>
+    <span class="multilang" lang="de">
+        Faktorisieren Sie \(x^2 + 4x - 5\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Writing \(x^2 + 4x - 5 = (x + m)(x + n) = x2 + (m + n)x + mn \), we seek numbers \(m\) and \(n\) such that \(m+ n = 4\) and \(mn = -5\). By trial and error it is not difficult to find that \(m = 5\) and \(n = -1 \) (or, the other way round, \( m = -1
+        \) and \(n = 5\) ). So we can write
+    </span>
+    <span class="multilang" lang="de">
+        Schreiben wir \(x^2 + 4x - 5 = (x + m)(x + n) = x2 + (m + n)x + mn \), suchen wir Zahlen \(m\) und \(n\), sodass \(m+ n = 4\) und \(mn = -5\). Durch Ausprobieren es nicht schwer herauszufinden, dass \(m = 5\) und \(n = -1 \) (oder umgekehrt, \( m = -1
+        \) und \(n = 5\) ). Also können wir schreiben
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \[ x2 + 4x - 5 = (x + 5)(x - 1) \] The answer can be checked easily by removing brackets.
+    </span>
+    <span class="multilang" lang="de">
+        \[ x2 + 4x - 5 = (x + 5)(x - 1) \] Die Antwort lässt sich leicht durch Entfernen der Klammern überprüfen.
+    </span>
+</p>
+<b>
+    <p>
+        <b>
+            <br/>
+        </b>
+    </p>
+    <span class="multilang" lang="en">
+        Case 2
+    </span>
+    <span class="multilang" lang="de">
+        Fall 2
+    </span>
+</b>
+<p>
+    <span class="multilang" lang="en">
+        When the coefficient of \(x^2\) is not equal to \(1\) it may be possible to extract a numerical factor. For example, note that \(3x^2 + 18x + 24\) can be written as \(3(x^2 + 6x + 8)\) and then factorised as in the previous Example 56. Sometimes no numerical
+                factor can be found and a slightly different approach may be taken. We will demonstrate a technique which can always be used to transform the given expression into one in which the coefficient of the squared variable equals 1.
+    </span>
+    <span class="multilang" lang="de">
+        Wenn der Koeffizient von \(x^2\) nicht gleich \(1\) ist, kann es möglich sein, einen numerischen Faktor zu extrahieren. Beachten Sie beispielsweise, dass \(3x^2 + 18x + 24\) als \(3(x^2 + 6x + 8)\) geschrieben und dann wie im vorherigen Beispiel 56 faktorisiert werden kann. Manchmal kann kein numerischer
+                Faktor gefunden werden und es kann ein etwas anderer Ansatz gewählt werden. Wir werden eine Technik demonstrieren, die immer verwendet werden kann, um den gegebenen Ausdruck in einen umzuwandeln, bei dem der Koeffizient der quadrierten Variablen gleich 1 ist.
+    </span>
+    <br/>
+</p>
+<p>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Factorise \(2x^2 + 5x + 3\).
+    </span>
+    <span class="multilang" lang="de">
+        Faktorisieren Sie \(2x^2 + 5x + 3\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        First note the coefficient of \(x^2\); in this case is \(2\). Multiply the whole expression by this number and rearrange as follows: \[ 2(2x^2 + 5x + 3) = 2(2x^2) + 2(5x) + 2(3) = (2x^2)2 + 5(2x) + 6. \] We now introduce a new variable \(z\) such that
+                \(z = 2x\) Thus we can write \[ (2x)^2 + 5(2x) + 6 \text{ as } z^2 + 5z + 6. \] This can be factorised to give \( (z + 3)(z + 2)\). Returning to the original variable by replacing \(z\) by \(2x\) we find \[ 2(2x^2 + 5x + 3) = (2x + 3)(2x + 2) \] A
+                factor of \(2\) can be extracted from the second bracket on the right so that \[ 2(2x^2 + 5x + 3) = 2(2x + 3)(x + 1), \] so that \[ 2x^2 + 5x + 3 = (2x + 3)(x + 1). \]
+    </span>
+    <span class="multilang" lang="de">
+        Notieren Sie zuerst den Koeffizienten von \(x^2\); in diesem Fall ist dies \(2\). Multiplizieren Sie den gesamten Ausdruck mit dieser Zahl und ordnen Sie wie folgt neu an: \[ 2(2x^2 + 5x + 3) = 2(2x^2) + 2(5x) + 2(3) = (2x^2)2 + 5( 2x) + 6. \] Wir führen nun eine neue Variable \(z\) ein, sodass
+                \(z = 2x\). Somit können wir \[ (2x)^2 + 5(2x) + 6 \text{ schreiben als } z^2 + 5z + 6. \] Dies kann faktorisiert werden zu \( (z + 3)(z + 2)\). Wenn wir zur ursprünglichen Variablen zurückkehren, indem wir \(z\) durch \(2x\) ersetzen, erhalten wir \[ 2(2x^2 + 5x + 3) = (2x + 3)(2x + 2) \] 
+                Ein Faktor von \(2\) kann aus der zweiten Klammer rechts extrahiert werden, sodass \[ 2(2x^2 + 5x + 3) = 2(2x + 3)(x + 1), \] sodass \[ 2x^2 + 5x + 3 = (2x + 3)(x + 1). \]
+    </span>
+</p>
+<span class="multilang" lang="en">
+    As an alternative to the technique of Example 56, experience and practice can often help us to identify factors. For example suppose we wish to factorise \(3x^2 + 7x + 2\). We write \[ 3x^2 + 7x + 2 = ( \hspace{1cm} )( \hspace{1cm} ) \] In order to obtain
+the term \(3x^2\) we can place terms \(3x\) and \(x\) in the brackets to give \[ 3x^2 + 7x + 2 = (3x + ? )(x + ? ) \] In order to obtain the constant \(2\), we consider the factors of \(2\). These are \(1\),\(2\) or \(-1\),\(-2\). By placing these factors
+in the brackets we can factorise the quadratic expression. Various possibilities exist: we could write \( (3x+2)(x+1)\) or \((3x+1)(x+2)\) or \((3x - 2)(x - 1)\) or \( (3x - 1)(x -2)\), only one of which is correct. By removing brackets from each in turn
+we look for the factorisation which produces the correct middle term, \(7x\). The correct factorisation is found to be \[ 3x^2 + 7x + 2 = (3x + 1)(x + 2). \] With practice you will be able to carry out this process quite easily.
+</span>
+<span class="multilang" lang="de">
+    Als Alternative zur Technik von Beispiel 56 können Erfahrung und Übung uns oft helfen, Faktoren zu identifizieren. Angenommen, wir möchten \(3x^2 + 7x + 2\) faktorisieren. Wir schreiben \[ 3x^2 + 7x + 2 = ( \hspace{1cm} )( \hspace{1cm} ) \] Um 
+den Term \(3x^2\) zu erhalten, können wir die Terme \(3x\) und \(x\) in die Klammern setzen, um \[ 3x^2 + 7x + 2 = (3x + ? )(x + ? ) \] zu erhalten. Um die Konstante \(2\) zu erhalten, betrachten wir die Faktoren von \(2\). Diese sind \(1\),\(2\) oder \(-1\),\(-2\). Durch die Platzierung dieser Faktoren
+in den Klammern können wir den quadratischen Ausdruck faktorisieren. Es gibt verschiedene Möglichkeiten: Wir könnten \( (3x+2)(x+1)\) oder \((3x+1)(x+2)\) oder \((3x - 2)(x - 1)\) schreiben oder \( (3x - 1)(x -2)\), von denen nur eine richtig ist. Indem die Klammern nacheinander entfernt werden
+suchen wir nach der Faktorisierung, die den korrekten mittleren Term \(7x\) ergibt. Die richtige Faktorisierung ergibt sich zu \[ 3x^2 + 7x + 2 = (3x + 1)(x + 2). \] Mit etwas Übung werden Sie diesen Vorgang ganz einfach durchführen können.
+</span>
+<p>
+</p>
+<p>
+</p>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Factorise
+    </span>
+    <span class="multilang" lang="de">
+        Faktorisieren Sie
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \( x^2 - 36z^2,\)
+    </li>
+    <li>
+        \(25x^2 - 9z^2,\)
+    </li>
+    <li>
+        \(\alpha^2 - 1\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<span class="multilang" lang="en">
+    In each case we are required to find the difference of two squared terms.
+</span>
+<span class="multilang" lang="de">
+    In jedem Fall müssen wir die Differenz zweier quadrierter Terme finden.
+</span>
+<p>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            Note that \(x^2 - 36z^2 = x^2 - (6^z)2.\) This factorises as \( (x + 6z)(x - 6z).\)
+        </span>
+        <span class="multilang" lang="de">
+            Beachten Sie, dass \(x^2 - 36z^2 = x^2 - (6^z)2.\) Dies wird faktorisiert als \( (x + 6z)(x - 6z).\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Here \(25x^2 - 9z^2 = (5x)^2 - (3z)^2.\) This factorises as \((5x + 3z)(5x - 3z).\)
+        </span>
+        <span class="multilang" lang="de">
+            Hier \(25x^2 - 9z^2 = (5x)^2 - (3z)^2.\) Dies wird faktorisiert als \((5x + 3z)(5x - 3z).\)
+        </span>
+    </li>
+    <li>
+        \( \alpha^2 - 1 = (\alpha + 1)(\alpha - 1). \)
+        <p>
+        </p>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

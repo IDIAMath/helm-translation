@@ -1,0 +1,204 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>6.3.1.1 Logarithms</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Logarithms
+    </span>
+    <span class="multilang" lang="de">
+        Logarithmen
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        Logarithms reverse the process of raising a base '\(a\)' to a power '\(n\)'.
+    </span>
+    <span class="multilang" lang="de">
+        Logarithmen kehren den Prozess der Potenzierung einer Basis '\(a\)' zu einer Potenz '\(n\)' um.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        As with all exponentials, the base should be a positive number. If \(b=a^n\) then we write \(\log_ab=n\).
+    </span>
+    <span class="multilang" lang="de">
+        Wie bei allen Exponentialen sollte die Basis eine positive Zahl sein. Wenn \(b=a^n\) dann schreiben wir \(\log_ab=n\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Of course, the reverse statement is equivalent: If \(\log_ab=n\), then \(b=a^n\).
+    </span>
+    <span class="multilang" lang="de">
+        Natürlich ist die umgekehrte Aussage äquivalent: Wenn \(\log_ab=n\), dann \(b=a^n\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The expression \(log_ab=n\) is read: “The log to base \(a\) of the number \(b\) is equal to \(n\)".
+    </span>
+    <span class="multilang" lang="de">
+        Der Ausdruck \(log_ab=n\) wird wie folgt gelesen: „Der Log zur Basis \(a\) der Zahl \(b\) ist gleich \(n\)".
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The term “log" is short for the word
+        <b>
+            logarithm
+        </b>
+        .
+    </span>
+    <span class="multilang" lang="de">
+        Der Begriff „log“ ist die Abkürzung für das Wort
+        <b>
+            Logarithmus
+        </b>
+        .
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Determine the log equivalents of
+    </span>
+    <span class="multilang" lang="de">
+        Bestimmen Sie die äquivalenten Logarithmen von
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <p>
+    </p>
+    <li>
+        \(16 = 2^4\)
+    </li>
+    <li>
+        \(16 = 4^2\)
+    </li>
+    <li>
+        \(1000 = 10^3\)
+    </li>
+    <p>
+    </p>
+    <p>
+    </p>
+    <li>
+        \(134.896=10^{2.13}\)
+    </li>
+    <li>
+        \(8.414867=e^{2.13}\)
+    </li>
+    <p>
+    </p>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            Since \(16=2^4\), \(\log_216=4\).
+        </span>
+        <span class="multilang" lang="de">
+            Da \(16=2^4\), \(\log_216=4\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Since \(16=4^2\), \(\log_416=2\).
+        </span>
+        <span class="multilang" lang="de">
+            Da \(16=4^2\), \(\log_416=2\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Since \(1000=10^3\), \(\log_{10}1000=3\).
+        </span>
+        <span class="multilang" lang="de">
+            Da \(1000=10^3\), \(\log_{10}1000=3\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Since \(134.896=10^{2.13}\), \(\log_{10}134.896=2.13\).
+        </span>
+        <span class="multilang" lang="de">
+            Da \(134.896=10^{2.13}\), \(\log_{10}134.896=2.13\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Since \(8.414867=e^{2.13}\), \(\log_e8.414867=2.13\).
+        </span>
+        <span class="multilang" lang="de">
+            Da \(8.414867=e^{2.13}\), \(\log_e8.414867=2.13\).
+        </span>
+    </li>
+</ol>
+<h5>
+    <span class="multilang" lang="en">
+        <b>
+            Summary:
+        </b>
+    </span>
+    <span class="multilang" lang="de">
+        <b>
+            Zusammenfassung:
+        </b>
+    </span>
+</h5>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            If \(b=a^n\), then \(log_ab=n\).
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(b=a^n\), dann \(log_ab=n\).
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            If \(\log_ab=n\), then \(b=a^n\).
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(\log_ab=n\), dann \(b=a^n\).
+        </span>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,210 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>3.5.2.1 Lineare Ungleichungen algebraisch lösen [Solving Linear Inequalities Algebraically]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Solving linear inequalities algebraically
+    </span>
+    <span class="multilang" lang="no">
+        Løse lineære ulikheter algebraisk
+    </span>
+    <span class="multilang" lang="de">
+        Lineare Ungleichungen algebraisch lösen
+    </span>
+</h4>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        When we are asked to
+        <strong>
+            solve
+        </strong>
+        an inequality, the inequality will contain an unknown variable, say \(x\). Solving means obtaining all values of \(x\) for which the inequality is true. In a
+        <strong>
+            linear inequality
+        </strong>
+        the unknown appears only to the first power, that is as \(x\), and not as \(x^2\), \(x^3\),
+                \(x^{1/2}\) and so on. It is possible to solve a linear inequality by making the unknown the subject. Consider the following examples.
+    </span>
+    <span class="multilang" lang="no">
+        Når vi blir bedt om å
+        <strong>
+            løse
+        </strong>
+        en ulikhet, vil ulikheten inneholde en ukjent variabel, si \(x\). Å løse betyr å finne alle verdiene for \(x\) som ulikheten er sann for. I en
+        <strong>
+            lineær ulikhet
+        </strong>
+        er den ukjente variabelen bare i første potens, som \(x\), ikke som \(x^2\), \(x^3\),
+                \(x^{1/2}\) og så videre. Se på følgende eksempler som løser ulikheter.
+    </span>
+    <span class="multilang" lang="en">
+        Wenn wir aufgefordert werden, eine Ungleichung
+        <strong>
+            zu lösen
+        </strong>
+        , enthält die Ungleichung eine unbekannte Variable, sagen wir \(x\). Lösen bedeutet, alle Werte
+                von \(x\) zu erhalten, für die die Ungleichung wahr ist. Bei einer
+        <strong>
+            linearen Ungleichung
+        </strong>
+        tritt die Unbekannte nur in der ersten Potenz auf, also als \(x\),
+                und nicht als \(x^2\), \(x^3\),
+                \(x^{1/2}\) und so weiter. Es ist möglich, eine lineare Ungleichung zu lösen, indem man das Unbekannte zum Subjekt macht. Betrachten Sie die folgenden Beispiele.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Solve the inequality \(4x+3&gt;0\).
+    </span>
+    <span class="multilang" lang="no">
+        Løs ulikheten \(4x+3&gt;0\).
+    </span>
+    <span class="multilang" lang="de">
+        Lösen Sie die Ungleichung \(4x+3&gt;0\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        Løsning
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="math display">
+        \[\begin{aligned}
+4x+3 &amp;&gt; 0&amp;&amp; \\
+4x &amp;&gt; -3 &amp;&amp; \hbox{
+        <span class="multilang" lang="en">
+            by subtracting 3 from both sides
+        </span>
+        <span class="multilang" lang="no">
+            ved å trekke 3 fra begge sider
+        </span>
+        <span class="multilang" lang="de">
+            durch Subtrahieren von 3 auf beiden Seiten
+        </span>
+        }\\ x &amp;&gt;-{3\over 4} &amp;&amp; \hbox{
+        <span class="multilang" lang="en">
+            by dividing both sides by 4.
+        </span>
+        <span class="multilang" lang="no">
+            ved å dele begge sider med 4.
+        </span>
+        <span class="multilang" lang="de">
+            indem beide Seiten durch 4 geteilt werden.
+        </span>
+        }\\\end{aligned}\]
+    </span>
+    <span class="multilang" lang="en">
+        Hence all values of \(x\) greater than \(\displaystyle{-{3\over 4}}\) satisfy \(4x+3&gt;0\).
+    </span>
+    <span class="multilang" lang="no">
+        Derfor tilfresstiller alle verdiene for \(x\) større enn \(\displaystyle{-{3\over 4}}\) ulikheten \(4x+3&gt;0\).
+    </span>
+    <span class="multilang" lang="de">
+        Daher sind alle Werte von \(x\) größer als \(\displaystyle {-{3\over 4}}\) und erfüllen \(4x+3&gt;0\).
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Solve the inequality \(-3x-7≤0\).
+    </span>
+    <span class="multilang" lang="no">
+        Løs ulikheten \(-3x-7≤0\).
+    </span>
+    <span class="multilang" lang="de">
+        Lösen Sie die Ungleichung \(-3x-7≤0\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        Løsning
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="math display">
+        \[\begin{aligned}
+-3x-7 &amp;≤ 0&amp;&amp; \\
+-3x &amp;≤ 7 &amp;&amp; \hbox{
+        <span class="multilang" lang="en">
+            by adding 7 on both sides
+        </span>
+        <span class="multilang" lang="no">
+            ved å legge til 7 på begge sider
+        </span>
+        <span class="multilang" lang="de">
+            durch Addieren von 7 auf beiden Seiten
+        </span>
+        }\\ x &amp;≥-{7\over 3} &amp;&amp; \hbox{
+        <span class="multilang" lang="en">
+            by dividing both sides by -3 and reversing the inequality.
+        </span>
+        <span class="multilang" lang="no">
+            ved å dele begge sider med -3 og reversere ulikheten.
+        </span>
+        <span class="multilang" lang="de">
+            durch Division beider Seiten durch -3 und Umkehrung der Ungleichung.
+        </span>
+        }\\\end{aligned}\]
+    </span>
+    <span class="multilang" lang="en">
+        Hence all values of \(x\) greater than \(\displaystyle{-{7\over 3}}\) satisfy \(-3x-7≤0\).
+    </span>
+    <span class="multilang" lang="no">
+        Derfor tilfredsstiller alle verdiene for \(x\) større enn \(\displaystyle{-{7\over 3}}\) ulikheten \(-3x-7≤0\).
+    </span>
+    <span class="multilang" lang="de">
+        Daher sind alle Werte von \(x\) größer als \(\displaystyle {-{7\over 3}}\) und erfüllen \(-3x-7≤0\).
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

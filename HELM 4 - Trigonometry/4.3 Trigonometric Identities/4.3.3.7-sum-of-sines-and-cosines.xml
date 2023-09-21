@@ -1,0 +1,119 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>4.3.3.7 Summe von Sinus und Kosinus [Sum of sines and cosines]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Sum of two sines and sum of two cosines
+    </span>
+    <span class="multilang" lang="no">
+        Summen av to sinuser og av to cosinuser
+    </span>
+    <span class="multilang" lang="de">
+        Summe zweier Sinus und Summe zweier Kosinus
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Here we obtain results that are widely used in areas of science and engineering such as vibration theory, wave theory and electric circuit theory.
+    </span>
+    <span class="multilang" lang="no">
+        Her får vi resultater som er mye brukt innen vitenskap og ingeniørfag som vibrasjonsteori, bølgeteori og elektrisk kretsteori.
+    </span>
+    <span class="multilang" lang="de">
+        Hier erhalten wir Ergebnisse, die in Bereichen der Natur- und Ingenieurwissenschaften wie die Schwingungstheorie, Wellentheorie und die elektrische Schaltungstheorie weit verbreitet sind.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We return to the identities angle addition formulae:
+    </span>
+    <span class="multilang" lang="no">
+        Vi går tilbake til addisjonsformlene for vinkeler:
+    </span>
+    <span class="multilang" lang="de">
+        Wir kehren zu den Additionsformeln für Identitätswinkel zurück:
+    </span>
+</p>
+\[\begin{aligned} \sin(A+B ) &amp;\equiv \sin A\cos B+\cos A\sin B\\ \sin (A-B) &amp;\equiv \sin A\cos B-\cos A\sin B \end{aligned}\]
+<p>
+    <span class="multilang" lang="en">
+        Adding these identities gives
+    </span>
+    <span class="multilang" lang="no">
+        Å legge sammen disse identitetene gir
+    </span>
+    <span class="multilang" lang="de">
+        Das Addieren dieser Identitäten ergibt
+    </span>
+</p>
+\[\sin(A+B)+\sin(A-B)\equiv 2\sin A\cos B.\]
+<p>
+    <span class="multilang" lang="en">
+        Subtracting the identities produces
+    </span>
+    <span class="multilang" lang="no">
+        Å trekke fra identitetene gir
+    </span>
+    <span class="multilang" lang="de">
+        Das Subtrahieren der Identitäten ergibt
+    </span>
+</p>
+\[\sin (A+B)-\sin(A-B)\equiv 2\cos A\sin B\]
+<p>
+    <span class="multilang" lang="en">
+        It is now convenient to let \(C=A+B\) and \(D=A-B\) so that
+    </span>
+    <span class="multilang" lang="no">
+        Det er nå praktisk å la \(C=A+B\) og \(D=A-B\) slik at
+    </span>
+    <span class="multilang" lang="de">
+        Es ist jetzt sinnvoll, \(C=A+B\) und \(D=A-B\) so zu lassen, dass
+    </span>
+</p>
+\[A=\dfrac{C+D}{2} \qquad \text{
+<span class="multilang" lang="en">
+    and
+</span>
+<span class="multilang" lang="de">
+    und
+</span>
+} \qquad B=\dfrac{C-D}{2}\]
+<p>
+    <span class="multilang" lang="en">
+        The above then becomes:
+    </span>
+    <span class="multilang" lang="no">
+        Det ovenstående blir da:
+    </span>
+    <span class="multilang" lang="de">
+        Das obige wird dann:
+    </span>
+</p>
+\[\sin C+\sin D\equiv 2\sin\left(\dfrac{C+D}{2}\right)\cos \left(\dfrac{C-D}{2}\right) \]
+<p>
+    <span class="multilang" lang="en">
+        Similarly:
+    </span>
+    <span class="multilang" lang="no">
+        På samme måte:
+    </span>
+    <span class="multilang" lang="de">
+        Ebenso:
+    </span>
+</p>
+\[\sin C-\sin D\equiv 2\cos\left(\dfrac{C+D}{2}\right)\sin \left(\dfrac{C-D}{2}\right) \]
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

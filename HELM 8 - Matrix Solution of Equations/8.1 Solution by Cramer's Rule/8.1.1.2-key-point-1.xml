@@ -1,0 +1,78 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.1.1.2 Key point 1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            The unique solution to the equations:
+        </span>
+        <span class="multilang" lang="de">
+            Die eindeutige Lösung der Gleichungen:
+        </span>
+    </p>
+    <p>
+        \(\qquad ax+by=e\)
+    </p>
+    <p>
+        \(\qquad cx+dy=f\)
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            is given by:
+        </span>
+        <span class="multilang" lang="de">
+            ist gegeben durch:
+        </span>
+    </p>
+    <p>
+        \(\qquad x=\dfrac{\Delta_x}{\Delta},\ \ y=\dfrac{\Delta_y}{\Delta}\)
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            in which
+        </span>
+        <span class="multilang" lang="de">
+            in dem
+        </span>
+    </p>
+    <p>
+        \(\qquad\Delta=\left|\begin{array}{cc}a&amp;b\\ c&amp;d\end{array}\right|,\ \ \Delta_x=\left|\begin{array}{cc}e&amp;b\\ f&amp;d\end{array}\right|,\ \ \Delta_y=\left|\begin{array}{cc}a&amp;e\\ c&amp;f\end{array}\right|.\)
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            If \(\Delta=0\) this method of solution cannot be used.
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(\Delta=0\) kann diese Lösungsmethode nicht verwendet werden.
+        </span>
+    </p>
+    <br/>
+    <p>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

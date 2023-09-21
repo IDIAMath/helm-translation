@@ -1,0 +1,376 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>9.5.2.4 Find the remaining angle</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        A line is inclined at \({@xAng@}^\circ\) to the \(x\)-axis and \({@yAng@}^\circ\) to the \(y\)-axis. What is the line's inclination to the \(z\)-axis? Any valid answer will suffice.
+    </span>
+    <span class="multilang" lang="de">
+        Eine Gerade ist um \({@xAng@}^\circ\) zur \(x\)-Achse und \({@yAng@}^\circ\) zur \(y\)-Achse geneigt. Wie groß ist die Neigung der Gerade zur \(z\)-Achse? Jede gültige Antwort ist zulässig.
+    </span>
+</p>
+<p>
+    [[input:ans1]]\(\phantom{.}^\circ\) [[validation:ans1]]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Give your answer in degrees.
+    </span>
+    <span class="multilang" lang="de">
+        Geben Sie Ihre Antwort in Grad an.
+    </span>
+</p>
+[[feedback:prt1]]
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        We know that the angle the vector makes with the \(x\)-axis is \(\theta_x={@xAng@}^\circ\) and the angle the vector makes with the \(y\)-axis is \(\theta_y={@yAng@}^\circ\). We see that \(\cos(\theta_x)=\displaystyle{{@cosxAng@}}\) and \(\cos( \theta_y)=\displaystyle{{@cosyAng@}}\).
+    </span>
+    <span class="multilang" lang="de">
+        Wir wissen, dass der Winkel, den der Vektor mit der \(x\)-Achse bildet, \(\theta_x={@xAng@}^\circ\) ist und der Winkel den der Vektor mit der \(y\)-Achse bildet, ist \(\theta_y={@yAng@}^\circ\). Wir sehen, dass \(\cos(\theta_x)=\displaystyle{{@cosxAng@}}\) und \(\cos( \theta_y)=\displaystyle{{@cosyAng@}}\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We can use the formula \(\cos^2( \theta_z)=1-\cos^2( \theta_x)-\cos^2( \theta_y)\) to calculate \(\theta_z\). In particular, we see that \(\cos( \theta_z)=\pm\displaystyle{{@cosAng1@}}\). Taking care to calculate \(\theta_z\) in degrees we see that \(\theta_z={@zAng1deg@}^\circ\)
+        or \(\theta_z={@zAng2deg@}^\circ\).
+    </span>
+    <span class="multilang" lang="de">
+        Wir können die Formel \(\cos^2( \theta_z)=1-\cos^2( \theta_x)-\cos^2( \theta_y)\) verwenden, um \(\theta_z\) zu berechnen. Insbesondere sehen wir, dass \(\cos( \theta_z)=\pm\displaystyle{{@cosAng1@}}\). Wenn wir darauf achten, \(\theta_z\) in Grad zu berechnen, sehen wir, dass \(\theta_z={@zAng1deg@}^\circ\)
+        oder \(\theta_z={@zAng2deg@}^\circ\).
+    </span>
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text><![CDATA[stackvectortex(ex):= block(sconcat("{ \\underline{", tex1(first(args(ex))), "}}"));
+/*Defines the random angles the vector makes with the x and y axes*/
+xAng: rand([45,60,120]);
+yAng: rand([45,60,120]);
+/*Calculate the relevant cosines*/
+cosxAng: cos(2*pi*xAng/360);
+cosyAng: cos(2*pi*yAng/360);
+cosAng1: sqrt(1-cosxAng^2-cosyAng^2);
+/*The two corresponding candidate angles for the z axis in degrees and radians*/
+zAng1rad: acos(cosAng1);
+zAng2rad: pi-zAng1rad;
+zAng1deg: zAng1rad*180/pi;
+zAng2deg: 180-zAng1deg;]]></text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text>A line is inclined at \({@xAng@}^\circ\) to the \(x\)-axis and \({@yAng@}^\circ\) to the \(y\)-axis.
+The two possible inclinations of the line with respect to the \(z\)-axis are \({@zAng1deg@}\) and \({@zAng2deg@}\).</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>dot</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>numerical</type>
+            <tans>zAng1deg</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>0</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>zAng1deg</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        You also could have answered \({@zAng2deg@}^\circ\).
+    </span>
+    <span class="multilang" lang="de">
+        Sie hätten auch \({@zAng2deg@}^\circ\) antworten können.
+    </span>
+    <br/>
+</p>
+]]></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>1</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>zAng2deg</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-2-T</trueanswernote>
+                <truefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        You also could have answered \({@zAng1deg@}^\circ\).
+    </span>
+    <span class="multilang" lang="de">
+        Sie hätten auch \({@zAng1deg@}^\circ\) antworten können.
+    </span>
+    <br/>
+</p>
+]]></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>2</falsenextnode>
+                <falseanswernote>prt1-2-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>2</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>zAng1rad</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-3-T</trueanswernote>
+                <truefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        It seems you expressed your answer in radians.
+    </span>
+    <span class="multilang" lang="de">
+        Anscheinend haben Sie Ihre Antwort im Bogenmaß ausgedrückt.
+    </span>
+    <br/>
+</p>
+]]></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>3</falsenextnode>
+                <falseanswernote>prt1-3-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>3</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>zAng2rad</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-4-T</trueanswernote>
+                <truefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        It seems you expressed your answer in radians.
+    </span>
+    <span class="multilang" lang="de">
+        Anscheinend haben Sie Ihre Antwort im Bogenmaß ausgedrückt.
+    </span>
+    <br/>
+</p>
+]]></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-4-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>87003273</deployedseed>
+        <deployedseed>619284351</deployedseed>
+        <deployedseed>25201987</deployedseed>
+        <deployedseed>1982578687</deployedseed>
+        <deployedseed>36610630</deployedseed>
+        <deployedseed>1415117656</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>zAng1rad</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty></expectedpenalty>
+                <expectedanswernote>prt1-3-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>zAng2rad</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty></expectedpenalty>
+                <expectedanswernote>prt1-4-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>3</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>zAng1deg</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>4</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>zAng2deg</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-2-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>5</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ev(zAng1deg+1,simp)</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-4-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

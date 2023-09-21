@@ -1,0 +1,270 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>3.2.5.4 Verwenden der quadratischen Formel (zum Ende kopieren) [Using the Quadratic Formula (copy for end)]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Solve the equation \(4x^2-{@aa@}x+{@bb@}=0\) using the quadratic formula.
+    </span>
+    <span class="multilang" lang="no">
+        Løs ligningen \(4x^2-{@aa@}x+{@bb@}=0\) ved å bruke abc-formelen.
+    </span>
+    <span class="multilang" lang="de">
+        Lösen Sie die Gleichung \(4x^2-{@aa@}x+{@bb@}=0\) mit der quadratischen Formel.
+    </span>
+</p>
+<p>
+    \(x =\) [[input:ans1]] [[validation:ans1]]
+    <span class="multilang" lang="en">
+        or
+    </span>
+    <span class="multilang" lang="de">
+        oder
+    </span>
+    \(x =\) [[input:ans2]] [[validation:ans2]]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        First identify \(a\), \(b\) and \(c\):
+    </span>
+    <span class="multilang" lang="no">
+        Identifiser først \(a\), \(b\) og \(c\):
+    </span>
+    <span class="multilang" lang="de">
+        Identifizieren Sie zuerst \(a\), \(b\) und \(c\):
+    </span>
+</p>
+<p>
+    \(a=4\), \(b=-{@aa@}\), \(c={@bb@}\).
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Substitute these values into the formula and simplify:
+    </span>
+    <span class="multilang" lang="no">
+        Sett disse verdiene inn i abc-formelen og forenkle:
+    </span>
+    <span class="multilang" lang="de">
+        Setzen Sie diese Werte in die Formel ein und vereinfachen Sie:
+    </span>
+</p>
+<p>
+    \[x = \frac{-b\pm \sqrt{b^2-4ac}}{2a} = \dfrac{{@aa@}\pm\sqrt{{@aa@}^2-(4)(4)({@bb@})}}{(2)(4)} = \dfrac{{@aa@}\pm\sqrt{{@aa^2@}-{@4*4*bb@}}}{8}.\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Hence \(x = {@ta1@}\) and \(x = {@ta2@}\).
+    </span>
+    <span class="multilang" lang="no">
+        Dermed har vi \(x = {@ta1@}\) og \(x = {@ta2@}\).
+    </span>
+    <span class="multilang" lang="de">
+        Daraus ergibt sich \(x = {@ta1@}\) und \(x = {@ta2@}\).
+    </span>
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>powerdisp:true
+
+aa1: 5+rand(6)
+aa: 5+rand([1,2,4,7,9])
+bb: 1
+ta1: aa/8+sqrt(aa^2/16-bb)/2
+ta2: aa/8-sqrt(aa^2/16-bb)/2</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text><![CDATA[
+<p>
+    [[feedback:prt1]]
+    <br/>
+</p>
+]]></text>
+        </specificfeedback>
+        <questionnote>
+            <text>\({@exp@}=0\) roots \( x= {@ta1@}\)</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>none</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>ta1</tans>
+            <boxsize>10</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint>{x= ,x= }</syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>solve</forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans2</name>
+            <type>algebraic</type>
+            <tans>ta2</tans>
+            <boxsize>10</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>{ans1,ans2}</sans>
+                <tans>{ta1,ta2}</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>1516788044</deployedseed>
+        <deployedseed>1742871770</deployedseed>
+        <deployedseed>411189047</deployedseed>
+        <deployedseed>1638428323</deployedseed>
+        <deployedseed>1462054747</deployedseed>
+        <deployedseed>159820151</deployedseed>
+        <deployedseed>1305253011</deployedseed>
+        <deployedseed>374113046</deployedseed>
+        <deployedseed>764787652</deployedseed>
+        <deployedseed>2031219924</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ta</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>{x=ta[1]+2 ,x=ta[2]+5 }</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-2-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

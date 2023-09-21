@@ -1,0 +1,39 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>9.2.1.5 Adding vectors written in component form</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        It is very important to note from the last task that vectors in Cartesian form can be added by simply adding their respective \(\underline{ i}\) and \(\underline{ j}\) components.
+    </span>
+    <span class="multilang" lang="de">
+        Es ist sehr wichtig, von der letzten Aufgabe zu beachten, dass Vektoren in kartesischer Form addiert werden können, indem einfach ihre jeweiligen \(\underline{ i}\) und \(\underline { j}\) Komponenten addiert werden.
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Thus, if \(\underline{ a}=a_x\underline{ i} + a_y\underline{ j}\) and \(\underline{ b}=b_x\underline{ i}+b_y\underline{ j}\) then \[\underline{ a}+\underline{ b}=(a_x+b_x)\underline{ i}+ (a_y+b_y)\underline{ j}.\] A similar, and obvious, rule applies
+                when subtracting: \[\underline{ a}-\underline{ b}=(a_x-b_x)\underline{ i}+(a_y-b_y)\underline{ j}.\]
+    </span>
+    <span class="multilang" lang="de">
+        Wenn also \(\underline{ a}=a_x\underline{ i} + a_y\underline{ j}\) und \(\underline{ b}=b_x\underline{ i}+b_y\underline{ j}\) dann \[\underline{ a}+\underline{ b}=(a_x+b_x)\underline{ i}+ (a_y+b_y)\underline{ j}. \] Eine ähnliche und offensichtliche Regel gilt
+                beim Subtrahieren: \[\underline{ a}-\underline{ b}=(a_x-b_x)\underline{ i}+(a_y-b_y)\underline{ j}.\]
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,144 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>6.3.1.4 Laws of logarithms</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Laws of logarithms
+    </span>
+    <span class="multilang" lang="de">
+        Logarithmusgesetze
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        From the previous exercise (see feedback), we see that the index law \(a^na^m=a^{n+m}\) has an equivalent logarithm law \(\log_a(bc)=\log_ab+\log_ac\). In words:
+        <b>
+            "The log of a product is the sum of logs."
+        </b>
+    </span>
+    <span class="multilang" lang="de">
+        Aus der vorherigen Übung (siehe Feedback) sehen wir, dass das Potenzgesetz \(a^na^m=a^{n+m}\) ein äquivalentes Logarithmusgesetz \(\log_a(bc)=\log_ab+\log_ac\) hat. In Worten:
+        <b>
+            "Der Logarithmus eines Produkts ist die Summe der Logarithmen."
+        </b>
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Indeed this property is one of the major advantages of using logarithms.They transform a product of numbers (a relatively difficult operation) to a sum of numbers (a relatively easy operation).
+    </span>
+    <span class="multilang" lang="de">
+        Tatsächlich ist diese Eigenschaft einer der Hauptvorteile der Verwendung von Logarithmen. Sie wandeln ein Produkt von Zahlen (eine relativ schwierige Operation) in eine Summe von Zahlen um (eine relativ einfache Operation).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Each index law has an equivalent logarithm law, true for any base, listed in the following Key Point:
+    </span>
+    <span class="multilang" lang="de">
+        Jedes Potenzgesetz hat ein äquivalentes Logarithmusgesetz, das für jede Basis gilt und im folgenden Schlüsselpunkt aufgeführt ist:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    <span class="multilang" lang="en">
+                        The laws of logarithms
+                    </span>
+                    <span class="multilang" lang="de">
+                        Die Logarithmusgesetze
+                    </span>
+                </th>
+                <th>
+                    <span class="multilang" lang="en">
+                        The laws of indices
+                    </span>
+                    <span class="multilang" lang="de">
+                        Die Potenzgesetze
+                    </span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    \(\log_a(AB) = \log_aA + \log_aB\)
+                </td>
+                <td>
+                    \(a^{A}a^B = a^{A+B} \)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    \(\log_a \left( \dfrac{A}{B} \right) = \log_aA - \log_aB \)
+                </td>
+                <td>
+                    \(\dfrac{a^A}{a^B} = a^{A-B}\)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    \(\log_a(A^k) = k\log_aA\)
+                </td>
+                <td>
+                    \((a^A)^k = a^{kA}\)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    \(\log_a(a^A) = A\)
+                </td>
+                <td>
+                    \(a^{\log_aA} = A\)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    \(\log_aa = 1\)
+                </td>
+                <td>
+                    \(a^1 = a\)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    \(\log_a1 = 0\)
+                </td>
+                <td>
+                    \(a^0 = 1\)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

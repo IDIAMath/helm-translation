@@ -1,0 +1,166 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>4.5.3.1 Schlüssel [Key]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Time shift and phase difference
+    </span>
+    <span class="multilang" lang="de">
+        Zeitverschiebung und Phasendifferenz
+    </span>
+</h4>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            The equations
+        </span>
+        <span class="multilang" lang="de">
+            Die Gleichungen
+        </span>
+    </p>
+    \[ \quad x=R\cos\omega t\qquad\qquad x=R\sin\omega t \]
+    <p>
+        <span class="multilang" lang="en">
+            both represent waves of amplitude \(R\) and period \(\dfrac{2\pi}{\omega}\).
+        </span>
+        <span class="multilang" lang="de">
+            beide repräsentieren Kurven mit Amplitude \(R\) und Periode \(\dfrac{2\pi}{\omega}\).
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            The
+            <b>
+                time shift
+            </b>
+            between these waves is \(\dfrac{\pi}{2\omega}\) because \(\cos \left\{\omega\left(t-\dfrac{\pi}{2\omega}\right)\right\}=\sin\omega t\).
+        </span>
+        <span class="multilang" lang="de">
+            Die
+            <b>
+                Zeitverschiebung
+            </b>
+            zwischen diesen Kurven beträgt \(\dfrac{\pi}{2\omega}\), weil \(\cos \left\{\omega\left(t-\dfrac{\pi}{2\omega}\right)\right\}=\sin\omega t\).
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            The
+            <b>
+                phase difference
+            </b>
+            between these waves is said to be \(\dfrac{\pi}{2}\) because \(\cos {\left (\omega t-\dfrac{\pi}{2}\right)}=\sin {\omega t}\)
+        </span>
+        <span class="multilang" lang="de">
+            Die
+            <b>
+                Phasendifferenz
+            </b>
+            zwischen diesen Kurven soll \(\dfrac{\pi}{2}\) sein, weil \(\cos {\left (\omega t-\dfrac{\pi}{2}\right)}=\sin {\omega t}\)
+        </span>
+    </p>
+    <p>
+        <br/>
+    </p>
+    <h4>
+        <span class="multilang" lang="en">
+            Combining two wave equations
+        </span>
+        <span class="multilang" lang="de">
+            Kombination zweier Kurvengleichungen
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            A situation that arises in some applications is the need  to combine two trigonometric terms such as \[ \quad \qquad  A\cos\theta+B\sin\theta \quad \text{where } A \text{ and } B \text{ are constants} .\]
+        </span>
+        <span class="multilang" lang="de">
+            Eine Situation, die in einigen Anwendungen auftritt, ist die Notwendigkeit zwei trigonometrische Terme zu kombinieren wie \[ \quad \qquad  A\cos\theta+B\sin\theta \quad \text{wobei } A \text{ und } B \text{ Konstanten sind} .\]
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            For example this sort of situation might arise if we wish to combine two waves of the same frequency but not necessarily the same amplitude or phase. In particular we wish to be able to deal with an expression of the form \[ \quad R_1\cos \omega t +R_2\sin\omega
+                t\]  where the individual waves have, as we have seen, a time shift of \( \dfrac{\pi}{2\omega}\) or a phase difference of \( \dfrac{\pi}{2}\).
+        </span>
+        <span class="multilang" lang="de">
+            Zum Beispiel könnte eine solche Situation entstehen, wenn wir zwei Kurven derselben Frequenz, aber nicht unbedingt derselben Amplitude oder Phase kombinieren möchten. Insbesondere wollen wir mit einem Ausdruck der Form \[ \quad R_1\cos \omega t +R_2\sin\omega t\]  arbeiten können,
+                    wobei die einzelnen Kurven, wie wir gesehen haben, eine Zeitverschiebung von \( \dfrac{\pi}{2\omega}\) oder eine Phasendifferenz von \( \dfrac{\pi}{2}\) haben.
+        </span>
+    </p>
+    <h4>
+        <span class="multilang" lang="en">
+            General Theory
+        </span>
+        <span class="multilang" lang="de">
+            Allgemeine Theorie
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            Consider an expression \( A\cos\theta+B\sin\theta.\)  We seek to transform this into the single form \(C\cos (\theta-\alpha)\)  (or \(C\sin (\theta-\alpha))\), where \(C\) and \(\alpha\) have to be determined. The problem is easily solved with
+        the aid of trigonometric identities.
+        </span>
+        <span class="multilang" lang="de">
+            Betrachten Sie einen Ausdruck \( A\cos\theta+B\sin\theta.\)  Wir versuchen, dies in die einzelne Form \(C\cos (\theta-\alpha)\)  (oder \(C\sin (\theta-\alpha))\) zu transformieren, wobei \(C\) und \(\alpha\) bestimmt werden müssen. Das Problem ist leicht gelöst mithilfe trigonometrischer Identitäten.
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            We know that \[ \quad C\cos (\theta -\alpha)\equiv C(\cos\theta\cos\alpha+\sin\theta\sin\alpha)\]
+        </span>
+        <span class="multilang" lang="de">
+            Wir wissen, dass \[ \quad C\cos (\theta -\alpha)\equiv C(\cos\theta\cos\alpha+\sin\theta\sin\alpha )\]
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            Hence if \(A\cos\theta +B\sin\theta = C\cos (\theta -\alpha ) \) then\[ \quad A\cos\theta+B\sin\theta=(C\cos\alpha)\cos\theta+(C\sin\alpha)\sin\theta\]
+        </span>
+        <span class="multilang" lang="de">
+            Wenn also \(A\cos\theta +B\sin\theta = C\cos(\theta -\alpha )\) dann\[ \quad A\cos\theta+B\sin\theta=(C\cos\alpha)\cos\theta+(C\sin\alpha)\sin\theta\]
+        </span>
+        <br/>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            For this to be an identity (true for all values of \(\theta\)) we must be able to equate the coefficients of \(\cos\theta\) and \(\sin\theta\) on each side.
+        </span>
+        <span class="multilang" lang="de">
+            Damit dies eine Identität ist (wahr für alle Werte von \(\theta\)), müssen wir in der Lage sein, die Koeffizienten von \(\cos\theta\) und \(\sin\theta\) auf jeder Seite gleichzusetzen.
+        </span>
+        <br/>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            Hence\[ \quad A=C\cos\alpha\qquad \text{and}\qquad B=C\sin \alpha\]
+        </span>
+        <span class="multilang" lang="de">
+            Daher\[ \quad A=C\cos\alpha\qquad \text{und}\qquad B=C\sin \alpha\]
+        </span>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

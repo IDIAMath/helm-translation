@@ -1,0 +1,310 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>3.5.3.2_Task_Negativer Teil einer quadratischen Funktion [_Task_Negative part of a quadratic function]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Find the range of values of \({@var@}\) for which \({@eqt@}\gt 0\). We require \(y={@eqt@}\) to be positive. Plot the
+                function and use the graph to solve the problem.
+    </span>
+    <span class="multilang" lang="no">
+        Finn verdiområdet til \({@var@}\) der \({@eqt@}\gt 0\). Vi krever at \(y={@eqt@}\) er positiv. Plott funksjonen og
+                bruk grafen til å løse problemet.
+    </span>
+    <span class="multilang" lang="de">
+        Finden Sie den Wertebereich von \({@var@}\), für den \({@eqt@}\gt 0\). Wir fordern, dass \(y={@eqt@}\) positiv ist.
+                Zeichnen Sie die Funktion und verwenden Sie den Graphen, um das Problem zu lösen.
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        \({@var@}\lt\)
+    </span>
+    [[input:ans1]] [[validation:ans1]][[feedback:prt1]]
+</p>
+<p>
+    <span class="math inline">
+        \({@var@}\gt\)
+    </span>
+    [[input:ans2]] [[validation:ans2]][[feedback:prt2]]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        The graph crosses the \({@var@}\)-axis when \({@var@}={@firstval@}\) and \({@var@}={@secondval@}\).
+    </span>
+    <span class="multilang" lang="no">
+        Grafen krysser \({@var@}\)-aksen når \({@var@}={@firstval@}\) og \({@var@}={@secondval@}\).
+    </span>
+    <span class="multilang" lang="de">
+        Der Graph schneidet die \({@var@}\)-Achse, wenn \({@var@}={@firstval@}\) und \({@var @}={@secondval@}\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The graph of \(y={@eqt@}\) is negative when \({@var@}\in ({@firstval@},{@secondval@})\), so the correct answer is: \({@var@} \lt {@firstval@}\) and \({@var@} \gt {@secondval@}\).
+    </span>
+    <span class="multilang" lang="no">
+        Grafen til \(y={@eqt@}\) er negativ når \({@var@}\in ({@firstval@},{@secondval@})\), så det riktige svaret er: \( {@var@} \lt {@firstval@}\) og \({@var@} \gt {@secondval@}\).
+    </span>
+    <span class="multilang" lang="de">
+        Der Graph von \(y={@eqt@}\) ist negativ, wenn \({@var@}\in ({@firstval@},{@secondval@})\), also lautet die richtige Antwort: \({@var@} \lt {@firstval@}\) und \({@var@} \gt {@secondval@}\).
+    </span>
+</p>
+<figure class="HELM_figure">
+    {@plot1@}
+</figure>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>var:x;
+firstval: rand_with_step(-9,-1,1);
+secondval: rand_with_step(1,9,1);
+eqt: expand((var-firstval)*(var-secondval));
+correctans1: firstval;
+correctans2: secondval;
+
+plot1: plot(eqt, [x,firstval-1, secondval+1], [box, false],[yx_ratio, 1],[axes, solid]);</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text><![CDATA[\({@eqt@}>0 \mbox{ and x< } {@correctans1@} \mbox{ and x> } {@correctans2@}\)]]></text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>none</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>correctans1</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans2</name>
+            <type>algebraic</type>
+            <tans>correctans2</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans1</sans>
+                <tans>correctans1</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt2</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans2</sans>
+                <tans>correctans2</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt2-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt2-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>67622019</deployedseed>
+        <deployedseed>336193111</deployedseed>
+        <deployedseed>1193723872</deployedseed>
+        <deployedseed>1761626600</deployedseed>
+        <deployedseed>720312867</deployedseed>
+        <deployedseed>82301515</deployedseed>
+        <deployedseed>435640358</deployedseed>
+        <deployedseed>523591679</deployedseed>
+        <deployedseed>18031739</deployedseed>
+        <deployedseed>1630565977</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>correctans1</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>correctans2</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt2</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt2-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ev(correctans1+1,simp)</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>ev(correctans2+1,simp)</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-1-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt2</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt2-1-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

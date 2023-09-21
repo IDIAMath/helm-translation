@@ -1,0 +1,95 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>6.3.4.3 Inverse of taking logs</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify the expression \(10^{\log_{10} x}\).
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie den Ausdruck \(10^{\log_{10} x}\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Let \(y=10^{\log_{10} x}\), then take logs (to base \(10\)) of both sides: \[\log_{10} y =\log_{10} (10^{\log_{10} x}) =(\log_{10} x)\log_{10} 10,\] where we have used: \(\log_{10} A^k=k\log_{10} A\). However, since we are using logs to base \(10\), \(\log_{10}
+        10=1\) and so \(\log_{10} y=\log_{10} x\), which implies \(y=x\).
+    </span>
+    <span class="multilang" lang="de">
+        Sei \(y=10^{\log_{10} x}\), dann nehmen Sie Logarithmen (zur Basis \(10\)) von beiden Seiten: \[\log_{10} y =\log_{10} (10^{\log_{10} x}) =(\log_{10} x)\log_{10} 10,\] wobei wir verwendet haben: \(\log_ {10} A^k=k\log_{10} A\). Da wir jedoch Logarithmen zur Basis \(10\) verwenden, gilt \(\log_{10}
+        10=1\) und somit \(\log_{10} y=\log_{10} x\), was \(y=x\) impliziert.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Therefore, finally we conclude that \(10^{\log_{10} x}=x\).
+    </span>
+    <span class="multilang" lang="de">
+        Daraus schließen wir schließlich, dass \(10^{\log_{10} x}=x\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        This is an important result, true for logarithms of any base. It follows from the basic definition of the logarithm.
+    </span>
+    <span class="multilang" lang="de">
+        Dies ist ein wichtiges Ergebnis, das für Logarithmen jeder Basis gilt. Es folgt aus der grundlegenden Definition des Logarithmus.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            Raising to the power and taking logs are
+            <b>
+                inverse
+            </b>
+            operations:\[a^{\log_a x}=x,\\ \log_a(a^x) =x.\]
+        </span>
+        <span class="multilang" lang="de">
+            Potenzieren und Logarithmen verwenden sind
+            <b>
+                inverse
+            </b>
+            Operationen:\[a^{\log_a x}=x,\\ \log_a(a^ x) =x.\]
+        </span>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

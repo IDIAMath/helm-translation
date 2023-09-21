@@ -1,0 +1,122 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.1.2.1 Solving three equations in three unknowns</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Solving three equations in three unknowns
+    </span>
+    <span class="multilang" lang="de">
+        Drei Gleichungen mit drei Unbekannten lösen
+    </span>
+</h4>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Cramer’s rule can be extended to larger systems of simultaneous equations but the calculational effort increases rapidly as the size of the system increases. We quote Cramer’s rule for a system of three equations.
+    </span>
+    <span class="multilang" lang="de">
+        Cramers Regel kann auf größere Systeme simultaner Gleichungen ausgeweitet werden, allerdings nimmt der Rechenaufwand mit zunehmender Größe des Systems rapide zu. Wir zitieren die Cramer-Regel für ein System aus drei Gleichungen.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            The unique solution to the system of equations:
+        </span>
+        <span class="multilang" lang="de">
+            Die eindeutige Lösung des Gleichungssystems:
+        </span>
+    </p>
+    <p>
+        \(\begin{eqnarray*}a_{11}x_1+a_{12}x_2+a_{13}x_3&amp;=&amp;b_1\\ a_{21}x_1+a_{22}x_2+a_{23}x_3&amp;=&amp;b_2\\ a_{31}x_1+a_{32}x_2+a_{33}x_3&amp;=&amp;b_3\end{eqnarray*}\)
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            is
+        </span>
+        <span class="multilang" lang="de">
+            ist
+        </span>
+    </p>
+    <p>
+        \(x_1=\dfrac{\Delta_{x_1}}{\Delta},\ \ x_2=\dfrac{\Delta_{x_2}}{\Delta},\ \ x_3=\dfrac{\Delta_{x_3}}{\Delta}\)
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            in which
+        </span>
+        <span class="multilang" lang="de">
+            wobei
+        </span>
+    </p>
+    <p>
+        \(\Delta=\left|\begin{array}{ccc}a_{11}&amp;a_{12}&amp;a_{13}\\ a_{21}&amp;a_{22}&amp;a_{23}\\ a_{31}&amp;a_{32}&amp;a_{33}\end{array}\right|\)
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            and
+        </span>
+        <span class="multilang" lang="de">
+            und
+        </span>
+    </p>
+    <p>
+        \(\Delta_{x_1}=\left|\begin{array}{ccc}b_1&amp;a_{12}&amp;a_{13}\\ b_2&amp;a_{22}&amp;a_{23}\\ b_3&amp;a_{32}&amp;a_{33}\end{array}\right|\qquad \Delta_{x_2}=\left|\begin{array}{ccc}a_{11}&amp;b_1&amp;a_{13}\\ a_{21}&amp;b_2&amp;a_{23}\\ a_{31}&amp;b_3&amp;a_{33}\end{array}\right|\qquad
+                                \Delta_{x_3}=\left|\begin{array}{ccc}a_{11}&amp;a_{12}&amp;b_1\\ a_{21}&amp;a_{22}&amp;b_2\\ a_{31}&amp;a_{32}&amp;b_3\end{array}\right|\)
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            If \(\Delta=0\) this method of  solution cannot be used.
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(\Delta=0\) kann diese Methode der  Lösungsfindung nicht verwendet werden.
+        </span>
+    </p>
+</div>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Notice that the structure of the fractions is similar to that for the two-equation case. For example, the determinant forming the numerator of \(x_1\) is obtained from the determinant of coefficients, \(\Delta\),
+                by replacing the first column by the right-hand sides of the equations.
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie, dass die Struktur der Brüche der für den Fall mit zwei Gleichungen ähnelt. Beispielsweise wird die Determinante, die den Zähler von \(x_1\) bildet, aus der Determinante der Koeffizienten \(\Delta\)
+                durch Ersetzen der ersten Spalte durch die rechten Seiten der Gleichungen erhalten.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Notice too the increase in calculation: in the two-equation case we had to evaluate three \(2\times 2\) determinants, whereas in the three-equation case we have to evaluate four \(3\times 3\)   determinants. Hence Cramer’s rule is not really practicable for larger systems.
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie auch die Zunahme der Berechnungen: Im Fall mit zwei Gleichungen mussten wir drei \(2\times 2\) Determinanten auswerten, während wir im Fall mit drei Gleichungen vier \(3\times 3\) Determinanten auswerten müssen. Daher ist die Cramer-Regel für größere Systeme nicht wirklich anwendbar.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,191 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.3.3.1 Properties of determinants 1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Properties of determinants
+    </span>
+    <span class="multilang" lang="de">
+        Eigenschaften von Determinanten
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        Often, especially with determinants of large order, we can simplify the evaluation rules. Let's discuss some useful properties of determinants in general.
+    </span>
+    <span class="multilang" lang="de">
+        Oft, insbesondere bei Determinanten großer Ordnung, können wir die Bewertungsregeln vereinfachen. Lassen Sie uns einige nützliche Eigenschaften von Determinanten im Allgemeinen diskutieren.
+    </span>
+</p>
+<ol type="1">
+    <li>
+        <p>
+            <b>
+                <span class="multilang" lang="en">
+                    If two rows (or two columns) of a determinant are interchanged then the value of the determinant is
+                                multiplied by \(-1\).
+                </span>
+                <span class="multilang" lang="de">
+                    Wenn zwei Zeilen (oder zwei Spalten) einer Determinante vertauscht sind, wird der Wert der Determinante
+                                mit \(-1\) multipliziert.
+                </span>
+            </b>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                For example, \(\begin{vmatrix}4&amp;3\\ 1&amp;2\end{vmatrix}=8-3=5\), but (interchanging columns) \(\begin{vmatrix}3&amp;4\\2&amp;1\end{vmatrix}=3-8=-5\) and (interchanging rows) \(\begin{vmatrix}1&amp;2\\ 4&amp;3\end{vmatrix}=3-8=-5\).
+            </span>
+            <span class="multilang" lang="de">
+                Zum Beispiel \(\begin{vmatrix}4&amp;3\\ 1&amp;2\end{vmatrix}=8-3=5\), aber (Spalten vertauschen) \(\begin{vmatrix}3&amp;4\\2&amp;1\end{vmatrix}=3-8=-5\) und (vertauschte Zeilen) \(\begin{vmatrix}1&amp;2\\ 4&amp;3\end{vmatrix}=3-8=-5\).
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <b>
+                <span class="multilang" lang="en">
+                    The determinant of a matrix \(A\) and the determinant of its transpose \(A^T\) are equal.
+                </span>
+                <span class="multilang" lang="de">
+                    Die Determinante einer Matrix \(A\) und die Determinante ihrer Transponierten \(A^T\) sind gleich.
+                </span>
+            </b>
+        </p>
+        <p>
+            \[ \begin{vmatrix} 1 &amp; 2 \\ 3 &amp; 4 \end{vmatrix} = 4 - 6 = -2 = \begin{vmatrix} 1 &amp; 3 \\ 2 &amp; 4 \end{vmatrix} \]
+        </p>
+    </li>
+    <li>
+        <p>
+            <b>
+                <span class="multilang" lang="en">
+                    If two rows (or two columns) of a matrix \(A\) are equal, then it has zero determinant.
+                </span>
+                <span class="multilang" lang="de">
+                    Wenn zwei Zeilen (oder zwei Spalten) einer Matrix \(A\) gleich sind, dann hat sie eine Determinante von null.
+                </span>
+            </b>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                For example, the following determinant has two identical rows:
+            </span>
+            <span class="multilang" lang="de">
+                Zum Beispiel hat die folgende Determinante zwei identische Zeilen:
+            </span>
+        </p>
+        <p>
+            \[\begin{aligned} \begin{vmatrix} 1 &amp; 2 &amp; 3 \\ 1 &amp; 2 &amp; 3 \\ 4 &amp; 5 &amp; 6 \end{vmatrix} &amp;= 1 \times \begin{vmatrix} 2 &amp; 3 \\ 5 &amp; 6 \end{vmatrix} + 2 \times \left(- \begin{vmatrix} 1 &amp; 3 \\ 4 &amp; 6 \end{vmatrix} \right)
+                                                + 3 \times \begin{vmatrix} 1 &amp; 2 \\ 4 &amp; 5 \end{vmatrix} \\ &amp; = -3 + 2 \times 6 + 3 \times (-3) = 0. \end{aligned}\]
+        </p>
+    </li>
+    <li>
+        <p>
+            <b>
+                <span class="multilang" lang="en">
+                    If the elements of one row (or one column) of a determinant are multiplied by \(k\), then the resulting determinant is \(k\) times the given determinant.
+                </span>
+                <span class="multilang" lang="de">
+                    Wenn die Elemente einer Zeile (oder einer Spalte) einer Determinante mit \(k\) multipliziert werden, dann ist die resultierende Determinante \(k\) mal die gegebene Determinante.
+                </span>
+            </b>
+        </p>
+        <p>
+            \[\begin{vmatrix} 1 &amp; 2 &amp; 3 \\ 4 &amp; 8 &amp; 6 \\ 7 &amp; 8 &amp;  9 \end{vmatrix} = 2 \begin{vmatrix} 1 &amp; 2 &amp; 3 \\ 2 &amp; 4 &amp; 3 \\ 7 &amp; 8 &amp; 9 \end{vmatrix}.\]
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                Note that if one row (or column) of a determinant is a multiple of another row (or column) then the value of the determinant is zero. (This follows from properties 3 and 4.)
+            </span>
+            <span class="multilang" lang="de">
+                Beachten Sie, dass der Wert der Determinante null ist, wenn eine Zeile (oder Spalte) einer Determinante ein Vielfaches einer anderen Zeile (oder Spalte) ist. (Dies ergibt sich aus den Eigenschaften 3 und 4.)
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                For example:
+            </span>
+            <span class="multilang" lang="de">
+                Zum Beispiel:
+            </span>
+        </p>
+        <p>
+            \[\begin{aligned} \begin{vmatrix} 2 &amp; 4 &amp; -1 \\ 4 &amp; 2 &amp; 1 \\ -4 &amp; -8 &amp; 2 \end{vmatrix} &amp; = 2 \times \begin{vmatrix} 2 &amp; 1 \\ -8 &amp; 2 \end{vmatrix} +4 \times \left( -\begin{vmatrix} 4 &amp; 1 \\ -4 &amp; 2 \end{vmatrix}
+                                                \right) - 1 \times \begin{vmatrix} 4 &amp; 2 \\ -4 &amp; -8 \end{vmatrix} \\ &amp; = 2(12)+4(-12)-(-24)=0. \end{aligned}\]
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                This is predictable as the 3rd row is \(-2\) times the first row.
+            </span>
+            <span class="multilang" lang="de">
+                Dies ist vorhersehbar, da die dritte Zeile \(-2\) mal die erste Zeile ist.
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <b>
+                <span class="multilang" lang="en">
+                    If we add (or subtract) a multiple of one row (or column) to another, the value of the determinant is unchanged.
+                </span>
+                <span class="multilang" lang="de">
+                    Wenn wir ein Vielfaches einer Zeile (oder Spalte) zu einer anderen addieren (oder subtrahieren), bleibt der Wert der Determinante unverändert.
+                </span>
+            </b>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                Given \(\begin{vmatrix}1&amp;2\\ 4&amp;5\end{vmatrix}\), adding (2 \(\times\) row 1) to (row 2) gives
+            </span>
+            <span class="multilang" lang="de">
+                Gegeben ist \(\begin{vmatrix}1&amp;2\\ 4&amp;5\end{vmatrix}\), Addieren von (2 \(\times\) Zeile 1) zu (Zeile 2) ergibt
+            </span>
+        </p>
+        <p>
+            \[\begin{vmatrix} 1 &amp; 2 \\ 4 + 2 \times 1 &amp; 5 + 2 \times 2 \end{vmatrix} = \begin{vmatrix} 1 &amp; 2 \\ 6 &amp; 9 \end{vmatrix} = 9 - 12 = -3 = \begin{vmatrix} 1 &amp; 2 \\ 4 &amp; 5 \end{vmatrix} \]
+        </p>
+    </li>
+    <li>
+        <p>
+            <b>
+                <span class="multilang" lang="en">
+                    The determinant of a lower triangular matrix, an upper triangular matrix
+                                or a diagonal matrix is the product of the elements on the leading
+                                diagonal.
+                </span>
+                <span class="multilang" lang="de">
+                    Die Determinante einer unteren Dreiecksmatrix, einer oberen Dreiecksmatrix
+                                oder einer Diagonalmatrix ist das Produkt der Elemente auf der führenden
+                                Diagonale.
+                </span>
+            </b>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                As an example, it is easily confirmed that each of the following determinants has the same value \(1 \times 4 \times 6 = 24\).
+            </span>
+            <span class="multilang" lang="de">
+                Als Beispiel lässt sich leicht bestätigen, dass jede der folgenden Determinanten den gleichen Wert \(1 \times 4 \times 6 = 24\) hat.
+            </span>
+        </p>
+        <p>
+            \[ \begin{vmatrix} 1 &amp; 2 &amp; 3 \\ 0 &amp; 4 &amp; 5 \\ 0 &amp; 0 &amp; 6 \end{vmatrix},\qquad \begin{vmatrix} 1 &amp; 0 &amp; 0 \\ 2 &amp; 4 &amp; 0 \\ 3 &amp; 5 &amp; 6 \end{vmatrix},\qquad \begin{vmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 4
+                                                &amp; 0 \\ 0 &amp; 0 &amp; 6 \end{vmatrix},\qquad \begin{vmatrix} 4 &amp; 2 &amp; 3 \\ 0 &amp; 1 &amp; 5 \\ 0 &amp; 0 &amp; 6 \end{vmatrix} \]
+        </p>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

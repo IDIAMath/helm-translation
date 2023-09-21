@@ -1,0 +1,130 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>6.4.2.4 Solving quadratics involving exponentials</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<br/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Find \(x\) if \(10^x-5+6(10^{-x})=0\).
+    </span>
+    <span class="multilang" lang="de">
+        Finden Sie \(x\), wenn \(10^x-5+6(10^{-x})=0\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        We first simplify this expression by multiplying through by \(10^x\) (to eliminate the term \(10^{-x}\)): \[10^x(10^x)-10^x(5)+10^x(6(10^{-x}))=0,\] or \[(10^{x})^2-5(10^x)+6=0\qquad\text{since}\qquad 10^x(10^{-x})=10^0=1.\]
+    </span>
+    <span class="multilang" lang="de">
+        Wir vereinfachen diesen Ausdruck zunächst durch Multiplikation mit \(10^x\) (um den Term \(10^{-x}\) zu eliminieren): \[10^ x(10^x)-10^x(5)+10^x(6(10^{-x}))=0,\] oder \[(10^{x})^2-5(10^ x)+6=0\qquad\text{da}\qquad 10^x(10^{-x})=10^0=1.\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We realise that this expression is a
+        <b>
+            quadratic equation
+        </b>
+        . Let us put \(y=10^x\) to give \[y^2-5y+6=0.\]
+    </span>
+    <span class="multilang" lang="de">
+        Wir erkennen, dass dieser Ausdruck eine
+        <b>
+            quadratische Gleichung
+        </b>
+        ist. Setzen wir \(y=10^x\), um \[y^2-5y+6=0\] zu erhalten.
+    </span>
+</p>
+<span class="multilang" lang="en">
+    Now, we can factorise to give \[(y-3)(y-2)=0 \qquad \text{so that}\qquad y=3\quad\text{or}\quad y=2.\]
+</span>
+<span class="multilang" lang="de">
+    Jetzt können wir faktorisieren, um \[(y-3)(y-2)=0 \qquad \text{zu erhalten, so dass}\qquad y=3\quad \text{oder}\quad y=2.\]
+</span>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        For each of these values of \(y\) we obtain a separate value for \(x\) since \(y=10^x\).
+    </span>
+    <span class="multilang" lang="de">
+        Für jeden dieser Werte von \(y\) erhalten wir einen separaten Wert für \(x\) da \(y=10^x\).
+    </span>
+    <br/>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <b>
+            Case 1
+        </b>
+        If \(y=3\) then \(3=10^x\) implying \(x=\log_{10} 3=0.4771212\).
+    </span>
+    <span class="multilang" lang="de">
+        <b>
+            Fall 1
+        </b>
+        Wenn \(y=3\), dann \(3=10^x\), was \(x=\log_{10} 3=0.4771212\) impliziert.
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <b>
+            Case 2
+        </b>
+        If \(y=2\) then \(2=10^x\) implying \(x=\log_{10} 2=0.3010300\).
+    </span>
+    <span class="multilang" lang="de">
+        <b>
+            Fall 2
+        </b>
+        Wenn \(y=2\), dann \(2=10^x\), was \(x=\log_{10} 2=0,3010300\) impliziert.
+    </span>
+    <br/>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We conclude that the equation \(10^x-5+6(10^{-x})=0\) has two possible solutions for \(x\): either \(x=\log_{10} 3\) or \(x=\log_{10} 2\).
+    </span>
+    <span class="multilang" lang="de">
+        Wir schließen daraus, dass die Gleichung \(10^x-5+6(10^{-x})=0\) zwei mögliche Lösungen für \(x\) hat: entweder \(x=\log_{10} 3\) oder \(x=\log_{10} 2\).
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

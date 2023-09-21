@@ -1,0 +1,153 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.4.1.1 Streichen gemeinsamer Faktoren [Cancelling Common Factors]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            Cancelling Common Factors
+        </span>
+        <span class="multilang" lang="de">
+            Streichen gemeinsamer Faktoren
+        </span>
+    </span>
+    <br/>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        Consider the fraction \(\displaystyle{10\over 35}\). To simplify it we can factorise the numerator and the denominator and then cancel any common factors. Common factors are those factors which occur in both the numerator and the denominator. Thus
+    </span>
+    <span class="multilang" lang="de">
+        Betrachten Sie den Bruch \(\displaystyle{10\over 35}\). Zur Vereinfachung können wir den Zähler und den Nenner faktorisieren und dann alle gemeinsamen Faktoren kürzen. Gemeinsame Faktoren sind diejenigen Faktoren, die sowohl im Zähler als auch im Nenner vorkommen. Also
+    </span>
+</p>
+<p>
+    \(\qquad\displaystyle {10\over 35} = {\not{5}\times 2\over 7\times \not{5}} = {2\over 7}\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Note that the common factor 5 has been cancelled. It is important to remember that only
+        <em>
+            common factors
+        </em>
+        can be cancelled. The fractions \(\displaystyle{10\over 35}\) and \(\displaystyle{2\over 7}\) have identical values - they are equivalent fractions
+                - but \(\displaystyle{2\over 7}\) is in a simpler form than \(\displaystyle{10\over 35}\).
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie, dass der gemeinsame Faktor 5 gestrichen wurde. Es ist wichtig, sich daran zu erinnern, dass nur
+        <em>
+            gemeinsame Faktoren
+        </em>
+        gestrichen werden können. Die Brüche \(\displaystyle{10\over 35}\) und \(\displaystyle{2\over 7}\) haben identische Werte – sie sind äquivalente Brüche
+                    - aber \(\displaystyle{2\over 7}\) hat eine einfachere Form als \(\displaystyle{10\over 35}\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We apply the same process when simplifying algebraic fractions.
+    </span>
+    <span class="multilang" lang="de">
+        Wir wenden den gleichen Prozess an, wenn wir algebraische Brüche vereinfachen.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Leave the expression in its most simplified form
+    </span>
+    <span class="multilang" lang="de">
+        Bringen Sie den Ausdruck in seine einfachste Form
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(\displaystyle{yx\over 2x}\)
+    </li>
+    <li>
+        \(\displaystyle{x\over xy}\)
+    </li>
+    <li>
+        \(\displaystyle{x\over x+y}\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        \(\dfrac{y}{2}\)
+    </li>
+    <p>
+        <span class="multilang" lang="en">
+            In the expression \(\dfrac{yx}{2x}\) \(x\) is a factor common to both numerator and denominator. This common factor can be cancelled to give
+        </span>
+        <span class="multilang" lang="de">
+            Im Ausdruck \(\dfrac{yx}{2x}\) ist \(x\) ein gemeinsamer Faktor für Zähler und Nenner. Dieser gemeinsame Teiler kann gestrichen werden, um zu erhalten
+        </span>
+    </p>
+    <p>
+        \(\dfrac{y\not{x}}{2\not{x}} = \dfrac{y}{2}\)
+    </p>
+    <br/>
+    <li>
+        \(\dfrac{1}{y}\)
+        <p>
+            <span class="multilang" lang="en">
+                Note that \(\dfrac{x}{xy}\) can be written as \(\dfrac{1x}{xy}\). The common factor of x can be cancelled to give
+            </span>
+            <span class="multilang" lang="de">
+                Beachten Sie, dass \(\dfrac{x}{xy}\) als \(\dfrac{1x}{xy}\) geschrieben werden kann. Der gemeinsame Teiler von x kann gestrichen werden, um zu erhalten
+            </span>
+        </p>
+        <p>
+            \(\dfrac{1\not{x}}{\not{x}y} = \dfrac{1}{y}\)
+        </p>
+        <br/>
+    </li>
+    <li>
+        \(\dfrac{x}{x+y}\)
+        <p>
+            <span class="multilang" lang="en">
+                In the expression \(\dfrac{x}{x+y}\) notice that an \(x\) appears in both numerator and denominator.
+            </span>
+            <span class="multilang" lang="de">
+                Beachten Sie, dass im Ausdruck \(\dfrac{x}{x+y}\) sowohl im Zähler als auch im Nenner ein \(x\) erscheint.
+            </span>
+        </p>
+        <p>
+            <span class="multilang" lang="en">
+                However \(x\) is not a common factor. Recall that factors of an expression are multiplied together whereas in the denominator \(x\) is added to \(y\). This expression cannot be simplified.
+            </span>
+            <span class="multilang" lang="de">
+                Allerdings ist \(x\) kein gemeinsamer Faktor. Denken Sie daran, dass Faktoren eines Ausdrucks miteinander multipliziert werden, während im Nenner \(x\) zu \(y\) addiert wird. Dieser Ausdruck kann nicht vereinfacht werden.
+            </span>
+        </p>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

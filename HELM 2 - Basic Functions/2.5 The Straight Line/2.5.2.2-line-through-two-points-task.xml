@@ -1,0 +1,256 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>2.5.2.2 Linie durch zwei Punkte Aufgabe [Line through two points task]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Find the gradient of the line through the two points \(A=({@x1@}, {@y1@})\) and \(B=({@x2@}, {@y2@})\).
+    </span>
+    <span class="multilang" lang="no">
+        Finn stigningstallet til linjen gjennom de to punktene \(A=({@x1@}, {@y1@})\) og \(B=({@x2@}, {@y2@})\).
+    </span>
+    <span class="multilang" lang="de">
+        Finden Sie die Steigung der Geraden durch die beiden Punkte \(A=({@x1@}, {@y1@})\) und \(B=({@ x2@}, {@y2@})\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        gradient
+    </span>
+    <span class="multilang" lang="no">
+        stigning
+    </span>
+    <span class="multilang" lang="de">
+        Steigung
+    </span>
+    \(=\) [[input:ans1]] [[validation:ans1]][[feedback:prt1]]
+</p>
+<br/>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        The equation of the gradient of the line through the two points is given by the formula \[\text{gradient}=\dfrac{y_2-y_1}{x_2-x_1}.\]
+    </span>
+    <span class="multilang" lang="no">
+        Ligningen for linjens stigning gjennom de to punktene er gitt av formelen \[\text{stigningstall}=\dfrac{y_2-y_1}{x_2-x_1}.\]
+    </span>
+    <span class="multilang" lang="de">
+        Die Gleichung der Steigung der Geraden durch die beiden Punkte ergibt sich aus der Formel \[\text{Steigung}=\dfrac{y_2-y_1}{x_2-x_1}.\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In this case we have the points \(A=({@x1@}, {@y1@})\) and \(B=({@x2@}, {@y2@})\).
+    </span>
+    <span class="multilang" lang="no">
+        I dette tilfellet har vi punktene \(A=({@x1@}, {@y1@})\) og \(B=({@x2@}, {@y2@})\).
+    </span>
+    <span class="multilang" lang="de">
+        In diesem Fall haben wir die Punkte \(A=({@x1@}, {@y1@})\) und \(B=({@x2@}) , {@y2@})\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The gradient of the line is:
+    </span>
+    <span class="multilang" lang="no">
+        Stigningstallet til linjen er:
+    </span>
+    <span class="multilang" lang="de">
+        Die Steigung der Gerade ist:
+    </span>
+</p>
+\[\frac{{@y2@}-({@y1@})}{{@x2@}-({@x1@})} = {@solution@}.\]
+<p>
+    <span class="multilang" lang="en">
+        Graphically, this means that when \(x\) increases by \(1\), the value of \(y\) increases or decreases, depending on whether the sign of the gradient is positive or negative respectively, by a quantity equal to the absolute value of the gradient.
+    </span>
+    <span class="multilang" lang="no">
+        Grafisk betyr dette at når \(x \) øker med \(1 \),  reduseres verdien av \(y \) med \(\frac{3}{5}\) siden fortegnet er negativt.
+    </span>
+    <span class="multilang" lang="de">
+        Grafisch bedeutet dies, dass wenn \(x\) um \(1\) zunimmt, der Wert von \(y\) zunimmt oder abnimmt, je nachdem ob das Vorzeichen von der Steigung positiv bzw. negativ ist, und zwar um einen Betrag, der gleich dem Absolutwert der Steigung ist.
+    </span>
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>x1: rand_with_prohib(-9,9,[0]);
+x2: rand_with_prohib(-9,9,[x1]);
+y1: rand_with_step(-9,9,1);
+y2: rand_with_prohib(-9,9,[y1]);
+solution: (y2-y1)/(x2-x1);
+</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text>Points: \(A=({@x1@}, {@y1@})\) and \(B=({@x2@}, {@y2@}).\) The gradient is: {@solution@}
+</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>dot</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>numerical</type>
+            <tans>solution</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>0</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>EqualComAss</answertest>
+                <sans>ans1</sans>
+                <tans>solution</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>1625120470</deployedseed>
+        <deployedseed>1696125068</deployedseed>
+        <deployedseed>1527640365</deployedseed>
+        <deployedseed>1157255613</deployedseed>
+        <deployedseed>1793341247</deployedseed>
+        <deployedseed>630275302</deployedseed>
+        <deployedseed>493447540</deployedseed>
+        <deployedseed>1488173611</deployedseed>
+        <deployedseed>209968072</deployedseed>
+        <deployedseed>936043775</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>solution</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ev(2*solution,simp)</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-1-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

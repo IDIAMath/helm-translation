@@ -1,0 +1,205 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.1.3.1 Rundung auf n Dezimalstellen [Rounding to n Decimal Places]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            Rounding to n Decimal Places
+        </span>
+        <span class="multilang" lang="de">
+            Rundung auf n Dezimalstellen
+        </span>
+    </span>
+    <br/>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        In general, a calculator or computer is unable to store every decimal place of a real number. Real numbers are . To round a number to \(n\) decimal places we look at the \((n+1)^{th}\) digit in the decimal expansion of the number.
+    </span>
+    <span class="multilang" lang="de">
+        Im Allgemeinen kann ein Taschenrechner oder Computer nicht jede Dezimalstelle einer reellen Zahl speichern. Reelle Zahlen sind . Um eine Zahl auf \(n\) Dezimalstellen zu runden, betrachten wir die \((n+1)\)-te Ziffer in der Dezimalerweiterung der Zahl.
+    </span>
+</p>
+<ul>
+    <li>
+        <span class="multilang" lang="en">
+            If the \((n+1)^{th}\) digit is 0, 1, 2, 3 or 4 then we : that is, we simply chop to \(n\) places. (In other words we neglect the \((n+1)^{th}\) digit and any digits to its right.)
+        </span>
+        <span class="multilang" lang="de">
+            Wenn die Ziffer \((n+1)\) 0, 1, 2, 3 oder 4 ist, dann kürzen wir : das heißt, wir kürzen einfach zu \(n\) Stellen. (Mit anderen Worten, wir vernachlässigen die Ziffer \((n+1)\) und alle Ziffern rechts davon.)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            If the \((n+1)^{th}\) digit is 5, 6, 7, 8 or 9 then we : we add \(1\) to the \(n^{th}\) decimal place and then chop to \(n\) places.
+        </span>
+        <span class="multilang" lang="de">
+            Wenn die Ziffer \((n+1)\) 5, 6, 7, 8 oder 9 ist, dann: fügen wir \(1\) zur \(n\)-te Dezimalstelle hinzu und kürzen dann auf \(n\) Stellen.
+        </span>
+    </li>
+</ul>
+<p>
+    <span class="multilang" lang="en">
+        For example
+    </span>
+    <span class="multilang" lang="de">
+        Zum Beispiel
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad\qquad\qquad\begin{aligned} \dfrac{1}{3} &amp;= 0.3333 &amp; \qquad &amp; \mbox{rounded to 4 decimal places} \\ \pi &amp;= 3.14159 &amp; \qquad &amp; \mbox{rounded to 5 decimal places}\\ \dfrac{8}{3} &amp;= 2.667 &amp; \qquad &amp; \mbox{rounded
+                to 3 decimal places}\\ 2136 &amp;= 2000.000 &amp; \qquad &amp; \mbox{rounded to 3 decimal places}\\ 36.8 &amp;= 37 &amp; \qquad &amp; \mbox{rounded to 1 decimal place}\\ 6.2399 &amp;= 6.240 &amp; \qquad &amp; \mbox{rounded to 3 decimal places} \end{aligned}\)
+    </span>
+    <span class="multilang" lang="de">
+        \(\qquad\qquad\qquad\begin{aligned} \dfrac{1}{3} &amp;= 0.3333 &amp; \qquad &amp; \mbox{gerundet auf 4 Dezimalstellen} \\ \pi &amp;= 3.14159 &amp; \qquad &amp; \mbox{gerundet auf 5 Dezimalstellen}\\ \dfrac{8}{3} &amp;= 2.667 &amp; \qquad &amp; \mbox{gerundet auf 3 Dezimalstellen}\\ 2136 &amp;= 2000.000 &amp; \qquad &amp; \mbox{gerundet auf 3 Dezimalstellen}\\ 36.8 &amp;= 37 &amp; \qquad &amp; \mbox{gerundet auf eine Dezimalstelle}\\ 6.2399 &amp;= 6.240 &amp; \qquad &amp; \mbox{gerundet auf 3 Dezimalstellen} \end{aligned}\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Sometimes the phrase ‘decimal places’ is abbreviated to ‘d.p.’ or ‘dec.pl.’.
+    </span>
+    <span class="multilang" lang="de">
+        Manchmal wird der Ausdruck „Dezimalstellen“ mit „d.p.“ oder „dec.pl.“ abgekürzt.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Write down each of these numbers rounded to 4 decimal places:
+    </span>
+    <span class="multilang" lang="de">
+        Schreiben Sie jede dieser Zahlen auf 4 Dezimalstellen gerundet auf:
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        <span class="multilang" lang="en">
+            \(0.12345\)
+        </span>
+        <span class="multilang" lang="de">
+            \(0.12345\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(-0.44444\)
+        </span>
+        <span class="multilang" lang="de">
+            \(-0.44444\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(0.5555555\)
+        </span>
+        <span class="multilang" lang="de">
+            \(0.5555555\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(0.000127351\)
+        </span>
+        <span class="multilang" lang="de">
+            \(0.000127351\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(0.000005\)
+        </span>
+        <span class="multilang" lang="de">
+            \(0.000005\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(123.456789\)
+        </span>
+        <span class="multilang" lang="de">
+            \(123.456789\)
+        </span>
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            \(0.12345\) rounded to 4 decimal place becomes \(0.1235.\)
+        </span>
+        <span class="multilang" lang="de">
+            \(0.12345\) auf 4 Dezimalstellen gerundet wird zu \(0.1235.\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(-0.44444\) rounded to 4 decimal place becomes \(-0.4444.\)
+        </span>
+        <span class="multilang" lang="de">
+            \(-0.44444\) auf 4 Dezimalstellen gerundet wird zu \(-0.4444.\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(0.5555555\) rounded to 4 decimal place becomes \(0.5556.\)
+        </span>
+        <span class="multilang" lang="de">
+            \(0.5555555\) auf 4 Dezimalstellen gerundet wird zu \(0.5556.\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(0.000127351\) rounded to 4 decimal place becomes \(0.0001.\)
+        </span>
+        <span class="multilang" lang="de">
+            \(0.000127351\) auf 4 Dezimalstellen gerundet wird zu \(0.0001.\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(0.000005\) rounded to 4 decimal place becomes \(0.0000.\)
+        </span>
+        <span class="multilang" lang="de">
+            \(0.000005\) auf 4 Dezimalstellen gerundet wird zu \(0.0000.\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(123.456789\) rounded to 4 decimal place becomes \(123.4568.\)
+        </span>
+        <span class="multilang" lang="de">
+            \(123.456789\) auf 4 Dezimalstellen gerundet wird zu \(123.4568.\)
+        </span>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

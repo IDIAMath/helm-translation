@@ -1,0 +1,46 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.2.6.3 Algebra of matrices</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        We now list some properties of matrix multiplication and compare them with corresponding properties for multiplication of numbers.
+    </span>
+    <span class="multilang" lang="de">
+        Wir listen nun einige Eigenschaften der Matrizenmultiplikation auf und vergleichen sie mit entsprechenden Eigenschaften für die Multiplikation von Zahlen.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <span class="multilang" lang="en">
+        \( \begin{array}{ccc} \textbf{Matrix algebra} &amp;&amp; \textbf{Number algebra} \\ A(B+C) = AB+AC &amp;&amp; a(b+c)=ab+ac \\ AB\neq BA\text{ in general} &amp;&amp; ab=ba \\ A(BC)=(AB)C &amp;&amp; a(bc)=(ab)c \\ AI = IA = A &amp;&amp; 1\cdot a=a\cdot1=a
+                \\ A\underline{0} = \underline{0}A=\underline{0} &amp;&amp; 0\cdot a=a\cdot0=0 \\ AB\text{ may not be defined} &amp;&amp; ab\text{ is always defined} \\ AB=\underline{0}\text{ does not imply }A=\underline{0}\text{ or }B=\underline{0} &amp;&amp; ab=0\text{
+                implies }a=0\text{ or }b=0 \end{array} \)
+    </span>
+    <span class="multilang" lang="de">
+        \( \begin{array}{ccc} \textbf{Matrix Algebra} &amp;&amp; \textbf{Zahlen Algebra} \\ A(B+C) = AB+AC &amp;&amp; a(b+c)=ab+ac \\ AB\neq BA\text{ allgemein} &amp;&amp; ab=ba \\ A(BC)=(AB)C &amp;&amp; a(bc)=(ab)c \\ AI = IA = A &amp;&amp; 1\cdot a=a\cdot1=a
+                \\ A\underline{0} = \underline{0}A=\underline{0} &amp;&amp; 0\cdot a=a\cdot0=0 \\ AB\text{ ist eventuell nicht definiert} &amp;&amp; ab\text{ ist immer definiert} \\ AB=\underline{0}\text{ impliziert nicht }A=\underline{0}\text{ oder }B=\underline{0} &amp;&amp; ab=0\text{
+                impliziert }a=0\text{ oder }b=0 \end{array} \)
+    </span>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

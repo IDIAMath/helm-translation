@@ -1,0 +1,53 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.4.1.8 Streichen gemeinsamer Faktoren [Cancelling Common Factors]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify \(\dfrac{6(4-8x)(x-2)}{1-2x}\)
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie \(\dfrac{6(4-8x)(x-2)}{1-2x}\)
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The factor \(4-8x\) can be factorised to \(4(1-2x)\). Thus
+    </span>
+    <span class="multilang" lang="de">
+        Der Faktor \(4-8x\) kann zu \(4(1-2x)\) faktorisiert werden. Also
+    </span>
+</p>
+<p>
+    \(\qquad \dfrac{6(4-8x)(x-2)}{1-2x} = \dfrac{(6)(4)(1-2x)(x-2)}{1-2x} = 24(x-2)\)
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

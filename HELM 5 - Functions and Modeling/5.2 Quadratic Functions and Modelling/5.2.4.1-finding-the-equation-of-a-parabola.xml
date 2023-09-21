@@ -1,0 +1,87 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>5.2.4.1 Die Gleichung einer Parabel finden [Finding the equation of a parabola]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p>
+</p>
+<h4>
+    <span class="multilang" lang="en">
+        Finding the equation of a parabola
+    </span>
+    <span class="multilang" lang="de">
+        Die Gleichung einer Parabel finden
+    </span>
+</h4>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Consider a parabola that has its vertex at \(s = 50\) when \(t = 0\) and rises to \(s = 100\) when \(t = 30\). In coordinate terms, we need the equation of a parabola that has its lowest point or vertex at (0, 50) and passes through (30, 100). The general
+        form
+    </span>
+    <span class="multilang" lang="de">
+        Stellen Sie sich eine Parabel vor, die ihren Scheitelpunkt bei \(s = 50\) hat, wenn \(t = 0\), und auf \(s = 100\) ansteigt, wenn \(t = 30\). In Koordinaten ausgedrückt benötigen wir die Gleichung einer Parabel, die ihren tiefsten Punkt oder Scheitelpunkt bei (0, 50) hat und durch (30, 100) geht. Die allgemeine
+        Formel
+    </span>
+    <br/>
+</p>
+<p>
+    \(\qquad y - C = A(x - B)^2\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        is useful here.
+    </span>
+    <span class="multilang" lang="de">
+        ist hier nützlich.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In this case \(y\) corresponds to \(s\) and \(x\) to \(t\). So the equation relating \(s\) and \(t\) is
+    </span>
+    <span class="multilang" lang="de">
+        In diesem Fall entspricht \(y\) \(s\) und \(x\) \(t\). Die Gleichung, die \(s\) und \(t\) verknüpft, lautet also
+    </span>
+</p>
+<p>
+    \(\qquad s - C = A(t - B)^2\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        According to the general form, the coordinates of the vertex are \((B,C).\) We know that the coordinates of the vertex are (0, 50). So we can deduce that \(B = 0\) and \(C = 50\). It remains to find \(A\). The fact that the parabola must pass through
+                (30, 100) may be used for this purpose. These values together with those for \(B\) and \(C\) may be substituted in the general equation:
+    </span>
+    <span class="multilang" lang="de">
+        Gemäß der allgemeinen Form sind die Koordinaten des Scheitelpunkts \((B,C).\) Wir wissen, dass die Koordinaten des Scheitelpunkts (0, 50) sind. Wir können also folgern, dass \(B = 0\) und \(C = 50\). Es bleibt \(A\) zu finden. Die Tatsache, dass die Parabel 
+                (30, 100) passieren muss, kann für diesen Zweck verwendet werden. Diese Werte zusammen mit denen für \(B\) und \(C\) können in die allgemeine Gleichung eingesetzt werden:
+    </span>
+</p>
+<p>
+    \(\qquad 100 - 50 = A(30 - 0)^2\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        so \(50 = 900A\) or \(A = \dfrac {1}{18}\) and the function we want is
+    </span>
+    <span class="multilang" lang="de">
+        also \(50 = 900A\) oder \(A = \dfrac {1}{18}\) und die gewünschte Funktion ist
+    </span>
+</p>
+<p>
+    \(\qquad s = 50 + \dfrac {1}{18}t^2\qquad (0\le t \le 30)\)
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

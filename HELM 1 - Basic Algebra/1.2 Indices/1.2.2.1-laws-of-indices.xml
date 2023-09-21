@@ -1,0 +1,372 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.2.2.1 Potenzgesetze [Laws of indices]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Laws of indices
+    </span>
+    <span class="multilang" lang="de">
+        Potenzgesetze
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        There is a set of rules which enable us to manipulate expressions involving indices. These rules are known as the
+        <b>
+            laws of indices
+        </b>
+        , and they occur so commonly that it is worthwhile to memorise them.
+    </span>
+    <span class="multilang" lang="de">
+        Es gibt eine Reihe von Regeln, die es uns ermöglichen, Ausdrücke mit Potenzen umzuschreiben. Diese Regeln sind als
+        <b>
+            Potenzgesetze
+        </b>
+        bekannt und kommen so häufig vor, dass es sich lohnt, sie auswendig zu lernen.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <table>
+        <caption style="caption-side: top">
+            <span class="multilang" lang="en">
+                Laws of Indices
+            </span>
+            <span class="multilang" lang="de">
+                Potenzgesetze
+            </span>
+        </caption>
+        <thead>
+            <tr>
+                <th scope="row">
+                    <span class="multilang" lang="en">
+                        First law
+                    </span>
+                    <span class="multilang" lang="de">
+                        Erstes Gesetz
+                    </span>
+                    <br/>
+                </th>
+                <td>
+                    \(a^m \times a^n = a^{m+n}\)
+                </td>
+                <td>
+                    <span class="multilang" lang="en">
+                        add indices when multiplying numbers with the same base
+                    </span>
+                    <span class="multilang" lang="de">
+                        Exponenten addieren, wenn Potenzen mit derselben Basis multipliziert werden
+                    </span>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">
+                    <span class="multilang" lang="en">
+                        Second law
+                    </span>
+                    <span class="multilang" lang="de">
+                        Zweites Gesetz
+                    </span>
+                    <br/>
+                </th>
+                <td>
+                    \(\dfrac{a^m}{a^n} = a^{m-n}\)
+                </td>
+                <td>
+                    <span class="multilang" lang="en">
+                        subtract indices when dividing numbers with the same base
+                    </span>
+                    <span class="multilang" lang="de">
+                        Exponenten subtrahieren, wenn Potenzen mit derselben Basis dividiert werden
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">
+                    <span class="multilang" lang="en">
+                        Third law
+                    </span>
+                    <span class="multilang" lang="de">
+                        Drittes Gesetz
+                    </span>
+                    <br/>
+                </th>
+                <td>
+                    \((a^m)^n = a^{mn}\)
+                </td>
+                <td>
+                    <span class="multilang" lang="en">
+                        multiply indices together when raising a number to a power
+                    </span>
+                    <span class="multilang" lang="de">
+                        Exponenten miteinander multiplizieren, wenn eine Potenz potenziert wird
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(a^5\times a^4\)
+    </li>
+    <li>
+        \(2x^5(x^3)\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        In each case we are required to multiply expressions involving indices. The bases are the same and we use the first law of indices.
+    </span>
+    <span class="multilang" lang="de">
+        In jedem Fall müssen wir Ausdrücke mit Potenzen multiplizieren. Die Basen sind die gleichen und wir verwenden das erste Potenzgesetz.
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            The indices must be added, thus \(a^5\times a^4 = a^{5+4}=a^9\).
+        </span>
+        <span class="multilang" lang="de">
+            Die Exponenten müssen addiert werden, also \(a^5\times a^4 = a^{5+4}=a^9\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Because of the associativity of multiplication we can write \(2x^5(x^3) = 2(x^5x^3) = 2x^{5+3}=2x^8\).
+        </span>
+        <span class="multilang" lang="de">
+            Aufgrund der Assoziativität der Multiplikation können wir \(2x^5(x^3) = 2(x^5x^3) = 2x^{5+3}=2x^8\) schreiben.
+        </span>
+    </li>
+</ol>
+<p>
+</p>
+<hr/>
+<p>
+    <span class="multilang" lang="en">
+        The first law of indices (above) extends in an obvious way when more terms are involved, as in the following example.
+    </span>
+    <span class="multilang" lang="de">
+        Das erste Potenzgesetz (oben) erweitert sich auf offensichtliche Weise, wenn mehr Terme beteiligt sind, wie im folgenden Beispiel.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(b^5\times b^4\times b^7\)
+    </li>
+    <li>
+        \(y^4y^2y^3\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            The indices are added. Thus \(b^5\times b^4\times b^7=b^{5+4+7}= b^{16}\).
+        </span>
+        <span class="multilang" lang="de">
+            Die Exponenten werden addiert. Also \(b^5\times b^4\times b^7=b^{5+4+7}= b^{16}\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            All quantities have the same base. To multiply the quantities together, the indices are added: \(y^9\).
+        </span>
+        <span class="multilang" lang="de">
+            Alle Potenzen haben dieselbe Basis. Um die Potenzen miteinander zu multiplizieren, werden die Exponenten addiert: \(y^9\).
+        </span>
+    </li>
+</ol>
+<p>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(\dfrac{8^4}{8^2}\)
+    </li>
+    <li>
+        \(x^{18} \div x^7\)
+    </li>
+    <li>
+        \(\dfrac{5^9}{5^7}\)
+    </li>
+    <li>
+        \(\dfrac{y^5}{y^2}\)
+    </li>
+    <li>
+        \((8^2)^3\)
+    </li>
+    <li>
+        \((z^3)^4\)
+    </li>
+    <li>
+        \((x^2)^5\)
+    </li>
+    <li>
+        \((e^x)^y\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        In each case we are required to divide expressions involving indices. The bases are the same and we use the second law of indices (above).
+    </span>
+    <span class="multilang" lang="de">
+        In jedem Fall müssen wir Ausdrücke mit Potenzen dividieren. Die Basen sind die gleichen und wir verwenden das zweite Potenzgesetz (oben).
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            The indices must be subtracted, thus \(\dfrac{8^4}{8^2} = 8^{4-2}=8^2=64\).
+        </span>
+        <span class="multilang" lang="de">
+            Die Exponenten müssen subtrahiert werden, also \(\dfrac{8^4}{8^2} = 8^{4-2}=8^2=64\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Again the indices are subtracted, and so \(x^{18}\div x^7 = x^{18-7} = x^{11}\).
+        </span>
+        <span class="multilang" lang="de">
+            Auch hier werden die Exponenten subtrahiert, also \(x^{18}\div x^7 = x^{18-7} = x^{11}\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            The bases are the same, and the division is carried out by subtracting the indices: \(5^{9-7} = 5^2=25\).
+        </span>
+        <span class="multilang" lang="de">
+            Die Basen sind gleich, und die Division erfolgt durch Subtraktion der Exponenten: \(5^{9-7} = 5^2=25\).
+        </span>
+    </li>
+    <li>
+        \(y^{5-2} = y^3\).
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            We use the third law of indices, \((8^2)^3= 8^{2\times 3} = 8^6\).
+        </span>
+        <span class="multilang" lang="de">
+            Wir verwenden das dritte Potenzgesetz, \((8^2)^3= 8^{2\times 3} = 8^6\).
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Again, we use the third law of indices, \((z^3)^4= z^{3\times 4} = z^{12}\).
+        </span>
+        <span class="multilang" lang="de">
+            Wieder verwenden wir das dritte Potenzgesetz, \((z^3)^4= z^{3\times 4} = z^{12}\).
+        </span>
+    </li>
+    <li>
+        \(x^{2\times 5} = x^{10}\).
+    </li>
+    <li>
+        \(e^{x\times y} = e^{xy}\).
+    </li>
+</ol>
+<p>
+</p>
+<hr/>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

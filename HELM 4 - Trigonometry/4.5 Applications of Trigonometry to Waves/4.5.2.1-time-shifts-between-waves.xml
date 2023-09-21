@@ -1,0 +1,80 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>4.5.2.1 Zeitverschiebung zwischen Kurven [Time shifts between waves]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Time shifts between waves
+    </span>
+    <span class="multilang" lang="de">
+        Zeitverschiebungen zwischen Kurven
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        We recall that \(\cos\left(\theta-\dfrac{\pi}{2}\right)=\sin\theta\) which means that the graph of \(x=\sin\theta\) is the same shape as that of \(x=\cos\theta\) but is shifted to the right by \(\dfrac{\pi}{2}\) radians.
+    </span>
+    <span class="multilang" lang="de">
+        Wir erinnern uns daran, dass \(\cos\left(\theta-\dfrac{\pi}{2}\right)=\sin\theta\) gilt, was bedeutet, dass der Graph von \(x=\sin\theta\) die gleiche Form hat wie die von \(x=\cos\theta\), aber um \(\dfrac{\pi}{2}\) Bogenmaß nach rechts verschoben ist.
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Suppose now that we consider the waves \[ \quad \qquad x_1=R\cos 2t\qquad\qquad x_2=R\sin 2t\]
+    </span>
+    <span class="multilang" lang="de">
+        Nehmen Sie nun an, wir betrachten die Kurven \[ \quad \qquad x_1=R\cos 2t\qquad\qquad x_2=R\sin 2t\]
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Both have amplitude \(R\), angular frequency \(\omega=2\) rad \(s^{-1}\). Also \[ \quad x_2=R\cos\left(2t-\dfrac{\pi}{2}\right)=R\cos\left[2\left(t-\dfrac{\pi}{4}\right)\right] \] The graphs of \(x_1\) against \(t\) and of \(x_2\) against \(t\) are said
+                to have a
+        <b>
+            time shift
+        </b>
+        of \(\dfrac{\pi}{4}\). Specifically \(x_1\) is ahead of, or 'leads' \(x_2\) by a time \(\dfrac{\pi}{4}\) s.
+    </span>
+    <span class="multilang" lang="de">
+        Beide haben Amplitude \(R\), Kreisfrequenz \(\omega=2\) rad \(s^{-1}\). Auch gilt, dass \[ \quad x_2=R\cos\left(2t-\dfrac{\pi}{2}\right)=R\cos\left[2\left(t-\dfrac{\pi}{4}\right)\right] \] Die Graphen von \(x_1\) gegen \(t\) und von \(x_2\) gegen \(t\) haben eine
+        <b>
+            Zeitverschiebung
+        </b>
+        von \(\dfrac{\pi}{4}\). Genauer gesagt ist \(x_1\) \(x_2\) um eine Zeit \(\dfrac{\pi}{4}\) s voraus oder "vorausführend".
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        More generally, consider the following two sine waves of the same amplitude and frequency: \[ \quad \qquad x_1(t)=R\sin\omega t\] \[ \quad \qquad x_2(t)=R\sin (\omega t-\alpha)\]
+    </span>
+    <span class="multilang" lang="de">
+        Betrachten Sie allgemeiner die folgenden zwei Sinuskurven mit derselben Amplitude und Frequenz: \[ \quad \qquad x_1(t)=R\sin\omega t\] \[ \quad \qquad x_2(t)=R\sin (\omega t-\alpha)\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now \(x_1\left(t-\dfrac{\alpha}{\omega}\right)=R\sin \left[\omega\left(t-\dfrac{\alpha}{\omega}\right)\right]=R\sin(\omega t-\alpha)=x_2(t)\) so it is clear that the waves \(x_1\) and \(x_2\) are shifted in time by \(\dfrac{\alpha}{\omega}\). Specifically
+                \(x_1\) leads \(x_2\) by \(\dfrac{\alpha}{\omega}\) (if \(\alpha\ &gt;0)\).
+    </span>
+    <span class="multilang" lang="de">
+        Jetzt gilt \(x_1\left(t-\dfrac{\alpha}{\omega}\right)=R\sin \left[\omega\left(t-\dfrac{\alpha}{\omega}\right)\right]=R\sin(\omega t-\alpha)=x_2(t)\) also ist klar, dass die Kurven \(x_1\) und \(x_2 \) um \(\dfrac{\alpha}{\omega}\) zeitlich verschoben sind. Im Speziellen ist
+                \(x_1\) \(x_2\) um \(\dfrac{\alpha}{\omega}\) voraus (falls \(\alpha\ &gt;0)\).
+    </span>
+    <br/>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

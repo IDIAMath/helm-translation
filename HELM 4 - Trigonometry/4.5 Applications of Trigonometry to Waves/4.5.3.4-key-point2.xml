@@ -1,0 +1,232 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>4.5.3.4 Schlüsselpunkt2 [Key point2]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Combining Wave Equations
+    </span>
+    <span class="multilang" lang="de">
+        Kurvengleichungen kombinieren
+    </span>
+</h4>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <span class="multilang" lang="en">
+        If  \(A\cos\theta+B\sin\theta= C\cos (\theta-\alpha)\)  then  \(C=\sqrt{A^2+B^2}\) and \( \tan\alpha=\dfrac{B}{A}.\)
+    </span>
+    <span class="multilang" lang="de">
+        Wenn  \(A\cos\theta+B\sin\theta= C\cos (\theta-\alpha)\)  dann  \(C=\sqrt{A^2+B^2}\) und \( \tan\alpha=\dfrac{B}{A}.\)
+    </span>
+    <p>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            Note that the following cases arise for the location of \(\alpha\):
+        </span>
+        <span class="multilang" lang="de">
+            Beachten Sie, dass die folgenden Fälle für die Lage von \(\alpha\) auftreten:
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            \[ \quad 1.\quad  A&gt;0,  B&gt;0 : \text{ 1st  quadrant } \] \[ \quad 2.\quad  A&lt;0,  B&gt;0 :\text{ 2nd quadrant } \] \[ \quad 3.\quad A&lt;0, B&lt;0 : \text{ 3rd quadrant } \] \[ \quad 4.\quad A&gt;0, B&lt;0 : \text{ 4th quadrant } \]
+        </span>
+        <span class="multilang" lang="de">
+            \[ \quad 1.\quad  A&gt;0,  B&gt;0 : \text{ 1.  Quadrant } \] \[ \quad 2.\quad  A&lt;0,  B&gt;0 :\text{ 2. Quadrant } \] \[ \quad 3.\quad A&lt;0, B&lt;0 : \text{ 3. Quadrant } \] \[ \quad 4.\quad A&gt;0, B&lt;0 : \text{ 4. Quadrant } \]
+        </span>
+    </p>
+</div>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In terms of waves, using Key Point above we have\[ \quad R_1\cos\omega t+R_2\sin\omega t= R\cos (\omega t-\alpha)\]  where \(R=\sqrt{R^2_1+R^2_2} \)  and \(  \tan \alpha=\dfrac{R_2}{R_1}\).
+    </span>
+    <span class="multilang" lang="de">
+        In Bezug auf Kurven erhalten wir unter Verwendung vom Schlüsselpunkt oben \[ \quad R_1\cos\omega t+R_2\sin\omega t= R\cos (\omega t- \alpha)\] wobei \(R=\sqrt{R^2_1+R^2_2} \)  und \(  \tan \alpha=\dfrac{R_2}{R_1}\).
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The form \(R\cos (\omega t-\alpha)\) is said to be the
+        <b>
+            amplitude/phase
+        </b>
+        form of the wave.
+    </span>
+    <span class="multilang" lang="de">
+        Die Form \(R\cos (\omega t-\alpha)\) wird die
+        <b>
+            Amplituden-/Phasenform
+        </b>
+        der Kurve genannt.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p>
+    <span>
+        <span class="multilang" lang="en">
+            Express in the form \(C\cos (\theta-\alpha)\) each of the following:
+        </span>
+        <span class="multilang" lang="de">
+            Drücken Sie in der Form \(C\cos (\theta-\alpha)\) jeden der folgenden Audrücke aus:
+        </span>
+    </span>
+</p>
+<p>
+    <span>
+    </span>
+    <span>
+    </span>
+    <span>
+        <br/>
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <span>
+        </span>
+        \(3\cos\theta+3\sin\theta\)
+        <br/>
+        <p>
+        </p>
+    </li>
+    <li>
+        <p>
+        </p>
+        <div>
+            \(-3\cos\theta+3\sin\theta\)
+            <br/>
+            <p>
+            </p>
+        </div>
+    </li>
+    <li>
+        <p>
+        </p>
+        <div>
+            \(-3\cos\theta-3\sin\theta\)
+            <br/>
+            <p>
+            </p>
+        </div>
+    </li>
+    <li>
+        <p>
+        </p>
+        <div>
+            \(3\cos\theta-3\sin\theta\)
+        </div>
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span>
+    </span>
+    <span>
+    </span>
+    <span>
+        <br/>
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            \(\tan\alpha=\dfrac{B}{A}=\dfrac{3}{3}=1\) gives \(\alpha=45^\circ\)   (\(A\) and \(B\) are both positive so the first quadrant is the correct one.) Hence \( 3\cos\theta+3\sin\theta=\sqrt{18}\cos(\theta-45^\circ)= \sqrt{18}\cos\left(\theta-\dfrac{\pi}{4}\right)\)
+        </span>
+        <span class="multilang" lang="de">
+            \(\tan\alpha=\dfrac{B}{A}=\dfrac{3}{3}=1\) ergibt \(\alpha=45^\circ\)   (\(A\) und \(B\) sind beide positiv, also ist der erste Quadrant der richtige.) Also \( 3\cos\theta+3\sin\theta=\sqrt{18}\cos(\theta -45^\circ)= \sqrt{18}\cos\left(\theta-\dfrac{\pi}{4}\right)\)
+        </span>
+        <br/>
+        <p>
+        </p>
+    </li>
+    <li>
+        <p>
+        </p>
+        <div>
+            <span class="multilang" lang="en">
+                The angle \(\alpha\) must be in the second quadrant as \(A=-3&lt;0\), \(B=+3&gt;0\). By calculator : \(\tan\alpha=-1\) gives \(\alpha=-45^\circ\) but this is in the 4th quadrant. Remembering that \(\tan\alpha\) has period \(\pi\) or \(180^\circ\)
+                                                we must therefore add \(180^\circ\) to the calculator value to obtain the correct \(\alpha\) value of \(135^\circ\). Hence \[ \quad \qquad -3\cos\theta+3\sin\theta=\sqrt{18}\cos(\theta-135^\circ)\]
+            </span>
+            <span class="multilang" lang="de">
+                Der Winkel \(\alpha\) muss im zweiten Quadranten da \(A=-3&lt;0\), \(B=+3&gt;0\) liegen. Mit dem Taschenrechner: \(\tan\alpha=-1\) ergibt \(\alpha=-45^\circ\), aber das ist im vierten Quadranten. Denken Sie daran, dass \(\tan\alpha\) eine Periode \(\pi\) oder \(180^\circ\) hat.
+                                                Wir müssen also \(180^\circ\) zum Taschenrechnerwert addieren, um den korrekten \(\alpha\)-Wert von \(135^\circ\) zu erhalten. Also \[ \quad \qquad -3\cos\theta+3\sin\theta=\sqrt{18}\cos(\theta-135^\circ)\]
+            </span>
+            <br/>
+            <p>
+            </p>
+        </div>
+    </li>
+    <li>
+        <div>
+            <span class="multilang" lang="en">
+                Here \(A=-3,\ B=-3\) so \(\alpha\) must be in the 3rd quadrant. \(\tan \alpha=\dfrac{-3}{-3}=1\) giving \(\alpha=45^\circ\) by calculator. Hence adding \(180^\circ\) to this tells us that \[ \quad -3\cos\theta-3\sin\theta=\sqrt{18}\cos(\theta-225^\circ)\]
+            </span>
+            <span class="multilang" lang="de">
+                Hier \(A=-3,\ B=-3\), also muss \(\alpha\) im 3. Quadranten stehen. \(\tan \alpha=\dfrac{-3}{-3}=1\) ergibt \(\alpha=45^\circ\) mit dem Taschenrechner. Das Addieren von \(180^\circ\) sagt uns also, dass \[ \quad -3\cos\theta-3\sin\theta=\sqrt{18}\cos(\theta-225^\circ)\]
+            </span>
+            <br/>
+            <p>
+            </p>
+        </div>
+    </li>
+    <li>
+        <p>
+        </p>
+        <div>
+            <span class="multilang" lang="en">
+                Here \(A=3,\ B=-3\) so \(\alpha\) is in the 4th quadrant. \(\tan\alpha=-1\) gives us (correctly) \(\alpha=-45^\circ\) so \[ \quad \qquad 3\cos\theta-3\sin\theta=\sqrt{18}\cos(\theta+45^\circ).\] Note that in the amplitude/phase form the angle
+                                        may be expressed in degrees or radians.
+            </span>
+            <span class="multilang" lang="de">
+                Hier ist \(A=3,\ B=-3\) also \(\alpha\) im 4. Quadranten. \(\tan\alpha=-1\) ergibt (korrekt) \(\alpha=-45^\circ\), also \[ \quad \qquad 3\cos\theta-3\sin\theta=\sqrt{ 18}\cos(\theta+45^\circ).\] Beachten Sie, dass der Winkel in der Amplitude/Phase 
+                                        in Grad oder Bogenmaß ausgedrückt werden kann.
+            </span>
+        </div>
+    </li>
+    <br/>
+    <p>
+    </p>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

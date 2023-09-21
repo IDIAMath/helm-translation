@@ -1,0 +1,75 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.1.4.3 BODMAS</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Evaluate \(8 \div 2 − (4 − 5)\)
+    </span>
+    <span class="multilang" lang="de">
+        Werten Sie \(8 \div 2 − (4 − 5)\) aus
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The bracketed expression is evaluated first:
+    </span>
+    <span class="multilang" lang="de">
+        Der Klammerausdruck wird zuerst ausgewertet:
+    </span>
+</p>
+<p>
+    \(\qquad 8 \div 2 − (4 − 5) = 8 \div 2 − (−1)\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Division has higher priority than subtraction and so this is carried out next giving
+    </span>
+    <span class="multilang" lang="de">
+        Dividieren hat höhere Priorität als Subtrahieren und wird daher als nächstes durchgeführt
+    </span>
+</p>
+<p>
+    \(\qquad 8 \div 2 − (−1) = 4 − (−1)\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Subtracting a negative number is equivalent to adding a positive number. Thus
+    </span>
+    <span class="multilang" lang="de">
+        Das Subtrahieren einer negativen Zahl entspricht dem Addieren einer positiven Zahl. Also
+    </span>
+</p>
+<p>
+    \(\qquad 4 − (−1) = 4 + 1 = 5\)
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

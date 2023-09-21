@@ -1,0 +1,86 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>9.5.4.3 Plane equation, example</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<ol class="HELM_parts_inline">
+    <li>
+        <span class="multilang" lang="en">
+            Find the vector equation of the plane which passes through the point with position vector \(3\underline{ i}+2\underline{ j}+5\underline{ k}\) and which is perpendicular to \(\underline{i}+\underline{k}.\)
+        </span>
+        <span class="multilang" lang="de">
+            Finden Sie die Vektorgleichung der Ebene, die durch den Punkt mit dem Ortsvektor \(3\underline{ i}+2\underline{ j}+5\underline{ k} \) verläuft und die senkrecht zu \(\underline{i}+\underline{k}\) ist.
+        </span>
+    </li>
+    <p>
+    </p>
+    <p>
+    </p>
+    <li>
+        <span class="multilang" lang="en">
+            Find the Cartesian equation of this plane.
+        </span>
+        <span class="multilang" lang="de">
+            Finden Sie die kartesische Gleichung dieser Ebene.
+        </span>
+    </li>
+</ol>
+<p>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            Using the previous results we can write down the equation \(\qquad 
+\underline{ r}\cdot(\underline{i}+\underline{k})=
+(3\underline{ i}+2\underline{ j}+5\underline{ k})\cdot(\underline{i}+\underline{k})=3+5=8.\)
+        </span>
+        <span class="multilang" lang="de">
+            Anhand der vorherigen Ergebnisse können wir die Gleichung \(\qquad
+\underline{ r}\cdot(\underline{i}+\underline{k})=
+(3\underline{ i}+2\underline{ j}+5\underline{ k})\cdot(\underline{i}+\underline{k})=3+5=8\) schreiben.
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Writing \(\underline{ r}\) as \(x\underline{ i}+y\underline{ j}+z\underline{ k}\) we have the Cartesian form: \(\qquad
+(x\underline{ i}+y\underline{ j}+z\underline{ k})\cdot
+(\underline{i}+\underline{k})=8\) so that \(\qquad 
+                        x+z=8\).
+        </span>
+        <span class="multilang" lang="de">
+            Durch Schreiben von \(\underline{ r}\) als \(x\underline{ i}+y\underline{ j}+z\underline{ k}\) erhalten wir die kartesische Form: \(\qquad
+(x\underline{ i}+y\underline{ j}+z\underline{ k})\cdot
+(\underline{i}+\underline{k})=8\), sodass \(\qquad
+                        x+z=8\).
+        </span>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

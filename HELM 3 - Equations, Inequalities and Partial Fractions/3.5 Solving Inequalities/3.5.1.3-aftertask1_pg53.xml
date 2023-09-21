@@ -1,0 +1,95 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>3.5.1.3 Nach Aufgabe 1_(pg53) [afterTask1_(pg53)]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    Modulus
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The
+        <strong>
+            modulus or magnitude sign
+        </strong>
+        is sometimes used with inequalities. For example \(|x|&lt;1\) represents the set of all numbers whose actual size, irrespective
+                of sign, is less than 1. This means any value between \(-1\) and 1. Thus \[|x|&lt;1 \hbox{ implies } -1&lt;x&lt;1\]
+    </span>
+    <span class="multilang" lang="no">
+        <strong>
+            Absoluttverdi
+        </strong>
+        brukes noen ganger med ulikheter. For eksempel representerer &gt;\(|x|&lt;1\) settet av alle tall der den faktiske størrelsen, uavhengig av fortegn,
+                er mindre enn 1. Dette betyr enhver verdi mellom \(-1\) og \(1\). Dermed har vi \[|x|&lt;1 \hbox{ impliserer } -1&lt;x&lt;1 \]
+    </span>
+    <span class="multilang" lang="de">
+        Das
+        <strong>
+            Modulus- oder Betragszeichen
+        </strong>
+        wird manchmal bei Ungleichungen verwendet. Beispielsweise stellt \(|x|&lt;1\) die Menge aller Zahlen dar, deren tatsächliche
+                Größe unabhängig davon ist, ob das Vorzeichen kleiner als 1 ist. Dies bedeutet, dass jeder Wert zwischen \(-1\) und 1 liegt. Also gilt \[|x| &lt;1 \hbox{ impliziert } -1&lt;x&lt;1\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Similarly \(|x|&gt;4\) means all numbers whose size, irrespective of sign, is greater than 4. This means any value greater than 4 or less than \(-4\).
+                Thus \[|x|&gt; 4 \hbox{ implies } x&gt; 4 \hbox{ or } x&lt; -4.\]
+    </span>
+    <span class="multilang" lang="no">
+        Tilsvarende betyr \(|x|&gt;4\) alle tall der størrelsen, uavhengig av fortegn, er større enn 4. Dette betyr enhver verdi større enn 4 eller mindre enn \(-4\).
+                Dermed har vi \[|x|&gt; 4 \hbox{ impliserer } x&gt; 4 \hbox{ eller } x&lt; -4.\]
+    </span>
+    <span class="multilang" lang="de">
+        Ebenso meint \(|x|&gt;4\) alle Zahlen, deren Größe, unabhängig vom Vorzeichen, größer ist als 4. Dies bedeutet jeder Wert ist größer als 4 oder kleiner als \(-4\).
+                Somit gilt \[|x|&gt; 4 \hbox{ impliziert } x&gt; 4 \hbox{ oder } x&lt; -4.\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In general, if \(k\) is a positive number,
+    </span>
+    <span class="multilang" lang="no">
+        Generelt, hvis \(k\) er et positivt tall,
+    </span>
+    <span class="multilang" lang="de">
+        Allgemein, wenn \(k\) eine positive Zahl ist,
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Nøkkelpunkt
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            \[|x|&lt;k \hbox{ means } -k&lt;x&lt;k\]\[|x|&gt;k \hbox{ means } x&gt;k \hbox{ or } x&lt;-k\]
+        </span>
+        <span class="multilang" lang="no">
+            \[|x|&lt;k \hbox{ betyr } -k&lt;x&lt;k\]\[|x|&gt;k \hbox{ betyr } x&gt;k \hbox{ eller } x&lt;-k\]
+        </span>
+        <span class="multilang" lang="de">
+            \[|x|&lt;k \hbox{ bedeutet } -k&lt;x&lt;k\] \[| x|&gt;k \hbox{ bedeutet } x&gt;k \hbox{ oder } x&lt;-k\]
+        </span>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

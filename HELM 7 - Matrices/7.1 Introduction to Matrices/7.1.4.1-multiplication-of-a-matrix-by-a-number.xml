@@ -1,0 +1,89 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.1.4.1 Multiplication of a matrix by a number</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Multiplication of a matrix by a number
+    </span>
+    <span class="multilang" lang="de">
+        Multiplikation einer Matrix mit einer Zahl
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        There is also a natural way of defining the product of a matrix with a number. Using the matrix \(A\) above, we note that
+    </span>
+    <span class="multilang" lang="de">
+        Es gibt auch eine natürliche Möglichkeit, das Produkt einer Matrix mit einer Zahl zu definieren. Unter Verwendung der obigen Matrix \(A\) stellen wir fest, dass
+    </span>
+</p>
+<p>
+    \[ A+A=\left[\begin{array}{cc}1&amp;2\\3&amp;4\end{array}\right]+\left[\begin{array}{cc}1&amp;2\\3&amp;4\end{array}\right]=\left[\begin{array}{cc}2&amp;4\\6&amp;8\end{array}\right].\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        What we see is that \(2A\) (which is the shorthand notation for \(A+A\)) is obtained by multiplying
+        <span>
+            <i>
+                every
+            </i>
+        </span>
+        element of \(A\) by \(2\).
+    </span>
+    <span class="multilang" lang="de">
+        Was wir sehen ist, dass \(2A\) (das ist die Kurzschreibweise für \(A+A\)) durch Multiplikation von
+        <span>
+            <i>
+                jedem
+            </i>
+        </span>
+        Element von \(A\) mit \(2\) erhalten wird.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In general if \(A\) is an \(m\times n\) matrix with typical element \(a_{ij}\) then the product of a number \(k\) with \(A\) is written \(kA\) and has the corresponding elements \(ka_{ij}\).
+    </span>
+    <span class="multilang" lang="de">
+        Im Allgemeinen, wenn \(A\) eine \(m\times n\) Matrix mit typischem Element \(a_{ij}\) ist, dann wird das Produkt einer Zahl \(k\) mit \(A\) als \(kA\) geschrieben und hat die entsprechenden Elemente \(ka_{ij}\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Hence, again using the matrix \(A\) above,
+    </span>
+    <span class="multilang" lang="de">
+        Also, wieder unter Verwendung der Matrix \(A\) oben,
+    </span>
+</p>
+<p>
+    \[7A=7\left[\begin{array}{cc}1&amp;2\\3&amp;4\end{array}\right]=\left[\begin{array}{rr}7&amp;14\\ 21&amp;28\end{array}\right].\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Similarly:
+    </span>
+    <span class="multilang" lang="de">
+        Genauso:
+    </span>
+</p>
+<p>
+    \[ -3A=\left[\begin{array}{rr}-3&amp;-6\\ -9&amp;-12\end{array}\right].\]
+</p>
+<p>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

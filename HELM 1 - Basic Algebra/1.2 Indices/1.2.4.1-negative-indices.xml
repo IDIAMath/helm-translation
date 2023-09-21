@@ -1,0 +1,133 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.2.4.1 Negative Potenzen [Negative indices]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Negative indices
+    </span>
+    <span class="multilang" lang="de">
+        Negative Potenzen
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        Sometimes a number is raised to a negative power. This is interpreted as follows:
+    </span>
+    <span class="multilang" lang="de">
+        Manchmal wird eine Zahl negativ potenziert. Dies wird wie folgt interpretiert:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            <strong>
+                Negative Powers
+            </strong>
+        </span>
+        <span class="multilang" lang="de">
+            <strong>
+                Negative Potenzen
+            </strong>
+        </span>
+    </p>
+    <p>
+        \(a^{-m} = \dfrac{1}{a^m}, \qquad a^m = \dfrac{1}{a^{-m}}\)
+    </p>
+</div>
+<p>
+    <span class="multilang" lang="en">
+        Thus a negative index can be used to indicate a reciprocal.
+    </span>
+    <span class="multilang" lang="de">
+        Daher kann eine negative Potenz verwendet werden, um einen Kehrwert anzuzeigen.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Write each of the following expressions using a positive index and simplify if possible.
+    </span>
+    <span class="multilang" lang="de">
+        Schreiben Sie jeden der folgenden Ausdrücke mit einer positiven Potenz und vereinfachen Sie, wenn möglich.
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(2^{-3}\)
+    </li>
+    <li>
+        \(\dfrac{1}{4^{-3}}\)
+    </li>
+    <li>
+        \(x^{-1}\)
+    </li>
+    <li>
+        \(x^{-2}\)
+    </li>
+    <li>
+        \(10^{-1}\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        \(2^{-3} = \dfrac{1}{2^3} = \dfrac{1}{8}\)
+    </li>
+    <li>
+        \(\dfrac{1}{4^{-3}} = 4^3 = 64\)
+    </li>
+    <li>
+        \(x^{-1}= \dfrac{1}{x^1}=\dfrac{1}{x}\)
+    </li>
+    <li>
+        \(x^{-2}= \dfrac{1}{x^2}\)
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(10^{-1}=\dfrac{1}{10^1}= \dfrac{1}{10} \) or \( 0.1\)
+        </span>
+        <span class="multilang" lang="de">
+            \(10^{-1}=\dfrac{1}{10^1}= \dfrac{1}{10} \) oder \( 0.1\)
+        </span>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

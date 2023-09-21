@@ -1,0 +1,70 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.2.1.3 Example 1 inverse matrix method</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Solve the system \(AX=B\) where \[A=\left[\begin{array}{rr}2&amp;3\\
+1&amp;-2\end{array}\right], \hspace{2mm}
+B = \left[\begin{array}{r}5\\ -1\end{array}\right].\]
+    </span>
+    <span class="multilang" lang="de">
+        Lösen Sie das System \(AX=B\), wobei \[A=\left[\begin{array}{rr}2&amp;3\\
+1&amp;-2\end{array}\right], \hspace{2mm}
+B = \left[\begin{array}{r}5\\ -1\end{array}\right].\]
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        In the previous example, we checked that \(A\) has an inverse and computed it. Therefore,
+                \[X=A^{-1}B=\dfrac{1}{7}\left[\begin{array}{rr}2&amp;3\\
+1&amp;-2\end{array}\right]\left[\begin{array}{r} 5\\
+-1\end{array}\right]=\dfrac{1}{7}\left[\begin{array}{c}7\\
+7\end{array}\right]=\left[\begin{array}{c}1\\ 1\end{array}\right].\]
+    </span>
+    <span class="multilang" lang="de">
+        Im vorherigen Beispiel haben wir überprüft, ob \(A\) eine Inverse hat, und diese berechnet. Deshalb,
+                \[X=A^{-1}B=\dfrac{1}{7}\left[\begin{array}{rr}2&amp;3\\
+1&amp;-2\end{array}\right]\left[\begin{array}{r} 5\\
+-1\end{array}\right]=\dfrac{1}{7}\left[\begin{array}{c}7\\
+7\end{array}\right]=\left[\begin{array}{c}1\\ 1\end{array}\right].\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Hence \(x_1=1,\  x_2=1.\)
+    </span>
+    <span class="multilang" lang="de">
+        Daher \(x_1=1,\ x_2=1.\)
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

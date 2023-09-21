@@ -1,0 +1,87 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>2.5.3.4 Der Abstand zwischen zwei Punkten [The distance between two points]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3 style="text-align: left;">
+    <span class="multilang" lang="en">
+        The distance between two points
+    </span>
+    <span class="multilang" lang="no">
+        Avstanden mellom to punkter
+    </span>
+    <span class="multilang" lang="de">
+        Der Abstand zwischen zwei Punkten
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        The distance between the points with coordinates \(A=(x_1, y_1)\) and \(B=(x_2,y_2)\) is given by the following formula.
+    </span>
+    <span class="multilang" lang="no">
+        Avstanden mellom punktene med koordinatene \(A = (x_1, y_1) \) og \(B = (x_2, y_2) \) er gitt med følgende formel.
+    </span>
+    <span class="multilang" lang="de">
+        Der Abstand zwischen den Punkten mit den Koordinaten \(A=(x_1, y_1)\) und \(B=(x_2,y_2)\) ergibt sich aus der folgenden Formel.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Nøkkelpunkt
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <h5>
+        <span class="multilang" lang="en">
+            Distance Between Two Points
+        </span>
+        <span class="multilang" lang="no">
+            Avstand mellom to punkter
+        </span>
+        <span class="multilang" lang="de">
+            Abstand zwischen zwei Punkten
+        </span>
+    </h5>
+    <p>
+        <span class="multilang" lang="en">
+            The distance between the two points \(A=(x_1, y_1)\) and \(B=(x_2, y_2)\), is given by:
+        </span>
+        <span class="multilang" lang="no">
+            Avstanden mellom de to punktene \(A = (x_1, y_1) \) og \(B = (x_2, y_2) \), er gitt ved:
+        </span>
+        <span class="multilang" lang="de">
+            Der Abstand zwischen den beiden Punkten \(A=(x_1, y_1)\) und \(B=(x_2, y_2)\), ist gegeben durch:
+        </span>
+    </p>
+    \[\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}.\]
+</div>
+<p>
+    <span class="multilang" lang="en">
+        We can see this as a direct consequence of the theorem of Pythagoras. The distance between two points is the length of the straight line segment connecting them. This line segment is the hypotenuse of a right angled triangle with base \(|x_2-x_1|\) and height \(|y_2-y_1|\). It is a useful exercise to sketch this case so you understand how we calculate the length.
+    </span>
+    <span class="multilang" lang="no">
+        Vi kan se dette som en direkte konsekvens av teoremet til Pythagoras. Avstanden mellom to punkter er lengden på det rette linjestykket som forbinder dem. Dette linjestykket er hypotenusen til en rettvinklet trekant med base \(| x_2-x_1 | \) og høyde \(| y_2-y_1 | \). Det er en nyttig øvelse å skissere dette tilfellet, slik at du forstår hvordan vi beregner lengden.
+    </span>
+    <span class="multilang" lang="de">
+        Wir können dies als direkte Folge des Satzes von Pythagoras sehen. Der Abstand zwischen zwei Punkten ist die Länge der geraden Strecke, die sie verbindet. Diese Strecke ist die Hypotenuse eines rechtwinkligen Dreiecks mit der Basis \(|x_2-x_1|\) und der Höhe \(|y_2-y_1|\). Es ist eine nützliche Übung diesen Fall zu skizzieren, damit Sie verstehen wie wir die Länge berechnen.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

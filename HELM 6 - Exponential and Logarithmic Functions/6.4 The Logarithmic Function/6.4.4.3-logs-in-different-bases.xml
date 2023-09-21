@@ -1,0 +1,67 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>6.4.4.3 Logs in different bases</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<br/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Solve for \(x\) if \(3\ln x+4\log_{10} x=1\).
+    </span>
+    <span class="multilang" lang="de">
+        Lösen Sie nach \(x\) auf, wenn \(3\ln x+4\log_{10} x=1\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        This has logs to two different bases. So we must first express each logarithm in terms of logs to the
+        <i>
+            same
+        </i>
+        base, \(e\) say Recall
+    </span>
+    <span class="multilang" lang="de">
+        Dies hat Logarithmen zu zwei verschiedenen Basen. Also müssen wir zuerst jeden Logarithmus in Termen aus Logarithmen zur
+        <i>
+            gleichen
+        </i>
+        Basis ausdrücken, \(e\) erinnern Sie sich
+    </span>
+</p>
+<span class="multilang" lang="en">
+    \[\log_{10} x=\dfrac{\ln x}{\ln 10}.\] So \(3\ln x+4\log x=1\) becomes \[ 3\ln x+4\dfrac{\ln x}{\ln 10}=1\qquad\text{or}\qquad \left(3+\dfrac{4}{\ln 10}\right)\ln x=1\] leading to \(\ln x=\dfrac{\ln 10}{3\ln 10 +4}=\dfrac{2.302585}{10.907755}=0.211096\)
+        and so \[ x=e^{0.211096}=1.2350311.\]
+</span>
+<span class="multilang" lang="de">
+    \[\log_{10} x=\dfrac{\ln x}{\ln 10}.\] Also wird \(3\ln x+4\log x= 1\) zu \[ 3\ln x+4\dfrac{\ln x}{\ln 10}=1\qquad\text{oder}\qquad \left(3+\dfrac{4}{\ln 10} \right)\ln x=1\] was zu \(\ln x=\dfrac{\ln 10}{3\ln 10 +4}=\dfrac{2.302585}{10.907755}=0.211096\) führt
+            und somit \[ x=e^{0.211096}=1.2350311.\]
+</span>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

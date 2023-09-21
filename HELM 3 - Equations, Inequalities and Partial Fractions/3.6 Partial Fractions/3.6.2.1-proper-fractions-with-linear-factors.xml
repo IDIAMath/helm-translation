@@ -1,0 +1,305 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>3.6.2.1 Echte Brüche mit linearen Faktoren [Proper Fractions with Linear Factors]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Proper Fractions with Linear Factors
+    </span>
+    <span class="multilang" lang="no">
+        Ekte brøker med lineære faktorer
+    </span>
+    <span class="multilang" lang="de">
+        Echte Brüche mit linearen Faktoren
+    </span>
+</h4>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        Firstly we describe how to calculate partial fractions for proper fractions where the denominator may be written as a product of linear factors. The steps are as follows:
+    </span>
+    <span class="multilang" lang="no">
+        Først beskriver vi hvordan man beregner delbrøker for ekte brøker der nevneren kan skrives som et produkt av lineære faktorer. Trinnene er som følger:
+    </span>
+    <span class="multilang" lang="de">
+        Zunächst beschreiben wir, wie man Partialbrüche für echte Brüche berechnet, bei denen der Nenner als Produkt linearer Faktoren geschrieben werden kann. Die Schritte sind wie folgt:
+    </span>
+</p>
+<ul>
+    <li>
+        <span class="multilang" lang="en">
+            Factorise the denominator.
+        </span>
+        <span class="multilang" lang="no">
+            Faktoriser nevneren.
+        </span>
+        <span class="multilang" lang="de">
+            Faktorisiere den Nenner.
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Each factor will produce a partial fraction. A factor such as \(3x+2\) will produce a partial fraction of the form \(\dfrac{A}{3x+2}\) where
+                                \(A\) is an unknown constant. In general a linear factor \(ax+b\) will produce a partial fraction \(\dfrac{A}{ax+b}\). The unknown constants for
+                                each partial fraction may be different and so we will call them \(A\), \(B\), \(C\) and so on.
+        </span>
+        <span class="multilang" lang="no">
+            Hver faktor vil produsere en delbrøk. En faktor som \(3x+2\) vil produsere en delbrøk på formen \(\dfrac{A}{3x +2}\) der \(A\) er en ukjent konstant. Generelt vil en lineær faktor \(ax+b\) altså produsere en delbrøk \(\dfrac{A}{ax+b }\). De ukjente konstantene for hver delbrøk kan være forskjellige, og
+                                derfor vil vi kalle dem \(A\), \(B\), \(C\) og så videre.
+        </span>
+        <span class="multilang" lang="de">
+            Jeder Faktor ergibt einen Partialbruch. Ein Faktor wie \(3x+2\) ergibt einen Partialbruch der Form \(\dfrac{A}{3x +2}\) wobei
+                                \(A\) eine unbekannte Konstante ist. Im Allgemeinen ergibt ein linearer Faktor \(ax+b\) einen Partialbruch \(\dfrac{A}{ax+b }\). Die unbekannten Konstanten für jeden Partialbruch können unterschiedlich sein und deshalb nennen wir sie \(A\), \(B\), \(C\) und so weiter.
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Evaluate the unknown constants by equating coefficients or using specific values of \(x\).
+        </span>
+        <span class="multilang" lang="no">
+            Finn de ukjente konstantene ved å likestille koeffisienter eller bruke spesifikke verdier av \(x\).
+        </span>
+        <span class="multilang" lang="de">
+            Werten Sie die unbekannten Konstanten aus, indem Sie Koeffizienten gleichsetzen oder bestimmte Werte von \(x\) verwenden.
+        </span>
+    </li>
+</ul>
+<p>
+    <span class="multilang" lang="en">
+        The sum of the partial fractions is identical to the original algebraic fraction for all values of \(x\).
+    </span>
+    <span class="multilang" lang="no">
+        Summen av delbrøkene er identisk med den opprinnelige algebraiske brøken for alle verdier av \(x\).
+    </span>
+    <span class="multilang" lang="de">
+        Die Summe der Partialbrüche ist für alle Werte von \(x\) identisch mit dem ursprünglichen algebraischen Bruch.
+    </span>
+</p>
+<br/>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Nøkkelpunkt
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            A linear factor \(ax+b\) in the denominator gives rise to a single partial fraction of the form \(\dfrac{A}{ax+b}\).
+        </span>
+        <span class="multilang" lang="no">
+            En lineær faktor \(ax+b\) i nevneren gir opphav til en enkel delbrøk på formen \(\dfrac{ A}{ax+b}\).
+        </span>
+        <span class="multilang" lang="de">
+            Ein linearer Faktor \(ax+b\) im Nenner ergibt einen einzelnen Partialbruch der Form \(\dfrac{A}{ax+b}\).
+        </span>
+    </p>
+</div>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        The steps involved in expressing a proper fraction as partial fractions are illustrated in the following Example.
+    </span>
+    <span class="multilang" lang="no">
+        Trinnene involvert i å uttrykke en ekte brøk som en delbrøk er illustrert i følgende eksempel.
+    </span>
+    <span class="multilang" lang="de">
+        Die Schritte zur Darstellung eines echten Bruchs als Partialbruch werden im folgenden Beispiel veranschaulicht.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Express \(\dfrac{7x+10}{ 2x^2+5x+3}\) in terms of partial fractions.
+    </span>
+    <span class="multilang" lang="no">
+        Uttrykk \(\dfrac{7x+10}{ 2x^2+5x+3}\) i form av delbrøker.
+    </span>
+    <span class="multilang" lang="de">
+        Drücken Sie \(\dfrac{7x+10}{ 2x^2+5x+3}\) in Form von Partialbrüchen aus.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        Løsning
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Note that this fraction is proper. The denominator is factorised to give \((2x+3)(x+1)\). Each of the linear factors produces a partial fraction. The factor \(2x+3\) produces a partial fraction of the form \(\dfrac{A}{2x+3}\) and the factor \(x+1\) produces a partial fraction \(\dfrac{B}{x+1}\), where \(A\) and \(B\) are constants which we need to find. We write
+    </span>
+    <span class="multilang" lang="no">
+        Merk at denne brøken er ekte. Nevneren er faktorisert slik at vi har \((2x+3)(x+1)\). Hver av de lineære faktorene produserer en delbrøk. Faktoren \(2x+3\) produserer en delbrøk på formen \(\dfrac{A}{2x+3} \) og faktoren \(x+1\) produserer en delbrøk \(\dfrac{B}{ x+1}\), der \(A\) og \(B\) er konstanter som vi trenger å finne. Vi skriver
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie, dass dieser Bruch echt ist. Der Nenner wird faktorisiert, um \((2x+3)(x+1)\) zu erhalten. Jeder der linearen Faktoren ergibt einen Partialbruch. Der Faktor \(2x+3\) ergibt einen Partialbruch der Form \(\dfrac{A}{2x+3}\) und der Faktor \(x+1\) ergibt einen Partialbruch \(\dfrac{B}{ x+1}\), wobei \(A\) und \(B\) Konstanten sind, die wir finden müssen. Wir schreiben
+    </span>
+</p>
+<p>
+    \[\dfrac{7x+10}{(2x+3)(x+1)} = \dfrac{A}{2x+3} + \dfrac{B}{x+1}\]
+</p>
+<span class="multilang" lang="en">
+    By multiplying both sides by \((2x+3)(x+1)\) we obtain
+</span>
+<span class="multilang" lang="no">
+    Ved å multiplisere begge sider med \((2x+3)(x+1)\) får vi
+</span>
+<span class="multilang" lang="de">
+    Durch Multiplikation beider Seiten mit \((2x+3)(x+1)\) erhalten wir
+</span>
+<p>
+</p>
+<p>
+    \[7x+10 = A(x+1) + B(2x+3)\qquad(*)\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We may now let \(x\) take
+        <b>
+            any value we choose
+        </b>
+        . By an appropriate choice we can simplify the right-hand side. Let \(x=-1\) because this choice eliminates
+    </span>
+    <span class="multilang" lang="no">
+        Vi kan nå la \(x\) ta
+        <b>
+            en hvilken som helst verdi vi velger
+        </b>
+        . Ved et passende valg kan vi forenkle høyre side. La \(x=-1\) fordi dette valget
+                        eliminerer \(A\).
+    </span>
+    <span class="multilang" lang="de">
+        Wir können jetzt \(x\)
+        <b>
+            jeden beliebigen Wert
+        </b>
+        annehmen lassen. Durch entsprechende Wahl können wir die rechte Seite vereinfachen. Lassen Sie \(x=-1\),
+                weil diese Wahl eliminiert \(A\).
+    </span>
+    <span class="multilang" lang="en">
+        We find
+    </span>
+    <span class="multilang" lang="no">
+        Vi får
+    </span>
+    <span class="multilang" lang="de">
+        Wir finden
+    </span>
+    <span class="math display">
+        \[\begin{aligned}
+7(-1) + 10 &amp;= A(0) + B(-2+3)\\
+3&amp;=B
+\end{aligned}\]
+    </span>
+    <span class="multilang" lang="en">
+        so that the constant \(B\) must equal 3. The constant \(A\) can be found either by substituting some other value for \(x\) or alternatively by ‘equating coefficients’. Observe that, by rearranging the right-hand side, Equation
+        <b>
+            (*)
+        </b>
+        can be written as
+    </span>
+    <span class="multilang" lang="no">
+        slik at konstanten \(B\) må være lik 3. Konstanten \(A\) kan finnes enten ved å erstatte \(x\) med en annen verdi
+                eller alternativt ved å «likstille koeffisienter». Legg merke til at ved å omorganisere høyre side, kan ligning
+        <b>
+            (*)
+        </b>
+        skrives som
+    </span>
+    <span class="multilang" lang="de">
+        sodass die Konstante \(B\) gleich 3 sein muss. Die Konstante \(A\) kann entweder durch Ersetzen eines anderen Werts für \(x\) oder alternativ durch 'Gleichsetzen von Koeffizienten' gefunden werden. Beachten Sie, dass Gleichung
+        <b>
+            (*)
+        </b>
+        durch Umstellen der rechten Seite geschrieben werden kann als
+    </span>
+</p>
+<p>
+    \[7x+10 = (A+2B)x + (A+3B)\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Comparing the coefficients of \(x\) on both sides we see that . We already know \(B=3\) and so
+    </span>
+    <span class="multilang" lang="no">
+        Ved å sammenligne koeffisientene til \(x\) på begge sider ser vi at \(7=A+2B\). Vi vet allerede at \(B=3\) så
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir die Koeffizienten von \(x\) auf beiden Seiten vergleichen, sehen wir, dass \(7=A+2B\). Wir kennen bereits \(B=3\) und so
+    </span>
+    <span class="math display">
+        \[\begin{aligned} 7&amp;=A + 2(3)\\ &amp;= A+ 6\end{aligned}\]
+    </span>
+    <span class="multilang" lang="en">
+        from which
+    </span>
+    <span class="multilang" lang="no">
+        som gir
+    </span>
+    <span class="multilang" lang="de">
+        von denen
+    </span>
+    <span class="math inline">
+        \(A=1\)
+    </span>
+    .
+    <span class="multilang" lang="en">
+        We can therefore write
+    </span>
+    <span class="multilang" lang="no">
+        Vi kan dermed skrive
+    </span>
+    <span class="multilang" lang="de">
+        Wir können also schreiben
+    </span>
+</p>
+<p>
+    \[\dfrac{7x+10}{2x^2+5x+3} = \dfrac{1}{2x+3} + \dfrac{3}{x+1}\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We have succeeded in expressing the given fraction as the sum of its partial fractions. The result can always be checked by adding the fractions on the right.
+    </span>
+    <span class="multilang" lang="no">
+        Vi har lyktes med å uttrykke den gitte brøken som summen av dens delbrøker. Resultatet kan alltid kontrolleres ved å legge sammen brøkene til høyre.
+    </span>
+    <span class="multilang" lang="de">
+        Uns ist es gelungen den gegebenen Bruch als Summe seiner Partialbrüche auszudrücken. Das Ergebnis kann jederzeit durch Addieren der Brüche rechts überprüft werden.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

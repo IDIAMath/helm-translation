@@ -1,0 +1,61 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>6.2.2.1 Hyperbolic Identities</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Hyperbolic Identities
+    </span>
+    <span class="multilang" lang="de">
+        Hyperbolische Identitäten
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        The hyperbolic functions \(\cosh x\) and \(\sinh x\) satisfy similar (but not exactly equivalent) identities to those satisfied by \(\cos x\) and \(\sin x\).
+                We note first some basic notation similar to that employed with trigonometric functions: \(\cosh^nx\) means \((\cosh x)^n\), \(\sinh^nx\) means \((\sinh x)^n\) for \(n\ne -1\).
+    </span>
+    <span class="multilang" lang="de">
+        Die hyperbolischen Funktionen \(\cosh x\) und \(\sinh x\) erfüllen ähnliche (aber nicht genau äquivalente) Identitäten zu denen, die von \(\cos x\) und \(\sin x\) erfüllt werden. Wir stellen zunächst einige grundlegende Notationen fest, die denen ähnlich sind, die bei trigonometrischen Funktionen verwendet werden: \(\cosh^nx\) bedeutet \( (\cosh x)^n\), \(\sinh^nx\) bedeutet 
+                \((\sinh x)^n\) für \(n \ne -1\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In the special case that \(n=-1\) we
+        <strong>
+            do not
+        </strong>
+        use \(\cosh^{-1}x\) and \(\sinh^{-1}x\) to mean the reciprocals of the expressions. The notation \(\cosh^{-1}x\) and \(\sinh^{-1}x\) is reserved for the
+        <strong>
+            inverse functions
+        </strong>
+        of \(\cosh x\) and \(\sinh x\) respectively.
+    </span>
+    <span class="multilang" lang="de">
+        Im Sonderfall, dass \(n=-1\) verwenden wir
+        <strong>
+            nicht
+        </strong>
+        \(\cosh^{-1}x\) und \(\sinh^{-1}x\) um die Kehrwerte der Ausdrücke zu bestimmen. Die Notation \(\cosh^{-1}x\) und \(\sinh^{-1}x\) ist reserviert für die
+        <strong>
+            Umkehrfunktionen
+        </strong>
+        von
+                \(\cosh x\) bzw. \(\sinh x\)
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,60 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>10.1.1.10 Complex Conjugate</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        If \(z=a+i b\) is any complex number then the complex conjugate of \(z\) is denoted by \(z^*\) and is defined by \[z^*=a-i b.\](Sometimes
+        the notation \(\bar z\) is used instead of \(z^*\) to denote the conjugate).
+    </span>
+    <span class="multilang" lang="de">
+        Wenn \(z=a+i b\) eine beliebige komplexe Zahl ist, dann wird die komplex Konjugierte von \(z\) mit \(z^*\) bezeichnet und ist definiert durch \[z^*=a-i b.\](Manchmal wird
+        die Notation \(\bar z\) anstelle von \(z^*\) verwendet, um die Konjugierte zu bezeichnen).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        For example if \(z=2-3i\) then \(z^*=2+3i\).
+    </span>
+    <span class="multilang" lang="de">
+        Zum Beispiel wenn \(z=2-3i\), dann gilt \(z^*=2+3i\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        If \(z\) is entirely real then \(z^*=z\) whereas if \(z\) is entirely imaginary then \(z^*=-z\). E.g. if \(z=17i\)    then \(z^*=-17i\).
+    </span>
+    <span class="multilang" lang="de">
+        Wenn \(z\) vollständig real ist, dann ist \(z^*=z\), während \(z^*=- z\) gilt, wenn \(z\) vollständig imaginär ist. Z.B. wenn \(z=17i\), dann ist \(z^*=-17i\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In fact the following relationships are easily obtained: \[\qquad \text{Re}(z)={z+z^*\over 2}\qquad \text{and}\qquad \text{Im}(z)={i(z^*-z)\over {2}}\]
+    </span>
+    <span class="multilang" lang="de">
+        Tatsächlich lassen sich die folgenden Beziehungen leicht ermitteln: \[\qquad \text{Re}(z)={z+z^*\over 2}\qquad \text{und}\qquad \text{Im}(z)={i(z^*-z)\over {2}}\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Complex numbers are added, subtracted, multiplied and divided in much the same way as these operations are carried out for real numbers.
+    </span>
+    <span class="multilang" lang="de">
+        Komplexe Zahlen werden auf die gleiche Weise addiert, subtrahiert, multipliziert und dividiert, wie diese Operationen für reelle Zahlen ausgeführt werden.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

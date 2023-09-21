@@ -1,0 +1,334 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.4.3.1 The inverse of a 3x3 matrix - Gauss elimination method</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        The inverse of a \(3\times 3\) matrix – Gauss elimination method
+    </span>
+    <span class="multilang" lang="de">
+        Die Umkehrung einer \(3\times 3\)-Matrix – Gauß-Eliminationsmethode
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        It is true, in general, that if the determinant of a matrix is zero then that matrix has no inverse. If the determinant is non-zero then the matrix has a (unique) inverse. In this Section and the next we look at two ways of finding the inverse of a
+                \(3\times 3\)
+                                    matrix; larger matrices can be inverted by the same methods - the process is more tedious and takes longer. The \(2\times 2\) case could be handled similarly but as we have seen we have a simple formula
+                to use.
+    </span>
+    <span class="multilang" lang="de">
+        Im Allgemeinen gilt, dass, wenn die Determinante einer Matrix null ist, diese Matrix keine Inverse hat. Wenn die Determinante ungleich null ist, hat die Matrix eine (eindeutige) Inverse. In diesem und dem nächsten Abschnitt betrachten wir zwei Möglichkeiten, die Inverse von einer
+            \(3\times 3\)
+                                    Matrix zu finden; Größere Matrizen können mit den gleichen Methoden invertiert werden – der Vorgang ist aufwändiger und dauert länger. Der Fall \(2\times 2\) könnte ähnlich gehandhabt werden, aber wie
+                wir gesehen haben, können wir eine einfache Formel verwenden.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The method we now describe for finding the inverse of a matrix has many similarities to a technique used to obtain solutions of simultaneous equations. This method involves operating on the rows of a matrix in order to reduce it to a unit matrix.
+    </span>
+    <span class="multilang" lang="de">
+        Die Methode, die wir jetzt zum Ermitteln der Inversen einer Matrix beschreiben, weist viele Ähnlichkeiten mit einer Technik auf, die zum Erhalten von Lösungen simultaner Gleichungen verwendet wird. Bei dieser Methode werden die Zeilen einer Matrix bearbeitet, um sie auf eine Einheitsmatrix zu reduzieren.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        row operations we shall use are
+    </span>
+    <span class="multilang" lang="de">
+        Zeilenoperationen, die wir verwenden werden, sind
+    </span>
+</p>
+<ol type="i">
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                interchanging two rows
+            </span>
+            <span class="multilang" lang="de">
+                zwei Zeilen vertauschen
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                multiplying a row by a constant factor
+            </span>
+            <span class="multilang" lang="de">
+                eine Zeile mit einem konstanten Faktor multiplizieren
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                adding a multiple of one row to another.
+            </span>
+            <span class="multilang" lang="de">
+                Addieren eines Vielfachen einer Zeile zu einer anderen.
+            </span>
+        </p>
+    </li>
+</ol>
+<p>
+    <span class="multilang" lang="en">
+        Note that in (ii) and (iii) the multiple could be negative or fractional, or both.
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie, dass in (ii) und (iii) das Vielfache negativ oder gebrochen oder beides sein kann.
+    </span>
+</p>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The Gauss elimination method is outlined in the following Key Point:
+    </span>
+    <span class="multilang" lang="de">
+        Die Gauß-Eliminationsmethode wird im folgenden Schlüsselpunkt beschrieben:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <h5 style="text-align: center;">
+        <span class="multilang" lang="en">
+            Matrix Inverse – Gauss Elimination Method
+        </span>
+        <span class="multilang" lang="de">
+            Matrix Inverse – Gauß-Eliminationsmethode
+        </span>
+    </h5>
+    <p>
+        <span class="multilang" lang="en">
+            We use the result, quoted without proof, that:
+        </span>
+        <span class="multilang" lang="de">
+            Wir verwenden das ohne Beweis zitierte Ergebnis, dass:
+        </span>
+    </p>
+    <p style="text-align: center;">
+        <span class="multilang" lang="en">
+            if a sequence of row operations applied to a square matrix \(A\) reduces
+        </span>
+        <span class="multilang" lang="de">
+            wenn eine Folge von Zeilenoperationen, die auf eine quadratische Matrix \(A\) angewendet werden,
+        </span>
+    </p>
+    <p style="text-align: center;">
+        <span class="multilang" lang="en">
+            it to the identity matrix \(I\) of the same size then the same sequence of
+        </span>
+        <span class="multilang" lang="de">
+            es auf die Identitätsmatrix \(I\) derselben Größe reduziert, dann reduziert dieselbe Folge von
+        </span>
+    </p>
+    <p style="text-align: center;">
+        <span class="multilang" lang="en">
+            operations applied to \(I\) reduces it to \(A^{-1}\).
+            <br/>
+        </span>
+        <span class="multilang" lang="de">
+            auf \(I\) angewendete Operationen es auf \(A^{-1}\).
+            <br/>
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            Three points to note:
+        </span>
+        <span class="multilang" lang="de">
+            Drei Punkte, die Sie beachten sollten:
+        </span>
+    </p>
+    <ul>
+        <li>
+            <span class="multilang" lang="en">
+                If it is impossible to reduce \(A\) to \(I\) then \(A^{-1}\) does not exist. This will become evident by the appearance of a row of zeros.
+            </span>
+            <span class="multilang" lang="de">
+                Wenn es unmöglich ist, \(A\) auf \(I\) zu reduzieren, dann existiert \(A^{-1}\) nicht. Dies wird durch das Erscheinen einer Zeile von nullen deutlich.
+            </span>
+        </li>
+        <p>
+        </p>
+        <li style="text-align: left;">
+            <span class="multilang" lang="en">
+                There is no unique procedure for reducing \(A\) to \(I\) and it is experience which leads to selection of the optimum route.
+            </span>
+            <span class="multilang" lang="de">
+                Es gibt kein eindeutiges Verfahren zum Reduzieren von \(A\) auf \(I\) und es ist Erfahrung, die zur Auswahl der optimalen Route führt.
+            </span>
+        </li>
+        <li style="text-align: left;">
+            <span class="multilang" lang="en">
+                It is more efficient to do the two reductions, \(A\) to \(I\) and \(I\) to \(A^{-1}\), simultaneously.
+            </span>
+            <span class="multilang" lang="de">
+                Es ist effizienter, die beiden Reduktionen \(A\) zu \(I\) und \(I\) zu \(A^{-1}\) gleichzeitig durchzuführen.
+            </span>
+        </li>
+    </ul>
+</div>
+<p>
+    <span class="multilang" lang="en">
+        Suppose we wish to find the inverse of the matrix
+    </span>
+    <span class="multilang" lang="de">
+        Angenommen, wir möchten die Inverse der Matrix
+    </span>
+</p>
+\[A = \begin{bmatrix} 1 &amp; 3 &amp; 3 \\ 1 &amp; 4 &amp; 3 \\ 2 &amp; 7 &amp; 7 \end{bmatrix}\]
+<p>
+    <span class="multilang" lang="en">
+        We first place \(A\) and \(I\) adjacent to each other.
+    </span>
+    <span class="multilang" lang="de">
+        finden. Wir platzieren zuerst \(A\) und \(I\) nebeneinander.
+    </span>
+</p>
+\[ \begin{bmatrix} 1 &amp; 3 &amp; 3 \\ 1 &amp; 4 &amp; 3 \\ 2 &amp; 7 &amp; 7 \end{bmatrix} \quad \begin{bmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \]
+<h5>
+    <span class="multilang" lang="en">
+        Phase 1
+    </span>
+    <span class="multilang" lang="de">
+        Phase 1
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        now proceed by changing the columns of \(A\)
+        <em>
+            left to right
+        </em>
+        to reduce \(A\) to the form
+    </span>
+    <span class="multilang" lang="de">
+        Fahren Sie nun fort, indem Sie die Spalten von \(A\)
+        <em>
+            von links nach rechts
+        </em>
+        ändern, um \(A\) auf die Form
+    </span>
+</p>
+\[\begin{bmatrix} 1 &amp; * &amp; * \\ 0 &amp; 1 &amp; * \\ 0 &amp; 0 &amp; 1 \end{bmatrix},\]
+<p>
+    <span class="multilang" lang="en">
+        where \(*\) can be any number. This form is called
+        <b>
+            upper triangular
+        </b>
+        .
+    </span>
+    <span class="multilang" lang="de">
+        zu reduzieren, wobei \(*\) eine beliebige Zahl sein kann. Diese Form wird
+        <b>
+            oberes Dreieck
+        </b>
+        genannt.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        First we subtract row 1 from row 2 and twice row 1 from row 3. ‘Row’ refers to both matrices.
+    </span>
+    <span class="multilang" lang="de">
+        Zuerst subtrahieren wir Zeile 1 von Zeile 2 und zweimal Zeile 1 von Zeile 3. „Zeile“ bezieht sich auf beide Matrizen.
+    </span>
+</p>
+\[ \begin{bmatrix} 1 &amp; 3 &amp; 3 \\ 1 &amp; 4 &amp; 3 \\ 2 &amp; 7 &amp; 7 \end{bmatrix} \quad \begin{bmatrix} 1 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \quad \xrightarrow[R3 - 2R1]{R2 - R1} \quad \begin{bmatrix} 1
+&amp; 3 &amp; 3 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 1 &amp; 1 \end{bmatrix} \quad \begin{bmatrix} 1 &amp; 0 &amp; 0 \\ -1 &amp; 1 &amp; 0 \\ -2 &amp; 0 &amp; 1 \end{bmatrix} \]
+<p>
+    <span class="multilang" lang="en">
+        Now we subtract row 2 from row 3.
+    </span>
+    <span class="multilang" lang="de">
+        Jetzt subtrahieren wir Zeile 2 von Zeile 3.
+    </span>
+</p>
+\[ \begin{bmatrix} 1 &amp; 3 &amp; 3 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 1 &amp; 1 \end{bmatrix} \quad \begin{bmatrix} 1 &amp; 0 &amp; 0 \\ -1 &amp; 1 &amp; 0 \\ -2 &amp; 0 &amp; 1 \end{bmatrix} \quad \xrightarrow{R3 - R2} \quad \begin{bmatrix} 1 &amp; 3
+&amp; 3 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \quad \begin{bmatrix} 1 &amp; 0 &amp; 0 \\ -1 &amp; 1 &amp; 0 \\ -1 &amp; -1 &amp; 1 \end{bmatrix} \]
+<h5>
+    <span class="multilang" lang="en">
+        Phase 2
+    </span>
+    <span class="multilang" lang="de">
+        Phase 2
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        consists of continuing the row operations to reduce the elements above the leading diagonal to zero.
+    </span>
+    <span class="multilang" lang="de">
+        besteht darin, die Zeilenoperationen fortzusetzen, um die Elemente über der führenden Diagonale auf null zu reduzieren.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We proceed
+        <em>
+            right to left
+        </em>
+        . We subtract 3 times row 3 from row 1 (the elements in row 2 column 3 is already zero).
+    </span>
+    <span class="multilang" lang="de">
+        Wir gehen
+        <em>
+            von rechts nach links
+        </em>
+        vor. Wir subtrahieren dreimal Zeile 3 von Zeile 1 (die Elemente in Zeile 2, Spalte 3 sind bereits null).
+    </span>
+</p>
+\[ \begin{bmatrix} 1 &amp; 3 &amp; 3 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \quad \begin{bmatrix} 1 &amp; 0 &amp; 0 \\ -1 &amp; 1 &amp; 0 \\ -1 &amp; -1 &amp; 1 \end{bmatrix} \quad \xrightarrow{R1 - 3R3} \quad \begin{bmatrix} 1 &amp;
+3 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \quad \begin{bmatrix} 4 &amp; 3 &amp; -3 \\ -1 &amp; 1 &amp; 0 \\ -1 &amp; -1 &amp; 1 \end{bmatrix} \]
+<p>
+    <span class="multilang" lang="en">
+        Finally we subtract 3 times row 2 from row 1.
+    </span>
+    <span class="multilang" lang="de">
+        Zum Schluss subtrahieren wir dreimal Zeile 2 von Zeile 1.
+    </span>
+</p>
+\[ \begin{bmatrix} 1 &amp; 3 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \quad \begin{bmatrix} 4 &amp; 3 &amp; -3 \\ -1 &amp; 1 &amp; 0 \\ -1 &amp; -1 &amp; 1 \end{bmatrix} \quad \xrightarrow{R1 - 3R2} \quad \begin{bmatrix} 1 &amp;
+0 &amp; 0 \\ 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 1 \end{bmatrix} \quad \begin{bmatrix} 7 &amp; 0 &amp; -3 \\ -1 &amp; 1 &amp; 0 \\ -1 &amp; -1 &amp; 1 \end{bmatrix} \]
+<p>
+    <span class="multilang" lang="en">
+        Then we have
+    </span>
+    <span class="multilang" lang="de">
+        Dann haben wir
+    </span>
+</p>
+\[A^{-1} = \begin{bmatrix} 7 &amp; 0 &amp; -3 \\ -1 &amp; 1 &amp; 0 \\ -1 &amp; -1 &amp; 1 \end{bmatrix}\]
+<p>
+    <span class="multilang" lang="en">
+        (This can be verified by showing that \(AA^{-1} = I\) or \(A^{-1}A = I\).)
+    </span>
+    <span class="multilang" lang="de">
+        (Dies kann überprüft werden, indem man zeigt, dass \(AA^{-1} = I\) oder \(A^{-1}A = I\).)
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

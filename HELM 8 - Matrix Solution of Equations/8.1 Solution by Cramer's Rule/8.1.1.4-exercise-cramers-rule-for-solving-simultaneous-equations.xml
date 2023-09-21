@@ -1,0 +1,45 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.1.1.4 Exercise: Cramer's rule for solving simultaneous equations</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise 1 (paper exercise)
+    </span>
+    <span class="multilang" lang="de">
+        Übung 1 (Papierübung)
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Use Cramer’s rule to determine any and all solutions to the equations
+    </span>
+    <span class="multilang" lang="de">
+        Verwenden Sie die Cramer-Regel, um alle Lösungen der Gleichungen zu bestimmen
+    </span>
+</p>
+<p>
+    <span class="math display">
+        \[\text{(a)}\ \ \ \ \begin{array}{rrrrr}2x-3y&amp;=&amp;6\\ 4x-6y&amp;=&amp;12\end{array}
+\qquad\ \ \ \text{(b)}\ \ \begin{array}{rrrrr}2x-3y&amp;=&amp;6\\
+4x-6y&amp;=&amp;10\end{array}\]
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

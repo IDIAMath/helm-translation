@@ -1,0 +1,539 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>3.5.2.2 _Aufgabe_Ungleichheit lösen [_Task_Solve Inequality] (Kopie)</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Solve the inequality
+    </span>
+    <span class="multilang" lang="no">
+        Løs ulikheten
+    </span>
+    <span class="multilang" lang="de">
+        Lösen Sie die Ungleichung
+    </span>
+    <span class="math inline">
+        \({@leftvar@}{@var@}+{@leftcoef@}&lt;{@rightvar@}{@var@}+{@rightcoef@}\)
+    </span>
+    .
+</p>
+<p>
+    <span class="multilang" lang="en">
+        This is done by making \({@var@}\) the subject and obtain it on its own on the left-hand side.
+    </span>
+    <span class="multilang" lang="no">
+        Dette gjøres ved å isolere \({@var@}\) på venstre side av ulikheten.
+    </span>
+    <span class="multilang" lang="de">
+        Dies wird erreicht, indem \({@var@}\) bestimmt wird und auf der linken Seite alleine stehen bleibt.
+    </span>
+</p>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        Start by subtracting \({@rightvar@}{@var@}\) from both sides to remove quantities involving \({@var@}\) from the right:
+    </span>
+    <span class="multilang" lang="no">
+        Start med å trekke \({@rightvar@}{@var@}\) fra begge sider av ulikheten for å fjerne mengder som involverer \({@var@}\) fra høyre side:
+    </span>
+    <span class="multilang" lang="de">
+        Subtrahieren Sie zunächst \({@rightvar@}{@var@}\) von beiden Seiten der Ungleichung, um die Anteile, die \({@var@}\) von der rechten Seite zu entfernen:
+    </span>
+</p>
+<br/>
+<p>
+    [[input:ans1]] [[validation:ans1]][[feedback:prt1]]
+</p>
+<br/>
+<p>
+    <span class="multilang" lang="en">
+        Now subtract \({@leftcoef@}\) from both sides to remove the \({@leftcoef@}\) on the left:
+    </span>
+    <span class="multilang" lang="no">
+        Trekk nå \({@leftcoef@}\) fra begge sider for å fjerne \({@leftcoef@}\) på venstre side:
+    </span>
+    <span class="multilang" lang="de">
+        Subtrahieren Sie nun \({@leftcoef@}\) von beiden Seiten, um \({@leftcoef@}\) von der linken Seite zu entfernen:
+    </span>
+</p>
+<br/>
+<p>
+    [[input:ans2]] [[validation:ans2]][[feedback:prt2]]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Finally, the range of values of \({@var@}\)
+    </span>
+    is:
+    <span class="multilang" lang="no">
+        Til slutt er det bestemt at verdiområdet for \({@var@}\) er:
+    </span>
+    <span class="multilang" lang="de">
+        Schließlich ist der Wertebereich von \({@var@}\):
+    </span>
+</p>
+<br/>
+<p>
+    [[input:ans3]] [[validation:ans3]][[feedback:prt3]]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    We have the inequality
+</span>
+<span class="multilang" lang="no">
+    Vi har ulikheten
+</span>
+<span class="multilang" lang="de">
+    Gegeben ist die Ungleichung
+</span>
+\[{@leftvar@}{@var@}+{@leftcoef@}&lt;{@rightvar@}{@var@}+{@rightcoef@}\]
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We start by subtracting \({@rightvar@}{@var@}\) from both sides to remove quantities involving \({@var@}\) from the right. Hence, we get:
+    </span>
+    <span class="multilang" lang="no">
+        Vi starter ved å trekke \({@rightvar@}{@var@}\) fra begge sider for å fjerne mengder som involverer \({@var@}\) fra høyre. Dermed får vi:
+    </span>
+    <span class="multilang" lang="de">
+        Wir beginnen damit, \({@rightvar@}{@var@}\) von beiden Seiten zu subtrahieren, um Mengen mit \({@var@}\) von rechts zu entfernen. Daher erhalten wir:
+    </span>
+    \[ {@correctanswer1@}\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now subtract \({@leftcoef@}\) from both sides to remove the \({@leftcoef@}\) on the left:
+    </span>
+    <span class="multilang" lang="no">
+        Trekk nå \({@leftcoef@}\) fra begge sider for å fjerne \({@leftcoef@}\) på venstre side:
+    </span>
+    <span class="multilang" lang="de">
+        Subtrahieren Sie nun \({@leftcoef@}\) von beiden Seiten, um \({@leftcoef@}\) auf der linken Seite zu entfernen:
+    </span>
+    \[ {@correctanswer2@} \]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Finally, the range of values of \({@var@}\) is:
+    </span>
+    <span class="multilang" lang="no">
+        Da får vi endelig at verdiområdet for \({@var@}\) er:
+    </span>
+    <span class="multilang" lang="de">
+        Der Wertebereich von \({@var@}\) ist schließlich:
+    </span>
+    \[ {@correctanswer3@} \]
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text><![CDATA[var:x;
+leftvar: rand_with_step(10,25,1);
+rightvar: rand_with_step(1,9,1);
+leftcoef: rand(9)+1;
+rightcoef: rand(9)+1;
+newcoef: rightcoef-leftcoef;
+newvar: leftvar-rightvar
+newrange: newcoef/newvar;
+correctanswer1: newvar*var+leftcoef<rightcoef;
+correctanswer2: newvar*var<newcoef;
+correctanswer3: var<newrange;
+
+
+]]></text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text><![CDATA[\({@leftvar@}{@var@}+{@leftcoef@}&lt;{@rightvar@}{@var@}+{@rightcoef@}\), \mbox{ the first answer is: } {@correctanswer1@} \mbox{ the second part is: }{@correctanswer2@}  \mbox{ the third part is: }{@correctanswer3@}]]></text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>dot</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>correctanswer1</tans>
+            <boxsize>15</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>(,)</forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans2</name>
+            <type>algebraic</type>
+            <tans>correctanswer2</tans>
+            <boxsize>15</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>(,)</forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans3</name>
+            <type>algebraic</type>
+            <tans>correctanswer3</tans>
+            <boxsize>10</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>PropLogic</answertest>
+                <sans>ans1</sans>
+                <tans>correctanswer1</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text><![CDATA[
+<span class="multilang" lang="en">
+    The correct answer is \({@correctanswer1@}\).
+</span>
+<span class="multilang" lang="de">
+    Die richtige Antwort ist \({@correctanswer1@}\).
+</span>
+]]></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt2</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>PropLogic</answertest>
+                <sans>ans2</sans>
+                <tans>correctanswer2</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt2-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>1</falsenextnode>
+                <falseanswernote>prt2-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>1</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans2</sans>
+                <tans>ans1</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt2-2-T</trueanswernote>
+                <truefeedback format="html">
+                    <text><![CDATA[
+<span class="multilang" lang="en">
+    You answer here is correct, but your subtraction above is wrong.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort hier ist richtig, aber Ihre obige Subtraktion ist falsch.
+</span>
+]]></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt2-2-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text><![CDATA[
+<span class="multilang" lang="en">
+    The correct answer is \({@correctanswer2@}\).
+</span>
+<span class="multilang" lang="de">
+    Die richtige Antwort ist \({@correctanswer2@}\).
+</span>
+]]></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <prt>
+            <name>prt3</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>PropLogic</answertest>
+                <sans>ans3</sans>
+                <tans>correctanswer3</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt3-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>1</falsenextnode>
+                <falseanswernote>prt3-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>1</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans3</sans>
+                <tans>ans2</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt3-2-T</trueanswernote>
+                <truefeedback format="html">
+                    <text><![CDATA[
+<span class="multilang" lang="en">
+    This is correct, but you calculations above are incorrect.
+</span>
+<span class="multilang" lang="de">
+    Das ist richtig, aber Ihre obigen Berechnungen sind falsch.
+</span>
+]]></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt3-2-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text><![CDATA[
+<span class="multilang" lang="en">
+    The correct answer is \({@correctanswer3@}\).
+</span>
+<span class="multilang" lang="de">
+    Die richtige Antwort ist \({@correctanswer3@}\).
+</span>
+]]></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>1389453098</deployedseed>
+        <deployedseed>40422752</deployedseed>
+        <deployedseed>1791475607</deployedseed>
+        <deployedseed>924068491</deployedseed>
+        <deployedseed>1238709344</deployedseed>
+        <deployedseed>98624745</deployedseed>
+        <deployedseed>1474340704</deployedseed>
+        <deployedseed>2106013424</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>correctanswer1</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>correctanswer2</value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value>correctanswer3</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt2</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt2-1-T</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt3</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt3-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value><![CDATA[x<10000000]]></value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value><![CDATA[x<1000000000]]></value>
+            </testinput>
+            <testinput>
+                <name>ans3</name>
+                <value><![CDATA[x<100000000]]></value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-1-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt2</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt2-2-F</expectedanswernote>
+            </expected>
+            <expected>
+                <name>prt3</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt3-2-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

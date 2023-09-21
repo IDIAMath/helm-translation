@@ -1,0 +1,137 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.3.3.1 Gauss Elimination 3x3 linear systems with infinitely many solutions</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h5>
+    <span class="multilang" lang="en">
+        Equations which have an infinite number of solutions
+    </span>
+    <span class="multilang" lang="de">
+        Gleichungen, die unendlich viele Lösungen haben
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        Consider the following system of equations \[\begin{matrix}
+                x_1 &amp; + &amp; x_2 &amp; - &amp; 3x_3 &amp; = &amp; 3 \\
+                2x_1 &amp; - &amp; 3x_2 &amp; + &amp; 4x_3 &amp; = &amp; -4\\
+                x_1 &amp; - &amp; x_2 &amp; + &amp; x_3 &amp; = &amp; -1 \\
+\end{matrix}\] In augmented form we have: \[\left[\begin{array}{rrr|r} 
+                1 &amp; 1 &amp; -3 &amp; 3 \\
+                2 &amp; -3 &amp; 4 &amp; -4 \\
+                1 &amp; -1 &amp; 1 &amp; -1 \\
+\end{array}\right]\]
+    </span>
+    <span class="multilang" lang="de">
+        Betrachten Sie das folgende Gleichungssystem \[\begin{matrix}
+                x_1 &amp; + &amp; x_2 &amp; - &amp; 3x_3 &amp; = &amp; 3 \\
+                2x_1 &amp; - &amp; 3x_2 &amp; + &amp; 4x_3 &amp; = &amp; -4\\
+                x_1 &amp; - &amp; x_2 &amp; + &amp; x_3 &amp; = &amp; -1 \\
+\end{matrix}\] In erweiterter Form erhalten wir: \[\left[\begin{array}{rrr|r} 
+                1 &amp; 1 &amp; -3 &amp; 3 \\
+                2 &amp; -3 &amp; 4 &amp; -4 \\
+                1 &amp; -1 &amp; 1 &amp; -1 \\
+\end{array}\right]\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now performing the usual Gauss elimination operations we have:
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir nun die üblichen Gauß-Eliminierungsoperationen durchführen, erhalten wir:
+    </span>
+    <span class="math display">
+        \[\left[\begin{array}{rrr|r} 
+                1&amp;1&amp;-3&amp;3 \\
+                2&amp;-3&amp;4&amp;-4 \\
+                1&amp;-1&amp;1&amp;-1 \\
+\end{array}\right]
+\begin{array}{c}
+                \\ 
+                R2-2\times R1 \\
+                R3- R1
+\end{array}
+\Rightarrow \left[\begin{array}{rrr|r}
+                1&amp;1&amp;-3&amp;3 \\
+                0&amp;-5&amp;10&amp;-10 \\
+                0&amp;-2&amp;4&amp;-4 \\
+\end{array}\right]\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now applying \(R2\div -5\) and \(R3\div -2\) gives \[\left[\begin{array}{rrr|r} 
+                1&amp;1&amp;-3&amp;3 \\
+                0&amp;1&amp;-2&amp;2 \\
+                0&amp;1&amp;-2&amp;2 \\
+\end{array}\right]\] Then \(R2-R3\) gives \[\left[\begin{array}{rrr|r} 
+                1&amp;1&amp;-3&amp;3 \\
+                0&amp;1&amp;-2&amp;2 \\
+                0&amp;0&amp;0&amp;0 \\
+\end{array}\right]\]
+    </span>
+    <span class="multilang" lang="de">
+        Die Anwendung von \(R2\div -5\) und \(R3\div -2\) ergibt \[\left[\begin{array}{rrr|r}
+                1&amp;1&amp;-3&amp;3 \\
+                0&amp;1&amp;-2&amp;2 \\
+                0&amp;1&amp;-2&amp;2 \\
+\end{array}\right]\] Dann ergibt \(R2-R3\) \[\left[\begin{array}{rrr|r}
+                1&amp;1&amp;-3&amp;3 \\
+                0&amp;1&amp;-2&amp;2 \\
+                0&amp;0&amp;0&amp;0 \\
+\end{array}\right]\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now applying \(R2\div -5\) and \(R3\div -2\) gives \[\left[\begin{array}{rrr|r} 
+                1&amp;1&amp;-3&amp;3 \\
+                0&amp;1&amp;-2&amp;2 \\
+                0&amp;1&amp;-2&amp;2 \\
+\end{array}\right]\] Then \(R2-R3\) gives \[\left[\begin{array}{rrr|r} 
+                1&amp;1&amp;-3&amp;3 \\
+                0&amp;1&amp;-2&amp;2 \\
+                0&amp;0&amp;0&amp;0 \\
+\end{array}\right]\] We see that all the elements in the last row are zero. This means that the variable \(x_3\) can take any value whatsoever, so let \(x_3=t\) then using back substitution
+                the second row now implies \[x_2=2+2x_3= 2+2t\] and then the first row implies \[x_1=3-x_2+3x_3=3-(2+2t)+3(t)=1+t\] In this example the system of equations has an infinite number
+                of solutions: \[x_1=1+t,\qquad x_2=2+2t,\qquad x_3=t\quad{\rm or}\quad [x_1,x_2,x_3]^T=[1+t,2+2t,t]^T\] where \(t\) can be assigned any value. For every value of \(t\) these expressions for \(x_1,x_2\) and \(x_3\) will simultaneously satisfy each of the three given equations.
+    </span>
+    <span class="multilang" lang="de">
+        Die Anwendung von \(R2\div -5\) und \(R3\div -2\) ergibt \[\left[\begin{array}{rrr|r}
+                1&amp;1&amp;-3&amp;3 \\
+                0&amp;1&amp;-2&amp;2 \\
+                0&amp;1&amp;-2&amp;2 \\
+\end{array}\right]\] Dann ergibt \(R2-R3\) \[\left[\begin{array}{rrr|r}
+                1&amp;1&amp;-3&amp;3 \\
+                0&amp;1&amp;-2&amp;2 \\
+                0&amp;0&amp;0&amp;0 \\
+\end{array}\right]\] Wir sehen, dass alle Elemente in der letzten Zeile null sind. Das bedeutet, dass die Variable \(x_3\) jeden beliebigen Wert annehmen kann, also sei \(x_3=t\) dann durch Verwendung von Rücksubstitution
+                    impliziertdie zweite Zeile nun \[x_2=2+2x_3= 2+2t\] und dann impliziert die erste Zeile \[x_1=3-x_2+3x_3=3-(2+2t)+3(t)=1+t \] In diesem Beispiel hat das Gleichungssystem eine unendliche Anzahl
+                an Lösungen: \[x_1=1+t,\qquad x_2=2+2t,\qquad x_3=t\quad{\rm oder}\quad [x_1,x_2,x_3]^T=[1+t,2+ 2t,t]^T\] wobei \(t\) ein beliebiger Wert zugewiesen werden kann. Für jeden Wert von \(t\) erfüllen diese Ausdrücke für \(x_1,x_2\) und \(x_3\) gleichzeitig jede der drei gegebenen Gleichungen.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Systems of linear equations arise in the modelling of electrical circuits or networks. By breaking down a complicated system into simple loops, Kirchhoff’s law can be applied. This leads to a set of linear equations in the unknown quantities (usually
+                currents) which can easily be solved by any of the methods you’ve learned.
+    </span>
+    <span class="multilang" lang="de">
+        Systeme linearer Gleichungen entstehen bei der Modellierung elektrischer Schaltkreise oder Netzwerke. Durch die Zerlegung eines komplizierten Systems in einfache Schleifen kann das Kirchhoffsche Gesetz angewendet werden. Dies führt zu einer Menge linearer Gleichungen in den unbekannten Größen (normalerweise 
+                Strömungen), die mit jeder der von Ihnen erlernten Methoden leicht gelöst werden können.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

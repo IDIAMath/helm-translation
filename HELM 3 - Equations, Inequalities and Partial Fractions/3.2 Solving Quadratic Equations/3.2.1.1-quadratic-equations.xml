@@ -1,0 +1,311 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>3.2.1.1 Quadratische Gleichungen [Quadratic Equations]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Quadratic equations
+    </span>
+    <span class="multilang" lang="no">
+        Andregradsfunksjoner
+    </span>
+    <span class="multilang" lang="de">
+        Quadratische Gleichungen
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        A generalisation of the third law of indices states:
+    </span>
+    <span class="multilang" lang="no">
+    </span>
+    <span class="multilang" lang="de">
+        Eine Verallgemeinerung des dritten Potenzgesetzes besagt:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Nøkkelpunkt
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            A
+            <b>
+                quadratic equation
+            </b>
+            is one which can be written in the form
+        </span>
+        <span class="multilang" lang="no">
+            En
+            <b>
+                kvadratisk ligning
+            </b>
+            kan skrives i formen
+        </span>
+        <span class="multilang" lang="de">
+            Eine
+            <b>
+                quadratische Gleichung
+            </b>
+            ist eine Gleichung, die in der Form
+        </span>
+    </p>
+    <p>
+        \[ax^2+bx+c=0\qquad a\ne 0\]
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            where \(a\), \(b\) and \(c\) are given numbers and \(x\) is the unknown whose value(s) must be found.
+        </span>
+        <span class="multilang" lang="no">
+            der \(a\), \(b\) og \(c\) er konstanter og \(x\) er en ukjent som må bestemmes.
+        </span>
+        <span class="multilang" lang="de">
+            geschrieben werden kann, wobei \(a\), \(b\) und \(c\) gegebene Zahlen sind und \(x\) die Unbekannte ist, deren Wert(e) gefunden werden müssen.
+        </span>
+    </p>
+</div>
+<p>
+    <span class="multilang" lang="en">
+        For example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempeler på andregradsligninger er:
+    </span>
+    <span class="multilang" lang="de">
+        Zum Beispiel
+    </span>
+    <br/>
+</p>
+<p>
+    \[2x^2+7x-3=0, \qquad x^2+x+1=0, \qquad 0.5x^2+3x+9=0\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        are all quadratic equations. To ensure the presence of the \(x^2\) term, the number \(a\), in the general expression \(ax^2+bx+c\) cannot be zero.
+    </span>
+    <span class="multilang" lang="no">
+        For å beholde \(x^2\)-leddet, kan ikke tallet \(a\), i det generelle uttrykket \(ax^2+bx+c\) være null.
+    </span>
+    <span class="multilang" lang="de">
+        sind alles quadratische Gleichungen. Um sicherzustellen, dass der Term \(x^2\) vorhanden ist, darf die Zahl \(a\) im allgemeinen Ausdruck \(ax^2+bx+c\) nicht Null sein.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        However \(b\) or \(c\) may be zero, so that
+    </span>
+    <span class="multilang" lang="no">
+        Imidlertid kan \(b\) eller \(c\) være null, slik at
+    </span>
+    <span class="multilang" lang="de">
+        Allerdings können \(b\) oder \(c\) Null sein, sodass
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \[4x^2+3x=0, \quad 2x^2-3=0 \quad \hbox{and}\quad  6x^2=0\]
+    </span>
+    <span class="multilang" lang="no">
+        \[4x^2+3x=0, \quad 2x^2-3=0 \quad \hbox{og}\quad  6x^2=0\]
+    </span>
+    <span class="multilang" lang="de">
+        \[4x^2+3x=0, \quad 2x^2-3=0 \quad \hbox{und}\quad  6x^2=0\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        are also quadratic equations. Frequently, quadratic equations occur in non-standard form but where necessary they can be rearranged into standard form. For example
+    </span>
+    <span class="multilang" lang="no">
+        også er andregradsligninger. Andregradsligninger er oftest ikke skrevet på standardform (\(ax^2+bx+c=0\), men hvis det er nødvendig kan disse uttrykkene omorganiseres til standardform. For eksempel kan
+    </span>
+    <span class="multilang" lang="de">
+        auch quadratische Gleichungen sind. Häufig treten quadratische Gleichungen in nicht standardisierter Form auf, können aber bei Bedarf in Standardform umgestellt werden. Zum Beispiel kann
+    </span>
+</p>
+<p>
+    \[3x^2+5x=8, \qquad \hbox{
+    <span class="multilang" lang="en">
+        can be re-written as
+    </span>
+    <span class="multilang" lang="no">
+        skrives om til
+    </span>
+    <span class="multilang" lang="de">
+        umgeschrieben werden zu
+    </span>
+    } \qquad  3x^2+5x-8=0;\]
+</p>
+<p>
+    \[2x^2=8x-9, \qquad \hbox{
+    <span class="multilang" lang="en">
+        can be re-written as
+    </span>
+    <span class="multilang" lang="no">
+        skrives om til
+    </span>
+    <span class="multilang" lang="de">
+        kann umgeschrieben werden zu
+    </span>
+    } \quad 2x^2-8x+9=0;\]
+</p>
+<p>
+    \[1+x=\frac{1}{x}, \qquad\ \quad \hbox{
+    <span class="multilang" lang="en">
+        can be re-written as
+    </span>
+    <span class="multilang" lang="no">
+        skrives om til
+    </span>
+    <span class="multilang" lang="de">
+        kann umgeschrieben werden zu
+    </span>
+    } \quad x^2+x-1=0.\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        A little care should be taken in the last example as in case one found \(x=0\) as a solution, this would not work in the initial equation. To solve a given quadratic equation we must find values of the unknown \(x\) which make the left-hand and right-hand sides equal. Such values are known as
+        <b>
+            solutions
+        </b>
+        or
+        <b>
+            roots
+        </b>
+        of the quadratic equation.
+    </span>
+    <span class="multilang" lang="no">
+        Merk at i det siste eksempelet ville ikke \(x=0\) fungert på formen skrevet først. For å løse en gitt andregradsligning må vi finne verdier av den ukjente variabelen \(x\) som gir venstre og høyre side samme verdi. Slike verdier er kjent som
+        <b>
+            løsninger
+        </b>
+        eller
+        <b>
+            røtter
+        </b>
+        av andregradsligningen.
+    </span>
+    <span class="multilang" lang="de">
+        Im letzten Beispiel sollte man etwas aufpassen, denn wenn man \(x=0\) als Lösung findet, würde dies in der Anfangsgleichung nicht funktionieren. Um eine gegebene quadratische Gleichung zu lösen, müssen wir Werte der Unbekannten \(x\) finden, die die linke und die rechte Seite gleich machen. Solche Werte werden als
+        <b>
+            Lösungen
+        </b>
+        oder
+        <b>
+            Nullstellen
+        </b>
+        der quadratischen Gleichung bezeichnet.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Note the difference between solving quadratic equations in comparison to solving linear equations. A quadratic equation will generally have
+        <b>
+            two
+        </b>
+        values of \(x\) (solutions) which satisfy it whereas a linear equation only has
+        <b>
+            one
+        </b>
+        solution.
+    </span>
+    <span class="multilang" lang="no">
+        Merke forskjellen mellom å løse andregrads- og lineære ligninger. En andregradsligning vil generelt ha
+        <b>
+            to
+        </b>
+        løsninger, mens en lineær ligning bare har
+        <b>
+            én
+        </b>
+        løsning.
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie den Unterschied zwischen dem Lösen quadratischer Gleichungen im Vergleich zum Lösen linearer Gleichungen. Eine quadratische Gleichung hat im Allgemeinen
+        <b>
+            zwei
+        </b>
+        Werte von \(x\) (Lösungen), die sie erfüllen, während eine lineare Gleichung nur
+        <b>
+            eine
+        </b>
+        Lösung hat.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We shall now describe three techniques for solving quadratic equations:
+    </span>
+    <span class="multilang" lang="no">
+        Vi skal nå beskrive tre teknikker for å løse andregradsligninger:
+    </span>
+    <span class="multilang" lang="de">
+        Wir werden nun drei Techniken zum Lösen quadratischer Gleichungen beschreiben:
+    </span>
+</p>
+<p>
+</p>
+<ol>
+    <li>
+        <span class="multilang" lang="en">
+            factorisation
+        </span>
+        <span class="multilang" lang="no">
+            faktorisering
+        </span>
+        <span class="multilang" lang="de">
+            Faktorisierung
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            completing the square
+        </span>
+        <span class="multilang" lang="no">
+            fullføre kvadratiseringen
+        </span>
+        <span class="multilang" lang="de">
+            quadratische Ergänzung
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            using the quadratic formula.
+        </span>
+        <span class="multilang" lang="no">
+            bruke abc-formelen
+        </span>
+        <span class="multilang" lang="de">
+            mit der Auflösungsformel für quadratische Gleichungen.
+        </span>
+    </li>
+</ol>
+<p>
+</p>
+<p>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,195 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.2.5.4 Bruchpotenzen Fortsetzung [Fractional indices continued]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Write the following as a simple power with a single index.
+    </span>
+    <span class="multilang" lang="de">
+        Schreiben Sie das Folgende als einfache Potenz mit einem einzelnen Exponenten.
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(\sqrt{x^5}\)
+    </li>
+    <li>
+        \(\sqrt[4]{x^3}\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        \(\sqrt{x^5} = (x^5)^{\frac{1}{2}}\).
+        <span class="multilang" lang="en">
+            Then using the third law of indices we can write this as \(x^{5\times{\frac{1}{2}}}=x^{\frac{5}{2}}.\)
+        </span>
+        <span class="multilang" lang="de">
+            Dann können wir dies unter Verwendung des dritten Potenzgesetzes schreiben als \(x^{5\times{\frac{1}{2}}}=x^{\frac {5}{2}}.\)
+        </span>
+    </li>
+    <li>
+        \(\sqrt[4]{x^3} =(x^3)^{\frac{1}{4}}\).
+        <span class="multilang" lang="en">
+            Using the third law we can write this as \(x^{3\times \frac{1}{4}}=x^{\frac{3}{4}}.\)
+        </span>
+        <span class="multilang" lang="de">
+            Mit dem dritten Gesetz können wir dies schreiben als \(x^{3\times \frac{1}{4}}=x^{\frac{3}{4}}.\)
+        </span>
+    </li>
+</ol>
+<p>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Show that \(z^{-\frac{1}{2}}=\dfrac{1}{\sqrt{z}}.\)
+    </span>
+    <span class="multilang" lang="de">
+        Zeigen Sie, dass \(z^{-\frac{1}{2}}=\dfrac{1}{\sqrt{z}}.\)
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    \(z^{-\frac{1}{2}}=\dfrac{1}{z^{\frac{1}{2}}}=\dfrac{1}{\sqrt{z}}.\)
+</p>
+<p>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The generalisation of the third law of indices states that \((a^mb^n)^k=a^{mk}b^{nk}\). By taking \(m=1\), \(n=1\) and \(k=\dfrac{1}{2}\) show that \(\sqrt{ab}=\sqrt{a}\,\sqrt{b}\).
+    </span>
+    <span class="multilang" lang="de">
+        Die Verallgemeinerung des dritten Potenzgesetzes besagt, dass \((a^mb^n)^k=a^{mk}b^{nk}\). Zeigen Sie mit \(m=1\), \(n=1\) und \(k=\dfrac{1}{2}\), dass \(\sqrt{ab}=\sqrt{a}\,\sqrt{b}\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Taking \(m=1\), \(n=1\) and \(k=\dfrac{1}{2}\) gives
+    </span>
+    <span class="multilang" lang="de">
+        Die Annahme, dass \(m=1\), \(n=1\) und \(k=\dfrac{1}{2}\) ergibt
+    </span>
+</p>
+<p>
+    \((ab)^{\frac{1}{2}}=a^{\frac{1}{2}}b^{\frac{1}{2}}\).
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Taking the case when all these roots are positive, we have
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir den Fall annehmen, dass alle diese Wurzeln positiv sind, haben wir
+    </span>
+</p>
+<p>
+    \(\sqrt{ab}=\sqrt{a}\sqrt{b}\)
+</p>
+<p>
+</p>
+<hr/>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        \(\sqrt{ab}=\sqrt{a}\sqrt{b} \qquad  a\ge 0,\ \ b\ge 0\).
+    </p>
+</div>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        This result often allows answers to be written in alternative forms. For example, we may write \(\sqrt{48}\) as \(\sqrt{3\times 16}=\sqrt{3}\sqrt{16}=4\sqrt{3}\).
+    </span>
+    <span class="multilang" lang="de">
+        Dieses Ergebnis ermöglicht es oft, Antworten in alternativen Formen zu schreiben. Zum Beispiel schreiben wir \(\sqrt{48}\) als \(\sqrt{3\times 16}=\sqrt{3}\sqrt{16}=4\sqrt{3}\).
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Although this rule works for multiplication we should be aware that it does
+        <strong>
+            not
+        </strong>
+        work for addition or subtraction so that \(\sqrt{a\pm b}\ne \sqrt{a}\pm\sqrt{b}\).
+    </span>
+    <span class="multilang" lang="de">
+        Obwohl diese Regel für die Multiplikation funktioniert, sollten wir uns bewusst sein, dass sie
+        <strong>
+            nicht
+        </strong>
+        für die Addition oder Subtraktion funktioniert, sodass \(\sqrt{a\pm b }\ne \sqrt{a}\pm\sqrt{b}\).
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

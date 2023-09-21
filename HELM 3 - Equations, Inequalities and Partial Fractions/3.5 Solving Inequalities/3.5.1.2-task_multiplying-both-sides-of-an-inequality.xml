@@ -1,0 +1,344 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>3.5.1.2 Aufgabe_Beide Seiten einer Ungleichung multiplizieren [Task_Multiplying both sides of an inequality]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Find the result of multiplying both sides of the inequality \({@leftin@} &lt; {@rightin@}\) by the number \({@common@}\).
+        <br/>
+        Solution:
+    </span>
+    <span class="multilang" lang="no">
+        Hva blir den nye ulikheten hvis ulikheten \({@leftin@} &lt; {@rightin@}\) multipliseres med \({@common@}\).
+        <br/>
+        Løsning:
+    </span>
+    <span class="multilang" lang="de">
+        Finden Sie das Ergebnis durch Multiplikation beider Seiten der Ungleichung \({@leftin@} &lt; {@rightin@}\) durch die Zahl \({@common@}\).
+        <br/>
+        Lösung:
+    </span>
+    [[input:ans1]] [[validation:ans1]][[feedback:prt1]]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        When multiplying both sides of an inequality by a negative number, the inequality sign changes.
+    </span>
+    <span class="multilang" lang="no">
+        Når du multipliserer begge sider av en ulikhet med et negativt tall, endres retningen til ulikhetstegnet.
+    </span>
+    <span class="multilang" lang="de">
+        Wenn beide Seiten einer Ungleichung mit einer negativen Zahl multipliziert werden, ändert sich das Ungleichheitszeichen.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        So \({@leftin@} &lt; {@rightin@}\) multiplied by \({@common@}\) is written as:
+    </span>
+    <span class="multilang" lang="no">
+        Så \({@leftin@} &lt; {@rightin@}\) multiplisert med \({@common@}\) skrives som:
+    </span>
+    <span class="multilang" lang="de">
+        Also wird \({@leftin@} &lt; {@rightin@}\) multipliziert mit \({@common@}\) geschrieben als:
+    </span>
+</p>
+<p>
+    \[{@leftin@}({@common@}) &gt; {@rightin@}({@common@})\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        which can be simplified to
+    </span>
+    <span class="multilang" lang="no">
+        som kan forenkles til
+    </span>
+    <span class="multilang" lang="en">
+        was vereinfacht werden kann zu
+    </span>
+</p>
+<p>
+    \[{@correctanswer@}\]
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text><![CDATA[common: -1*(1+rand(5));
+leftin: rand_with_step(-20,-1,1);
+rightin: rand_with_step(1,15,1);
+correctanswer: leftin*common > rightin*common;
+correctanswer2:  rightin*common < leftin*common;
+wronganswer1: leftin*common < rightin*common;
+wronganswer2: leftin*common <= rightin*common;]]></text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        When multiplying both sides of an inequality by a negative number, the inequality sign changes:
+    </span>
+    <span class="multilang" lang="no">
+        Når du multipliserer begge sider av en ulikhet med et negativt tall, endres ulikhetstegnet:
+    </span>
+    <span class="multilang" lang="de">
+        Wenn beide Seiten einer Ungleichung mit einer negativen Zahl multipliziert werden, ändert sich das Ungleichheitszeichen:
+    </span>
+</p>
+<p>
+    \({@leftin@} &lt; {@rightin@}\)
+    <span class="multilang" lang="en">
+        multiply by
+    </span>
+    <span class="multilang" lang="no">
+        multiplisert med
+    </span>
+    <span class="multilang" lang="de">
+        multiplizieren mit
+    </span>
+    <span class="math inline">
+        \({@common@}\)
+    </span>
+</p>
+<p>
+    \({@leftin@}({@common@}) &gt; {@rightin@}({@common@})\)
+</p>
+<p>
+    \({@correctanswer@}\)
+</p>
+]]></text>
+        </specificfeedback>
+        <questionnote>
+            <text>\({@leftin@}\lt {@rightin@}, \mbox{ the solution is: }{@correctanswer@}\)</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>dot</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>algebraic</type>
+            <tans>correctanswer</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>*</forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>1</requirelowestterms>
+            <checkanswertype>1</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>PropLogic</answertest>
+                <sans>ans1</sans>
+                <tans>correctanswer</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>Result-0-T </trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>1</falsenextnode>
+                <falseanswernote>Result-0-F </falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>1</name>
+                <answertest>PropLogic</answertest>
+                <sans>ans1</sans>
+                <tans>correctanswer2</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.7</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-2-T</trueanswernote>
+                <truefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        You've swapped the position of the values, it would have been better to swap the direction of the inequality.
+    </span>
+    <span class="multilang" lang="de">
+        Sie haben die Position der Werte vertauscht, es wäre besser gewesen, die Richtung der Ungleichung zu vertauschen.
+    </span>
+</p>
+]]></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>2</falsenextnode>
+                <falseanswernote>prt1-2-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>2</name>
+                <answertest>PropLogic</answertest>
+                <sans>abs1</sans>
+                <tans>wronganswer1</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-3-T</trueanswernote>
+                <truefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        You've multiplied the values correctly but you forgot to change the direction of the inequality.
+    </span>
+    <span class="multilang" lang="de">
+        Sie haben die Werte richtig multipliziert, aber vergessen, die Richtung der Ungleichung zu ändern.
+    </span>
+</p>
+]]></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-3-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>1504191148</deployedseed>
+        <deployedseed>1486496811</deployedseed>
+        <deployedseed>1748367126</deployedseed>
+        <deployedseed>1820415593</deployedseed>
+        <deployedseed>1399581893</deployedseed>
+        <deployedseed>1171294012</deployedseed>
+        <deployedseed>1751245782</deployedseed>
+        <deployedseed>969255395</deployedseed>
+        <deployedseed>1931591700</deployedseed>
+        <deployedseed>446347482</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>correctanswer</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>Result-0-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>wronganswer1</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-3-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

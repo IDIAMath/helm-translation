@@ -1,0 +1,56 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.2.1.2 Example determinant and inverse matrix</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Given the matrix \[A=\left[\begin{array}{rr}2&amp;3\\ 1&amp;-2\end{array}\right]\] find its determinant. What does this tell you about \(A^{-1}\)?
+    </span>
+    <span class="multilang" lang="de">
+        Gegeben sei die Matrix \[A=\left[\begin{array}{rr}2&amp;3\\ 1&amp;-2\end{array}\right]\] Finden Sie ihre Determinante. Was sagt Ihnen das über \(A^{-1}\)?
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        \[|A|=2\times (-2)-1\times 3=-7.\] Since \(|A|\neq 0\) then \(A^{-1}\) exists. Therefore, we can now find \(A^{-1}\):
+    </span>
+    <span class="multilang" lang="de">
+        \[|A|=2\times (-2)-1\times 3=-7.\] Da \(|A|\neq 0\) existiert \(A^{-1}\). Daher können wir jetzt \(A^{-1}\) finden:
+    </span>
+</p>
+<p>
+    <span class="math display">
+        \[A^{-1}=\dfrac{1}{(-7)}\left[\begin{array}{rr}-2&amp;-3\\
+-1&amp;2\end{array}\right]=\dfrac{1}{7}\left[\begin{array}{rr}2&amp;3\\ 1&amp;-2\end{array}\right]\]
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

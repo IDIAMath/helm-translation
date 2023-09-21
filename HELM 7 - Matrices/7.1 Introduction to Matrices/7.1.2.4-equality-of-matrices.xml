@@ -1,0 +1,349 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.1.2.4 Equality of Matrices</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Equality of matrices
+    </span>
+    <span class="multilang" lang="de">
+        Gleichheit von Matrizen
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        As we noted earlier, the terms in a matrix are called the
+        <b>
+            elements
+        </b>
+        or
+        <b>
+            entries
+        </b>
+        of the matrix.
+    </span>
+    <span class="multilang" lang="de">
+        Wie bereits erwähnt, werden die Terme in einer Matrix die
+        <b>
+            Elemente
+        </b>
+        oder
+        <b>
+            Einträge
+        </b>
+        der Matrix genannt.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \[\text{The elements of the matrix}\quad A=\left[\begin{array}{ll}\hfill1&amp;\hfill 2\\ \hfill -1 &amp;\hfill -4\end{array}\right]\quad \text{are}\quad1,2,-1,-4.\]
+    </span>
+    <span class="multilang" lang="de">
+        \[\text{Die Elemente der Matrix}\quad A=\left[\begin{array}{ll}\hfill1&amp;\hfill 2\\ \hfill -1 &amp;\hfill -4\end{array}\right]\quad \text{sind}\quad1,2,-1,-4.\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We say two matrices \(A\), \(B\) are
+        <b>
+            equal
+        </b>
+        to each other if and only if \(A\) and \(B\) have the same number of rows and the same number of columns and if each element of \(A\) is equal to the corresponding element of \(B\). When this
+        is the case we write \(A=B\). For example if the following two matrices are equal:
+    </span>
+    <span class="multilang" lang="de">
+        Wir sagen, dass zwei Matrizen \(A\), \(B\) dann und nur dann gleich sind, wenn \(A\) und \(B\) die gleiche Anzahl von Zeilen und die gleiche Anzahl von Spalten haben und wenn jedes Element von \(A\) gleich dem entsprechenden Element von \(B\) ist. Wenn dies der Fall ist, schreiben wir \(A=B\). Zum Beispiel, wenn die folgenden zwei Matrizen gleich sind:
+    </span>
+</p>
+<p>
+    \[A=\left[\begin{array}{ll}\hfill 1&amp;\hfill \alpha \\ \hfill -1&amp;\hfill -\beta\end{array}\right]\qquad  B=\left[\begin{array}{ll}\hfill 1&amp;\hfill 2\\ \hfill -1&amp;\hfill -4\end{array}\right]\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        then we can conclude that \(\alpha=2\) and \(\beta =4\).
+    </span>
+    <span class="multilang" lang="de">
+        dann kann man schließen, dass \(\alpha=2\) und \(\beta =4\).
+    </span>
+</p>
+<h4>
+    <span class="multilang" lang="en">
+        The unit matrix
+    </span>
+    <span class="multilang" lang="de">
+        Die Einheitsmatrix
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The
+        <b>
+            unit matrix
+        </b>
+        or the
+        <b>
+            identity matrix
+        </b>
+        , denoted by \(I_n\) (or, often, simply \(I\)), is the diagonal matrix of order \(n\) in which all diagonal elements are \(1\). Hence, for example, \(I_2=\left[\begin{array}{cc}1&amp;0\\
+                0&amp;1\end{array}\right]\) and \(I_3=\left[\begin{array}{ccc}1&amp;0&amp;0\\ 0&amp;1&amp;0\\ 0&amp;0&amp;1\end{array}\right]\).
+    </span>
+    <span class="multilang" lang="de">
+        Die
+        <b>
+            Einheitsmatrix
+        </b>
+        oder die
+        <b>
+            Identitätsmatrix
+        </b>
+        , bezeichnet mit \(I_n\) (oder oft , einfach \(I\)), ist die diagonale Matrix der Ordnung \(n\), in der alle diagonalen Elemente \(1\) sind. Also zum Beispiel \(I_2=\left[\begin{array}{cc}1&amp;0\\
+                0&amp;1\end{array}\right]\) und \(I_3=\left[\begin{array}{ccc}1&amp;0&amp;0\\ 0&amp;1&amp;0\\ 0&amp;0&amp;1\end {array}\right]\).
+    </span>
+</p>
+<h4>
+    <span class="multilang" lang="en">
+        The zero matrix
+    </span>
+    <span class="multilang" lang="de">
+        Die Nullmatrix
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The
+        <b>
+            zero matrix
+        </b>
+        or
+        <b>
+            null matrix
+        </b>
+        is the matrix all of whose elements are zero.  There is a zero matrix for every size.  For example the \(2\times 3\) and \(2\times 2\) cases are:
+    </span>
+    <span class="multilang" lang="de">
+        Die
+        <b>
+            Nullmatrix
+        </b>
+        ist die Matrix, deren Elemente alle Null sind.  Für jede Größe gibt es eine Nullmatrix.  Zum Beispiel sind die Fälle \(2\times 3\) und \(2\times 2\):
+    </span>
+</p>
+<p>
+    \[\left[\begin{array}{ccc}0&amp;0&amp;0\\ 0&amp;0&amp;0\end{array}\right],\ \left[\begin{array}{cc}0&amp;0\\ 0&amp;0\end{array}\right].\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Zero matrices, of whatever size, are denoted by \({\underline 0}\) with the size often inferred from the context.
+    </span>
+    <span class="multilang" lang="de">
+        Nullmatrizen jeder Größe werden mit \({\underline 0}\) bezeichnet, wobei die Größe oft aus dem Kontext abgeleitet wird.
+    </span>
+</p>
+<h4>
+    <span class="multilang" lang="en">
+        The transpose of a matrix
+    </span>
+    <span class="multilang" lang="de">
+        Die Transponierte einer Matrix
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The
+        <b>
+            transpose
+        </b>
+        of a matrix \(A\) is a matrix where the rows of \(A\) become the columns of the new matrix and the columns of \(A\) become its rows.  For example
+    </span>
+    <span class="multilang" lang="de">
+        Die
+        <b>
+            Transponierte
+        </b>
+        einer Matrix \(A\) ist eine Matrix, bei der die Zeilen von \(A\) zu den Spalten der neuen Matrix werden und die Spalten von \(A\) werden zu den Zeilen.  Zum Beispiel
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \[ A=\left[\begin{array}{ccc}1&amp;2&amp;3\\ 4&amp;5&amp;6\end{array}\right]\ \ \text{becomes}\ \left[\begin{array}{cc}1&amp;4\\ 2&amp;5\\ 3&amp;6\end{array}\right]\]
+    </span>
+    <span class="multilang" lang="de">
+        \[ A=\left[\begin{array}{ccc}1&amp;2&amp;3\\ 4&amp;5&amp;6\end{array}\right]\ \ \text{wird zu}\ \left[\begin{array}{cc}1&amp;4\\ 2&amp;5\\ 3&amp;6\end{array}\right]\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The resulting matrix is called the
+        <b>
+            transposed matrix
+        </b>
+        of \(A\) and denoted \(A^T\).  In the previous example it is clear that \(A^T\) is not equal to \(A\) since the matrices are of different sizes.  If \(A\) is square \(n\times n\)
+        then \(A^T\) will also be \(n\times n\).
+    </span>
+    <span class="multilang" lang="de">
+        Die resultierende Matrix wird die
+        <b>
+            transponierte Matrix
+        </b>
+        von \(A\) genannt und mit \(A^T\) bezeichnet. Im vorherigen Beispiel ist klar, dass \(A^T\) nicht gleich \(A\) ist, da die Matrizen unterschiedlich groß sind.  Wenn \(A\) quadratisch \(n\times n\) ist,
+        dann ist \(A^T\) auch \(n\times n\).
+    </span>
+</p>
+<p>
+</p>
+<p>
+    <br/>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Find the transpose of the matrix  \(B=\left[\begin{array}{ccc}1&amp;2&amp;3\\ 4&amp;5&amp;6\\ 7&amp;8&amp;9\end{array}\right].\)
+    </span>
+    <span class="multilang" lang="de">
+        Finde die Transponierte der Matrix  \(B=\left[\begin{array}{ccc}1&amp;2&amp;3\\ 4&amp;5&amp;6\\ 7&amp;8&amp;9\end{array}\right].\)
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Interchanging rows with columns we find \[\qquad B^T=\left[\begin{array}{ccc}1&amp;4&amp;7\\ 2&amp;5&amp;8\\ 3&amp;6&amp;9\end{array}\right].\]
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir Zeilen mit Spalten vertauschen, erhalten wir \[\qquad B^T=\left[\begin{array}{ccc}1&amp;4&amp;7\\ 2&amp;5&amp;8 \\ 3&amp;6&amp;9\end{array}\right].\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Both matrices are \(3\times 3\) but \(B\) and \(B^T\) are clearly different.
+    </span>
+    <span class="multilang" lang="de">
+        Beide Matrizen sind \(3\times 3\), aber \(B\) und \(B^T\) sind deutlich unterschiedlich.
+    </span>
+</p>
+<hr/>
+<p>
+    <span class="multilang" lang="en">
+        When the transpose of a matrix is equal to the original matrix i.e. \(A^T=A\), then we say that the matrix \(A\) is
+        <b>
+            symmetric
+        </b>
+        . (This is because it has symmetry about the leading diagonal.)
+    </span>
+    <span class="multilang" lang="de">
+        Wenn die Transponierte einer Matrix gleich der ursprünglichen Matrix ist, also \(A^T=A\), dann sagen wir, dass die Matrix \(A\)
+        <b>
+            symmetrisch
+        </b>
+        ist. (Das liegt daran, dass sie Symmetrie um die führende Diagonale hat.)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In the previous example \(B\) is
+        <b>
+            not
+        </b>
+        symmetric.
+    </span>
+    <span class="multilang" lang="de">
+        Im vorherigen Beispiel ist \(B\)
+        <b>
+            nicht
+        </b>
+        symmetrisch.
+    </span>
+</p>
+<p>
+</p>
+<br/>
+<p>
+</p>
+<p>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Show that the matrix \(C=\left[\begin{array}{rrr}1&amp;-2&amp;3\\ -2&amp;4&amp;-5\\ 3&amp;-5&amp;6\end{array}\right]\) is symmetric.
+    </span>
+    <span class="multilang" lang="de">
+        Zeigen Sie, dass die Matrix \(C=\left[\begin{array}{rrr}1&amp;-2&amp;3\\ -2&amp;4&amp;-5\\ 3&amp;-5&amp;6\end{array}\right]\) symmetrisch ist.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Taking the transpose of \(C\):
+    </span>
+    <span class="multilang" lang="de">
+        Die Transponierte von \(C\):
+    </span>
+</p>
+<p>
+    \[C^T=\left[\begin{array}{rrr}1&amp;-2&amp;3\\ -2&amp;4&amp;-5\\ 3&amp;-5&amp;6\end{array}\right].\]
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Clearly \(C^T=C\) and so \(C\) is a symmetric matrix.  Notice how the leading diagonal acts as a "mirror'' with the entries on the diagonal remaining fixed in place and, for example, \(c_{12}=-2\) and \(c_{21}=-2\) reflecting through the diagonal.
+    </span>
+    <span class="multilang" lang="de">
+        Eindeutig gilt \(C^T=C\) und somit ist \(C\) eine symmetrische Matrix.  Beachten Sie, wie die führende Diagonale als "Spiegel" fungiert, wobei die Einträge auf der Diagonale an Ort und Stelle bleiben und beispielsweise \(c_{12}=-2\) und \(c_{21}=-2\) durch die Diagonale reflektieren.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In general \(c_{ij}=c_{ji}\) for a symmetric matrix.
+    </span>
+    <span class="multilang" lang="de">
+        Allgemein gilt \(c_{ij}=c_{ji}\) für eine symmetrische Matrix.
+    </span>
+</p>
+<p>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

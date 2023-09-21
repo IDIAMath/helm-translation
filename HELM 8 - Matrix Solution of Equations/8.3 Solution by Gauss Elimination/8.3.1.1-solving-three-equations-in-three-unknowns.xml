@@ -1,0 +1,116 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.3.1.1 Solving three equations in three unknowns</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Solving three equations in three unknowns
+    </span>
+    <span class="multilang" lang="de">
+        Drei Gleichungen in drei Unbekannten lösen
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Solving the system of linear equations
+    </span>
+    <span class="multilang" lang="de">
+        Die Lösung des linearen Gleichungssystems
+    </span>
+</p>
+<p>
+    <span class="math display">
+        \[\begin{matrix}
+                a_{11} x + a_{12} y + a_{13} z = b_1 \\
+                a_{21} x + a_{22} y + a_{23} z = b_2 \\
+                a_{31} x + a_{32} y + a_{33} z = b_3 \\
+\end{matrix}\]
+    </span>
+</p>
+<span class="multilang" lang="en">
+    is to find \(x, y\) and \(z\) such that all the equations are satisfied. In matrix form, this can be written as \(AX = B\). In other words,
+</span>
+<span class="multilang" lang="de">
+    besteht darin, \(x, y\) und \(z\) so zu finden, dass alle Gleichungen erfüllt sind. In Matrixform kann dies als \(AX = B\) geschrieben werden. Mit anderen Worten:
+</span>
+<p>
+</p>
+<p>
+    <span class="math display">
+        <span>
+            \[ \displaystyle{\left [ \begin{matrix}
+                a_{11} &amp; a_{12} &amp; a_{13} \\
+                a_{21} &amp; a_{22} &amp; a_{23} \\
+                a_{31} &amp; a_{32} &amp; a_{33} \\
+\end{matrix} \right ]
+\left [ \begin{matrix}
+                x \\
+                y \\
+                z \\
+\end{matrix} \right ] = 
+\left [\begin{matrix}
+                b_1 \\
+                b_2 \\
+                b_3 \\
+\end{matrix} \right ] . }\]
+        </span>
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Note that not all systems have unique solutions. Some systems will have no solutions while others will have infinitely many. We begin here with the most simple cases and develop more general cases as we progress.
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie, dass nicht alle Systeme über eindeutige Lösungen verfügen. Einige Systeme werden keine Lösungen haben, während andere unendlich viele haben. Wir beginnen hier mit den einfachsten Fällen und entwickeln im weiteren Verlauf allgemeinere Fälle.
+    </span>
+</p>
+<h5>
+    <span class="multilang" lang="en">
+        The diagonal system
+    </span>
+    <span class="multilang" lang="de">
+        Das Diagonalsystem
+    </span>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        The easiest set of three simultaneous linear equations to solve is of the following type: \[\begin{matrix}
+                3x_1 &amp; = &amp; 6 \\
+                2x_2 &amp; = &amp; 5 \\
+                4x_3 &amp; = &amp; 7 \\
+\end{matrix}\] which obviously has solution \(\displaystyle{[x_1,x_2,x_3]^T=\left[2,\frac{5}{2},\frac{7}{4}\right]^T}\) or, equivalently, \(\displaystyle{x_1=2,
+        x_2=\frac{5}{2}, x_3=\frac{7}{4}}\).
+    </span>
+    <span class="multilang" lang="de">
+        Die am einfachsten zu lösende Menge von drei simultanen linearen Gleichungen ist vom folgenden Typ:\[\begin{matrix}
+                3x_1 &amp; = &amp; 6 \\
+                2x_2 &amp; = &amp; 5 \\
+                4x_3 &amp; = &amp; 7 \\
+\end{matrix}\] was offensichtlich die Lösung \(\displaystyle{[x_1,x_2,x_3]^T=\left[2,\frac{5}{2},\frac{7}{4}\right]^T}\) hat, oder, äquivalent, \(\displaystyle{x_1=2,
+        x_2=\frac{5}{2}, x_3=\frac{7}{4}}\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In matrix form \(AX=B\) the equations are \[\left[\begin{array}{ccc}3&amp;0&amp;0\\ 0&amp;2&amp;0\\ 0&amp;0&amp;4\end{array}\right]\left[\begin{array}{c}x_1\\
+x_2\\ x_3\end{array}\right]=\left[\begin{array}{c}6\\ 5\\ 7\end{array}\right]\] where the matrix of coefficients, \(A\), is clearly diagonal.
+    </span>
+    <span class="multilang" lang="de">
+        In Matrixform \(AX=B\) sind die Gleichungen \[\left[\begin{array}{ccc}3&amp;0&amp;0\\ 0&amp;2&amp;0\\ 0&amp;0&amp;4\end{array}\right]\left[\begin{array}{c}x_1\\
+x_2\\ x_3\end{array}\right]=\left[\begin{array}{c}6\\ 5\\ 7\end{array}\right],\]wobei die Koeffizientenmatrix \(A \) eindeutig diagonal ist.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

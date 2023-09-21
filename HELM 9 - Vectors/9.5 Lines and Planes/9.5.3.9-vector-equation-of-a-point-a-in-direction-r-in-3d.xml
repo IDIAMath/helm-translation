@@ -1,0 +1,364 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>9.5.3.9 Vector equation of a point a in direction r in 3D</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Find the vector equation of the line passing through the point \(\underline{a}\) with position vector \(\underline{ a}={@A1@}\) and which is parallel to the vector \(\underline{d}= {@D1@}\).
+    </span>
+    <span class="multilang" lang="de">
+        Finden Sie die Vektorgleichung der Geraden, die durch den Punkt \(\underline{a}\) mit dem Ortsvektor \(\underline{ a}={@A1@}\)  verläuft und der parallel zum Vektor \(\underline{d}= {@D1@}\) ist.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Express the equation in column vector form.
+    </span>
+    <span class="multilang" lang="de">
+        Drücken Sie die Gleichung in Spaltenvektorform aus.
+    </span>
+</p>
+<div>
+    \(\underline{r} = \) [[input:ans1]] [[validation:ans1]] \({}+t\ \) [[input:ans2]] [[validation:ans2]]
+</div>
+[[feedback:prt1]]
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        Since the line is parallel to \(\underline{d}\), we know that it must pass through the point \(\underline{a} + \underline{d}\). We are therefore looking for the equation of the line that passes through \(\underline{a}\) and \(\underline{a} + \underline{d}\).
+        This is given by:
+    </span>
+    <span class="multilang" lang="de">
+        Da die Gerade parallel zu \(\underline{d}\) ist, wir wissen, dass sie durch den Punkt \(\underline{a} + \underline{d}\) verlaufen muss. Wir suchen daher nach der Gleichung der Geraden, die durch \(\underline{a}\) und \(\underline{a} + \underline{d}\) verläuft.
+        Diese ist gegeben durch:
+    </span>
+</p>
+\[\underline{r} = \underline{a} + t(\underline{a} + \underline{d} - \underline{a}) = \underline{a} + t\underline{d}\]
+<p>
+    <span class="multilang" lang="en">
+        In our particular case, this gives the equation
+    </span>
+    <span class="multilang" lang="de">
+        In unserem speziellen Fall ergibt dies die Gleichung
+    </span>
+</p>
+\[\underline{r} = {@ta1@} + t\,{@ta2@}.\]
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.1000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text><![CDATA[stackvectortex(ex):= block(sconcat("{ \\underline{", tex1(first(args(ex))), "}}"));
+ordergreat(i,j,k,l);
+/*two distinct vectors*/
+a1: matrix([10],[3],[5]) - rand(matrix([10],[3],[10]));
+d1: matrix([5],[8],[5]) - rand(matrix([10],[2],[10]));
+u1: matrix([i],[j],[k]);
+A1: texboldatoms(dotproduct(a1,u1));
+D1:  texboldatoms(dotproduct(d1,u1));
+
+ta1: a1;
+ta2: d1;]]></text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text></text>
+        </specificfeedback>
+        <questionnote>
+            <text>Equation of the line: \({@a1@}+t\,{@d1@}\)</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>none</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>symi</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>matrix</type>
+            <tans>ta1</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <input>
+            <name>ans2</name>
+            <type>matrix</type>
+            <tans>ta2</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords></forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>1</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>0</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text>/* A function that checks whether two vectors are parallel */
+parallel(a, b) := (a.b)^2 = (a.a) * (b.b) or (a.b)^2 = -(a.a) * (b.b);</text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>parallel(ans1 - a1, d1)</sans>
+                <tans>true</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>0.5</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        The first vector you have given does not lie on the line through \(\underline{a}\) that is parallel to \(\underline{d}\).
+    </span>
+    <span class="multilang" lang="de">
+        Der erste von Ihnen angegebene Vektor liegt nicht auf der Gerade durch \(\underline{a}\), die parallel zu \(\underline{d}\) ist.
+    </span>
+</p>
+]]></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>1</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>ans2</sans>
+                <tans>matrix([0],[0],[0])</tans>
+                <testoptions></testoptions>
+                <quiet>1</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-2-T</trueanswernote>
+                <truefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        The second vector you have given is the zero vector. This equation does not describe a line, but a single point.
+    </span>
+    <span class="multilang" lang="de">
+        Der zweite Vektor, den Sie angegeben haben, ist der Nullvektor. Diese Gleichung beschreibt keine Gerade, sondern einen einzelnen Punkt.
+    </span>
+</p>
+]]></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>2</falsenextnode>
+                <falseanswernote>prt1-2-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+            <node>
+                <name>2</name>
+                <answertest>AlgEquiv</answertest>
+                <sans>parallel(ans2, d1)</sans>
+                <tans>true</tans>
+                <testoptions></testoptions>
+                <quiet>0</quiet>
+                <truescoremode>+</truescoremode>
+                <truescore>0.5</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-3-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>-</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-3-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        The second vector you have given is not parallel to \(\underline{d}\). Therefore, this is not the correct equation.
+    </span>
+    <span class="multilang" lang="de">
+        Der zweite von Ihnen angegebene Vektor ist nicht parallel zu \(\underline{d}\). Daher ist dies nicht die richtige Gleichung.
+    </span>
+</p>
+]]></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>825220</deployedseed>
+        <deployedseed>2143304022</deployedseed>
+        <deployedseed>796414253</deployedseed>
+        <deployedseed>1930938498</deployedseed>
+        <deployedseed>804192783</deployedseed>
+        <deployedseed>1205538907</deployedseed>
+        <deployedseed>1279312064</deployedseed>
+        <deployedseed>272286880</deployedseed>
+        <deployedseed>1235643349</deployedseed>
+        <deployedseed>1477964048</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ta1</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>ta2</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-3-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ev(a1+d1,simp)</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>ev(2*ta2, simp)</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-3-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>3</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>d1</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>matrix([0],[0],[0])</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-2-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>4</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>ta1</value>
+            </testinput>
+            <testinput>
+                <name>ans2</name>
+                <value>ev(ta2 + matrix([1],[0],[0]),simp)</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.5000000</expectedscore>
+                <expectedpenalty>0.1000000</expectedpenalty>
+                <expectedanswernote>prt1-3-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

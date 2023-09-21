@@ -1,0 +1,125 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>9.4.3.1 A formula for finding the vector product</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <b>
+        <span class="multilang" lang="en">
+            A formula for finding the vector product
+        </span>
+        <span class="multilang" lang="de">
+            Eine Formel zur Bestimmung des Vektorprodukts
+        </span>
+    </b>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        We can use the results in a previous Key point to develop a formula for finding the vector product of two vectors given in Cartesian form: Suppose \(\underline{a}=a_1\underline{i}+a_2\underline{j}+a_3\underline{k}\)    and
+                \(\underline{b}=b_1\underline{i}+b_2\underline{j}+b_3\underline{k}\) then \[\begin{aligned}
+\underline{a}\times\underline{b}&amp;=(a_1\underline{i}+a_2\underline{j}+a_3\underline{k})\times (b_1\underline{i}+b_2\underline{j}+b_3\underline{k})\\
+&amp;= a_1\underline{i}\times(b_1\underline{i}+b_2\underline{j}+b_3\underline{k}) \\
+&amp; \quad + \quad a_2\underline{j}\times(b_1\underline{i}+b_2\underline{j}+b_3\underline{k}) \\
+&amp; \qquad\quad +\quad a_3\underline{k}\times(b_1\underline{i}+b_2\underline{j}+b_3\underline{k}) \\
+&amp;= a_1b_1(\underline{i}\times \underline{i}) + a_1b_2(\underline{i}\times \underline{j}) +a_1b_3(\underline{i}\times \underline{k}) \\
+&amp; \quad +\quad a_2b_1(\underline{j}\times \underline{i}) + a_2b_2(\underline{j}\times \underline{j}) +a_2b_3(\underline{j}\times \underline{k}) \\
+&amp; \qquad \quad +\quad a_3b_1(\underline{k}\times \underline{i}) + a_3b_2(\underline{k}\times\underline{j}) +a_3b_3(\underline{k}\times \underline{k})\end{aligned}\] Using something you learnt in a previous key point, this expression simplifies
+                to \[\qquad\underline{a}\times \underline{b} = (a_2b_3-a_3b_2)\underline{i}-(a_1b_3-a_3b_1)\underline{j}+(a_1b_2-a_2b_1)\underline{k}\]
+    </span>
+    <span class="multilang" lang="de">
+        Wir können die Ergebnisse von einem vorherigen Schlüsselpunkt verwenden, um eine Formel zur Bestimmung des Vektorprodukts zweier Vektoren in kartesischer Form zu entwickeln: Angenommen  \(\underline{a}=a_1\underline{i}+a_2\underline{j}+a_3\underline{k}\)    und
+                \(\underline{b}=b_1\underline{i}+b_2\underline{j}+b_3\underline{k}\) dann \[\begin{aligned}
+\underline{a}\times\underline{b}&amp;=(a_1\underline{i}+a_2\underline{j}+a_3\underline{k})\times (b_1\underline{i}+b_2\underline {j}+b_3\underline{k})\\
+&amp;= a_1\underline{i}\times(b_1\underline{i}+b_2\underline{j}+b_3\underline{k}) \\
+&amp; \quad + \quad a_2\underline{j}\times(b_1\underline{i}+b_2\underline{j}+b_3\underline{k}) \\
+&amp; \qquad\quad +\quad a_3\underline{k}\times(b_1\underline{i}+b_2\underline{j}+b_3\underline{k}) \\
+&amp;= a_1b_1(\underline{i}\times \underline{i}) + a_1b_2(\underline{i}\times \underline{j}) +a_1b_3(\underline{i}\times \underline{k}) \\
+&amp; \quad +\quad a_2b_1(\underline{j}\times \underline{i}) + a_2b_2(\underline{j}\times \underline{j}) +a_2b_3(\underline{j}\times \underline{k }) \\
+&amp; \qquad \quad +\quad a_3b_1(\underline{k}\times \underline{i}) + a_3b_2(\underline{k}\times\underline{j}) +a_3b_3(\underline{k}\times \underline {k})\end{aligned}\] Mit etwas, das Sie in einem früheren Schlüsselpunkt gelernt haben, vereinfacht
+                sich dieser Ausdruck zu \[\qquad\underline{a}\times \underline{b} = (a_2b_3-a_3b_2)\underline{i}-(a_1b_3-a_3b_1)\underline{j}+( a_1b_2-a_2b_1)\underline{k}\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        This gives us the following Key point.
+    </span>
+    <span class="multilang" lang="de">
+        Das gibt uns den folgenden Schlüsselpunkt.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            If \(\underline{a}=a_1\underline{i}+a_2\underline{j}+a_3\underline{k}\) and \(\underline{b}=b_1\underline{i}+b_2\underline{j}+b_3\underline{k}\), then
+        </span>
+        <span class="multilang" lang="de">
+            Wenn \(\underline{a}=a_1\underline{i}+a_2\underline{j}+a_3\underline{k}\) und \(\underline{b}=b_1\underline{i}+b_2\underline{j}+b_3\underline{k}\), dann
+        </span>
+    </p>
+    <p style="text-align: center; ">
+        <span class="math display">
+            \[\underline{a}\times \underline{b} = (a_2b_3-a_3b_2)\underline{i}-(a_1b_3-a_3b_1)\underline{j}+(a_1b_2-a_2b_1)\underline{k}\]
+        </span>
+    </p>
+</div>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Evaluate the vector product \(\underline{a}\times \underline{b}\) if \(\underline{a} = 3\underline{i}-2\underline{j}+5\underline{k}\) and \(\underline{b}= 7\underline{i} +4\underline{j} -8\underline{k}\).
+    </span>
+    <span class="multilang" lang="de">
+        Werten Sie das Vektorprodukt \(\underline{a}\times \underline{b}\) aus, wenn \(\underline{a} = 3\underline{i}-2\underline{j}+5\underline{k}\) und
+                    \(\underline{b}= 7\underline{i} +4\underline{j} -8\underline{k}\).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Identifying \(a_1=3\), \(a_2=-2\), \(a_3=5\), \(b_1=7\), \(b_2=4\),
+                \(b_3=-8\) we find \[\begin{aligned}
+\underline{a}\times \underline{b}&amp;= ((-2)(-8)-(5)(4))\underline{i}-((3)(-8)-(5)(7))\underline{j}+((3)(4)-(-2)(7))\underline{k}\\
+&amp;= -4\underline{i} +59\underline{j} +26\underline{k}\end{aligned}\]
+    </span>
+    <span class="multilang" lang="de">
+        Durch Identifizieren von \(a_1=3\), \(a_2=-2 \), \(a_3=5\), \(b_1=7\), \(b_2=4\)
+            , \(b_3=-8\) erhalten wir \[\begin{aligned}
+\underline{a}\times \underline{b}&amp;= ((-2)(-8)-(5)(4))\underline{i}-((3)(-8)-(5) (7))\underline{j}+((3)(4)-(-2)(7))\underline{k}\\
+                        &amp;= -4\underline{i} +59\underline{j} +26\underline{k}\end{aligned}\]
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

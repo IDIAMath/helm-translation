@@ -1,0 +1,136 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.1.2.3 Rechnen mit Zahlen - Fakultät [Calculation with Numbers - factorial]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h5>
+    <span style="color: inherit; font-family: inherit;">
+        <span class="multilang" lang="en">
+            The factorial symbol (\(!\))
+        </span>
+        <span class="multilang" lang="de">
+            Das Fakultätssymbol (\(!\))
+        </span>
+    </span>
+    <br/>
+</h5>
+<p>
+    <span class="multilang" lang="en">
+        Another commonly used notation is the
+        <strong>
+            factorial
+        </strong>
+        , denoted by the exclamation mark ‘!’. The number \(5!\), read ‘five factorial’, or ‘factorial five’, is a shorthand notation for the expression \(5\times 4 \times 3 \times 2 \times 1\),
+                and the number \(7!\) is shorthand for \(7\times 6\times 5\times 4 \times 3 \times 2 \times 1\). Note that \(1!\) equals 1, and by convention \(0!\) is defined as 1 also. Your scientific calculator is probably able to evaluate factorials of small
+        integers. It is important to note that factorials only apply to positive integers.
+    </span>
+    <span class="multilang" lang="de">
+        Eine weitere häufig verwendete Notation ist die
+        <strong>
+            Fakultät
+        </strong>
+        , gekennzeichnet durch das Ausrufezeichen „!“. Die Zahl \(5!\), gelesen „fünf Fakultät“, oder „Fakultät fünf“, ist eine Kurzschreibweise für den Ausdruck \(5\times 4 \times 3 \times 2 \times 1\),
+                und die Zahl \(7!\) ist eine Abkürzung für \(7\times 6\times 5\times 4 \times 3 \times 2 \times 1\). Beachten Sie, dass \(1!\) gleich 1 ist und \(0!\) per Konvention auch als 1 definiert ist. Ihr wissenschaftlicher Taschenrechner ist wahrscheinlich in der Lage, Fakultäten kleiner ganzer Zahlen auszuwerten. Es ist wichtig zu beachten, dass Fakultäten nur für positive ganze Zahlen gelten.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            <strong>
+                Factorial notation
+            </strong>
+        </span>
+        <span class="multilang" lang="de">
+            <strong>
+                Fakultätsnotation
+            </strong>
+        </span>
+    </p>
+    <p>
+        <span class="multilang" lang="en">
+            If n is a positve integer then \(\qquad n! = n\times (n-1)\times (n-2)\times ... \times 4 \times 3 \times 2 \times 1\)
+        </span>
+        <span class="multilang" lang="de">
+            Wenn n eine positive ganze Zahl ist, dann ist \(\qquad n! = n\times (n-1)\times (n-2)\times ... \times 4 \times 3 \times 2 \times 1\)
+        </span>
+    </p>
+</div>
+<br/>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            Evaluate \(4!\) and \(5!\) without using a calculator.
+        </span>
+        <span class="multilang" lang="de">
+            Berechnen Sie \(4!\) und \(5!\) ohne Taschenrechner.
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Use your calculator to find \(10!\).
+        </span>
+        <span class="multilang" lang="de">
+            Verwenden Sie Ihren Taschenrechner, um \(10!\) zu finden.
+        </span>
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            \(4! = 4 \times 3 \times 2 \times 1 = 24\) Similarly, \(5! = 5 \times 4 \times 3 \times 2 \times 1 = 120\) Note that \(5! = 5 \times 4! = 5 \times 24 = 120\)
+        </span>
+        <span class="multilang" lang="de">
+            \(4! = 4 \times 3 \times 2 \times 1 = 24\) Ebenso \(5! = 5 \times 4 \times 3 \times 2 \times 1 = 120\) Beachten Sie, dass \(5! = 5 \times 4! = 5 \times 24 = 120\)
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(10! = 3, 628, 800\)
+        </span>
+        <span class="multilang" lang="de">
+            \(10! = 3. 628. 800\)
+        </span>
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

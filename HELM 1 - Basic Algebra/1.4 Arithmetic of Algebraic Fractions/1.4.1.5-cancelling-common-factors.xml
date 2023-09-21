@@ -1,0 +1,61 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.4.1.5 Streichen gemeinsamer Faktoren [Cancelling Common Factors]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify \(\dfrac{3x+6}{6x+12}\)
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie \(\dfrac{3x+6}{6x+12}\)
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        First we factorise the numerator and the denominator to see if there are any common factors.
+    </span>
+    <span class="multilang" lang="de">
+        Zunächst faktorisieren wir Zähler und Nenner, um zu sehen, ob es gemeinsame Teiler gibt.
+    </span>
+</p>
+<p>
+    \(\qquad \dfrac{3x+6}{6x+12} = \dfrac{3(x+2)}{6(x+2)} = \dfrac{3}{6} = \dfrac{1}{2}\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The factors \(x + 2\) and 3 have been cancelled.
+    </span>
+    <span class="multilang" lang="de">
+        Die Faktoren \(x + 2\) und 3 wurden gestrichen.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

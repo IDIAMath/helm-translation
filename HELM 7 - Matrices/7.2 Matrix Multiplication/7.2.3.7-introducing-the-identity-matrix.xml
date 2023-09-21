@@ -1,0 +1,60 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.2.3.7 Introducing the identity matrix</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        The identity matrix
+    </span>
+    <span class="multilang" lang="de">
+        Die Identitätsmatrix
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The matrix \(\begin{bmatrix}1 &amp; 0 \\ 0 &amp; 1\end{bmatrix}\) is called the
+        <b>
+            identity matrix
+        </b>
+        or
+        <b>
+            unit matrix
+        </b>
+        of order 2, and is usually denoted by the symbol \(I.\) (Strictly we should write \(I_{2},\) to indicate the size.) The matrix
+                \(I\) plays the same role in matrix multiplication as the number \(1\) does in number multiplication.
+    </span>
+    <span class="multilang" lang="de">
+        Die Matrix \(\begin{bmatrix}1 &amp; 0 \\ 0 &amp; 1\end{bmatrix}\) wird
+        <b>
+            Identitätsmatrix
+        </b>
+        oder
+        <b>
+            Einheitsmatrix
+        </b>
+        der Ordnung 2 genannt, und wird normalerweise mit dem Symbol \(I\) bezeichnet. (Streng genommen sollten wir \(I_{2}\) schreiben, um die Größe anzugeben.) Die Matrix
+                \(I\) spielt bei der Matrixmultiplikation die gleiche Rolle wie die Zahl \(1\) bei der Zahlenmultiplikation.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Hence, just as \[ a \times 1 = 1 \times a = a \qquad \text{ for any number } a, \] so \[ AI = IA = A \qquad \text{ for any matrix } A. \]
+    </span>
+    <span class="multilang" lang="de">
+        Daher, genauso wie \[ a \times 1 = 1 \times a = a \qquad \text{ für jede Zahl } a, \] gilt \[ AI = IA = A \qquad \text{ für eine beliebige Matrix } A. \]
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

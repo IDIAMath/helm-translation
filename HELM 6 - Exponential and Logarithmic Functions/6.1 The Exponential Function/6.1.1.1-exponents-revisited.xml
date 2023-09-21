@@ -1,0 +1,222 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>6.1.1.1 Exponenten wiederholt [Exponents revisited]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <b>
+        <span class="multilang" lang="en">
+            Exponents revisited
+        </span>
+        <span class="multilang" lang="no">
+            Eksponenter repetert
+        </span>
+        <span class="multilang" lang="de">
+            Exponenten wiederholt
+        </span>
+    </b>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        Recall the meaning fo the expression \(a^p\) where \(a\) is a positive number. We remind the reader that `\(a\)' is called the
+        <b>
+            base
+        </b>
+        and `\(p\)' is called the
+        <b>
+            exponent
+        </b>
+        (or power or index). There are various cases to consider:
+    </span>
+    <span class="multilang" lang="no">
+        Husk betydningen av uttrykket \(a^p\) hvor \(a\) er et positivt tall. Vi minner leseren om at `\(a\)' kalles
+        <b>
+            grunntall
+        </b>
+        og `\(p\)' kalles
+        <b>
+            eksponenten
+        </b>
+        (eller indeks). Det er flere ulike tilfeller å vurdere:
+    </span>
+    <span class="multilang" lang="de">
+        Erinnern Sie sich an die Bedeutung des Ausdrucks \(a^p\), wobei \(a\) eine positive Zahl ist. Wir erinnern den Leser daran, dass `\(a\)' die
+        <b>
+            Basis
+        </b>
+        und `\(p\)' der
+        <b>
+            Exponent
+        </b>
+        genannt wird. Es sind verschiedene Fälle zu berücksichtigen:
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        If \(m,n\) are positive integers
+    </span>
+    <span class="multilang" lang="no">
+        Hvis \(m,n\) er positive heltall
+    </span>
+    <span class="multilang" lang="de">
+        Wenn \(m,n\) positive ganze Zahlen sind
+    </span>
+</p>
+<ul>
+    <li>
+        \(a^n=a\times a\times\dots\times a\).
+        <br/>
+    </li>
+</ul>
+<ul>
+    <li>
+        <span class="multilang" lang="en">
+            \(a^{1/n}\) means the \(n^{th}\) root of \(a\). That is, \(a^{1/n}\) is that positive number which satisfies \[\qquad (a^{1/n})\times (a^{1/n})\times\dots\times (a^{1/n})=a,\]where there are \(n\) terms on the left hand side.
+        </span>
+        <span class="multilang" lang="no">
+            \(a^{1/n}\) betyr \(nte\) roten til \(a\). Det vil si at \(a^{1/n}\) er det positive tallet som tilfredsstiller \[\qquad (a^{1/n})\times (a^{1/n})\times\dots\times (a^{1/n})=a,\]hvor det er \(n\) termer på venstre side.
+        </span>
+        <span class="multilang" lang="de">
+            \(a^{1/n}\) bedeutet die \(n-te\) Wurzel von \(a\). Das heißt, \(a^{1/n}\) ist die positive Zahl, die \[\qquad (a^{1/n})\times (a^{1/n})\times\dots\times (a^{1/n})=a\] erfüllt, wobei sich auf der linken Seite \(n\) Terme befinden.
+        </span>
+        <br/>
+    </li>
+</ul>
+<ul>
+    <li>
+        <span class="multilang" lang="en">
+            \(a^{m/n}=(a^{1/n})\times (a^{1/n})\times\dots\times(a^{1/n}),\) where there are \(m\) terms.
+        </span>
+        <span class="multilang" lang="no">
+            \(a^{m/n}=(a^{1/n})\times (a^{1/n})\times\dots\times(a^{1/n}),\) der det er \(m\) ledd.
+        </span>
+        <span class="multilang" lang="de">
+            \(a^{m/n}=(a^{1/n})\times (a^{1/n})\times\dots\times( a^{1/n}),\) wobei es \(m\) Terme gibt.
+        </span>
+    </li>
+    <li>
+        \(a^{-n}=\dfrac{1}{a^n}\).
+    </li>
+</ul>
+<p>
+    <span class="multilang" lang="en">
+        For convenience we again list the basic laws of exponents:
+    </span>
+    <span class="multilang" lang="no">
+        For enkelhets skyld lister vi igjen de grunnleggende lovene for eksponenter:
+    </span>
+    <span class="multilang" lang="de">
+        Der Einfachheit halber listen wir noch einmal die Grundgesetze der Exponenten auf:
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+</p>
+<p>
+    <br/>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="no">
+            Nøkkelpunkt
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        \(a^ma^n=a^{m+n},\qquad\qquad \dfrac{a^m}{a^n}=a^{m-n},\qquad\qquad (a^m)^n=a^{mn},\)
+    </p>
+    <p>
+        \(\qquad \qquad a^1=a \qquad \text{
+        <span class="multilang" lang="en">
+            and
+        </span>
+        <span class="multilang" lang="no">
+            og
+        </span>
+        <span class="multilang" lang="de">
+            und
+        </span>
+        }\qquad \text{
+        <span class="multilang" lang="en">
+            if
+        </span>
+        <span class="multilang" lang="no">
+            hvis
+        </span>
+        <span class="multilang" lang="de">
+            wenn
+        </span>
+        } a\neq 0 \qquad a^0=1.\)
+        <br/>
+    </p>
+</div>
+<p>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="no">
+        Eksempel
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Simplify the expression \(\dfrac{p^{n-2}p^m}{p^3p^{2m}}.\)
+    </span>
+    <span class="multilang" lang="no">
+        Forenkle uttrykket \(\dfrac{p^{n-2}p^m}{p^3p^{2m}}.\)
+    </span>
+    <span class="multilang" lang="de">
+        Vereinfachen Sie den Ausdruck \(\dfrac{p^{n-2}p^m}{p^3p^{2m}}.\)
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="no">
+        Løsning
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        First we simplify the numerator: \[\qquad p^{n-2}p^m=p^{n-2+m}.  \] Next we simplify the denominator: \[\qquad p^3p^{2m}=p^{3+2m}.  \] Now we combine them and simplify: \[\qquad \dfrac{p^{n-2}p^m}{p^3p^{2m}}=\dfrac{p^{n-2+m}}{p^{3+2m}}=p^{n-2+m}p^{-3-2m} =p^{n-2+m-3-2m} =p^{n-m-5}.  \]
+    </span>
+    <span class="multilang" lang="no">
+        Først forenkler vi telleren: \[\qquad p^{n-2}p^m=p^{n-2+m}.  \] Deretter forenkler vi nevneren: \[\qquad p^3p^{2m}=p^{3+2m}.  \] Nå kombinerer vi dem og forenkler: \[\qquad \dfrac{p^{n-2}p^m}{p^3p^{2m}}=\dfrac{p^{n-2+m}} {p^{3+2m}}=p^{n-2+m}p^{-3-2m} =p^{n-2+m-3-2m} =p^{n-m-5}.   \]
+    </span>
+    <span class="multilang" lang="de">
+        Zuerst vereinfachen wir den Zähler: \[\qquad p^{n-2}p^m=p^{n-2+m}.  \] Als nächstes vereinfachen wir den Nenner: \[\qquad p^3p^{2m}=p^{3+2m}.  \] Jetzt kombinieren wir sie und vereinfachen: \[\qquad \dfrac{p^{n-2}p^m}{p^3p^{2m}}=\dfrac{p^{n-2+m}} {p^{3+2m}}=p^{n-2+m}p^{-3-2m} =p^{n-2+m-3-2m} =p^{n-m-5}.   \]
+    </span>
+    <br/>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

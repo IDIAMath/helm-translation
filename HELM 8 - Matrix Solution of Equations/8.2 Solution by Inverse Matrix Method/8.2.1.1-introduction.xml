@@ -1,0 +1,78 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.2.1.1 Introduction</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Solving a system of two equations using the inverse matrix
+    </span>
+    <span class="multilang" lang="de">
+        Lösen eines Systems aus zwei Gleichungen mithilfe der inversen Matrix
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        If we have one linear equation
+                \( ax=b\) in which the unknown is \(x\) and \(a\) and \(b\) are constants and \(a\neq 0\)    then \(x=\dfrac{b}{a}= a^{-1}b\).
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir eine lineare Gleichung
+                \( ax=b\) haben, wobei die Unbekannte \(x\) ist und \(a\) und \(b\) Konstanten sind und \(a\neq 0\), dann gilt \(x=\dfrac{b} {a}= a^{-1}b\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        What happens if we have more than one equation and more than one unknown? In this worksheet we copy the algebraic solution \(x=a^{-1}b\) used for a single equation to solve a system of linear equations. As we shall see,
+                this will be a very natural way of solving the system if it is first written in matrix form.
+    </span>
+    <span class="multilang" lang="de">
+        Was passiert, wenn wir mehr als eine Gleichung und mehr als eine Unbekannte haben? In diesem Arbeitsblatt kopieren wir die algebraische Lösung \(x=a^{-1}b\), die für eine einzelne Gleichung verwendet wird, um ein System linearer Gleichungen zu lösen. Wie wir sehen werden,
+                wird dies eine sehr natürliche Art sein, das System zu lösen, wenn es zunächst in Matrixform geschrieben wird.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Consider the system \[\begin{matrix}
+2x_1 &amp; + &amp; 3x_2&amp;= &amp; 5 \\
+x_1 &amp; - &amp; 2x_2&amp;= &amp; -1. \end{matrix} \]
+    </span>
+    <span class="multilang" lang="en">
+        Betrachten Sie das System \[\begin{matrix}
+2x_1 &amp; + &amp; 3x_2&amp;= &amp; 5 \\
+x_1 &amp; - &amp; 2x_2&amp;= &amp; -1. \end{matrix} \]
+    </span>
+    <span class="multilang" lang="en">
+        In matrix form this becomes \[\qquad \left[\begin{array}{rr}
+2&amp;3\\ 1&amp;-2\end{array}\right] \left[\begin{array}{c}x_1\\
+x_2\end{array}\right]=\left[\begin{array}{r}5\\ -1\end{array}\right]\ \
+\quad\text{which is of the form}\ \quad AX=B.\]
+    </span>
+    <span class="multilang" lang="de">
+        In Matrixform wird daraus \[\qquad \left[\begin{array}{rr}
+2&amp;3\\ 1&amp;-2\end{array}\right] \left[\begin{array}{c}x_1\\
+x_2\end{array}\right]=\left[\begin{array}{r}5\\ -1\end{array}\right]\ \
+\quad\text{das die Form}\ \quad AX=B \quad\text{hat.}\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        If \(A^{-1}\) exists then the solution is \[\qquad X=A^{-1}B.\qquad\text{(compare the solution} \ x=a^{-1}b \ \text{above)}\]
+    </span>
+    <span class="multilang" lang="de">
+        Wenn \(A^{-1}\) existiert, dann ist die Lösung \[\qquad X=A^{-1}B.\qquad\text{(vergleiche die Lösung} \ x=a^{-1}b \ \text{oben)}\]
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

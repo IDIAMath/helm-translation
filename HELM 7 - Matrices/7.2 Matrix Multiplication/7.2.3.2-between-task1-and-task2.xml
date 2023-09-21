@@ -1,0 +1,50 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.2.3.2 Between Task1 and Task2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        It is clear that \(AB\) and \(BA\) are
+        <b>
+            not
+        </b>
+        in general the same. In fact it is the
+        <b>
+            exception
+        </b>
+        that \(AB=BA.\) In the special case in which \(AB=BA\) we say that the matrices \(A\) and \(B\)
+        <b>
+            commute
+        </b>
+        .
+    </span>
+    <span class="multilang" lang="de">
+        Es ist klar, dass \(AB\) und \(BA\) im Allgemeinen
+        <b>
+            nicht
+        </b>
+        gleich sind. Tatsächlich ist es die
+        <b>
+            Ausnahme
+        </b>
+        , dass \(AB=BA.\) Im Spezialfall \(AB=BA\) sagen wir, dass die Matrizen \(A\) und \(B\)
+        <b>
+            kommutieren
+        </b>
+        .
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

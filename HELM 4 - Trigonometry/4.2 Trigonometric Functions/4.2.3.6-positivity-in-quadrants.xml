@@ -1,0 +1,138 @@
+<quiz>
+    <question type="gapselect">
+        <name>
+            <text>4.2.3.6 Positivität in Quadranten [Positivity in quadrants]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+    <br/>
+</p>
+<span class="multilang" lang="en">
+    Which trigonometric functions are positive in each of the 4 quadrants?
+</span>
+<span class="multilang" lang="no">
+    Hvilke trigonometriske funksjoner er positive i hver av de 4 kvadrantene?
+</span>
+<span class="multilang" lang="de">
+    Welche trigonometrischen Funktionen sind in den einzelnen 4 Quadranten positiv?
+</span>
+<br/>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            First quadrant
+        </span>
+        <span class="multilang" lang="no">
+            Første kvadrant
+        </span>
+        <span class="multilang" lang="de">
+            Erster Quadrant
+        </span>
+        \(\left( 0 \leq \theta \leq \dfrac{\pi}{2} \right)\): [[1]]
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Second quadrant
+        </span>
+        <span class="multilang" lang="no">
+            Andre kvadrant
+        </span>
+        <span class="multilang" lang="de">
+            Zweiter Quadrant
+        </span>
+        \( \left(\dfrac{\pi}{2} \leq \theta \leq \pi \right)\): [[2]]
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Third quadrant
+        </span>
+        <span class="multilang" lang="no">
+            Tredje kvadrant
+        </span>
+        <span class="multilang" lang="de">
+            Dritter Quadrant
+        </span>
+        \(\left( \pi \leq \theta \leq \dfrac{3\pi}{2} \right)\) : [[3]]
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            Fourth quadrant
+        </span>
+        <span class="multilang" lang="no">
+            Fjerde kvadrant
+        </span>
+        <span class="multilang" lang="de">
+            Vierter Quadrant
+        </span>
+        \( \left(\dfrac{3\pi}{2} \leq \theta \leq 2\pi \right)\): [[4]]
+    </li>
+</ol>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <shuffleanswers>0</shuffleanswers>
+        <correctfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist korrekt.
+</span>
+]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[
+<span class="multilang" lang="en">
+    Your answer is incorrect.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist falsch.
+</span>
+]]></text>
+        </incorrectfeedback>
+        <shownumcorrect></shownumcorrect>
+        <selectoption>
+            <text>all</text>
+            <group>1</group>
+        </selectoption>
+        <selectoption>
+            <text>sin</text>
+            <group>1</group>
+        </selectoption>
+        <selectoption>
+            <text>tan</text>
+            <group>1</group>
+        </selectoption>
+        <selectoption>
+            <text>cos</text>
+            <group>1</group>
+        </selectoption>
+    </question>
+</quiz>

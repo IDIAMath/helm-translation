@@ -1,0 +1,242 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.2.6.1 Wissenschaftliche Schreibweise [Scientific notation]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Scientific notation
+    </span>
+    <span class="multilang" lang="de">
+        Wissenschaftliche Schreibweise
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        It is often necessary to use very large or very small numbers such as \(78000000\) and \(0.00000034\).
+        <strong>
+            <br/>
+        </strong>
+    </span>
+    <span class="multilang" lang="de">
+        Oft müssen sehr große oder sehr kleine Zahlen wie \(78000000\) und \(0.00000034\) verwendet werden.
+        <strong>
+            <br/>
+        </strong>
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        <strong>
+            Scientific notation
+        </strong>
+        can be used to express such numbers in a more concise form. Each number is written in the form
+    </span>
+    <span class="multilang" lang="de">
+        Die
+        <strong>
+            wissenschaftliche Schreibweise
+        </strong>
+        kann verwendet werden, um solche Zahlen in einer prägnanteren Form auszudrücken. Jede Zahl wird in die Form
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \( a\times 10^n\) where \(a\) is a number between \(1\) and \(10\).
+    </span>
+    <span class="multilang" lang="de">
+        \( a\times 10^n\) geschrieben, wobei \(a\) eine Zahl zwischen \(1\) und \(10\) ist.
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We can make use of the following facts:
+    </span>
+    <span class="multilang" lang="de">
+        Wir können uns folgender Tatsachen bedienen:
+    </span>
+</p>
+<ul>
+    <li>
+        <span class="multilang" lang="en">
+            \(10=10^1, \quad 100=10^2, \quad 1000=10^3\) and so on,
+        </span>
+        <span class="multilang" lang="de">
+            \(10=10^1, \quad 100=10^2, \quad 1000=10^3\) und so weiter,
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \( 0.1=10^{-1},\quad 0.01=10^{-2},\quad 0.001=10^{-3}\) and so on.
+        </span>
+        <span class="multilang" lang="de">
+            \( 0.1=10^{-1},\quad 0.01=10^{-2},\quad 0.001=10^{-3}\) und so weiter .
+        </span>
+    </li>
+</ul>
+<p>
+    <span class="multilang" lang="en">
+        For example,
+    </span>
+    <span class="multilang" lang="de">
+        Zum Beispiel
+    </span>
+</p>
+<ul>
+    <li>
+        <span class="multilang" lang="en">
+            the number \(5000\) can be written \(5\times 1000=5\times 10^3\),
+        </span>
+        <span class="multilang" lang="de">
+            die Zahl \(5000\) kann geschrieben werden als \(5\times 1000=5\times 10^3\),
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            the number \(403\) can be written \(4.03\times 100=4.03\times 10^2\),
+        </span>
+        <span class="multilang" lang="de">
+            die Zahl \(403\) kann geschrieben werden als \(4.03\times 100=4.03\times 10^2\),
+        </span>
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            the number \(0.009\) can be written \(9\times 0.001=9\times 10^{-3}\).
+        </span>
+        <span class="multilang" lang="de">
+            die Zahl \(0.009\) kann geschrieben werden als \(9\times 0.001=9\times 10^{-3}\).
+        </span>
+    </li>
+</ul>
+<p>
+    <span class="multilang" lang="en">
+        Furthermore, to multiply a number by \(10^n\) the decimal point is moved \(n\) places to the right if \(n\) is a positive integer, and \(n\) places to the left if \(n\) is a negative integer. (If necessary additional zeros are inserted to make up the
+        required number of digits before the decimal point.)
+    </span>
+    <span class="multilang" lang="de">
+        Außerdem wird bei Multiplikation einer Zahl mit \(10^n\) das Komma um \(n\) Stellen nach rechts verschoben, wenn \(n\) eine positive ganze Zahl ist, und \(n\) Stellen nach links, wenn \(n\) eine negative ganze Zahl ist. (Falls erforderlich, werden zusätzliche Nullen eingefügt, um die 
+        erforderliche Anzahl von Stellen vor dem Dezimalpunkt zu bilden.)
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Write the following numbers in scientific notation.
+    </span>
+    <span class="multilang" lang="de">
+        Schreiben Sie die folgenden Zahlen in wissenschaftlicher Schreibweise.
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \(0.00678\)
+    </li>
+    <li>
+        \(123456.7\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        \(0.00678=6.78\times 10^{-3}\)
+    </li>
+    <li>
+        \(123456.7=1.234567\times 10^5\)
+    </li>
+</ol>
+<p>
+</p>
+<hr/>
+<h3>
+    <span class="multilang" lang="en">
+        Engineering constants
+    </span>
+    <span class="multilang" lang="de">
+        Technische Konstanten
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        Many constants appearing in engineering calculations are expressed in scientific notation. For example the charge on an electron equals \(1.6\times 10^{-19}\) coulomb and the speed of light is \(3\times 10^8\) m s\(^{-1}\). Avogadro’s constant is equal
+                to \(6.023\times 10^{26}\) and is the number of atoms in one kilomole of an element. Clearly the use of scientific notation avoids writing lengthy strings of zeros.
+    </span>
+    <span class="multilang" lang="de">
+        Viele Konstanten, die in technischen Berechnungen vorkommen, werden in wissenschaftlicher Schreibweise ausgedrückt. Zum Beispiel ist die Ladung eines Elektrons \(1,6\times 10^{-19}\) Coulomb und die Lichtgeschwindigkeit \(3\times 10^8\) m s\(^{-1}\). Die Avogadro-Konstante ist gleich \(6,023\times 10^{26}\) und ist die Anzahl der Atome in einem Kilomol eines Elements. Offensichtlich vermeidet die Verwendung der wissenschaftlichen Schreibweise das Schreiben langer Nullfolgen.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Your scientific calculator will be able to accept numbers in scientific notation. Often the \(E\) button is used and a number like \(4.2\times 10^7\) will be entered as \(4.2 E7\). Note that \(10E4\) means \(10\times 10^4\), that is \(10^5\). To enter
+                the number \(10^3\) say, you would key in \(1E3\). Entering powers of 10 incorrectly is a common cause of error. You must check how your particular calculator accepts numbers in scientific notation.
+    </span>
+    <span class="multilang" lang="de">
+        Ihr wissenschaftlicher Taschenrechner kann Zahlen in wissenschaftlicher Schreibweise akzeptieren. Oft wird die Taste \(E\) verwendet und eine Zahl wie \(4.2\times 10^7\) wird als \(4.2 E7\) eingegeben. Beachten Sie, dass \(10E4\) das Gleiche wie \(10\times 10^4\) bedeutet, also \(10^5\). Um die Zahl \(10^3\) zu erhalten, würden Sie \(1E3\) eingeben. Die falsche Eingabe von Zehnerpotenzen ist eine häufige Fehlerursache. Sie müssen überprüfen, wie Ihr spezieller Taschenrechner Zahlen in wissenschaftlicher Schreibweise akzeptiert.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The following example is designed to check that you can enter numbers given in scientific notation into your calculator.
+    </span>
+    <span class="multilang" lang="de">
+        Das folgende Beispiel soll prüfen, ob Sie Zahlen in wissenschaftlicher Schreibweise in Ihren Taschenrechner eingeben können.
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Use your calculator to find \(4.2\times 10^{-3}\times 3.6\times 10^{-4}\).
+    </span>
+    <span class="multilang" lang="de">
+        Verwenden Sie Ihren Taschenrechner, um \(4,2\times 10^{-3}\times 3,6\times 10^{-4}\) zu finden.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    \(1.512 \times 10^{−6}\).
+</p>
+<hr/>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,248 @@
+<quiz>
+    <question type="stack">
+        <name>
+            <text>6.2.2.4 Compute cosh(x+y) knowing sinhx, sinhy</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Let \( \sinh x = {@xx@} \), and \( \sinh y = {@yy@} \), calculate \(\cosh(x+y)\).
+    </span>
+    <span class="multilang" lang="de">
+        Seien \( \sinh x = {@xx@} \) und \( \sinh y = {@yy@} \), berechnen Sie \(\cosh(x +y)\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Note: Write down a formula for \( \cosh(x+y) \) in terms of \( \sinh x, \sinh y \), and only sub in numbers and use a calculator at the final step.
+    </span>
+    <span class="multilang" lang="de">
+        Hinweis: Schreiben Sie eine Formel für \( \cosh(x+y) \) in Form von \( \sinh x, \sinh y \) auf, und fügen Sie nur Zahlen ein und verwenden Sie im letzten Schritt einen Taschenrechner.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Round up your answer and enter \(4\) decimal places. If the answer has fewer than \(4\) decimal places, then enter zero(s) at the end.
+    </span>
+    <span class="multilang" lang="de">
+        Runden Sie Ihre Antwort und geben Sie \(4\) Dezimalstellen an. Wenn die Antwort weniger als \(4\) Dezimalstellen hat, geben Sie am Ende Null(en) ein.
+    </span>
+</p>
+<p>
+    \( \cosh(x+y) = \) [[input:ans1]] [[validation:ans1]]
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        Using the fundamental identity \( \cosh^2x - \sinh^2x = 1\), we get \(\cosh^2 x = 1 + \sinh^2 x\).
+    </span>
+    <span class="multilang" lang="de">
+        Unter Verwendung der fundamentalen Identität \( \cosh^2x - \sinh^2x = 1\) erhalten wir \(\cosh^2 x = 1 + \sinh^2 x \).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Similarly, \(\cosh^2 y = 1 + \sinh^2 y\).
+    </span>
+    <span class="multilang" lang="de">
+        Ähnlich ist \(\cosh^2 y = 1 + \sinh^2 y\).
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Next, take the (positive) square root to obtain \( \cosh x\), noting that \( \cosh x &gt; 0 \) for all value of \(x\). Similar for \( \cosh y \).
+    </span>
+    <span class="multilang" lang="de">
+        Ziehen Sie als nächstes die (positive) Quadratwurzel, um \( \cosh x\) zu erhalten, und beachten Sie, dass \( \cosh x &gt; 0 \) für alle Werte von \( x\). Genauso für \( \cosh y \).
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Then use the formula \( \cosh(x+y) = \cosh x \cosh y + \sinh x \sinh y \), we obtain \[\begin{align*} \cosh(x+y) &amp; = \cosh x \cosh y + \sinh x \sinh y \\ &amp; = \sqrt{1 + \sinh^2 x} \cdot \sqrt{1 + \sinh^2 y} + \sinh x \sinh y \\ &amp; = \sqrt{1
+                + ({@xx@})^2} \cdot \sqrt{1 +({@yy@})^2} + ({@xx@}) \cdot ({@yy@})\\ &amp; = {@ta@} \text{ after rounding up.} \end{align*}\]
+    </span>
+    <span class="multilang" lang="de">
+        Dann verwenden Sie die Formel \( \cosh(x+y) = \cosh x \cosh y + \sinh x \sinh y \), wir erhalten \[\begin{align*} \cosh(x+y) &amp; = \cosh x \cosh y + \sinh x \sinh y \\ &amp; = \sqrt{1 + \sinh^2 x} \cdot \sqrt{1 + \sinh^2 y} + \sinh x \sinh y \\ &amp; = \sqrt{1
+                + ({@xx@})^2} \cdot \sqrt{1 +({@yy@})^2} + ({@xx@}) \cdot ({@yy@})\\ &amp; = {@ta@} \text{ nach dem Aufrunden.} \end{align*}\]
+    </span>
+</p>
+]]></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <stackversion>
+            <text>2023010400</text>
+        </stackversion>
+        <questionvariables>
+            <text>aa: -(rand(9)+1)/10;
+bb: (rand(9)+11)/10;
+xx: decimalplaces(float(sinh(aa)),4);
+yy: decimalplaces(float(sinh(bb)),4);
+uu: sqrt(1+xx*xx);
+vv: sqrt(1+yy*yy);
+coshsum: uu*vv+xx*yy;
+ta: decimalplaces(float(coshsum),4);</text>
+        </questionvariables>
+        <specificfeedback format="html">
+            <text>[[feedback:prt1]]</text>
+        </specificfeedback>
+        <questionnote>
+            <text>\( \sinh x = {@xx@} \), and \( \sinh y = {@yy@} \)
+\[\cosh(x+y) = {@ta@} \]</text>
+        </questionnote>
+        <questionsimplify>1</questionsimplify>
+        <assumepositive>0</assumepositive>
+        <assumereal>0</assumereal>
+        <prtcorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </prtcorrect>
+        <prtpartiallycorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </prtpartiallycorrect>
+        <prtincorrect format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </prtincorrect>
+        <multiplicationsign>none</multiplicationsign>
+        <sqrtsign>1</sqrtsign>
+        <complexno>i</complexno>
+        <inversetrig>cos-1</inversetrig>
+        <logicsymbol>lang</logicsymbol>
+        <matrixparens>[</matrixparens>
+        <variantsselectionseed></variantsselectionseed>
+        <input>
+            <name>ans1</name>
+            <type>numerical</type>
+            <tans>ta</tans>
+            <boxsize>5</boxsize>
+            <strictsyntax>1</strictsyntax>
+            <insertstars>0</insertstars>
+            <syntaxhint></syntaxhint>
+            <syntaxattribute>0</syntaxattribute>
+            <forbidwords>sinh,cosh,tanh,coth,sech,cosech,[[BASIC-ALGEBRA]]</forbidwords>
+            <allowwords></allowwords>
+            <forbidfloat>0</forbidfloat>
+            <requirelowestterms>0</requirelowestterms>
+            <checkanswertype>1</checkanswertype>
+            <mustverify>1</mustverify>
+            <showvalidation>3</showvalidation>
+            <options></options>
+        </input>
+        <prt>
+            <name>prt1</name>
+            <value>1.0000000</value>
+            <autosimplify>1</autosimplify>
+            <feedbackstyle>1</feedbackstyle>
+            <feedbackvariables>
+                <text></text>
+            </feedbackvariables>
+            <node>
+                <name>0</name>
+                <answertest>NumDecPlaces</answertest>
+                <sans>ans1</sans>
+                <tans>ta</tans>
+                <testoptions>4</testoptions>
+                <quiet>0</quiet>
+                <truescoremode>=</truescoremode>
+                <truescore>1</truescore>
+                <truepenalty></truepenalty>
+                <truenextnode>-1</truenextnode>
+                <trueanswernote>prt1-1-T</trueanswernote>
+                <truefeedback format="html">
+                    <text></text>
+                </truefeedback>
+                <falsescoremode>=</falsescoremode>
+                <falsescore>0</falsescore>
+                <falsepenalty></falsepenalty>
+                <falsenextnode>-1</falsenextnode>
+                <falseanswernote>prt1-1-F</falseanswernote>
+                <falsefeedback format="html">
+                    <text></text>
+                </falsefeedback>
+            </node>
+        </prt>
+        <deployedseed>982545460</deployedseed>
+        <deployedseed>1179273946</deployedseed>
+        <deployedseed>478703206</deployedseed>
+        <deployedseed>2079972473</deployedseed>
+        <deployedseed>1851342731</deployedseed>
+        <deployedseed>1698850236</deployedseed>
+        <deployedseed>2050626762</deployedseed>
+        <deployedseed>820167191</deployedseed>
+        <deployedseed>45264675</deployedseed>
+        <deployedseed>1416930157</deployedseed>
+        <qtest>
+            <testcase>1</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>dispdp(ta,4)</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>1.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-T</expectedanswernote>
+            </expected>
+        </qtest>
+        <qtest>
+            <testcase>2</testcase>
+            <testinput>
+                <name>ans1</name>
+                <value>1.97</value>
+            </testinput>
+            <expected>
+                <name>prt1</name>
+                <expectedscore>0.0000000</expectedscore>
+                <expectedpenalty>0.0000000</expectedpenalty>
+                <expectedanswernote>prt1-1-F</expectedanswernote>
+            </expected>
+        </qtest>
+    </question>
+</quiz>

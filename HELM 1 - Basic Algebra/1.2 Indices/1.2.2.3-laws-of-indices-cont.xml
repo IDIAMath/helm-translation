@@ -1,0 +1,131 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.2.2.3 Potenzgesetze Fortsetzung [Laws of indices cont]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p>
+    <span class="multilang" lang="en">
+        Two important results which can be derived from the laws of indices state:
+    </span>
+    <span class="multilang" lang="de">
+        Zwei wichtige Ergebnisse, die sich aus den Gesetzmäßigkeiten der Potenzen ableiten lassen:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <ul>
+        <li>
+            <span class="multilang" lang="en">
+                Any non-zero number raised to the power \(0\) has the value \(1\) , that is \(a^0=1\).
+            </span>
+            <span class="multilang" lang="de">
+                Jede Zahl ungleich Null potenziert mit \(0\) hat den Wert \(1\) , also \(a^0=1\).
+            </span>
+        </li>
+        <li>
+            <span class="multilang" lang="en">
+                Any number raised to power \(1\) is itself, that is \(a^1=a\).
+            </span>
+            <span class="multilang" lang="de">
+                Jede Zahl, die mit \(1\) potenziert wird, ist sie selbst, also \(a^1=a\).
+            </span>
+        </li>
+    </ul>
+</div>
+<p>
+    <span class="multilang" lang="en">
+        A generalisation of the third law of indices states:
+    </span>
+    <span class="multilang" lang="de">
+        Eine Verallgemeinerung des dritten Potenzgesetzes lautet:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+        <br/>
+    </h4>
+    <p>
+        \((a^mb^n)^k = a^{mk}b^{nk}\) .
+    </p>
+</div>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Remove the brackets from
+    </span>
+    <span class="multilang" lang="de">
+        Entfernen Sie die Klammern aus
+    </span>
+</p>
+<ol class="HELM_parts_inline">
+    <li>
+        \((3x)^2\)
+    </li>
+    <li>
+        \((x^3y^7)^4\)
+    </li>
+</ol>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            Noting that \(3=3^1\) and \(x=x^1\) then \((3x)^2= (3^1x^1)^2 = 3^2x^2=9x^2\).
+            <br/>
+            Alternatively \((3x)^2=(3x)\times (3x) = 9x^2\).
+        </span>
+        <span class="multilang" lang="de">
+            Beachten Sie, dass \(3=3^1\) und \(x=x^1\) dann \((3x)^2= (3^1x^1) ^2 = 3^2x^2=9x^2\).
+            <br/>
+            Alternativ \((3x)^2=(3x)\times (3x) = 9x^2\).
+        </span>
+    </li>
+    <li>
+        \((x^3y^7)^4 = x^{3\times 4}y^{7\times 4} = x^{12}y^{28}\).
+    </li>
+</ol>
+<p>
+</p>
+<hr/>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

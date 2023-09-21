@@ -1,0 +1,56 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>10.1.2.12 Dividing one complex number by another</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        Dividing complex numbers
+    </span>
+    <span class="multilang" lang="de">
+        Komplexe Zahlen dividieren
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        Here we consider the operation of dividing one complex number \(z=a+i b\) by another, \(w=c+i d\): \[\qquad
+{z\over w}={a+i b\over {c+i d}}\] We wish to simplify the right-hand side into the standard form of a complex number : \[\text{(Real part)}\ +i\ \text{(Imaginary part)}\] or the equivalent: \[\text{(Real part)}\ +\ \text{(Imaginary part)}\ i\]   To do this we multiply ‘top and bottom’ by the complex conjugate of the bottom (the denominator), that is, by \(c-i d\) (this is called
+        <strong>
+            rationalising
+        </strong>
+        ): \[\qquad
+{z\over w}={a+i b\over {c+i d}}={a+i b\over {c+i d}}\times {c-i d\over
+{c-i d}}\] and then carry out the multiplication, top and bottom: \[\begin{aligned}
+{z\over w}&amp;={(ac+bd)+i(bc-ad)\over {c^2+d^2}}\\
+&amp;=\left({ac+bd\over
+{c^2+d^2}}\right)+i\left({bc-ad\over
+{c^2+d^2}}\right)\qquad\end{aligned}\] which is now in the required form. The reason for rationalising is to get a real number in the denominator since a complex number divided by a real number is easy to evaluate.
+    </span>
+    <span class="multilang" lang="de">
+        Hier betrachten wir die Operation der Division einer komplexen Zahl \(z=a+i b\) durch eine andere, \(w=c+i d\): \[\qquad
+{z\over w}={a+i b\over {c+i d}}\] Wir möchten die rechte Seite in die Standardform einer komplexen Zahl vereinfachen: \[\text{(Realteil)}\ +i\ \text{(Imaginärteil)}\] oder das Äquivalent: \[\text{(Realteil)}\ +\ \text{(Imaginärteil)}\ i\] Dazu multiplizieren wir 'oben und unten' durch die komplex Konjugierte des unteren (den Nenner), also durch \(c-i d\) (dies wird als
+        <strong>
+            Rationalisierung
+        </strong>
+        bezeichnet): \[\qquad
+{z\over w}={a+i b\over {c+i d}}={a+i b\over {c+i d}}\times {c-i d\over
+{c-i d}}\] und führen dann die Multiplikation aus, oben und unten: \[\begin{aligned}
+{z\over w}&amp;={(ac+bd)+i(bc-ad)\over {c^2+d^2}}\\
+&amp;=\left({ac+bd\over
+{c^2+d^2}}\right)+i\left({bc-ad\over
+{c^2+d^2}}\right),\qquad\end{aligned}\] die nun in der erforderlichen Form vorliegt. Der Grund für die Rationalisierung besteht darin, eine reelle Zahl im Nenner zu erhalten, da eine komplexe Zahl dividiert durch eine reelle Zahl leicht auszuwerten ist.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

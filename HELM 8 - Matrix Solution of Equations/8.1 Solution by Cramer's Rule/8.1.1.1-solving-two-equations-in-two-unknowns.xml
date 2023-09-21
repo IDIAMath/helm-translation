@@ -1,0 +1,338 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.1.1.1 Solving two equations in two unknowns</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Solving two equations in two unknowns
+    </span>
+    <span class="multilang" lang="de">
+        Zwei Gleichungen mit zwei Unbekannten lösen
+    </span>
+</h4>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        If we have one linear equation
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir eine lineare Gleichung
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        \(\qquad ax=b\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        in which the unknown is \(x\) and \(a\) and \(b\) are constants then there are just three possibilities:
+    </span>
+    <span class="multilang" lang="de">
+        haben, wobei die Unbekannten \(x\) und \(a\) und \(b\) Konstanten sind, gibt es nur drei Möglichkeiten:
+    </span>
+</p>
+<ul>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(a\neq 0\) then \(x=\dfrac{b}{a}= a^{-1}b\). In this case the equation \(ax=b\) has a
+                <strong>
+                    unique solution
+                </strong>
+                for \(x\).
+            </span>
+            <span class="multilang" lang="de">
+                \(a\neq 0\) dann \(x=\dfrac{b}{a}= a^{-1}b\). In diesem Fall hat die Gleichung \(ax=b\) eine
+                <strong>
+                    eindeutige Lösung
+                </strong>
+                für \(x\).
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(a=0\), \(b=0\) then the equation \(ax=b\) becomes \(0=0\) and any value of
+                                                \(x\) will do. In this case the equation \(ax=b\) has
+                <strong>
+                    infinitely many solutions
+                </strong>
+                .
+            </span>
+            <span class="multilang" lang="de">
+                \(a=0\), \(b=0\) dann wird die Gleichung \(ax=b\) zu \(0=0\) und jeder Wert von
+                                                \(x\) wäre richtig. In diesem Fall hat die Gleichung \(ax=b\)
+                <strong>
+                    unendlich viele Lösungen
+                </strong>
+                .
+            </span>
+        </p>
+    </li>
+    <li>
+        <p>
+            <span class="multilang" lang="en">
+                \(a=0\) and \(b\neq 0\) then \(ax=b\) becomes \(0=b\) which is a contradiction.
+                                                In this case the equation
+                                            \(ax=b\) has
+                <strong>
+                    no solution
+                </strong>
+                for \(x\).
+            </span>
+            <span class="multilang" lang="de">
+                \(a=0\) und \(b\neq 0\) dann wird \(ax=b\) zu \(0=b\), was ein Widerspruch ist.
+                                                In diesem Fall hat die Gleichung
+                                            \(ax=b\)
+                <strong>
+                    keine Lösung
+                </strong>
+                für \(x\).
+            </span>
+        </p>
+    </li>
+</ul>
+<p>
+    <span class="multilang" lang="en">
+        What happens if we have more than one equation and more than one unknown? We shall find that the solutions to such systems can be characterised in a manner similar to that occurring for a single equation; that is, a system may have a unique solution,
+                an infinity of solutions or no solution at all.
+    </span>
+    <span class="multilang" lang="de">
+        Was passiert, wenn wir mehr als eine Gleichung und mehr als eine Unbekannte haben? Wir werden feststellen, dass die Lösungen für solche Systeme auf ähnliche Weise charakterisiert werden können wie für eine einzelne Gleichung; das heißt, ein System kann eine einzigartige Lösung haben,
+                eine Unendlichkeit von Lösungen oder überhaupt keine Lösung.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In this Section we examine a method, known as Cramer’s rule and employing determinants, for solving systems of linear equations.
+    </span>
+    <span class="multilang" lang="de">
+        In diesem Abschnitt untersuchen wir eine Methode, die als Cramer-Regel bekannt ist und Determinanten verwendet, um lineare Gleichungssysteme zu lösen.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Consider the equations
+    </span>
+    <span class="multilang" lang="de">
+        Betrachten Sie die Gleichungen
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        (1) \(\qquad ax+by=e\)
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        (2) \(\qquad cx+dy=f\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        where \(a,b,c,d,e,f\) are given numbers. The variables \(x\) and \(y\) are unknowns we wish to find. The pairs of values
+                of \(x\) and \(y\) which
+        <strong>
+            simultaneously
+        </strong>
+        satisfy both equations are called solutions. Simple algebra will eliminate the variable \(y\) between these equations. We multiply equation (1) by \(d\), equation (2) by \(b\) and
+                subtract:
+    </span>
+    <span class="multilang" lang="de">
+        wobei \(a,b,c,d,e,f\) gegebene Zahlen sind. Die Variablen \(x\) und \(y\) sind Unbekannte, die wir finden möchten. Die Wertepaare
+                von \(x\) und \(y\), die
+        <strong>
+            gleichzeitig
+        </strong>
+        beide Gleichungen erfüllen, werden Lösungen genannt. Einfache Algebra eliminiert die Variable \(y\) zwischen diesen Gleichungen. Wir multiplizieren Gleichung (1) mit \(d\), Gleichung
+                (2) mit \(b\) und subtrahieren:
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad \text{first,}\quad  (1)\times d\qquad\qquad\qquad ad x+bd y=ed\qquad\qquad\qquad
+\)
+    </span>
+    <span class="multilang" lang="de">
+        \(\qquad \text{zuerst,}\quad  (1)\times d\qquad\qquad\qquad ad x+bd y=ed\qquad\qquad\qquad
+\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad \text{then},\quad  (2)\times b\qquad\qquad\qquad bc x+bd y=bf\qquad\qquad\qquad \)
+    </span>
+    <span class="multilang" lang="de">
+        \(\qquad \text{dann},\quad  (2)\times b\qquad\qquad\qquad bc x+bd y=bf\qquad\qquad\qquad \)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        (we multiplied in this way to make the coefficients of \(y\) equal.)
+    </span>
+    <span class="multilang" lang="de">
+        (wir haben auf diese Weise multipliziert, um die Koeffizienten von \(y\) gleich zu machen.)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now subtract to obtain
+    </span>
+    <span class="multilang" lang="de">
+        Jetzt subtrahieren Sie, um Folgendes zu erhalten
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        (3) \(\qquad (ad-bc)x=ed-bf\)
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        <br/>
+    </span>
+</p>
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Task:
+        <span style="font-weight: normal;">
+            Starting with equations (1) and (2) above, eliminate \(x\).
+        </span>
+    </span>
+    <span class="multilang" lang="de">
+        Aufgabe:
+        <span style="font-weight: normal;">
+            Beginnen Sie mit den Gleichungen (1) und (2) oben und eliminieren Sie \(x\).
+        </span>
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Eliminating \(x\) using a similar method to the one above for eliminating \(y\), we obtain
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir \(x\) mit einer ähnlichen Methode wie oben für die Eliminierung von \(y\) eliminieren, erhalten wir
+    </span>
+</p>
+<p>
+    (4) \(\qquad  (ad-bc)y=af-ec\)
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Dividing equations (3) and (4) by \(ad-bc\) we obtain the solutions
+    </span>
+    <span class="multilang" lang="de">
+        Dividiert man die Gleichungen (3) und (4) durch \(ad-bc\), erhält man die Lösungen
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        (5) \(\qquad x=\dfrac{ed-bf}{ad-bc}\ ,\ \ \ y=\dfrac{af-ec}{ad-bc}\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        There is of course one proviso: if \(ad-bc=0\) then neither \(x\) nor \(y\) has a defined value.
+    </span>
+    <span class="multilang" lang="de">
+        Es gibt natürlich eine Einschränkung: Wenn \(ad-bc=0\) dann hat weder \(x\) noch \(y\) einen definierten Wert.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        If we choose to express these solutions in terms of determinants we have the formulation for the solution of simultaneous equations known as
+        <strong>
+            Cramer’s rule
+        </strong>
+        .
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir diese Lösungen durch Determinanten ausdrücken, erhalten wir die Formulierung für die Lösung simultaner Gleichungen, die als
+        <strong>
+            Cramer-Regel
+        </strong>
+        bekannt ist.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        If we define \(\Delta\) as the determinant \(\left|\begin{array}{cc}a&amp;b\\ c&amp;d\end{array}\right|\) and provided \(\Delta\neq 0\) then the
+        <strong>
+            unique
+        </strong>
+        solution of the equations
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir \(\Delta\) als Determinante \(\left|\begin{array}{cc}a&amp;b\\ c&amp;d\end{array}\right|\) definieren, und vorausgesetzt \(\Delta\neq 0\) dann ist die
+        <strong>
+            eindeutige
+        </strong>
+        Lösung der Gleichungen
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        \(\qquad ax+by=e\)
+    </span>
+</p>
+<p>
+    <span class="math inline">
+        \(\qquad cx+dy=f\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        is by (5) given by
+    </span>
+    <span class="multilang" lang="de">
+        durch (5) gegeben durch
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \(\qquad x=\dfrac{\Delta_x}{\Delta},\ \ y=\dfrac{\Delta_y}{\Delta}\quad\text{where}\quad
+\Delta_x=\left|\begin{array}{cc}e&amp;b\\ f&amp;d\end{array}\right|,\ \
+\Delta_y=\left|\begin{array}{cc}a&amp;e\\ c&amp;f\end{array}\right|.\)
+    </span>
+    <span class="multilang" lang="de">
+        \(\qquad x=\dfrac{\Delta_x}{\Delta},\ \ y=\dfrac{\Delta_y}{\Delta}\quad\text{wobei}\quad
+\Delta_x=\left|\begin{array}{cc}e&amp;b\\ f&amp;d\end{array}\right|,\ \
+\Delta_y=\left|\begin{array}{cc}a&amp;e\\ c&amp;f\end{array}\right|.\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now \(\Delta\) is the determinant of coefficients on the left-hand sides of the equations. In the expression \(\Delta_x\) the coefficients of \(x\) (i.e.
+                \(\left(\begin{array}{c}a\\
+c\end{array}\right)\) which is column 1 of \(\Delta\)) are replaced by the terms on the right-hand sides of the equations (i.e. by \(\left(\begin{array}{c}e\\
+f\end{array}\right)\)). Similarly in \(\Delta_y\) the coefficients of \(y\) (column 2 of \(\Delta\)) are replaced by the terms on the right-hand
+                sides of the equations.
+    </span>
+    <span class="multilang" lang="de">
+        Jetzt ist \(\Delta\) die Determinante der Koeffizienten auf der linken Seite der Gleichungen. Im Ausdruck \(\Delta_x\) werden die Koeffizienten von \(x\) (d. h.
+                \(\left(\begin{array}{c}a\\
+c\end{array}\right)\), die Spalte 1 von \(\Delta\)) durch die Terme auf der rechten Seite der Gleichungen ersetzt (d. h. durch \(\left(\begin{array} {c}e\\
+f\end{array}\right)\)). Ebenso werden in \(\Delta_y\) die Koeffizienten von \(y\) (Spalte 2 von \(\Delta\)) durch die Terme auf der rechten Seite der Gleichungen ersetzt.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

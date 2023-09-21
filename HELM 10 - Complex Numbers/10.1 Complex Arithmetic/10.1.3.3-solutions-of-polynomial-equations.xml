@@ -1,0 +1,72 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>10.1.3.3 Solutions of Polynomial equations</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Given that \(x=3-2i\) is one root of the cubic equation \(x^3-7x^2+19x-13=0\), find the other two roots.
+    </span>
+    <span class="multilang" lang="de">
+        Angenommen, dass \(x=3-2i\) eine Lösung der kubischen Gleichung \(x^3-7x^2+19x-13=0\) ist, finden Sie die anderen beiden Lösungen.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Since the coefficients of the equation are real and \(3-2i\) is a root then its complex conjugate \(3+2i\) is also a root which implies that \(x-(3-2i)\) and \(x-(3+2i)\) are factors of the given cubic expression. Multiplying together these two factors: \[(x-(3-2i))(x-(3+2i))=x^2-x(3-2i)-x(3+2i)+13=x^2-6x+13\] so \(x^2-6x+13\) is a quadratic factor of the cubic equation.
+        <br/>
+    </span>
+    <span class="multilang" lang="de">
+        Da die Koeffizienten der Gleichung reell sind und \(3-2i\) eine Lösung ist, ist auch ihre komplex Konjugierte \(3+2i\) eine Lösung, was impliziert, dass \(x-(3-2i)\) und \(x-(3+2i)\) Faktoren des gegebenen kubischen Ausdrucks sind. Multiplizieren Sie diese beiden Faktoren miteinander: \[(x-(3-2i))(x-(3+2i))=x^2-x(3-2i)-x(3+2i)+13=x^2 -6x+13\], also ist \(x^2-6x+13\) ein quadratischer Faktor der kubischen Gleichung.
+        <br/>
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        The remaining factor
+        <strong>
+            must
+        </strong>
+        take the form \((x+a)\) where \(a\) is real, since only one more linear factor of the cubic equation is required, and so we write:
+                \[ x^3-7x^2+19x-13=(x^2-6x+13)(x+a).\] By inspection (consider for example the constant terms), it is clear that \(a=-1\) so that the final factor is \((x-1)\),
+        implying that the original cubic equation has a root at \(x=1\).
+    </span>
+    <span class="multilang" lang="de">
+        Der verbleibende Faktor
+        <strong>
+            muss
+        </strong>
+        die Form \((x+a)\) annehmen, wobei \(a\) reell ist, da nur noch ein linearer Faktor der kubischen Gleichung benötigt wird, und so schreiben wir:
+                \[ x^3-7x^2+19x-13=(x^2-6x+13)(x+a).\] Durch Betrachtung (denken Sie zum Beispiel an die konstanten Terme) ist klar, dass \(a= -1\), sodass der endgültige Faktor \((x-1)\) ist,
+        Dies impliziert, dass die ursprüngliche kubische Gleichung eine Nullstelle bei \(x=1\) hat.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

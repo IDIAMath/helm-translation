@@ -1,0 +1,89 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>9.5.4.2 Plane equation</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        The vector equation of a plane
+    </span>
+    <span class="multilang" lang="de">
+        Die Vektorgleichung einer Ebene
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The answer to the above question, \(\underline{ r} \cdot \underline{ n}=\underline{ a} \cdot \underline{ n},\) is the
+        <strong>
+            equation of a plane
+        </strong>
+        , written in vector form, passing
+                through \(A\) and perpendicular to \(\underline{n}\).
+    </span>
+    <span class="multilang" lang="de">
+        Die Antwort auf die obige Frage: \(\underline{ r} \cdot \underline{ n}=\underline{ a} \cdot \underline{ n},\) ist die
+        <strong>
+            Gleichung einer Ebene
+        </strong>
+        , geschrieben in Vektorform,
+                die durch \(A\) verläuft und senkrecht zu \(\underline{n}\) steht.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In this formula it does not matter whether or not \(\underline{n}\) is a unit vector. If \(\underline{ \hat n}\) is a unit vector then \(\underline{ a} \cdot \underline{\hat n}\)   represents the perpendicular distance from the origin to the plane which we usually denote by \(d\). Hence we can write \(\underline{ r} \cdot \underline{ \hat n}= d.\)
+    </span>
+    <span class="multilang" lang="de">
+        In dieser Formel spielt es keine Rolle, ob \(\underline{n}\) ein Einheitsvektor ist oder nicht. Wenn \(\underline{ \hat n}\) ein Einheitsvektor ist,
+                dann stellt \(\underline{ a} \cdot \underline {\hat n}\) den senkrechten Abstand vom Ursprung zur Ebene dar, den wir normalerweise mit \(d\) bezeichnen. Daher können wir \(\underline{ r} \cdot \underline{ \hat n}= d\)   schreiben.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        This is the
+        <strong>
+            equation of a plane
+        </strong>
+        , written in vector form, with unit normal \(\underline{\hat n}\) and which is a perpendicular distance \(d\)    from \(O\).
+    </span>
+    <span class="multilang" lang="de">
+        Dies ist die
+        <strong>
+            Gleichung einer Ebene
+        </strong>
+        , geschrieben in Vektorform, mit der Einheitsnormalen \(\underline{ \hat n}\) und die ein senkrechter Abstand \(d\)   von \(O\) ist.
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            A plane with unit normal \(\underline{ \hat n}\), which is a perpendicular distance \(d\) from \(O\) is given by
+                                \[\underline{ r} \cdot \underline{ \hat n}=d.\]
+        </span>
+        <span class="multilang" lang="de">
+            Eine Ebene mit der Einheitsnormalen \(\underline{ \hat n}\), die ein senkrechter Abstand \(d\) von \(O\) ist,
+                                wird durch \[\underline{ r} \cdot \underline{ \hat n}=d\] gegeben.
+        </span>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

@@ -1,0 +1,152 @@
+<quiz>
+    <question type="gapselect">
+        <name>
+            <text>2.5.1.7 Übungen zu den Eigenschaften von Geraden [Exercises on the properties of straight lines]</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p class="HELM_exercise">
+    <span class="multilang" lang="en">
+        Exercise
+    </span>
+    <span class="multilang" lang="no">
+        Øving
+    </span>
+    <span class="multilang" lang="de">
+        Übung
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Given the general expression of the straight line \(y=ax+b\), select the role associated with each term.
+    </span>
+    <span class="multilang" lang="no">
+        Gitt det generelle uttrykket for den rette linjen \(y = ax+b \), velg rollen hver variabel spiller.
+    </span>
+    <span class="multilang" lang="de">
+        Wählen Sie anhand des allgemeinen Ausdrucks der Gerade \(y=ax+b\) die Rolle aus, die jedem Ausdruck zugeordnet ist.
+    </span>
+</p>
+<ol class="HELM_parts">
+    <li>
+        <span class="multilang" lang="en">
+            \(x\) is the
+        </span>
+        <span class="multilang" lang="no">
+            \(x\) er
+        </span>
+        <span class="multilang" lang="de">
+            \(x\) ist
+        </span>
+        [[3]],
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(y\) is the
+        </span>
+        <span class="multilang" lang="no">
+            \(y\) er
+        </span>
+        <span class="multilang" lang="de">
+            \(y\) ist
+        </span>
+        [[2]],
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(a\) is the
+        </span>
+        <span class="multilang" lang="no">
+            \(a\) er
+        </span>
+        <span class="multilang" lang="de">
+            \(a\) ist
+        </span>
+        [[4]],
+    </li>
+    <li>
+        <span class="multilang" lang="en">
+            \(b\) is the
+        </span>
+        <span class="multilang" lang="no">
+            \(b\) er
+        </span>
+        <span class="multilang" lang="de">
+            \(b\) ist
+        </span>
+        [[1]].
+        <br/>
+    </li>
+</ol>
+<br/>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>1.0000000</defaultgrade>
+        <penalty>0.3333333</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+        <shuffleanswers>0</shuffleanswers>
+        <correctfeedback format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:green;">
+    <i class="fa fa-check">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Correct answer, well done.
+</span>
+<span class="multilang" lang="de">
+    Richtige Antwort, gut gemacht.
+</span>
+]]></text>
+        </correctfeedback>
+        <partiallycorrectfeedback format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:orange;">
+    <i class="fa fa-adjust">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Your answer is partially correct.
+</span>
+<span class="multilang" lang="de">
+    Ihre Antwort ist teilweise richtig.
+</span>
+]]></text>
+        </partiallycorrectfeedback>
+        <incorrectfeedback format="html">
+            <text><![CDATA[
+<span style="font-size: 1.5em; color:red;">
+    <i class="fa fa-times">
+    </i>
+</span>
+<span class="multilang" lang="en">
+    Incorrect answer.
+</span>
+<span class="multilang" lang="de">
+    Falsche Antwort.
+</span>
+]]></text>
+        </incorrectfeedback>
+        <shownumcorrect></shownumcorrect>
+        <selectoption>
+            <text>vertical intercept</text>
+            <group>1</group>
+        </selectoption>
+        <selectoption>
+            <text>dependent variable</text>
+            <group>1</group>
+        </selectoption>
+        <selectoption>
+            <text>independent variable</text>
+            <group>1</group>
+        </selectoption>
+        <selectoption>
+            <text>gradient</text>
+            <group>1</group>
+        </selectoption>
+    </question>
+</quiz>

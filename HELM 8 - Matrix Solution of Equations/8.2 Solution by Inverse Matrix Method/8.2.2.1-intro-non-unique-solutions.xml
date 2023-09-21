@@ -1,0 +1,205 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>8.2.2.1 Intro Non-unique solutions</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <span class="multilang" lang="en">
+        Non-unique solutions
+    </span>
+    <span class="multilang" lang="de">
+        Nicht-eindeutige Lösungen
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The key to obtaining a unique solution of the system \(AX=B\) is to find \(A^{-1}\). What happens when \(A^{-1}\) does not exist?
+    </span>
+    <span class="multilang" lang="de">
+        Der Schlüssel zum Erhalten einer eindeutigen Lösung des Systems \(AX=B\) liegt darin, \(A^{-1}\) zu finden. Was passiert, wenn \(A^{-1}\) nicht existiert?
+    </span>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Consider the system \[\begin{matrix}
+2x_1 &amp; + &amp; 3x_2 &amp; = &amp; 5 &amp; \qquad(1) \\
+4x_1&amp; + &amp; 6x_2 &amp; = &amp; 10 &amp; \qquad (2) \\
+\end{matrix}\] In matrix form this becomes \[\left[\begin{matrix} 2&amp;3\\ 4&amp;6\end{matrix}\right]\left[\begin{matrix} x_1\\
+x_2\end{matrix}\right]=\left[\begin{matrix} 5\\ 10\end{matrix}\right].\]
+    </span>
+    <span class="multilang" lang="de">
+        Beachten Sie das System \[\begin{matrix}
+2x_1 &amp; + &amp; 3x_2 &amp; = &amp; 5 &amp; \qquad(1) \\
+4x_1&amp; + &amp; 6x_2 &amp; = &amp; 10 &amp; \qquad (2) \\
+\end{matrix}\] In Matrixschreibweise wird dies zu \[\left[\begin{matrix} 2&amp;3\\ 4&amp;6\end{matrix}\right]\left[\begin{matrix} x_1\\
+x_2\end{matrix}\right]=\left[\begin{matrix} 5\\ 10\end{matrix}\right].\]
+    </span>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Identify the matrix \(A\) and hence find \(A^{-1}\) if it exists.
+    </span>
+    <span class="multilang" lang="de">
+        Identifizieren Sie die Matrix \(A\) und finden Sie somit \(A^{-1}\), falls es existiert.
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        \[A=\left[\begin{matrix} 2 &amp; 3\\ 4 &amp; 6 \end{matrix}\right]\] and \(|A|=2\times 6-4 \times 3=0.\) Hence \(A^{-1}\) does not exist.
+    </span>
+    <span class="multilang" lang="de">
+        \[A=\left[\begin{matrix} 2 &amp; 3\\ 4 &amp; 6 \end{matrix}\right]\] und \(|A|=2\times 6-4 \times 3=0.\) Daher existiert \(A^{-1}\) nicht.
+    </span>
+</p>
+<hr/>
+<p>
+    <span class="multilang" lang="en">
+        Looking at the original system we see that Equation (2) is simply Equation (1) with all coefficients doubled. In effect we have only one equation for the two unknowns \(x_1\) and \(x_2\).
+                The equations are
+        <strong>
+            consistent
+        </strong>
+        and have
+        <strong>
+            infinitely many solutions
+        </strong>
+        .
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir uns das ursprüngliche System ansehen, sehen wir, dass Gleichung (2) einfach Gleichung (1) ist, wobei alle Koeffizienten verdoppelt sind. Tatsächlich haben wir nur eine Gleichung für die beiden Unbekannten \(x_1\) und \(x_2\).
+                Die Gleichungen sind
+        <strong>
+            konsistent
+        </strong>
+        und haben
+        <strong>
+            unendlich viele Lösungen
+        </strong>
+        .
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        If we let \(x_2\) assume a
+        <strong>
+            particular
+        </strong>
+        value, \(t\) say, then \(x_1\) must take the value \(x_1=\dfrac{1}{2}(5-3t)\),
+        i.e., the solution to the given equations is:
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir \(x_2\) einen
+        <strong>
+            bestimmten
+        </strong>
+        Wert annehmen lassen, beispielsweise \(t\), dann muss \(x_1\) den Wert \(x_1=\dfrac{1}{2}(5-3t)\) annehmen,
+        d.h. die Lösung der gegebenen Gleichungen lautet:
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \[x_2=t,\qquad x_1=\dfrac{1}{2}(5-3t)\] where \(t\) is called a parameter.
+    </span>
+    <span class="multilang" lang="de">
+        \[x_2=t,\qquad x_1=\dfrac{1}{2}(5-3t)\] wobei \(t\) als Parameter bezeichnet wird.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        For each value of \(t\) there are unique values for \(x_1\) and \(x_2\) which satisfy the original system of equations. For example, if \(t=1\),
+        then \(x_2=1\), \(x_1=1\), if \(t=-3\) then \(x_2=-3\), \(x_1=7\) and so on.
+    </span>
+    <span class="multilang" lang="de">
+        Für jeden Wert von \(t\) gibt es eindeutige Werte für \(x_1\) und \(x_2\), die das ursprüngliche Gleichungssystem erfüllen. Wenn beispielsweise \(t=1\),
+        dann \(x_2=1\), \(x_1=1\), wenn \(t=-3\), dann \(x_2=-3\), \(x_1=7\) und so weiter.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        We can think of the initial problem as finding a point of intersection of the lines given by the equations. Equation (2) is simply equation (1) multiplied by \(2\) and describes the same line. Every point on the line is a point of intersection.
+    </span>
+    <span class="multilang" lang="de">
+        Wir können uns das anfängliche Problem so vorstellen, dass wir einen Schnittpunkt der durch die Gleichungen gegebenen Geraden finden. Gleichung (2) ist einfach Gleichung (1), multipliziert mit \(2\) und beschreibt dieselbe Gerade. Jeder Punkt auf der Geraden ist ein Schnittpunkt.
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now consider the system \[\begin{matrix}
+                2x_1 &amp; + &amp; 3x_2 &amp; = &amp; 5 &amp; \qquad (3) \\
+                4x_1 &amp; + &amp; 6x_2 &amp; = &amp; 9 &amp; \qquad  (4)\\
+\end{matrix}\] Since the left-hand sides are the same as those in the previous system then \(A\) is the same and again \(A^{-1}\) does not exist. There is
+        <strong>
+            no solution
+        </strong>
+        to the Equations (3) and (4).
+    </span>
+    <span class="multilang" lang="de">
+        Betrachten Sie nun das System \[\begin{matrix}
+                2x_1 &amp; + &amp; 3x_2 &amp; = &amp; 5 &amp; \qquad (3) \\
+                4x_1 &amp; + &amp; 6x_2 &amp; = &amp; 9 &amp; \qquad  (4)\\
+\end{matrix}\] Da die linken Seiten dieselben sind wie im vorherigen System, ist \(A\) dieselbe und wiederum existiert \(A^{-1}\) nicht. Für die Gleichungen (3) und (4) gibt es
+        <strong>
+            keine Lösung
+        </strong>
+        .
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Indeed, if we double Equation (3) we obtain \[4x_1+6x_2=10\] which conflicts with Equation (4). There are thus no solutions to (3) and (4) and the equations are said to be
+        <strong>
+            inconsistent
+        </strong>
+        .
+    </span>
+    <span class="multilang" lang="de">
+        Wenn wir Gleichung (3) verdoppeln, erhalten wir tatsächlich \[4x_1+6x_2=10,\]was im Widerspruch zu Gleichung (4) steht. Es gibt daher keine Lösungen für (3) und (4) und die Gleichungen werden als
+        <strong>
+            inkonsistent
+        </strong>
+        bezeichnet.
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Thinking of the geometry, the problem is now to find the intersection of two different but parallel lines. Of course such parallel lines will never meet so there are no points of intersection.
+    </span>
+    <span class="multilang" lang="de">
+        Wenn man an die Geometrie denkt, besteht das Problem nun darin, den Schnittpunkt zweier verschiedener, aber paralleler Geraden zu finden. Natürlich werden sich solche parallelen Geraden niemals treffen, daher gibt es keine Schnittpunkte.
+    </span>
+    <br/>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

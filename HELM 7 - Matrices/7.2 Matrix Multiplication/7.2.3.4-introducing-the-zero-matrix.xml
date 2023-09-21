@@ -1,0 +1,50 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>7.2.3.4 Introducing the zero matrix</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h3>
+    <span class="multilang" lang="en">
+        The zero matrix
+    </span>
+    <span class="multilang" lang="de">
+        Die Nullmatrix
+    </span>
+</h3>
+<p>
+    <span class="multilang" lang="en">
+        We call \(B=\begin{bmatrix}0 &amp; 0 \\ 0 &amp; 0 \end{bmatrix}\) the \(2 \times 2\)
+        <b>
+            zero matrix
+        </b>
+        written \(\underline{0}\) so that \(A \cdot \underline{0} = \underline{0} \cdot A = \underline{0}\) for any matrix \(A.\)
+    </span>
+    <span class="multilang" lang="de">
+        Wir nennen \(B=\begin{bmatrix}0 &amp; 0 \\ 0 &amp; 0 \end{bmatrix}\) die \(2 \times 2\)
+        <b>
+            Nullmatrix
+        </b>
+        geschrieben \(\underline{0}\), sodass \(A \cdot \underline{0} = \underline{0} \cdot A = \underline{0}\) für jede Matrix \(A.\)
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        Now in the multiplication of numbers, the equation \(ab = 0\) implies that either \(a\) is zero or \(b\) is zero or both are zero. The following task shows that this is not necessarily true for matrices.
+    </span>
+    <span class="multilang" lang="de">
+        Bei der Multiplikation von Zahlen impliziert die Gleichung \(ab = 0\), dass entweder \(a\) null oder \(b\) null ist oder beides null ist. Die folgende Aufgabe zeigt, dass dies für Matrizen nicht unbedingt gilt.
+    </span>
+</p>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

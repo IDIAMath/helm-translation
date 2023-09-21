@@ -1,0 +1,134 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>1.2.1.4 BODMAS</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<p wiid="N1150">
+    <span class="multilang" lang="en">
+        Recall that when several operations are involved we can make use of the BODMAS rule for deciding the order in which operations must be carried out. The BODMAS rule makes no mention of exponentiation. Exponentiation should be carried out immediately after
+                any brackets have been dealt with and before multiplication and division. Consider the following examples.
+    </span>
+    <span class="multilang" lang="de">
+        Erinnern Sie sich daran, dass wir, wenn mehrere Operationen beteiligt sind, die BODMAS-Regel verwenden können, um zu entscheiden in welcher Reihenfolge Operationen ausgeführt werden müssen. Die BODMAS-Regel erwähnt keine Potenzierung. Die Potenzierung sollte unmittelbar nach der Behandlung aller Klammern und vor der Multiplikation und Division durchgeführt werden. Betrachten Sie die folgenden Beispiele.
+    </span>
+</p>
+<hr wiid="C1151"/>
+<h4 class="HELM_example" wiid="C1152">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p wiid="C1153">
+    <span class="multilang" lang="en">
+        Evaluate \(7\times 3^2\).
+    </span>
+    <span class="multilang" lang="de">
+        Werten Sie \(7\times 3^2\) aus.
+    </span>
+</p>
+<h4 class="HELM_solution" wiid="C1154">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p wiid="C1155">
+    <span class="multilang" lang="en">
+        There are two operations involved here, exponentiation and multiplication. The exponentiation should be carried out before the multiplication. So \(7\times 3^2 = 7\times 9 = 63 \).
+    </span>
+    <span class="multilang" lang="de">
+        Hier sind zwei Operationen beteiligt, Potenzierung und Multiplikation. Die Potenzierung sollte vor der Multiplikation durchgeführt werden. Also \(7\times 3^2 = 7\times 9 = 63 \).
+    </span>
+</p>
+<hr wiid="C1156"/>
+<h4 class="HELM_example" wiid="C1157">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+    <br/>
+</h4>
+<p wiid="C1158">
+    <span class="multilang" lang="en">
+        Write out fully
+    </span>
+    <span class="multilang" lang="de">
+        Schreiben Sie vollständig aus
+    </span>
+</p>
+<ol class="HELM_parts_inline" wiid="C1159">
+    <li wiid="C1160">
+        \(3m^4\)
+    </li>
+    <li wiid="C1161">
+        \((3m)^4\)
+    </li>
+</ol>
+<h4 class="HELM_solution" wiid="C1162">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<ol class="HELM_parts" wiid="C1163">
+    <li wiid="C1164">
+        <p wiid="C1165">
+            <span class="multilang" lang="en">
+                In the expression \(3m^4\) the exponentiation is carried out before the multiplication by 3. So \( 3m^4\) means \(3\times(m\times m\times m\times m)\) that is \( 3\times m \times m \times m \times m \)
+            </span>
+            <span class="multilang" lang="de">
+                Im Ausdruck \(3m^4\) wird die Potenzierung vor der Multiplikation mit 3 durchgeführt. Also bedeutet \( 3m^4\) \(3\times(m \times m\times m\times m)\), also \( 3\times m \times m \times m \times m \)
+            </span>
+        </p>
+    </li>
+    <li wiid="C1166">
+        <p wiid="C1167">
+            <span class="multilang" lang="en">
+                Here the bracketed expression is raised to the power 4 and so should be multiplied by itself four times: \( (3m)^4 = (3m)\times (3m)\times (3m)\times (3m) \)
+            </span>
+            <span class="multilang" lang="de">
+                Hier wird der Klammerausdruck mit 4 potenziert und soll somit viermal mit sich selbst multipliziert werden: \( (3m)^4 = (3m)\times (3m)\times (3m)\times (3m) \)
+            </span>
+        </p>
+        <p wiid="C1168">
+            <span class="multilang" lang="en">
+                Because of the associativity of multiplication we can write this as \( 3\times 3\times 3\times 3 \times m\times m \times m \times m \) or simply \(81m^4\).
+            </span>
+            <span class="multilang" lang="de">
+                Aufgrund der Assoziativität der Multiplikation können wir dies schreiben als \( 3\times 3\times 3\times 3 \times m\times m \times m \times m \) oder einfach \(81m^4\).
+            </span>
+        </p>
+        <p wiid="C1169">
+            <span class="multilang" lang="en">
+                Note the important distinction between \((3m)^4\) and \(3m^4\).
+            </span>
+            <span class="multilang" lang="de">
+                Beachten Sie den wichtigen Unterschied zwischen \((3m)^4\) und \(3m^4\).
+            </span>
+        </p>
+    </li>
+</ol>
+<hr wiid="C1170"/>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>

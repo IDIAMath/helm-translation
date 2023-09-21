@@ -1,0 +1,121 @@
+<quiz>
+    <question type="description">
+        <name>
+            <text>9.3.4 Using the scalar product to find the angle between vectors</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h4>
+    <b>
+        <span class="multilang" lang="en">
+            Using the scalar product to find the angle between vectors
+        </span>
+        <span class="multilang" lang="de">
+            Das Skalarprodukt verwenden, um den Winkel zwischen Vektoren zu finden
+        </span>
+    </b>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        We have two distinct ways of calculating the scalar product of two vectors. As we hope you will remember \(\underline{a}\cdot\underline{b} =|\underline{a}|\,|\underline{b}|\,\cos\theta\)    whilst from a previous key point 
+                \(\underline{ a}\cdot\underline{b} = a_1b_1 + a_2b_2 + a_3b_3\). Both methods of calculating the scalar product are entirely equivalent and will always give the same value for the scalar product. We can exploit this
+                correspondence to find the angle between two vectors. The following example illustrates the procedure to be followed.
+    </span>
+    <span class="multilang" lang="de">
+        Wir haben zwei unterschiedliche Möglichkeiten, das Skalarprodukt zweier Vektoren zu berechnen. Wir hoffen, dass Sie sich an \(\underline{a}\cdot\underline{b} =|\underline{a}|\,|\underline{b}|\,\cos \theta\)    von einem früheren Schlüsselpunkt  
+                \(\underline{ a}\cdot\underline{b} = a_1b_1 + a_2b_2 + a_3b_3\) erinnern werden. Beide Methoden zur Berechnung des Skalarprodukts sind völlig gleichwertig und ergeben immer denselben Wert für das Skalarprodukt. Wir
+                können diese Korrespondenz ausnutzen, um den Winkel zwischen zwei Vektoren zu finden. Das folgende Beispiel veranschaulicht die Vorgehensweise.
+    </span>
+</p>
+<p>
+    <br/>
+</p>
+<hr/>
+<h4 class="HELM_example">
+    <span class="multilang" lang="en">
+        Example
+    </span>
+    <span class="multilang" lang="de">
+        Beispiel
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        Find the angle between the vectors \(\underline{ a}=5\underline{ i}+3\underline{ j}-2\underline{ k}\) and \(\underline{ b}=8\underline{ i}-9\underline{ j}+11\underline{ k}\).
+    </span>
+    <span class="multilang" lang="de">
+        Finden Sie den Winkel zwischen den Vektoren \(\underline{ a}=5\underline{ i}+3\underline{ j}- 2\underline{ k}\) und \(\underline{ b}=8\underline{ i}-9\underline{ j}+11\underline{ k} \).
+    </span>
+</p>
+<h4 class="HELM_solution">
+    <span class="multilang" lang="en">
+        Solution
+    </span>
+    <span class="multilang" lang="de">
+        Lösung
+    </span>
+</h4>
+<p>
+    <span class="multilang" lang="en">
+        The scalar product of these two vectors is \(-9\). The modulus of \(\underline{ a}\) is \(\sqrt{5^2+3^2+(-2)^2}=\sqrt{38}\).
+                The modulus of \(\underline{ b}\) is \(\sqrt{8^2+(-9)^2+11^2}=\sqrt{266}\). Substituting these values for \({\underline a}\cdot {\underline b},\ |{\underline a}|\)    and \(|{\underline b}|\) into the formula for the scalar product we find
+    </span>
+    <span class="multilang" lang="de">
+        Das Skalarprodukt dieser beiden Vektoren ist \(-9\). Der Betrag von \(\underline{ a}\) ist \(\sqrt{5^2+3^2+(- 2)^2}=\sqrt{38}\).
+                Der Betrag von \(\underline{ b}\) ist \(\sqrt{8^2+(-9)^2 +11^2}=\sqrt{266}\). Durch Ersetzen dieser Werte durch \({\underline a}\cdot {\underline b},\ |{\underline a}|\)    und \(|{\underline b}|\) in der Formel für das Skalarprodukt, erhalten wir
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        \[\begin{aligned}
+\underline{ a}\cdot\underline{b} &amp;= |\underline{ a}|\,|\underline{ b}|\,\cos \theta \\
+-9 &amp;= \sqrt{38}\,\sqrt{266}\cos\theta\end{aligned}\] from which \[\displaystyle{\quad\cos\theta = {-9\over \sqrt{38}\sqrt{266}} = -0.0895}\] so that \[\quad\theta = \cos^{-1}(-0.0895)=95.14^\circ.\]
+    </span>
+    <span class="multilang" lang="de">
+        \[\begin{aligned}
+\underline{ a}\cdot\underline{b} &amp;= |\underline{ a}|\,|\underline{ b}|\,\cos \theta \\
+-9 &amp;= \sqrt{38}\,\sqrt{266}\cos\theta\end{aligned}\] wodurch \[\displaystyle{\quad\cos\theta = {- 9\over \sqrt{38}\sqrt{266}} = -0.0895}\] gilt, so dass \[\quad\theta = \cos^{-1}(-0.0895)=95.14^\circ.\]
+    </span>
+</p>
+<p>
+    <span class="multilang" lang="en">
+        In general, the angle between two vectors can be found from the following formula:
+    </span>
+    <span class="multilang" lang="de">
+        Im Allgemeinen kann der Winkel zwischen zwei Vektoren mit der folgenden Formel ermittelt werden:
+    </span>
+</p>
+<div class="HELM_keypoint">
+    <h4>
+        <span class="multilang" lang="en">
+            Key Point
+        </span>
+        <span class="multilang" lang="de">
+            Schlüsselpunkt
+        </span>
+    </h4>
+    <p>
+        <span class="multilang" lang="en">
+            The angle \(\theta\) between vectors \(\underline{a}\), \(\underline{b}\) is such that:
+        </span>
+        <span class="multilang" lang="de">
+            Der Winkel \(\theta\) zwischen Vektoren \(\underline{ a}\), \(\underline{b}\) ist so, dass:
+        </span>
+    </p>
+    <p style="text-align: center; ">
+        <span class="math display">
+            \[\cos\theta = {\underline{ a}\cdot\underline{b}\over |\underline{ a}|\,|\underline{ b}|}\]
+        </span>
+    </p>
+</div>
+]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text></text>
+        </generalfeedback>
+        <defaultgrade>0.0000000</defaultgrade>
+        <penalty>0.0000000</penalty>
+        <hidden>0</hidden>
+        <idnumber></idnumber>
+    </question>
+</quiz>
